@@ -48,10 +48,11 @@
     - 2.2.12 [P] Personal
 
 - [3 Identificación de amenazas](ArchivosMD/Identificación%20de%20amenazas.md)
-    - 3.1 [N] Desastres naturales
-    - 3.2 [I] De origen industrial
-    - 3.3 [E] Errores y fallos no intencionados
-    - 3.4 [A] Ataques intencionados
+    - 3.1 [DN] Desastres naturales
+    - 3.2 [OI] De origen industrial
+    - 3.3 [NI] Errores y fallos no intencionados
+    - 3.4 [AI] Ataques intencionados
+    - 3.5 [AE] Amenazas del Entorno
 
 - [4 Cálculo del riesgo](ArchivosMD/Cálculo%20del%20riesgo.md)
     - 4.1 [info] Activos esenciales (impacto y riesgo)
