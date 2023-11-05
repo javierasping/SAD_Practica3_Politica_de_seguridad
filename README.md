@@ -44,7 +44,6 @@
     - 2.2.11 [L] Instalaciones
     - 2.2.12 [P] Personal
 
-
 - 3 Identificación de amenazas
     - 3.1 [N] Desastres naturales
     - 3.2 [I] De origen industrial
@@ -127,3 +126,4 @@
     - [SGCI buffete abogados](https://rua.ua.es/dspace/bitstream/10045/96787/1/Desarrollo_del_Plan_Director_de_Seguridad_para_un_bufete_Peco_Moreno_Agustin.pdf)
     - [SGCI pyme](https://rua.ua.es/dspace/bitstream/10045/102087/1/Esquema_Director_de_Seguridad_para_Empresas_pymes_d_Diaz_Perez_Juan_Salvador.pdf)
     - [SGSI ecomerce](https://rua.ua.es/dspace/bitstream/10045/135228/1/Diseno_y_desarrollo_del_SGSI_para_una_empresa_de_ecommerce_Amaro_Perez_Paola.pdf)
+    - [SGCI Pequeña empresa](https://educacionadistancia.juntadeandalucia.es/centros/sevilla/pluginfile.php/515326/mod_resource/content/1/48ca15671b800.pdf)
