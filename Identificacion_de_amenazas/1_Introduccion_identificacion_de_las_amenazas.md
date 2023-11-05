@@ -30,8 +30,14 @@ Estas pueden manifestarse de diversas fuentes y orígenes , algunas de las fuent
 
 - Riesgos Contra el Patrimonio: Las amenazas contra el patrimonio se originan en situaciones como el robo de activos de la empresa o la pérdida no intencionada de activos valiosos, lo que puede tener un impacto financiero significativo en la organización.
 
+
+No todas las amenazas poseen la capacidad de incidir en todos los tipos de activos. Existe una correlación específica entre el tipo de activo y las posibles implicaciones que podrían surgir. Además, estas amenazas no ejercen un impacto uniforme en todas las dimensiones de seguridad, tales como disponibilidad, integridad, confidencialidad, autenticidad o trazabilidad.
+
+Por ejemplo, un terremoto puede afectar a las instalaciones, principalmente en términos de disponibilidad, mientras que no tiene un impacto significativo en las demás dimensiones. No obstante, no se consideraría una amenaza directa para una aplicación.
+
 <!-- Introducir la probabilidad de que los riesgos se hagan realidad , mi apartado es sobre la identificacion de amenazas , la valoracion de riesgos forma parte del sig apartado  
 Ejemplo pg 34 plan moodle
  -->
 
+<!-- Esquema_Director_de_Seguridad_para_Empresas_pymes_d_Diaz_Perez_Juan_Salvador.pdf PG 44 , este sigue las reglas magerit  -->
 
