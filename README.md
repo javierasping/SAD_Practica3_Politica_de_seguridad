@@ -8,16 +8,15 @@
 
 ## Desarrollo de la Práctica
 1. Identificación y valoración de los activos del sistema (1-3)
-    - Alumno 1: Redacción del apartado
+    - Fernández de Santaella Rodríguez, Andrés: Redacción del apartado
 2. Identificación de amenazas(4)
-    - Alumno 2: Redacción del apartado
+    - Cruces Doval, Francisco Javier: Redacción del apartado
 3. Valoración de riesgos (5)
-    - Alumno 3: Redacción del apartado 
+    - Rodríguez García, David: Redacción del apartado 
 4. Estudio de medidas de protección (6)
-    - Alumno 4: Redacción del apartado
+    - Canalo González, José Antonio : Redacción del apartado
 5. Redacción de una política de seguridad(7,8,9,10)
     - Responsabilidad grupal: Realización de la última fase
-
 
 # ÍNDICE
 
@@ -45,9 +44,8 @@
 -   3.3 Seguridad software
 -   3.4 Conclusiones
 
-## 4. ANÁLISIS DE AMENAZAS
--   4.1 Introducción
--   4.2 Identificación de las amenazas
+## 4. Identificación de las amenazas
+-   [4.1 Introducción](Identificacion_de_amenazas/1_Introduccion_identificacion_de_las_amenazas.md)
 -   4.2.1 Desastres naturales
 -   4.2.1.1 Tormentas y rayos
 -   4.2.1.2 Terremotos
