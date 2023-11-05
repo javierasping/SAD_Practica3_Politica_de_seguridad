@@ -1,4 +1,4 @@
-# SAD Práctica 1 - Definición de una Política de Seguridad
+# SAD Práctica 1 - Definición de una Política de Seguridad de un bufete de abogados
 
 ## Roles
 - Coordinador : Fernández de Santaella Rodríguez, Andrés
@@ -22,13 +22,16 @@
 
 ## INTRODUCCIÓN
 
-- 1 Contexto de la organización
+
+**Indice es temporal o de ejemplo para tener una guia de los diferentes apartados que hay que desarollar , escribe todo lo referenta a cada apartado dentro del archivo de md con el mismo nombre** 
+
+- [1 Contexto de la organización](ArchivosMD/Contexto%20de%20la%20organización.md)
     -  1.1 Introducción
     -  1.2 Estructura de la empresa
     -  1.3 Aspectos técnicos
     -  1.4 Políticas de seguridad de la información
 
-- 2 Catalogo general de activos
+- [2 Catalogo general de activos](ArchivosMD/Catalogo%20general%20de%20activos.md)
     - 2.1 Inventario de activos
     - 2.2 Fichas detalle archivo
     - 2.2.1 [I] Activos esenciales
@@ -44,13 +47,13 @@
     - 2.2.11 [L] Instalaciones
     - 2.2.12 [P] Personal
 
-- 3 Identificación de amenazas
+- [3 Identificación de amenazas](ArchivosMD/Identificación%20de%20amenazas.md)
     - 3.1 [N] Desastres naturales
     - 3.2 [I] De origen industrial
     - 3.3 [E] Errores y fallos no intencionados
     - 3.4 [A] Ataques intencionados
 
-- 4 Cálculo del riesgo
+- [4 Cálculo del riesgo](ArchivosMD/Cálculo%20del%20riesgo.md)
     - 4.1 [info] Activos esenciales (impacto y riesgo)
     - 4.2 [D] Datos / Información (impacto y riesgo)
     - 4.3 [K] Claves criptográficas (impacto y riesgo)
@@ -62,7 +65,7 @@
     - 4.9 [L] Instalaciones (impacto y riesgo)
     - 4.10 [P] Personal (impacto y riesgo)
 
-- 5 Evaluación de salvaguardas
+- [5 Evaluación de salvaguardas](ArchivosMD/Evaluación%20de%20salvaguardas.md)
     - 5.1 [D][info] Datos / Información (salvaguardas)
     - 5.2 [K] Claves criptográficas (salvaguardas)
     - 5.3 [SW] Software – Aplicaciones informáticas (salvaguardas)
@@ -73,7 +76,7 @@
     - 5.8 [L] Instalaciones (salvaguardas)
     - 5.9 [P] Personal (salvaguardas)
 
-- 6 Tratamiento del riesgo
+- [6 Tratamiento del riesgo](ArchivosMD/Tratamiento%20del%20riesgo.md)
     - 6.1 [D][info] Datos / Información (tratamiento del riesgo)
     - 6.1.1 Activos I001-Fichero Clientes, D001-Expediente Cliente
     - 6.1.2 Activos D002-Datos acceso Servidor, D003-Datos acceso Usuarios
@@ -107,7 +110,7 @@
     - 6.8.2 Activo L002-Cuarto de comunicaciones
     - 6.9 [P] Personal (tratamiento del riesgo)
 
-- 7 Planes de seguridad
+- [7 Planes de seguridad](ArchivosMD/Planes%20de%20seguridad.md)
     - 7.1 Protección de cifrado
     - 7.2 Política de Seguridad Corporativa
     - 7.3 Formación y concienciación
@@ -123,7 +126,7 @@
 
 
 - Bibliografía 
-    - [SGCI buffete abogados](https://rua.ua.es/dspace/bitstream/10045/96787/1/Desarrollo_del_Plan_Director_de_Seguridad_para_un_bufete_Peco_Moreno_Agustin.pdf)
+    - [SGCI bufete abogados](https://rua.ua.es/dspace/bitstream/10045/96787/1/Desarrollo_del_Plan_Director_de_Seguridad_para_un_bufete_Peco_Moreno_Agustin.pdf)
     - [SGCI pyme](https://rua.ua.es/dspace/bitstream/10045/102087/1/Esquema_Director_de_Seguridad_para_Empresas_pymes_d_Diaz_Perez_Juan_Salvador.pdf)
-    - [SGSI ecomerce](https://rua.ua.es/dspace/bitstream/10045/135228/1/Diseno_y_desarrollo_del_SGSI_para_una_empresa_de_ecommerce_Amaro_Perez_Paola.pdf)
+    - [SGSI comercio electrónico](https://rua.ua.es/dspace/bitstream/10045/135228/1/Diseno_y_desarrollo_del_SGSI_para_una_empresa_de_ecommerce_Amaro_Perez_Paola.pdf)
     - [SGCI Pequeña empresa](https://educacionadistancia.juntadeandalucia.es/centros/sevilla/pluginfile.php/515326/mod_resource/content/1/48ca15671b800.pdf)
