@@ -120,6 +120,37 @@ Estas claves son gestionadas con frecuencia para prevenir accesos no autorizados
 
 ### 2.2.5 [S] Servicios
 
+La función de los servicios es la clave para satisfacer las necesidades de los usuarios y contribuir al cumplimiento de la misión del bufete. Se clasifican como activos imprescindibles, como utilidades para usuarios finales, servicios utilizados internamente o servicios contratados a otras organizaciones con sus propios recursos ajenos a la propia empresa.
+
+En este rango se abarca servicios para atender las necesidades colectivas, servicios empresariales brindados por el bufete para satisfacer a sus clientes, así como servicios internos gestionados por departamentos especializados, dependiendo que tipo de casos los gestionan unos departamentos u otros.
+
+Por lo que, aquí se abordan servicios relacionados con la información, comunicaciones, seguridad, entre otros. La diversidad de estos servicios es esencial para el desempeño eficaz de la misión del bufete.
+
+
+
+| Código | Nombre                          | Descripción                                                  |
+|--------|---------------------------------|--------------------------------------------------------------|
+| S001   | Anónimo                         | Servicios sin requerir identificación del usuario.            |
+| S002   | Al público en general           | Ofrecidos sin relación contractual específica.                |
+| S003   | A usuarios externos             | Dirigidos a usuarios externos bajo contrato.                  |
+| S004   | Interno                         | Servicios para usuarios y medios internos del bufete.         |
+| S005   | Contratado a terceros           | Servicios prestados con medios externos.                      |
+| S006   | World Wide Web (www)            | Acceso a servicios web.                                       |
+| S007   | Acceso remoto a cuenta local    | Conexiones remotas a cuentas locales de forma segura.         |
+| S008   | Correo electrónico              | Comunicación electrónica segura.                              |
+| S009   | Almacenamiento de ficheros      | Gestión segura de documentos y archivos.                      |
+| S010   | Transferencia de ficheros       | Intercambio seguro de archivos.                               |
+| S011   | Intercambio electrónico de datos| Facilita la transferencia segura de información.              |
+| S012   | Servicio de directorio          | Localización de personas y empresas.                          |
+| S013   | Gestión de identidades          | Servicios para altas y bajas de usuarios y aprovisionamiento.|
+| S014   | Gestión de privilegios          | Control seguro y gestión de privilegios.                       |
+| S015   | PKI - Infraestructura de clave pública | Gestión segura de certificados y criptografía de clave pública.|
+
+Hay muchas más posibilidades pero he elegido estas porque sino seria interminable si no recortamos partes todos los miembros. 
+
+Estos servicios son la base para la operación del bufete, requiriendo atención especial en términos de seguridad y eficiencia para su correcto desempeño y contribución a la misión del bufete.
+
+
 ### 2.2.6 [SW] Software - Aplicaciones informáticas
 
 ### 2.2.7 [HW] Equipamiento informático (hardware)
