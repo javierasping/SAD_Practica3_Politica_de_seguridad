@@ -20,19 +20,20 @@ Los puntos de la siguiente tabla, organizan los activos en una jerarquía, asign
 
 ### 2.1 Inventario de activos (sin terminar, revisar valoracion?)
 
-| Número | Tipo de Activo                            | Descripción                                      | Valoración (D/I/C/A/T)   |
-|--------|------------------------------------------|--------------------------------------------------|---------------------------|
-| 1      | [I] Activos Esenciales                   | Activos críticos para la operación del bufete    | [8/9/9/8/8]               |
-| 2      | [D] Datos / Información                   | Casos legales en curso                           | [7/8/9/8/7]               |
-| 3      | [K] Claves Criptográficas                 | Claves de acceso a información sensible          | [8/8/7/9/8]               |
-| 4      | [S] Servicios                             | Servicios de investigación legal                 | [8/7/9/8/7]               |
-| 5      | [SW] Software - Aplicaciones informáticas | Sistema de gestión de casos                       | [9/8/8/7/7]               |
-| 6      | [HW] Equipamiento informático (hardware)  | Computadoras y servidores                        | [8/9/8/8/7]               |
-| 7      | [COM] Redes de comunicaciones             | Red interna del bufete                           | [9/8/8/8/8]               |
-| 8      | [Media] Soportes de información           | Copias de seguridad en la nube                   | [7/8/9/7/8]               |
-| 9      | [AUX] Equipamiento auxiliar               | Sistemas de seguridad física                     | [8/8/7/8/7]               |
-| 10     | [L] Instalaciones                         | Oficinas y salas de reuniones                    | [8/7/8/8/7]               |
-| 11     | [P] Personal                              | Abogados y personal legal                        | [9/7/8/8/7]               |
+| Número | Tipo de Activo                            | Descripción                                      |
+|--------|------------------------------------------|--------------------------------------------------|
+| 1      | [I] Activos Esenciales                   | Activos críticos para la operación del bufete    |
+| 2      | [D] Datos / Información                   | Casos legales en curso                           |
+| 3      | [K] Claves Criptográficas                 | Claves de acceso a información sensible          |
+| 4      | [S] Servicios                             | Servicios de investigación legal                 |
+| 5      | [SW] Software - Aplicaciones informáticas | Sistema de gestión de casos                       |
+| 6      | [HW] Equipamiento informático (hardware)  | Computadoras y servidores                        |
+| 7      | [COM] Redes de comunicaciones             | Red interna del bufete                           |
+| 8      | [Media] Soportes de información           | Copias de seguridad en la nube                   |
+| 9      | [AUX] Equipamiento auxiliar               | Sistemas de seguridad física                     |
+| 10     | [L] Instalaciones                         | Oficinas y salas de reuniones                    |
+| 11     | [P] Personal                              | Abogados y personal legal                        |
+
 
 
 La valoración es una forma de asignar un puntaje o evaluación a cada activo en diferentes dimensiones de seguridad. Generalmente se utiliza para indicar cuánto valor tiene cada activo para la organización en términos de:
