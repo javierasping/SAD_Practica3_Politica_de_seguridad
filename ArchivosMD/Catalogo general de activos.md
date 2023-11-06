@@ -1,6 +1,6 @@
 ## 2 Catalogo general de activos
 
-Identificar y clasificar los activos es impresncindible para documentar el estado de la empresa, y también para entender las posibles amenazas y las medidas de seguridad adecuadas. A continuación explico como funciona e incluyo algunos de los posibles activos y puede cambiar con el tiempo dependendiendo del desarrollo de la empresa con el tiempo. 
+Identificar y clasificar los activos es imprescindible para documentar el estado de la empresa, y también para entender las posibles amenazas y las medidas de seguridad adecuadas. A continuación explico como funciona e incluyo algunos de los posibles activos y puede cambiar con el tiempo dependendiendo del desarrollo de la empresa con el tiempo. 
 
 La implementación de la metodología MAGERIT consiste en la creación de un catálogo de activos. Este proceso, esencial antes de tomar decisiones sobre seguridad, implica la identificación precisa de los activos de la empresa. Según la norma UNE 71504:2008 [6] (pdf de referencia), un activo se define como cualquier componente o funcionalidad en un sistema de información vulnerable a ataques deliberados o accidentales con consecuencias para la organización. Estos abarcan información, datos, servicios, aplicaciones (software), equipos (hardware), comunicaciones, recursos administrativos, recursos físicos y recursos humanos.
 
