@@ -18,7 +18,7 @@ Este proceso de catalogar activos y asignarles valor no solo establece una base 
 
 Los puntos de la siguiente tabla, organizan los activos en una jerarquía, asignándoles un código que muestra su posición en la jerarquía, un nombre y una breve descripción de lo que representa cada tipo de activo. Los activos No tienen que ser estrictamente como tal, y perfectamente pueden pertenecer a diferentes categorias.
 
-### 2.1 Inventario de activos (sin terminar, revisar valoracion?)
+### 2.1 Inventario de activos (sin terminar)
 
 | Número | Tipo de Activo                            | Descripción                                      |
 |--------|------------------------------------------|--------------------------------------------------|
