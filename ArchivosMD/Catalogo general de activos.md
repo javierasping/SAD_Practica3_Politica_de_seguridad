@@ -1,7 +1,5 @@
 ## 2 Catalogo general de activos
 
-## Bufete de Abogados
-
 Identificar y clasificar los activos es impresncindible para documentar el estado de la empresa, y también para entender las posibles amenazas y las medidas de seguridad adecuadas. A continuación explico como funciona e incluyo algunos de los posibles activos y puede cambiar con el tiempo dependendiendo del desarrollo de la empresa con el tiempo. 
 
 La implementación de la metodología MAGERIT consiste en la creación de un catálogo de activos. Este proceso, esencial antes de tomar decisiones sobre seguridad, implica la identificación precisa de los activos de la empresa. Según la norma UNE 71504:2008 [6] (pdf de referencia), un activo se define como cualquier componente o funcionalidad en un sistema de información vulnerable a ataques deliberados o accidentales con consecuencias para la organización. Estos abarcan información, datos, servicios, aplicaciones (software), equipos (hardware), comunicaciones, recursos administrativos, recursos físicos y recursos humanos.
@@ -18,7 +16,8 @@ Este proceso de catalogar activos y asignarles valor no solo establece una base 
 
 Los puntos de la siguiente tabla, organizan los activos en una jerarquía, asignándoles un código que muestra su posición en la jerarquía, un nombre y una breve descripción de lo que representa cada tipo de activo. Los activos No tienen que ser estrictamente como tal, y perfectamente pueden pertenecer a diferentes categorias.
 
-### 2.1 Inventario de activos (sin terminar)
+
+## 2.1 Inventario de activos (sin terminar)
 
 | Número | Tipo de Activo                            | Descripción                                      |
 |--------|------------------------------------------|--------------------------------------------------|
@@ -46,11 +45,13 @@ La valoración es una forma de asignar un puntaje o evaluación a cada activo en
 
 La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En el ejemplo que proporcioné anteriormente, utilicé una escala numérica entre corchetes [D/I/C/A/T] para representar la valoración en cada dimensióna modo de lo visto en la documentación.
 
+
 ### 2.2 Fichas detalle archivo
 
 Las fichas son documentos o formularios que contienen información detallada sobre un elemento específico. En la metodología MAGERIT para la gestión de riesgos en sistemas de información, las fichas de detalle de activos son registros detallados para cada tipo de activo identificado en el catálogo. Cada ficha proporciona información específica sobre el activo, como su código de identificación, nombre, descripción, y cualquier otra información relevante que facilite su gestión y evaluación de riesgos.
 
 Estas fichas (mas bien herramientas prácticas) ayudan a documentar y organizar la información sobre los activos del bufete en este caso. Además, son fundamentales para llevar a cabo evaluaciones de riesgos, ya que proporcionan datos detallados de cada activo, así como sus posibles amenazas y las salvaguardas aplicadas.
+
 
 
 ### 2.2.1 [I] Activos esenciales
@@ -61,6 +62,13 @@ Los activos esenciales forman el núcleo de la infraestructura, comprendiendo el
 |--------|--------|-------------|
 | AE001  | Archivo Digital de Casos | Almacena información crítica de casos, indispensable para la práctica legal diaria. |
 | AE002  | Sistema de Comunicaciones | Facilita la comunicación interna y externa, siendo vital para la colaboración y la prestación de servicios. |
+| AE003  | Base de datos de clientes      | Almacena información detallada sobre los clientes, incluyendo historial legal, preferencias y contactos. |
+| AE004  | Sistema de gestión financiera  | Herramienta que facilita la gestión financiera del bufete, incluyendo facturación, ingresos y gastos. |
+| AE005  | Plataforma de colaboración interna | Espacio digital que permite la colaboración eficiente entre los miembros del bufete en documentos y proyectos. |
+
+Estos activos no solo son esenciales para la operación interna, sino que también contribuyen a mejorar la eficiencia, la toma de decisiones y la prestación de servicios de calidad a los clientes.
+
+
 
 ### 2.2.2 [A] Arquitectura del sistema
 
@@ -70,10 +78,45 @@ La arquitectura del sistema engloba los elementos que sustentan la infraestructu
 |--------|--------|-------------|
 | AS001  | Servidores Centrales | Componentes esenciales que respaldan la infraestructura informática, garantizando la disponibilidad y el rendimiento. |
 | AS002  | Red de Área Local (LAN) | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos. |
+| AS003  | Sistema de seguridad de red           | Implementación de firewalls, antivirus y otras medidas para salvaguardar la integridad de la red. |
+| AS004  | Políticas de acceso y control         | Definición de políticas que regulan el acceso a la información y la administración de privilegios. |
+| AS005  | Infraestructura de respaldo           | Sistemas y procedimientos para realizar copias de seguridad periódicas y garantizar la disponibilidad de datos. |
+
+Estos elementos contribuyen a la seguridad, confiabilidad y eficiencia de la infraestructura tecnológica del bufete, asegurando la integridad de la información y la continuidad de las operaciones.
+
+
+
 
 ### 2.2.3 [D] Datos / Información
 
+Los datos e información manejados por el bufete son vitales para su funcionamiento. Aquí pongo los más importantes:
+
+| Código | Nombre                          | Descripción                                            |
+|--------|---------------------------------|--------------------------------------------------------|
+| D001   | Casos legales en curso          | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
+| D002   | Contratos y acuerdos            | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
+| D003   | Información confidencial del cliente | Datos sensibles de los clientes, como información financiera y personal. |
+| D004   | Precedentes legales             | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
+| D005   | Servicios Digitales             | Se incluyen servicios tales como correo electrónico ([email]), almacenamiento de ficheros ([file]), y gestión de identidades ([idm]). Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete. |
+
+Estos datos son esenciales para la práctica legal diaria y su confidencialidad e integridad deben ser protegidas, por lo que hay que considerar la gestión de versiones y la trazabilidad de los cambios en los documentos legales para garantizar la integridad y autenticidad de la información.
+
+Para un manejo eficiente de la información, deberiamos implementar sistemas de gestión documental que faciliten la organización, búsqueda y acceso controlado a los documentos clave del bufete cuando un empleado lo necesite.
+
 ### 2.2.4 [K] Claves criptográficas
+
+Las claves criptográficas desempeñan un papel crucial en la seguridad de la información confidencial del bufete. A continuación, se presentan algunas de las claves criptográficas utilizadas, cada una cumpliendo una función específica en la protección de datos sensibles (más detalles en la parte específica de seguridad):
+
+| Código | Nombre | Descripción |
+|--------|--------|-------------|
+| KC001  | Claves de acceso a bases de datos | Garantizan la seguridad de las bases de datos legales del bufete, evitando accesos no autorizados. |
+| KC002  | Claves de correo electrónico | Aseguran la confidencialidad de las comunicaciones por correo electrónico dentro del bufete, protegiendo la privacidad de la correspondencia legal. |
+| KC003  | Claves de acceso a sistemas internos | Utilizadas para acceder a sistemas internos que gestionan información crítica y legal, asegurando la autenticación de usuarios autorizados. |
+| KC004  | Claves de cifrado de documentos | Protegen la integridad y confidencialidad de documentos legales almacenados en sistemas digitales, evitando accesos no autorizados y manipulación no autorizada. |
+| KC005  | Claves de firma digital | Garantizan la autenticidad de documentos legales firmados digitalmente por el bufete, proporcionando una capa adicional de seguridad en transacciones electrónicas.
+
+Estas claves son gestionadas con frecuencia para prevenir accesos no autorizados, protegiendo así la confidencialidad e integridad de la información legal del bufete.
+
 
 ### 2.2.5 [S] Servicios
 
