@@ -175,10 +175,48 @@ El conjunto de software y aplicaciones utilizadas en el bufete abarca una gama a
 Estas aplicaciones adicionales refuerzan la capacidad del bufete para abordar diversos aspectos legales, financieros y de gestión, mientras garantizan la seguridad y eficiencia en todas las operaciones. Podría haber elegido diferentes opciones, pero en un entorno profesional, estas suelen ser las más comunes, aunque normalmente suele usarse solamente Windows, he añadido tambien Debian para los usuarios que prefieran este sistema operativo.
 
 
+## 2.2.7 [HW] Equipamiento Informático (Hardware)
 
-### 2.2.7 [HW] Equipamiento informático (hardware)
+El bufete legal se basa en una infraestructura sólida y diversa, proporcionando a sus trabajadores las herramientas necesarias para el desempeño eficiente de sus tareas. Desde servidores potentes hasta estaciones de trabajo especializadas y dispositivos de almacenamiento de última generación, el equipamiento informático y hardware desempeña un papel crucial en la operación diaria del bufete. Como en las partes anteriores, he hecho una tabla que abarca desde servidores hasta sistemas de videovigilancia, destacando la variedad de recursos que respaldan la seguridad y productividad del bufete.
+
+| Código | Nombre                                    | Descripción                                                                                     |
+|--------|-------------------------------------------|-------------------------------------------------------------------------------------------------|
+| HW000  | Servidores Dell PowerEdge                 | Componentes clave utilizados para ejecutar aplicaciones críticas del bufete.                     |
+| HW001  | Estación de Trabajo HP ZBook              | Equipos portátiles diseñados para tareas intensivas en diseño y análisis legal.                  |
+| HW002  | PC de Escritorio Lenovo ThinkCentre       | Equipos de escritorio confiables ideales para el uso cotidiano de los empleados.             |
+| HW003  | Dispositivos de Almacenamiento Synology   | Unidades de almacenamiento en red para la gestión segura de datos con capacidades escalables.     |
+| HW004  | Impresoras HP LaserJet                    | Impresoras esenciales para la impresión eficiente de documentos legales.                           |
+| HW005  | Enrutador Cisco Catalyst                  | Enrutador utilizado para la conectividad de red y la implementación de medidas de seguridad.      |
+| HW006  | Sistema de Videovigilancia Axis           | Sistema completo de videovigilancia con cámaras para la seguridad física del bufete.             |
+| HW007  | Escáner Epson WorkForce                   | Escáner de alta velocidad para digitalizar documentos legales y mantener registros digitales.    |
+| HW008  | Teléfonos VoIP Grandstream                | Dispositivos de comunicación empresarial que ofrecen funciones avanzadas de telefonía IP.       |
+| HW009  | UPS APC Smart-UPS                        | Sistema de alimentación ininterrumpida para proteger contra cortes de energía y asegurar la continuidad de operaciones. |
+| HW010  | Estación Docking para Portátiles          | Permite a las estaciones de trabajo portátiles conectarse fácilmente a periféricos de escritorio. |
+| HW011  | Sistemas de Control de Acceso             | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
+| HW012  | Pizarras Interactivas SMART                | Herramientas colaborativas para presentaciones y discusiones legales interactivas.               |
+
+Esta tabla incluye equipos adicionales como estaciones de acoplamiento, sistemas de control de acceso y pizarras interactivas, por mencionar algunos ejemplos más aparte de limitarme solamente a equipos.
+
 
 ### 2.2.8 [COM] Redes de comunicaciones
+
+La infraestructura de comunicaciones del bufete proporciona la columna vertebral que conecta todos los componentes tecnológicos, garantizando una comunicación fluida y segura. Desde redes locales que facilitan la colaboración interna hasta conexiones a Internet y servicios de telefonía, cada elemento contribuye a la eficiencia operativa y la conectividad integral del bufete. 
+
+
+| Código | Nombre                        | Descripción                                                               |
+|--------|------------------------------|---------------------------------------------------------------------------|
+| COM001 | Red de Invitados Segura       | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad.|
+| COM002 | Red 5G para Dispositivos Móviles | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes.|
+| COM003 | Red de Datos (X25)            | Infraestructura para la transmisión de datos en red.                      |
+| COM004 | Fibra Óptica Ultra Rápida      | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
+| COM005 | Red de Alta Seguridad Interna | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete.|
+| COM006 | Red Inalámbrica Segura (WPA3)  | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos.|
+| COM007 | Red de Área Local (LAN)       | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
+| COM008 | Red de Voz sobre IP (VoIP)    | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente.|
+| COM009 | Red Privada Virtual (VPN)     | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información.|
+| COM0010 | Red Satelital para Respaldo   | Utiliza comunicación vía satélite como respaldo en caso de interrupciones en las redes convencionales, garantizando la continuidad operativa.|
+
+
 
 ### 2.2.9 [Media] Soportes de información
 
