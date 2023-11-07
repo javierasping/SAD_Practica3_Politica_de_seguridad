@@ -151,7 +151,30 @@ Hay muchas más posibilidades pero he elegido estas porque sino seria interminab
 Estos servicios son la base para la operación del bufete, requiriendo atención especial en términos de seguridad y eficiencia para su correcto desempeño y contribución a la misión del bufete.
 
 
-### 2.2.6 [SW] Software - Aplicaciones informáticas
+## 2.2.6 [SW] Software / Aplicaciones
+
+El conjunto de software y aplicaciones utilizadas en el bufete abarca una gama amplia de funciones, todas imprescindibles para el funcionamiento eficiente y seguro. Aquí dejo una lista detallada de algunas de las aplicaciones que se usarán en nuestro bufete:
+
+| Código | Nombre del software                      | Descripción                                                |
+|--------|----------------------------------|------------------------------------------------------------|
+| SW000  | Debian 12                         | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. |
+| SW001  | Windows 11                        | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. |
+| SW002  | Clio Manage                       | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. |
+| SW003  | Westlaw                           | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. |
+| SW004  | Microsoft Teams                   | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. |
+| SW005  | Clio Billing                      | Software de Facturación Legal. Gestiona la facturación de servicios legales. |
+| SW006  | NetDocuments                      | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. |
+| SW007  | Lex Machina                       | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. |
+| SW008  | LexisNexis                        | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. |
+| SW009  | Ravel Law                         | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. |
+| SW010  | QuickBooks Legal                  | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. |
+| SW011  | Zoom Meetings                     | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. |
+| SW012  | Varonis Data Security Platform    | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. |
+| SW013  | Symantec Encryption               | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. |
+
+Estas aplicaciones adicionales refuerzan la capacidad del bufete para abordar diversos aspectos legales, financieros y de gestión, mientras garantizan la seguridad y eficiencia en todas las operaciones. Podría haber elegido diferentes opciones, pero en un entorno profesional, estas suelen ser las más comunes, aunque normalmente suele usarse solamente Windows, he añadido tambien Debian para los usuarios que prefieran este sistema operativo.
+
+
 
 ### 2.2.7 [HW] Equipamiento informático (hardware)
 
