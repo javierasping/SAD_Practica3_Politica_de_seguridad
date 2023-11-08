@@ -207,12 +207,12 @@ La infraestructura de comunicaciones del bufete proporciona la columna vertebral
 |--------|------------------------------|---------------------------------------------------------------------------|
 | COM001 | Red de Invitados      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad.|
 | COM002 | Red 5G para Dispositivos Móviles | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes.|
-| COM004 | Fibra Óptica     | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
-| COM005 | Red de Alta Seguridad Interna | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete.|
-| COM006 | Red Inalámbrica Segura (WPA3)  | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos.|
-| COM007 | Red de Área Local (LAN)       | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
-| COM008 | Red de Voz sobre IP (VoIP)    | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente.|
-| COM009 | Red Privada Virtual (VPN)     | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información.|
+| COM003 | Fibra Óptica     | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
+| COM004 | Red de Alta Seguridad Interna | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete.|
+| COM005 | Red Inalámbrica Segura (WPA3)  | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos.|
+| COM006 | Red de Área Local (LAN)       | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
+| COM007 | Red de Voz sobre IP (VoIP)    | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente.|
+| COM008 | Red Privada Virtual (VPN)     | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información.|
 
 
 
@@ -241,11 +241,9 @@ El equipamiento auxiliar en el bufete es como el equipo de apoyo que mantiene to
 |--------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AUX001 | Fuentes de Alimentación           	| Proporcionan energía eléctrica estable y confiable para garantizar el funcionamiento continuo de los equipos informáticos y de comunicación, mitigando riesgos asociados a cortes de energía.          	|
 | AUX002 | Sistemas de Alimentación Ininterrumpida  | Ofrecen respaldo eléctrico temporal para permitir un cierre seguro de sistemas en caso de interrupciones repentinas, protegiendo contra pérdida de datos y daños en equipos sensibles. |
-| AUX003 | Generadores Eléctricos            	| Brindan una fuente de energía de respaldo a largo plazo en situaciones de emergencia, asegurando la continuidad operativa ante cortes prolongados de suministro eléctrico.            	|
-| AUX004 | Equipos de Climatización          	| Mantienen las condiciones ambientales óptimas en salas de servidores y centros de datos para prevenir sobrecalentamientos, garantizando el rendimiento y la vida útil de los equipos.	|
-| AUX005 | Cableado                          	| Infraestructura esencial que conecta y permite la comunicación entre dispositivos. Un diseño eficiente y seguro de cableado contribuye a la integridad y estabilidad de la red.        	|
-| AUX006 | Equipos de Destrucción de Soportes de Información | Aseguran la eliminación segura y definitiva de datos almacenados en soportes físicos, cumpliendo con estándares de privacidad y protección de información confidencial.             	|
-| AUX007 | Mobiliario: Armarios, etc.        	| Proporciona almacenamiento seguro y organizado para equipos, documentos y otros elementos esenciales, contribuyendo a la eficiencia y seguridad en la gestión del espacio de trabajo. |
+| AUX003 | Equipos de Climatización          	| Mantienen las condiciones ambientales óptimas en salas de servidores y centros de datos para prevenir sobrecalentamientos, garantizando el rendimiento y la vida útil de los equipos.	|
+| AUX004 | Cableado                          	| Infraestructura esencial que conecta y permite la comunicación entre dispositivos. Un diseño eficiente y seguro de cableado contribuye a la integridad y estabilidad de la red.        	|
+| AUX005 | Mobiliario: Armarios, etc.        	| Proporciona almacenamiento seguro y organizado para equipos, documentos y otros elementos esenciales, contribuyendo a la eficiencia y seguridad en la gestión del espacio de trabajo. |
 
 
 ### 2.2.11 [L] Instalaciones
