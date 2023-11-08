@@ -126,25 +126,16 @@ En este rango se abarca servicios para atender las necesidades colectivas, servi
 
 Por lo que, aquí se abordan servicios relacionados con la información, comunicaciones, seguridad, entre otros. La diversidad de estos servicios es esencial para el desempeño eficaz de la misión del bufete.
 
-
-
-| Código | Nombre                          | Descripción                                                  |
-|--------|---------------------------------|--------------------------------------------------------------|
-| S001   | Anónimo                         | Servicios sin requerir identificación del usuario.            |
-| S002   | Al público en general           | Ofrecidos sin relación contractual específica.                |
-| S003   | A usuarios externos             | Dirigidos a usuarios externos bajo contrato.                  |
-| S004   | Interno                         | Servicios para usuarios y medios internos del bufete.         |
-| S005   | Contratado a terceros           | Servicios prestados con medios externos.                      |
-| S006   | World Wide Web (www)            | Acceso a servicios web.                                       |
-| S007   | Acceso remoto a cuenta local    | Conexiones remotas a cuentas locales de forma segura.         |
-| S008   | Correo electrónico              | Comunicación electrónica segura.                              |
-| S009   | Almacenamiento de ficheros      | Gestión segura de documentos y archivos.                      |
-| S010   | Transferencia de ficheros       | Intercambio seguro de archivos.                               |
-| S011   | Intercambio electrónico de datos| Facilita la transferencia segura de información.              |
-| S012   | Servicio de directorio          | Localización de personas y empresas.                          |
-| S013   | Gestión de identidades          | Servicios para altas y bajas de usuarios y aprovisionamiento.|
-| S014   | Gestión de privilegios          | Control seguro y gestión de privilegios.                       |
-| S015   | PKI - Infraestructura de clave pública | Gestión segura de certificados y criptografía de clave pública.|
+| Código | Nombre                                    | Descripción                                                  |
+|--------|-------------------------------------------|--------------------------------------------------------------|
+| S001   | Intranet                                   | Servicio de red interna para los empleados del bufete.        |
+| S002   | Exchange Server  | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura.                              |
+| S003   | FileShare        | Gestión segura de documentos y archivos utilizando un sistema de almacenamiento interno.                      |
+| S004   | Filezilla                                   | Intercambio seguro de archivos.                               |
+| S005   | Active Directory (AD)             | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows.                           |
+| S006   | Servicio de compartición de directorios | Facilita la colaboración y compartición de archivos entre empleados.        |
+| S007   | Software ARP                              | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios.|
+| S008   | PKI - Infraestructura de clave pública  | Gestión segura de certificados y criptografía de clave pública.|
 
 Hay muchas más posibilidades pero he elegido estas porque sino seria interminable si no recortamos partes todos los miembros. 
 
