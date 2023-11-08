@@ -1,4 +1,4 @@
-## 2 Catalogo general de activos
+## 2 Catálogo General de Activos
 
 Identificar y clasificar los activos es imprescindible para documentar el estado de la empresa, y también para entender las posibles amenazas y las medidas de seguridad adecuadas. A continuación explico como funciona e incluyo algunos de los posibles activos y puede cambiar con el tiempo dependendiendo del desarrollo de la empresa con el tiempo. 
 
