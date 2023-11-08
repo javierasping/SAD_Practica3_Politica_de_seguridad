@@ -205,16 +205,14 @@ La infraestructura de comunicaciones del bufete proporciona la columna vertebral
 
 | Código | Nombre                        | Descripción                                                               |
 |--------|------------------------------|---------------------------------------------------------------------------|
-| COM001 | Red de Invitados Segura       | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad.|
+| COM001 | Red de Invitados      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad.|
 | COM002 | Red 5G para Dispositivos Móviles | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes.|
-| COM003 | Red de Datos (X25)            | Infraestructura para la transmisión de datos en red.                      |
-| COM004 | Fibra Óptica Ultra Rápida      | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
+| COM004 | Fibra Óptica     | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
 | COM005 | Red de Alta Seguridad Interna | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete.|
 | COM006 | Red Inalámbrica Segura (WPA3)  | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos.|
 | COM007 | Red de Área Local (LAN)       | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
 | COM008 | Red de Voz sobre IP (VoIP)    | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente.|
 | COM009 | Red Privada Virtual (VPN)     | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información.|
-| COM0010 | Red Satelital para Respaldo   | Utiliza comunicación vía satélite como respaldo en caso de interrupciones en las redes convencionales, garantizando la continuidad operativa.|
 
 
 
