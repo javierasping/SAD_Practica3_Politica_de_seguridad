@@ -255,7 +255,7 @@ Pearson Specter, como bufete de abogados líder en Madrid, se beneficia de insta
 | L001   | Edificio Principal	| Moderno edificio de dos plantas ubicado en el corazón de Madrid, alberga las oficinas y salas de reuniones de los abogados, así como los servidores y equipos de TI. |
 | L002   | Departamento Legal	| Espacio en la primera planta dedicado a los abogados y profesionales legales, proporcionando un entorno adecuado para la prestación de servicios legales excepcionales.  |
 | L003   | Centro Tecnológico 	| Segunda planta destinada a servidores y al equipo de más de 20 profesionales de TI, garantizando la infraestructura tecnológica necesaria para casos legales digitales.   |
-| L005   | Sala de Servidores 	| Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.              	|
+| L004   | Sala de Servidores 	| Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.              	|
 
 Estas instalaciones forman la base desde la cual Pearson Specter ofrece servicios legales y tecnológicos de vanguardia, combinando eficacia y seguridad.
 
