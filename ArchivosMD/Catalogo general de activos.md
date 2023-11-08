@@ -220,9 +220,63 @@ La infraestructura de comunicaciones del bufete proporciona la columna vertebral
 
 ### 2.2.9 [Media] Soportes de información
 
+La gestión de soportes de información es esencial para garantizar la integridad y disponibilidad del bufete. Algunos de los soportes de información y su función:
+
+| Código | Nombre               	| Descripción                                                              	|
+|--------|--------------------------|------------------------------------------------------------------------------|
+| SI001  | Almacenamiento en Red (SAN) | Proporciona un entorno de almacenamiento compartido que mejora la eficiencia y velocidad en el acceso a datos, crucial para operaciones que requieren alto rendimiento.|
+| SI002  | Disco Duro Externo    	| Ofrece una solución portátil y conveniente para el respaldo de datos importantes, facilitando la transferencia y protección de información clave fuera de la red principal.|
+| SI003  | Tarjeta de Memoria    	| Utilizada en dispositivos móviles y cámaras para almacenar y transferir datos. Aporta flexibilidad y movilidad a la captura y transporte de información relevante.|
+| SI004  | Almacenamiento en la Nube | Permite el acceso remoto y la colaboración en documentos desde cualquier ubicación, facilitando el intercambio de información entre miembros del bufete y garantizando su respaldo seguro.|
+| SI005  | Disco Óptico (DVD)    	| Ideal para almacenar datos, proporciona una forma duradera y fácil de distribuir y respaldar información crítica, especialmente para archivar documentos legales.|
+| SI006  | Unidad USB           	| Ofrece portabilidad y accesibilidad rápida a datos esenciales. Su capacidad de almacenamiento y facilidad de uso la convierten en una herramienta fundamental para el transporte seguro de información.|
+| SI007  | Tarjeta Inteligente (Smart Card) | Proporciona autenticación segura y control de acceso a sistemas críticos. Su uso protege la confidencialidad y garantiza que solo personal autorizado tenga acceso a información sensible.|
+
+En esta parte es donde se almacenan todos los documentos importantes. Desde contratos legales hasta datos cruciales, este sistema asegura que la información esté organizada y lista para ser accedida cuando se necesite. Además, implementa medidas de respaldo y recuperación para garantizar que nada se pierda.
+
+
 ### 2.2.10 [AUX] Equipamiento auxiliar
+
+El equipamiento auxiliar en el bufete es como el equipo de apoyo que mantiene todo en marcha sin estar directamente relacionado con los datos. Desde fuentes de alimentación hasta sistemas de climatización, estos elementos aseguran que los sistemas de información funcionen sin problemas. Los elementos de equipamiento auxiliar y sus funciones dentro del entorno legal:
+
+| Código | Nombre                            	| Descripción                                                                                                                                                             	|
+|--------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AUX001 | Fuentes de Alimentación           	| Proporcionan energía eléctrica estable y confiable para garantizar el funcionamiento continuo de los equipos informáticos y de comunicación, mitigando riesgos asociados a cortes de energía.          	|
+| AUX002 | Sistemas de Alimentación Ininterrumpida  | Ofrecen respaldo eléctrico temporal para permitir un cierre seguro de sistemas en caso de interrupciones repentinas, protegiendo contra pérdida de datos y daños en equipos sensibles. |
+| AUX003 | Generadores Eléctricos            	| Brindan una fuente de energía de respaldo a largo plazo en situaciones de emergencia, asegurando la continuidad operativa ante cortes prolongados de suministro eléctrico.            	|
+| AUX004 | Equipos de Climatización          	| Mantienen las condiciones ambientales óptimas en salas de servidores y centros de datos para prevenir sobrecalentamientos, garantizando el rendimiento y la vida útil de los equipos.	|
+| AUX005 | Cableado                          	| Infraestructura esencial que conecta y permite la comunicación entre dispositivos. Un diseño eficiente y seguro de cableado contribuye a la integridad y estabilidad de la red.        	|
+| AUX006 | Equipos de Destrucción de Soportes de Información | Aseguran la eliminación segura y definitiva de datos almacenados en soportes físicos, cumpliendo con estándares de privacidad y protección de información confidencial.             	|
+| AUX007 | Mobiliario: Armarios, etc.        	| Proporciona almacenamiento seguro y organizado para equipos, documentos y otros elementos esenciales, contribuyendo a la eficiencia y seguridad en la gestión del espacio de trabajo. |
+
 
 ### 2.2.11 [L] Instalaciones
 
+Pearson Specter, como bufete de abogados líder en Madrid, se beneficia de instalaciones estratégicamente ubicadas y diseñadas para satisfacer las necesidades específicas de sus equipos legal y tecnológico.
+
+| Código | Nombre           	| Descripción                                                                                                       	|
+|--------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| L001   | Edificio Principal	| Moderno edificio de dos plantas ubicado en el corazón de Madrid, alberga las oficinas y salas de reuniones de los abogados, así como los servidores y equipos de TI. |
+| L002   | Departamento Legal	| Espacio en la primera planta dedicado a los abogados y profesionales legales, proporcionando un entorno adecuado para la prestación de servicios legales excepcionales.  |
+| L003   | Centro Tecnológico 	| Segunda planta destinada a servidores y al equipo de más de 20 profesionales de TI, garantizando la infraestructura tecnológica necesaria para casos legales digitales.   |
+| L005   | Sala de Servidores 	| Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.              	|
+
+Estas instalaciones forman la base desde la cual Pearson Specter ofrece servicios legales y tecnológicos de vanguardia, combinando eficacia y seguridad.
+
+
 ### 2.2.12 [P] Personal
 
+La estructura organizativa de Pearson Specter refleja la importancia de cada departamento y su papel en la excelencia legal y tecnológica.
+| Departamento                 	| Posición            	| Responsabilidades                                                                                                                                                                                                                                  	|
+|----------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dirección y Socios           	| Socio Fundador      	| Toma de decisiones estratégicas, supervisión de la visión y estrategia de crecimiento, relaciones clave con clientes, gestión de casos complejos.                                                                                                   	|
+| Dirección y Socios           	| Socio Gerente       	| Supervisión de operaciones diarias, gestión de recursos humanos y financieros, toma de decisiones operativas, liderazgo del equipo directivo.                                                                                                        	|
+| Jefes de Departamento        	| Jefe Legal Civil     	| Supervisión de litigios civiles, coordinación de abogados especializados, garantía del cumplimiento de plazos y brindar asesoramiento legal sólido.                                                                                                   	|
+| Jefes de Departamento        	| Jefe Legal Penal     	| Dirección de actividades en derecho penal, supervisión de defensa legal en casos penales, estrategias de litigio penal.                                                                                                                              	|
+| Jefes de Departamento        	| Jefe Derecho Corporativo | Coordinación de servicios legales en empresas y negocios, formación de sociedades, gestión de fusiones y adquisiciones, contratos comerciales.                                                                                                      	|
+| Jefes de Departamento        	| Jefe Propiedad Intelectual| Liderazgo en derechos de autor, patentes, marcas registradas, protección y defensa de la propiedad intelectual.                                                                                                                                      	|
+| Jefes de Departamento        	| Jefe Tecnología e IT  	| Supervisión de la infraestructura tecnológica, garantizar el cumplimiento de estándares de seguridad, colaboración con abogados en casos tecnológicos.                                                                                                  	|
+| Jefes de Departamento        	| Jefe Recursos Humanos 	| Dirección de recursos humanos, gestión de contrataciones, desarrollo y retención del personal, responsabilidad de la cultura organizacional y capacitación.                                                                                         	|
+| Jefes de Departamento        	| Jefe Finanzas y Adm.  	| Supervisión de la gestión financiera, presupuesto, contabilidad, administración eficiente de recursos financieros.                                                                                                                                	|
+| Jefes de Departamento        	| Jefe Marketing y Com. 	| Promoción de la firma, gestión de comunicación con clientes, desarrollo de estrategias de marketing y relaciones públicas.                                                                                                                        	|
+| Personal IT                  	| Profesionales de TI  	| Mantenimiento de infraestructura tecnológica, implementación de soluciones tecnológicas, asesoramiento en casos legales digitales.                               
