@@ -26,7 +26,7 @@ La valoración es una forma de asignar un puntaje o evaluación a cada activo en
 - A (Autenticidad): ¿Cuán importante es asegurar que este activo sea auténtico y provenga de una fuente confiable?
 - T (Trazabilidad): ¿Cuánta importancia se le da al seguimiento y registro de las acciones relacionadas con este activo?
 
-La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En los siguientes activos, utilizaré una escala cualitativa para representar la valoración en cada activo.
+La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En los siguientes activos, utilizaré una escala cualitativa para representar la valoración en cada activo. Lo idóneo y perfecto es poner todos los valores como "Alta" para tener un entorno laboral definitivo en término de seguridad, pero para hacerlo más real, le he dado menos valor como "Media" a algunos activos que podrían llevar Alta perfectamente, y lo mismo para Baja, porque si no como he dicho seria practicamente todo en Alta.
 
 ## 2.1 Inventario de activos (sin terminar)
 
