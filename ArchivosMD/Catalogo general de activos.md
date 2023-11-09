@@ -26,7 +26,7 @@ La valoración es una forma de asignar un puntaje o evaluación a cada activo en
 - A (Autenticidad): ¿Cuán importante es asegurar que este activo sea auténtico y provenga de una fuente confiable?
 - T (Trazabilidad): ¿Cuánta importancia se le da al seguimiento y registro de las acciones relacionadas con este activo?
 
-La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En el ejemplo que proporcioné anteriormente, utilicé una escala numérica entre corchetes [D/I/C/A/T] para representar la valoración en cada dimensióna modo de lo visto en la documentación.
+La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En los siguientes activos, utilizaré una escala cualitativa para representar la valoración en cada activo.
 
 ## 2.1 Inventario de activos (sin terminar)
 
@@ -57,13 +57,14 @@ Estas fichas (mas bien herramientas prácticas) ayudan a documentar y organizar 
 
 Los activos esenciales forman el núcleo de la infraestructura, comprendiendo elementos vitales para el funcionamiento del bufete. Estos pueden incluir información crítica, servicios fundamentales, y cualquier otro componente que sea indispensable para la operatividad diaria.
 
-| Código | Nombre | Descripción |
-|--------|--------|-------------|
-| AE001  | Archivo Digital de Casos | Almacena información crítica de casos, indispensable para la práctica legal diaria. |
-| AE002  | Sistema de Comunicaciones | Facilita la comunicación interna y externa, siendo vital para la colaboración y la prestación de servicios. |
-| AE003  | Base de datos de clientes      | Almacena información detallada sobre los clientes, incluyendo historial legal, preferencias y contactos. |
-| AE004  | Sistema de gestión financiera  | Herramienta que facilita la gestión financiera del bufete, incluyendo facturación, ingresos y gastos. |
-| AE005  | Plataforma de colaboración interna | Espacio digital que permite la colaboración eficiente entre los miembros del bufete en documentos y proyectos. |
+| Código | Nombre                            | Descripción                                                  | D     | I     | C     | A     | T     |
+|--------|-----------------------------------|--------------------------------------------------------------|-------|-------|-------|-------|-------|
+| AE001  | Archivo Digital de Casos           | Almacena información crítica de casos, indispensable para la práctica legal diaria. | Alta  | Alta  | Alta  | Alta  | Media |
+| AE002  | Sistema de Comunicaciones          | Facilita la comunicación interna y externa, siendo vital para la colaboración y la prestación de servicios. | Alta  | Media | Alta  | Alta  | Alta  |
+| AE003  | Base de datos de clientes          | Almacena información detallada sobre los clientes, incluyendo historial legal, preferencias y contactos. | Alta  | Alta  | Alta  | Alta  | Media |
+| AE004  | Sistema de gestión financiera      | Herramienta que facilita la gestión financiera del bufete, incluyendo facturación, ingresos y gastos. | Alta  | Alta  | Alta  | Alta  | Media |
+| AE005  | Plataforma de colaboración interna | Espacio digital que permite la colaboración eficiente entre los miembros del bufete en documentos y proyectos. | Alta  | Media | Alta  | Alta  | Alta  |
+
 
 Estos activos no solo son esenciales para la operación interna, sino que también contribuyen a mejorar la eficiencia, la toma de decisiones y la prestación de servicios de calidad a los clientes.
 
@@ -73,13 +74,14 @@ Estos activos no solo son esenciales para la operación interna, sino que tambi�
 
 La arquitectura del sistema engloba los elementos que sustentan la infraestructura tecnológica del bufete. Estos pueden abarcar desde servidores y redes hasta la disposición física de los equipos.
 
-| Código | Nombre | Descripción |
-|--------|--------|-------------|
-| AS001  | Servidores Centrales | Componentes esenciales que respaldan la infraestructura informática, garantizando la disponibilidad y el rendimiento. |
-| AS002  | Red de Área Local (LAN) | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos. |
-| AS003  | Sistema de seguridad de red           | Implementación de firewalls, antivirus y otras medidas para salvaguardar la integridad de la red. |
-| AS004  | Políticas de acceso y control         | Definición de políticas que regulan el acceso a la información y la administración de privilegios. |
-| AS005  | Infraestructura de respaldo           | Sistemas y procedimientos para realizar copias de seguridad periódicas y garantizar la disponibilidad de datos. |
+| Código | Nombre                        | Descripción                                                  | D     | I     | C     | A     | T     |
+|--------|-------------------------------|--------------------------------------------------------------|-------|-------|-------|-------|-------|
+| AS001  | Servidores Centrales           | Componentes esenciales que respaldan la infraestructura informática, garantizando la disponibilidad y el rendimiento. | Alta  | Alta  | Alta  | Alta  | Media |
+| AS002  | Red de Área Local (LAN)       | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos. | Alta  | Alta  | Media | Alta  | Alta  |
+| AS003  | Sistema de seguridad de red   | Implementación de firewalls, antivirus y otras medidas para salvaguardar la integridad de la red. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| AS004  | Políticas de acceso y control | Definición de políticas que regulan el acceso a la información y la administración de privilegios. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| AS005  | Infraestructura de respaldo   | Sistemas y procedimientos para realizar copias de seguridad periódicas y garantizar la disponibilidad de datos. | Alta  | Alta  | Alta  | Alta  | Media |
+
 
 Estos elementos contribuyen a la seguridad, confiabilidad y eficiencia de la infraestructura tecnológica del bufete, asegurando la integridad de la información y la continuidad de las operaciones.
 
@@ -90,15 +92,13 @@ Estos elementos contribuyen a la seguridad, confiabilidad y eficiencia de la inf
 
 Los datos e información manejados por el bufete son vitales para su funcionamiento. Aquí pongo los más importantes:
 
-| Código | Nombre                          | Descripción                                            |
-|--------|---------------------------------|--------------------------------------------------------|
-| D001   | Casos legales en curso          | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
-| D002   | Contratos y acuerdos            | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
-| D003   | Información confidencial del cliente | Datos sensibles de los clientes, como información financiera y personal. |
-| D004   | Precedentes legales             | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
-| D005   | Servicios Digitales             | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete. |
-
-En transito y almacenados revisar ***
+| Código | Nombre                          | Descripción                                            | D     | I     | C     | A     | T     |
+|--------|---------------------------------|--------------------------------------------------------|-------|-------|-------|-------|-------|
+| D001   | Casos legales en curso          | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| D002   | Contratos y acuerdos            | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. | Alta  | Alta  | Alta  | Alta  | Media |
+| D003   | Información confidencial del cliente | Datos sensibles de los clientes, como información financiera y personal. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| D004   | Precedentes legales             | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. | Alta  | Alta  | Alta  | Alta  | Media |
+| D005   | Servicios Digitales             | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete (Aquí abarca en tránsito y almacenados). | Alta  | Alta  | Alta  | Alta  | Alta  |
 
 Estos datos son esenciales para la práctica legal diaria y su confidencialidad e integridad deben ser protegidas, por lo que hay que considerar la gestión de versiones y la trazabilidad de los cambios en los documentos legales para garantizar la integridad y autenticidad de la información.
 
@@ -108,13 +108,14 @@ Para un manejo eficiente de la información, deberiamos implementar sistemas de 
 
 Las claves criptográficas desempeñan un papel crucial en la seguridad de la información confidencial del bufete. A continuación, se presentan algunas de las claves criptográficas utilizadas, cada una cumpliendo una función específica en la protección de datos sensibles (más detalles en la parte específica de seguridad):
 
-| Código | Nombre | Descripción |
-|--------|--------|-------------|
-| KC001  | Claves de acceso a bases de datos | Garantizan la seguridad de las bases de datos legales del bufete, evitando accesos no autorizados. |
-| KC002  | Claves de correo electrónico | Aseguran la confidencialidad de las comunicaciones por correo electrónico dentro del bufete, protegiendo la privacidad de la correspondencia legal. |
-| KC003  | Claves de acceso a sistemas internos | Utilizadas para acceder a sistemas internos que gestionan información crítica y legal, asegurando la autenticación de usuarios autorizados. |
-| KC004  | Claves de cifrado de documentos | Protegen la integridad y confidencialidad de documentos legales almacenados en sistemas digitales, evitando accesos no autorizados y manipulación no autorizada. |
-| KC005  | Claves de firma digital | Garantizan la autenticidad de documentos legales firmados digitalmente por el bufete, proporcionando una capa adicional de seguridad en transacciones electrónicas.
+| Código | Nombre | Descripción | D     | I     | C     | A     | T     |
+|--------|--------|-------------|-------|-------|-------|-------|-------|
+| KC001  | Claves de acceso a bases de datos | Garantizan la seguridad de las bases de datos legales del bufete, evitando accesos no autorizados. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| KC002  | Claves de correo electrónico | Aseguran la confidencialidad de las comunicaciones por correo electrónico dentro del bufete, protegiendo la privacidad de la correspondencia legal. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| KC003  | Claves de acceso a sistemas internos | Utilizadas para acceder a sistemas internos que gestionan información crítica y legal, asegurando la autenticación de usuarios autorizados. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| KC004  | Claves de cifrado de documentos | Protegen la integridad y confidencialidad de documentos legales almacenados en sistemas digitales, evitando accesos no autorizados y manipulación no autorizada. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| KC005  | Claves de firma digital | Garantizan la autenticidad de documentos legales firmados digitalmente por el bufete, proporcionando una capa adicional de seguridad en transacciones electrónicas. | Alta  | Alta  | Alta  | Alta  | Alta  |
+
 
 Estas claves son gestionadas con frecuencia para prevenir accesos no autorizados, protegiendo así la confidencialidad e integridad de la información legal del bufete.
 
@@ -127,16 +128,17 @@ En este rango se abarca servicios para atender las necesidades colectivas, servi
 
 Por lo que, aquí se abordan servicios relacionados con la información, comunicaciones, seguridad, entre otros. La diversidad de estos servicios es esencial para el desempeño eficaz de la misión del bufete.
 
-| Código | Nombre                                    | Descripción                                                  |
-|--------|-------------------------------------------|--------------------------------------------------------------|
-| S001   | Intranet                                   | Servicio de red interna para los empleados del bufete.        |
-| S002   | Exchange Server  | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura.                              |
-| S003   | FileShare        | Gestión segura de documentos y archivos utilizando un sistema de almacenamiento interno.                      |
-| S004   | Filezilla                                   | Intercambio seguro de archivos.                               |
-| S005   | Active Directory (AD)             | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows.                           |
-| S006   | Servicio de compartición de directorios | Facilita la colaboración y compartición de archivos entre empleados.        |
-| S007   | Software ARP                              | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios.|
-| S008   | PKI - Infraestructura de clave pública  | Gestión segura de certificados y criptografía de clave pública.|
+| Código | Nombre                                    | Descripción                                                  | D     | I     | C     | A     | T     |
+|--------|-------------------------------------------|--------------------------------------------------------------|-------|-------|-------|-------|-------|
+| S001   | Intranet                                   | Servicio de red interna para los empleados del bufete.        | Media | Media | Alta  | Media | Media |
+| S002   | Exchange Server  | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura.                              | Alta  | Alta  | Alta  | Alta  | Alta  |
+| S003   | FileShare        | Gestión segura de documentos y archivos utilizando un sistema de almacenamiento interno.                      | Alta  | Alta  | Alta  | Alta  | Alta  |
+| S004   | SFTP                                   | Intercambio seguro de archivos.                               | Media | Media | Media  | Media | Media |
+| S005   | Active Directory (AD)             | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows.                           | Alta  | Alta  | Alta  | Alta  | Alta  |
+| S006   | Servicio de compartición de directorios | Facilita la colaboración y compartición de archivos entre empleados.        | Alta  | Alta  | Media | Alta  | Alta  |
+| S007   | Software ARP                              | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios.| Media | Media | Baja  | Media | Media |
+| S008   | PKI - Infraestructura de clave pública  | Gestión segura de certificados y criptografía de clave pública.| Alta  | Alta  | Alta  | Alta  | Alta  |
+
 
 Hay muchas más posibilidades pero he elegido estas porque sino seria interminable si no recortamos partes todos los miembros. 
 
@@ -147,22 +149,23 @@ Estos servicios son la base para la operación del bufete, requiriendo atención
 
 El conjunto de software y aplicaciones utilizadas en el bufete abarca una gama amplia de funciones, todas imprescindibles para el funcionamiento eficiente y seguro. Aquí dejo una lista detallada de algunas de las aplicaciones que se usarán en nuestro bufete:
 
-| Código | Nombre del software                      | Descripción                                                |
-|--------|----------------------------------|------------------------------------------------------------|
-| SW000  | Debian 12                         | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. |
-| SW001  | Windows 11                        | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. |
-| SW002  | Clio Manage                       | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. |
-| SW003  | Westlaw                           | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. |
-| SW004  | Microsoft Teams                   | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. |
-| SW005  | Clio Billing                      | Software de Facturación Legal. Gestiona la facturación de servicios legales. |
-| SW006  | NetDocuments                      | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. |
-| SW007  | Lex Machina                       | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. |
-| SW008  | LexisNexis                        | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. |
-| SW009  | Ravel Law                         | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. |
-| SW010  | QuickBooks Legal                  | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. |
-| SW011  | Zoom Meetings                     | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. |
-| SW012  | Varonis Data Security Platform    | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. |
-| SW013  | Symantec Encryption               | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. |
+| Código | Nombre del software                      | Descripción                                                | Valoración D | Valoración I | Valoración C | Valoración A | Valoración T |
+|--------|----------------------------------|------------------------------------------------------------|--------------|--------------|--------------|--------------|--------------|
+| SW000  | Debian 12                         | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. | Alta         | Media        | Baja         | Media        | Alta         |
+| SW001  | Windows 11                        | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. | Alta         | Media        | Alta         | Media        | Alta         |
+| SW002  | Clio Manage                       | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. | Alta         | Alta         | Media        | Media        | Alta         |
+| SW003  | Westlaw                           | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. | Alta         | Alta         | Alta         | Media        | Alta         |
+| SW004  | Microsoft Teams                   | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. | Alta         | Alta         | Media        | Media        | Alta         |
+| SW005  | Clio Billing                      | Software de Facturación Legal. Gestiona la facturación de servicios legales. | Alta         | Media        | Alta         | Media        | Alta         |
+| SW006  | NetDocuments                      | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. | Alta         | Alta         | Alta         | Media        | Alta         |
+| SW007  | Lex Machina                       | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. | Alta         | Alta         | Media        | Media        | Alta         |
+| SW008  | LexisNexis                        | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. | Alta         | Alta         | Alta         | Media        | Alta         |
+| SW009  | Ravel Law                         | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. | Alta         | Alta         | Media        | Media        | Alta         |
+| SW010  | QuickBooks Legal                  | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. | Alta         | Media        | Alta         | Media        | Alta         |
+| SW011  | Zoom Meetings                     | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. | Alta         | Media        | Media        | Baja         | Alta         |
+| SW012  | Varonis Data Security Platform    | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. | Alta         | Alta         | Media        | Media        | Alta         |
+| SW013  | Symantec Encryption               | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. | Alta         | Alta         | Media        | Media        | Alta         |
+
 
 Estas aplicaciones adicionales refuerzan la capacidad del bufete para abordar diversos aspectos legales, financieros y de gestión, mientras garantizan la seguridad y eficiencia en todas las operaciones. Podría haber elegido diferentes opciones, pero en un entorno profesional, estas suelen ser las más comunes, aunque normalmente suele usarse solamente Windows, he añadido tambien Debian para los usuarios que prefieran este sistema operativo.
 
