@@ -25,6 +25,7 @@ La valoración es una forma de asignar un puntaje o evaluación a cada activo en
 - C (Confidencialidad): ¿Qué tan sensible o confidencial es la información contenida en este activo?
 - A (Autenticidad): ¿Cuán importante es asegurar que este activo sea auténtico y provenga de una fuente confiable?
 - T (Trazabilidad): ¿Cuánta importancia se le da al seguimiento y registro de las acciones relacionadas con este activo?
+- "-" (No valorable): Aquellos activos los cuales no puedo valorarlos por lo que son, o lo que representan.
 
 La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En los siguientes activos, utilizaré una escala cualitativa para representar la valoración en cada activo. Lo idóneo y perfecto es poner todos los valores como "Alta" para tener un entorno laboral definitivo en término de seguridad, pero para hacerlo más real, le he dado menos valor como "Media" a algunos activos que podrían llevar Alta perfectamente, y lo mismo para Baja, porque si no como he dicho seria practicamente todo en Alta.
 
@@ -174,21 +175,22 @@ Estas aplicaciones adicionales refuerzan la capacidad del bufete para abordar di
 
 El bufete legal se basa en una infraestructura sólida y diversa, proporcionando a sus trabajadores las herramientas necesarias para el desempeño eficiente de sus tareas. Desde servidores potentes hasta estaciones de trabajo especializadas y dispositivos de almacenamiento de última generación, el equipamiento informático y hardware desempeña un papel crucial en la operación diaria del bufete. Como en las partes anteriores, he hecho una tabla que abarca desde servidores hasta sistemas de videovigilancia, destacando la variedad de recursos que respaldan la seguridad y productividad del bufete.
 
-| Código | Nombre                                    | Descripción                                                                                     |
-|--------|-------------------------------------------|-------------------------------------------------------------------------------------------------|
-| HW000  | Servidores Dell PowerEdge                 | Componentes clave utilizados para ejecutar aplicaciones críticas del bufete.                     |
-| HW001  | Estación de Trabajo HP ZBook              | Equipos portátiles diseñados para tareas intensivas en diseño y análisis legal.                  |
-| HW002  | PC de Escritorio Lenovo ThinkCentre       | Equipos de escritorio confiables ideales para el uso cotidiano de los empleados.             |
-| HW003  | Dispositivos de Almacenamiento Synology   | Unidades de almacenamiento en red para la gestión segura de datos con capacidades escalables.     |
-| HW004  | Impresoras HP LaserJet                    | Impresoras esenciales para la impresión eficiente de documentos legales.                           |
-| HW005  | Enrutador Cisco Catalyst                  | Enrutador utilizado para la conectividad de red y la implementación de medidas de seguridad.      |
-| HW006  | Sistema de Videovigilancia Axis           | Sistema completo de videovigilancia con cámaras para la seguridad física del bufete.             |
-| HW007  | Escáner Epson WorkForce                   | Escáner de alta velocidad para digitalizar documentos legales y mantener registros digitales.    |
-| HW008  | Teléfonos VoIP Grandstream                | Dispositivos de comunicación empresarial que ofrecen funciones avanzadas de telefonía IP.       |
-| HW009  | UPS APC Smart-UPS                        | Sistema de alimentación ininterrumpida para proteger contra cortes de energía y asegurar la continuidad de operaciones. |
-| HW010  | Estación Docking para Portátiles          | Permite a las estaciones de trabajo portátiles conectarse fácilmente a periféricos de escritorio. |
-| HW011  | Sistemas de Control de Acceso             | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
-| HW012  | Pizarras Interactivas SMART                | Herramientas colaborativas para presentaciones y discusiones legales interactivas.               |
+| Código | Nombre                                    | Descripción                                                                                     | D     | I     | C     | A     | T     |
+|--------|-------------------------------------------|-------------------------------------------------------------------------------------------------|-------|-------|-------|-------|-------|
+| HW000  | Servidores Dell PowerEdge                 | Componentes clave utilizados para ejecutar aplicaciones críticas del bufete.                     | Alta  | Alta  | Alta  | Alta  | Alta  |
+| HW001  | Estación de Trabajo HP ZBook              | Equipos portátiles diseñados para tareas intensivas en diseño y análisis legal.                  | Alta  | Alta  | Media | Alta  | Alta  |
+| HW002  | PC de Escritorio Lenovo ThinkCentre       | Equipos de escritorio confiables ideales para el uso cotidiano de los empleados.             | Media | - | -  | Alta | - |
+| HW003  | Dispositivos de Almacenamiento Synology   | Unidades de almacenamiento en red para la gestión segura de datos con capacidades escalables.     | Alta  | Alta  | Alta  | Alta  | Alta  |
+| HW004  | Impresoras HP LaserJet                    | Impresoras esenciales para la impresión eficiente de documentos legales.                           | Baja  | -  | Media | -  | Media  |
+| HW005  | Enrutador Cisco Catalyst                  | Enrutador utilizado para la conectividad de red y la implementación de medidas de seguridad.      | Alta  | Alta  | Alta  | Alta  | Alta  |
+| HW006  | Sistema de Videovigilancia Axis           | Sistema completo de videovigilancia con cámaras para la seguridad física del bufete.             | Alta  | Alta  | Alta  | -  | Alta  |
+| HW007  | Escáner Epson WorkForce                   | Escáner de alta velocidad para digitalizar documentos legales y mantener registros digitales.    | Baja  | -  | - | -  | -  |
+| HW008  | Teléfonos VoIP Grandstream                | Dispositivos de comunicación empresarial que ofrecen funciones avanzadas de telefonía IP.       | Alta  | Alta  | Alta  | Alta  | Alta  |
+| HW009  | UPS APC Smart-UPS                        | Sistema de alimentación ininterrumpida para proteger contra cortes de energía y asegurar la continuidad de operaciones. | Alta  | -  | - | -  | Baja  |
+| HW010  | Estación Docking para Portátiles          | Permite a las estaciones de trabajo portátiles conectarse fácilmente a periféricos de escritorio. | Media  | -  | - | -  | -  |
+| HW011  | Sistemas de Control de Acceso             | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. | Alta  | Alta  | Alta  | Alta  | Alta  |
+| HW012  | Pizarras Interactivas SMART                | Herramientas colaborativas para presentaciones y discusiones legales interactivas.               | Media | Media | Baja  | - | - |
+
 
 Esta tabla incluye equipos adicionales como estaciones de acoplamiento, sistemas de control de acceso y pizarras interactivas, por mencionar algunos ejemplos más aparte de limitarme solamente a equipos.
 
