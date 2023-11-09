@@ -269,7 +269,3 @@ La estructura organizativa de Pearson Specter refleja la importancia de cada dep
 | Jefes de Departamento        	| Jefe Marketing y Com. 	| Promoción de la firma, gestión de comunicación con clientes, desarrollo de estrategias de marketing y relaciones públicas.                                                                                                                        	|
 | Personal IT                  	| Profesionales de TI  	| Mantenimiento de infraestructura tecnológica, implementación de soluciones tecnológicas, asesoramiento en casos legales digitales.                               
 
-
-
-
-aaaaaaaaaa
