@@ -270,3 +270,6 @@ La estructura organizativa de Pearson Specter refleja la importancia de cada dep
 | Personal IT                  	| Profesionales de TI  	| Mantenimiento de infraestructura tecnológica, implementación de soluciones tecnológicas, asesoramiento en casos legales digitales.                               
 
 
+
+
+aaaaaaaaaa
