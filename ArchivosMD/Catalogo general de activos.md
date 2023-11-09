@@ -16,6 +16,17 @@ Este proceso de catalogar activos y asignarles valor no solo establece una base 
 
 Los puntos de la siguiente tabla, organizan los activos en una jerarquía, asignándoles un código que muestra su posición en la jerarquía, un nombre y una breve descripción de lo que representa cada tipo de activo. Los activos No tienen que ser estrictamente como tal, y perfectamente pueden pertenecer a diferentes categorias.
 
+## Valoración de Activos
+
+La valoración es una forma de asignar un puntaje o evaluación a cada activo en diferentes dimensiones de seguridad. Generalmente se utiliza para indicar cuánto valor tiene cada activo para la organización en términos de:
+
+- D (Disponibilidad): ¿Qué tan importante es que este activo esté siempre disponible?
+- I (Integridad): ¿Qué tan crítico es mantener la integridad o exactitud de este activo?
+- C (Confidencialidad): ¿Qué tan sensible o confidencial es la información contenida en este activo?
+- A (Autenticidad): ¿Cuán importante es asegurar que este activo sea auténtico y provenga de una fuente confiable?
+- T (Trazabilidad): ¿Cuánta importancia se le da al seguimiento y registro de las acciones relacionadas con este activo?
+
+La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En el ejemplo que proporcioné anteriormente, utilicé una escala numérica entre corchetes [D/I/C/A/T] para representar la valoración en cada dimensióna modo de lo visto en la documentación.
 
 ## 2.1 Inventario de activos (sin terminar)
 
@@ -32,18 +43,6 @@ Los puntos de la siguiente tabla, organizan los activos en una jerarquía, asign
 | 9      | [AUX] Equipamiento auxiliar               | Sistemas de seguridad física                     |
 | 10     | [L] Instalaciones                         | Oficinas y salas de reuniones                    |
 | 11     | [P] Personal                              | Abogados y personal legal                        |
-
-
-
-La valoración es una forma de asignar un puntaje o evaluación a cada activo en diferentes dimensiones de seguridad. Generalmente se utiliza para indicar cuánto valor tiene cada activo para la organización en términos de:
-
-- D (Disponibilidad): ¿Qué tan importante es que este activo esté siempre disponible?
-- I (Integridad): ¿Qué tan crítico es mantener la integridad o exactitud de este activo?
-- C (Confidencialidad): ¿Qué tan sensible o confidencial es la información contenida en este activo?
-- A (Autenticidad): ¿Cuán importante es asegurar que este activo sea auténtico y provenga de una fuente confiable?
-- T (Trazabilidad): ¿Cuánta importancia se le da al seguimiento y registro de las acciones relacionadas con este activo?
-
-La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En el ejemplo que proporcioné anteriormente, utilicé una escala numérica entre corchetes [D/I/C/A/T] para representar la valoración en cada dimensióna modo de lo visto en la documentación.
 
 
 ### 2.2 Fichas detalle archivo
@@ -98,6 +97,8 @@ Los datos e información manejados por el bufete son vitales para su funcionamie
 | D003   | Información confidencial del cliente | Datos sensibles de los clientes, como información financiera y personal. |
 | D004   | Precedentes legales             | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
 | D005   | Servicios Digitales             | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete. |
+
+En transito y almacenados revisar ***
 
 Estos datos son esenciales para la práctica legal diaria y su confidencialidad e integridad deben ser protegidas, por lo que hay que considerar la gestión de versiones y la trazabilidad de los cambios en los documentos legales para garantizar la integridad y autenticidad de la información.
 
@@ -267,3 +268,5 @@ La estructura organizativa de Pearson Specter refleja la importancia de cada dep
 | Jefes de Departamento        	| Jefe Finanzas y Adm.  	| Supervisión de la gestión financiera, presupuesto, contabilidad, administración eficiente de recursos financieros.                                                                                                                                	|
 | Jefes de Departamento        	| Jefe Marketing y Com. 	| Promoción de la firma, gestión de comunicación con clientes, desarrollo de estrategias de marketing y relaciones públicas.                                                                                                                        	|
 | Personal IT                  	| Profesionales de TI  	| Mantenimiento de infraestructura tecnológica, implementación de soluciones tecnológicas, asesoramiento en casos legales digitales.                               
+
+
