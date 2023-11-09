@@ -200,16 +200,17 @@ Esta tabla incluye equipos adicionales como estaciones de acoplamiento, sistemas
 La infraestructura de comunicaciones del bufete proporciona la columna vertebral que conecta todos los componentes tecnológicos, garantizando una comunicación fluida y segura. Desde redes locales que facilitan la colaboración interna hasta conexiones a Internet y servicios de telefonía, cada elemento contribuye a la eficiencia operativa y la conectividad integral del bufete. 
 
 
-| Código | Nombre                        | Descripción                                                               |
-|--------|------------------------------|---------------------------------------------------------------------------|
-| COM001 | Red de Invitados      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad.|
-| COM002 | Red 5G para Dispositivos Móviles | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes.|
-| COM003 | Fibra Óptica     | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
-| COM004 | Red de Alta Seguridad Interna | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete.|
-| COM005 | Red Inalámbrica Segura (WPA3)  | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos.|
-| COM006 | Red de Área Local (LAN)       | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
-| COM007 | Red de Voz sobre IP (VoIP)    | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente.|
-| COM008 | Red Privada Virtual (VPN)     | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información.|
+| Código | Nombre                        | Descripción                                                               | D     | I     | C     | A     | T     |
+|--------|------------------------------|---------------------------------------------------------------------------|-------|-------|-------|-------|-------|
+| COM001 | Red de Invitados              | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad.| Baja     | Media     | Alta     | Alta     | Media     |
+| COM002 | Red 5G para Dispositivos Móviles | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes.| - | - | -  | - | - |
+| COM003 | Fibra Óptica                   | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. | Alta  | -  | -  | -  | -  |
+| COM004 | Red de Alta Seguridad Interna   | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete.| Alta  | Alta  | Alta  | Alta  | Alta  |
+| COM005 | Red Inalámbrica Segura (WPA3)  | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos.| Alta  | Alta  | Alta  | Alta  | Alta  |
+| COM006 | Red de Área Local (LAN)         | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. | Media | Media | Baja  | Media | Media |
+| COM007 | Red de Voz sobre IP (VoIP)      | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente.| Alta  | Alta  | Alta  | Alta  | Alta  |
+| COM008 | Red Privada Virtual (VPN)       | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información.| Alta  | Alta  | Alta  | Alta  | Alta  |
+
 
 
 
@@ -217,15 +218,16 @@ La infraestructura de comunicaciones del bufete proporciona la columna vertebral
 
 La gestión de soportes de información es esencial para garantizar la integridad y disponibilidad del bufete. Algunos de los soportes de información y su función:
 
-| Código | Nombre               	| Descripción                                                              	|
-|--------|--------------------------|------------------------------------------------------------------------------|
-| SI001  | Almacenamiento en Red (SAN) | Proporciona un entorno de almacenamiento compartido que mejora la eficiencia y velocidad en el acceso a datos, crucial para operaciones que requieren alto rendimiento.|
-| SI002  | Disco Duro Externo    	| Ofrece una solución portátil y conveniente para el respaldo de datos importantes, facilitando la transferencia y protección de información clave fuera de la red principal.|
-| SI003  | Tarjeta de Memoria    	| Utilizada en dispositivos móviles y cámaras para almacenar y transferir datos. Aporta flexibilidad y movilidad a la captura y transporte de información relevante.|
-| SI004  | Almacenamiento en la Nube | Permite el acceso remoto y la colaboración en documentos desde cualquier ubicación, facilitando el intercambio de información entre miembros del bufete y garantizando su respaldo seguro.|
-| SI005  | Disco Óptico (DVD)    	| Ideal para almacenar datos, proporciona una forma duradera y fácil de distribuir y respaldar información crítica, especialmente para archivar documentos legales.|
-| SI006  | Unidad USB           	| Ofrece portabilidad y accesibilidad rápida a datos esenciales. Su capacidad de almacenamiento y facilidad de uso la convierten en una herramienta fundamental para el transporte seguro de información.|
-| SI007  | Tarjeta Inteligente (Smart Card) | Proporciona autenticación segura y control de acceso a sistemas críticos. Su uso protege la confidencialidad y garantiza que solo personal autorizado tenga acceso a información sensible.|
+| Código | Nombre               	| Descripción                                                              	| D     | I     | C     | A     | T     |
+|--------|--------------------------|------------------------------------------------------------------------------|-------|-------|-------|-------|-------|
+| SI001  | Almacenamiento en Red (SAN) | Proporciona un entorno de almacenamiento compartido que mejora la eficiencia y velocidad en el acceso a datos, crucial para operaciones que requieren alto rendimiento.| Alta  | Alta  | Alta  | Alta  | Alta  |
+| SI002  | Disco Duro Externo    	| Ofrece una solución portátil y conveniente para el respaldo de datos importantes, facilitando la transferencia y protección de información clave fuera de la red principal.| Media | Media | Media  | Media | Media |
+| SI003  | Tarjeta de Memoria    	| Utilizada en dispositivos móviles y cámaras para almacenar y transferir datos. Aporta flexibilidad y movilidad a la captura y transporte de información relevante.| Media | Baja  | Baja  | Media | Media |
+| SI004  | Almacenamiento en la Nube | Permite el acceso remoto y la colaboración en documentos desde cualquier ubicación, facilitando el intercambio de información entre miembros del bufete y garantizando su respaldo seguro.| Alta  | Alta  | Alta  | Alta  | Alta  |
+| SI005  | Disco Óptico (DVD)    	| Ideal para almacenar datos, proporciona una forma duradera y fácil de distribuir y respaldar información crítica, especialmente para archivar documentos legales.| Baja | Baja  | Baja  | Media | Media |
+| SI006  | Unidad USB           	| Ofrece portabilidad y accesibilidad rápida a datos esenciales. Su capacidad de almacenamiento y facilidad de uso la convierten en una herramienta fundamental para el transporte seguro de información.| Media | Media | Baja  | Media | Media |
+| SI007  | Tarjeta Inteligente (Smart Card) | Proporciona autenticación segura y control de acceso a sistemas críticos. Su uso protege la confidencialidad y garantiza que solo personal autorizado tenga acceso a información sensible.| Alta  | Alta  | Alta  | Alta  | Alta  |
+
 
 En esta parte es donde se almacenan todos los documentos importantes. Desde contratos legales hasta datos cruciales, este sistema asegura que la información esté organizada y lista para ser accedida cuando se necesite. Además, implementa medidas de respaldo y recuperación para garantizar que nada se pierda.
 
@@ -234,13 +236,14 @@ En esta parte es donde se almacenan todos los documentos importantes. Desde cont
 
 El equipamiento auxiliar en el bufete es como el equipo de apoyo que mantiene todo en marcha sin estar directamente relacionado con los datos. Desde fuentes de alimentación hasta sistemas de climatización, estos elementos aseguran que los sistemas de información funcionen sin problemas. Los elementos de equipamiento auxiliar y sus funciones dentro del entorno legal:
 
-| Código | Nombre                            	| Descripción                                                                                                                                                             	|
-|--------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AUX001 | Fuentes de Alimentación           	| Proporcionan energía eléctrica estable y confiable para garantizar el funcionamiento continuo de los equipos informáticos y de comunicación, mitigando riesgos asociados a cortes de energía.          	|
-| AUX002 | Sistemas de Alimentación Ininterrumpida  | Ofrecen respaldo eléctrico temporal para permitir un cierre seguro de sistemas en caso de interrupciones repentinas, protegiendo contra pérdida de datos y daños en equipos sensibles. |
-| AUX003 | Equipos de Climatización          	| Mantienen las condiciones ambientales óptimas en salas de servidores y centros de datos para prevenir sobrecalentamientos, garantizando el rendimiento y la vida útil de los equipos.	|
-| AUX004 | Cableado                          	| Infraestructura esencial que conecta y permite la comunicación entre dispositivos. Un diseño eficiente y seguro de cableado contribuye a la integridad y estabilidad de la red.        	|
-| AUX005 | Mobiliario: Armarios, etc.        	| Proporciona almacenamiento seguro y organizado para equipos, documentos y otros elementos esenciales, contribuyendo a la eficiencia y seguridad en la gestión del espacio de trabajo. |
+| Código | Nombre                            	| Descripción                                                                                                                                                             	| D     | I     | C     | A     | T     |
+|--------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------|-------|-------|-------|
+| AUX001 | Fuentes de Alimentación           	| Proporcionan energía eléctrica estable y confiable para garantizar el funcionamiento continuo de los equipos informáticos y de comunicación, mitigando riesgos asociados a cortes de energía.          	| Alta  | Alta  | Media | Media  | Alta  |
+| AUX002 | Sistemas de Alimentación Ininterrumpida  | Ofrecen respaldo eléctrico temporal para permitir un cierre seguro de sistemas en caso de interrupciones repentinas, protegiendo contra pérdida de datos y daños en equipos sensibles. | Alta  | -  | -  | -  | -  |
+| AUX003 | Equipos de Climatización          	| Mantienen las condiciones ambientales óptimas en salas de servidores y centros de datos para prevenir sobrecalentamientos, garantizando el rendimiento y la vida útil de los equipos.	| Alta  | - | - | -  | -  |
+| AUX004 | Cableado                          	| Infraestructura esencial que conecta y permite la comunicación entre dispositivos. Un diseño eficiente y seguro de cableado contribuye a la integridad y estabilidad de la red.        	| Alta | Media | -  | Media | Media |
+| AUX005 | Mobiliario: Armarios, etc.        	| Proporciona almacenamiento seguro y organizado para equipos, documentos y otros elementos esenciales, contribuyendo a la eficiencia y seguridad en la gestión del espacio de trabajo. | Media | -  | -  | - | - |
+
 
 
 ### 2.2.11 [L] Instalaciones
