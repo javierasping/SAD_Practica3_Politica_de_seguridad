@@ -133,12 +133,10 @@ Por lo que, aquí se abordan servicios relacionados con la información, comunic
 |--------|-------------------------------------------|--------------------------------------------------------------|-------|-------|-------|-------|-------|
 | S001   | Intranet                                   | Servicio de red interna para los empleados del bufete.        | Media | Media | Alta  | Media | Media |
 | S002   | Exchange Server  | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura.                              | Alta  | Alta  | Alta  | Alta  | Alta  |
-| S003   | FileShare        | Gestión segura de documentos y archivos utilizando un sistema de almacenamiento interno.                      | Alta  | Alta  | Alta  | Alta  | Alta  |
-| S004   | SFTP                                   | Intercambio seguro de archivos.                               | Media | Media | Media  | Media | Media |
-| S005   | Active Directory (AD)             | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows.                           | Alta  | Alta  | Alta  | Alta  | Alta  |
-| S006   | Servicio de compartición de directorios | Facilita la colaboración y compartición de archivos entre empleados.        | Alta  | Alta  | Media | Alta  | Alta  |
-| S007   | Software ARP                              | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios.| Media | Media | Baja  | Media | Media |
-| S008   | PKI - Infraestructura de clave pública  | Gestión segura de certificados y criptografía de clave pública.| Alta  | Alta  | Alta  | Alta  | Alta  |
+| S003   | SFTP                                   | Intercambio seguro de archivos.                               | Media | Media | Media  | Media | Media |
+| S004   | Active Directory (AD)             | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows.                           | Alta  | Alta  | Alta  | Alta  | Alta  |
+| S005   | Software ARP                              | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios.| Media | Media | Baja  | Media | Media |
+| S006   | PKI - Infraestructura de clave pública  | Gestión segura de certificados y criptografía de clave pública.| Alta  | Alta  | Alta  | Alta  | Alta  |
 
 
 Hay muchas más posibilidades pero he elegido estas porque sino seria interminable si no recortamos partes todos los miembros. 
