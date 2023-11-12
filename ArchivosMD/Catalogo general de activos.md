@@ -188,6 +188,7 @@ El bufete legal se basa en una infraestructura sólida y diversa, proporcionando
 | HW010  | Estación Docking para Portátiles          | Permite a las estaciones de trabajo portátiles conectarse fácilmente a periféricos de escritorio. | Media  | -  | - | -  | -  |
 | HW011  | Sistemas de Control de Acceso             | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. | Alta  | Alta  | Alta  | Alta  | Alta  |
 | HW012  | Pizarras Interactivas SMART                | Herramientas colaborativas para presentaciones y discusiones legales interactivas.               | Media | Media | Baja  | - | - |
+| HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. | Alta  | Alta  | Alta  | Media  | Alta  |
 
 
 Esta tabla incluye equipos adicionales como estaciones de acoplamiento, sistemas de control de acceso y pizarras interactivas, por mencionar algunos ejemplos más aparte de limitarme solamente a equipos.
