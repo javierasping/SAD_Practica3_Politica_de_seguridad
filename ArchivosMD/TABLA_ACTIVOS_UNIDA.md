@@ -1,36 +1,3 @@
-## 3 Identificación de amenazas
-<!-- https://www.pilar-tools.com/doc/magerit/v2/cat-es-v11.pdf -->
-
-En esta sección, nos enfocamos en la identificación exhaustiva de todas las amenazas potenciales que podrían representar un riesgo para nuestros recursos. Además, evaluamos las diversas dimensiones en las que estas amenazas pueden impactar. Para lograr este objetivo, creamos una ficha detallada para cada amenaza, en la cual documentamos los tipos de activos que podrían verse afectados y las dimensiones en las que dicha amenaza podría tener consecuencias.
-
-A través de este proceso, también revisamos nuestro inventario de activos en busca de aquellos que cumplen con las condiciones relacionadas con cada amenaza específica. Esta revisión minuciosa nos permite comprender mejor cómo nuestras valiosas propiedades y recursos podrían estar expuestos a diversos riesgos y peligros potenciales. Al identificar y documentar estas amenazas de manera precisa, estamos en una posición más sólida para tomar medidas preventivas y desarrollar estrategias de mitigación efectivas para proteger nuestros activos y garantizar la continuidad de nuestras operaciones.
-
-### 3.1 [DN] Desastres naturales
-
-#### 3.1 Fuego
-| N.1 Fuego |
-| --- |
-| **Tipos de Activos:** |
-| - [HW]: Equipos informáticos (hardware) |
-| - [Media]: Soportes de información |
-| - [Aux]: Equipamiento auxiliar |
-| - [L]: Instalaciones |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
-
-Este riesgo en concreto afecta a los siguientes activos :
-
-
-
-
-
-
-
-### 3.2 [OI] De origen industrial
-### 3.3 [NI] Errores y fallos no intencionados
-### 3.4 [AI] Ataques intencionados
-### 3.5 [AE] Amenazas del Entorno
-
 | Código | Nombre                                  | Descripción                                            |
 |--------|-----------------------------------------|--------------------------------------------------------|
 | AE001  | Archivo Digital de Casos                | Almacena información crítica de casos, indispensable para la práctica legal diaria. |
@@ -110,4 +77,3 @@ Este riesgo en concreto afecta a los siguientes activos :
 | L002   | Departamento Legal | Espacio en la primera planta dedicado a los abogados y profesionales legales, proporcionando un entorno adecuado para la prestación de servicios legales excepcionales. |
 | L003   | Centro Tecnológico | Segunda planta destinada a servidores y al equipo de más de 20 profesionales de TI, garantizando la infraestructura tecnológica necesaria para casos legales digitales.   |
 | L004   | Sala de Servidores | Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.               |
-
