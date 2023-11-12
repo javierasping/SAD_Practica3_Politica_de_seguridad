@@ -189,7 +189,7 @@ El bufete legal se basa en una infraestructura sólida y diversa, proporcionando
 | HW011  | Sistemas de Control de Acceso             | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. | Alta  | Alta  | Alta  | Alta  | Alta  |
 | HW012  | Pizarras Interactivas SMART                | Herramientas colaborativas para presentaciones y discusiones legales interactivas.               | Media | Media | Baja  | - | - |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. | Alta  | Alta  | Alta  | Media  | Alta  |
-| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | Alta  | Alta  | Alta  | -  | -  | -                            |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | Alta  | Alta  | Alta  | -  | -  | - |
 
 
 
