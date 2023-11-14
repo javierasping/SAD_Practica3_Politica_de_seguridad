@@ -92,7 +92,7 @@
 -------------
 Lista amenazas
 [N.1] Fuego					--> Obligatoria
-[N.2] Daños por agua					
+[N.2] Daños por agua		--> Obligatoria			
 
 [I.1] Contaminación mecánica
 [I.2] Avería de origen físico o lógico
@@ -112,10 +112,8 @@ Lista amenazas
 [AI.3] Conflicto Armado --> Obligatoria
 [AI.4] Phishing --> Obligatoria
 [AI.5] Robo --> Obligatoria
+[AI.6] Compromiso de credenciales --> Obligatoria
+[AI.7] Ataques de denegación de servicio SYN Flood --> Obligatoria
 
-
-
-Compromiso de credenciales
-Ataques de denegación de servicio SYN Flood
-Vulnerabilidades de las aplicaciones
-Fugas de información en la nube
+[AI.8] Vulnerabilidades de las aplicaciones
+[AI.9] Fugas de información en la nube

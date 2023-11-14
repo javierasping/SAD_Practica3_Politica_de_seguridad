@@ -49,6 +49,7 @@ Este riesgo afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
 | COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
@@ -112,6 +113,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
 | COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
@@ -169,6 +171,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
 | COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
@@ -237,6 +240,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
 | COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
@@ -397,6 +401,7 @@ Este riesgo  afecta a los siguientes activos :
 | COM008 | Red Privada Virtual (VPN)             | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información. |
 | HW005  | Enrutador Cisco Catalyst              | Enrutador utilizado para la conectividad de red y la implementación de medidas de seguridad. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | D001   | Casos legales en curso                 | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
 | D002   | Contratos y acuerdos                   | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
 | D003   | Información confidencial del cliente   | Datos sensibles de los clientes, como información financiera y personal. |
@@ -493,6 +498,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
 | COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
@@ -577,6 +583,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
 | COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
@@ -619,7 +626,7 @@ Este riesgo  afecta a los siguientes activos :
 
 
 #### 3.3.5 Fugas de información
-Las Fugas de información en la nube de información constituyen la divulgación no autorizada de datos confidenciales o sensibles de una organización. Pueden ocurrir debido a vulnerabilidades en la seguridad, errores humanos, actividades maliciosas o fallas técnicas. Estos escapes representan una amenaza significativa para la privacidad y la integridad de la información.
+Las Fugas de información de información constituyen la divulgación no autorizada de datos confidenciales o sensibles de una organización. Pueden ocurrir debido a vulnerabilidades en la seguridad, errores humanos, actividades maliciosas o fallas técnicas. Estos escapes representan una amenaza significativa para la privacidad y la integridad de la información.
 
 | NI.5 Escapes de información |
 | --- |
@@ -781,6 +788,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
 | COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
@@ -911,6 +919,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
 | COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
@@ -936,7 +945,7 @@ Este riesgo  afecta a los siguientes activos :
 | L003   | Centro Tecnológico | Segunda planta destinada a servidores y al equipo de más de 20 profesionales de TI, garantizando la infraestructura tecnológica necesaria para casos legales digitales.   |
 | L004   | Sala de Servidores | Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.               |
 
-#### 3.4.5 Phishing
+#### 3.4.4 Phishing
 El phishing es una forma de ciberataque que implica engañar a las personas para obtener información confidencial, como contraseñas, detalles de tarjetas de crédito u otra información sensible. Los atacantes suelen suplantar identidades o entidades confiables, enviando correos electrónicos o mensajes diseñados para parecer legítimos.
 
 | AI.4 Phishing |
@@ -977,7 +986,7 @@ Este riesgo podría llegar a afectar a los siguientes activos :
 
 El robo de dispositivos móviles es el acto de sustracción ilegal de teléfonos inteligentes, tabletas u otros dispositivos portátiles. Este incidente puede provocar la pérdida de información confidencial o sensible, exponiendo datos personales, financieros o laborales a personas no autorizadas.
 Esta amenaza incluye cualquier robo de material es propiedad de la empresa .
-| AI.4 c|
+| AI.5 Robo de dispositivos |
 | --- |
 | **Tipos de Activos:** |
 | - [P] Personal |
@@ -1004,20 +1013,260 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
-
-### 3.5 [AE] Amenazas del Entorno
-
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 
 
 
+#### 3.4.6 Compromiso de credenciales
+
+La amenaza de comprometer las credenciales de acceso representa un riesgo significativo para la seguridad de una organización. La pérdida o compromiso de credenciales puede abrir la puerta a accesos no autorizados, exponiendo información confidencial y poniendo en peligro la integridad de los sistemas. Este riesgo no solo implica la posibilidad de intrusiones externas, sino también amenazas internas potenciales si las credenciales caen en manos equivocadas. La introducción no autorizada a sistemas y datos sensibles puede tener consecuencias graves, desde la pérdida de la confianza del cliente hasta impactos financieros significativos.
+
+| AI.6 Compromiso de credenciales |
+| --- |
+| **Tipos de Activos:** |
+| - [I] Activos Esenciales - Activos críticos para la operación del bufete|
+| - [D] Datos / Información - Casos legales en curso|
+| - [K] Claves Criptográficas - Claves de acceso a información sensible|
+| - [S] Servicios - Servicios de investigación legal|
+| - [SW] Software - Aplicaciones informáticas - Sistema de gestión de casos|
+| - [COM] Redes de comunicaciones - Red interna del bufete|
+| - [Media] Soportes de información - Copias de seguridad en la nube|
+| **Dimensiones:** |
+| 1. [C] Confidencialidad|
+
+| Código | Nombre                                  | Descripción                                            |
+|--------|-----------------------------------------|--------------------------------------------------------|
+| AE001  | Archivo Digital de Casos                | Almacena información crítica de casos, indispensable para la práctica legal diaria. |
+| AE002  | Sistema de Comunicaciones               | Facilita la comunicación interna y externa, siendo vital para la colaboración y la prestación de servicios. |
+| AE003  | Base de datos de clientes               | Almacena información detallada sobre los clientes, incluyendo historial legal, preferencias y contactos. |
+| AE004  | Sistema de gestión financiera           | Herramienta que facilita la gestión financiera del bufete, incluyendo facturación, ingresos y gastos. |
+| AE005  | Plataforma de colaboración interna      | Espacio digital que permite la colaboración eficiente entre los miembros del bufete en documentos y proyectos. |
+| AS001  | Servidores Centrales                   | Componentes esenciales que respaldan la infraestructura informática, garantizando la disponibilidad y el rendimiento. |
+| AS002  | Red de Área Local (LAN)                | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos. |
+| AS003  | Sistema de seguridad de red            | Implementación de firewalls, antivirus y otras medidas para salvaguardar la integridad de la red. |
+| AS004  | Políticas de acceso y control          | Definición de políticas que regulan el acceso a la información y la administración de privilegios. |
+| AS005  | Infraestructura de respaldo            | Sistemas y procedimientos para realizar copias de seguridad periódicas y garantizar la disponibilidad de datos. |
+| D001   | Casos legales en curso                 | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
+| D002   | Contratos y acuerdos                   | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
+| D003   | Información confidencial del cliente   | Datos sensibles de los clientes, como información financiera y personal. |
+| D004   | Precedentes legales                    | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
+| D005   | Servicios Digitales                    | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete (Aquí abarca en tránsito y almacenados). |
+| KC001  | Claves de acceso a bases de datos      | Garantizan la seguridad de las bases de datos legales del bufete, evitando accesos no autorizados. |
+| KC002  | Claves de correo electrónico           | Aseguran la confidencialidad de las comunicaciones por correo electrónico dentro del bufete, protegiendo la privacidad de la correspondencia legal. |
+| KC003  | Claves de acceso a sistemas internos   | Utilizadas para acceder a sistemas internos que gestionan información crítica y legal, asegurando la autenticación de usuarios autorizados. |
+| KC004  | Claves de cifrado de documentos        | Protegen la integridad y confidencialidad de documentos legales almacenados en sistemas digitales, evitando accesos no autorizados y manipulación no autorizada. |
+| KC005  | Claves de firma digital                | Garantizan la autenticidad de documentos legales firmados digitalmente por el bufete, proporcionando una capa adicional de seguridad en transacciones electrónicas. |
+| S001   | Intranet                              | Servicio de red interna para los empleados del bufete. |
+| S002   | Exchange Server                       | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura. |
+| S003   | SFTP                                  | Intercambio seguro de archivos. |
+| S004   | Active Directory (AD)                 | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows. |
+| S005   | Software ARP                          | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios. |
+| S006   | PKI - Infraestructura de clave pública | Gestión segura de certificados y criptografía de clave pública. |
+| SW000  | Debian 12                             | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. |
+| SW001  | Windows 11                            | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. |
+| SW002  | Clio Manage                           | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. |
+| SW003  | Westlaw                               | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. |
+| SW004  | Microsoft Teams                       | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. |
+| SW005  | Clio Billing                          | Software de Facturación Legal. Gestiona la facturación de servicios legales. |
+| SW006  | NetDocuments                          | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. |
+| SW007  | Lex Machina                           | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. |
+| SW008  | LexisNexis                            | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. |
+| SW009  | Ravel Law                             | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. |
+| SW010  | QuickBooks Legal                      | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. |
+| SW011  | Zoom Meetings                         | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. |
+| SW012  | Varonis Data Security Platform        | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. |
+| SW013  | Symantec Encryption                   | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. |
+| COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
+| COM006 | Red de Área Local (LAN)               | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
+| COM007 | Red de Voz sobre IP (VoIP)           | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente. |
+| COM008 | Red Privada Virtual (VPN)             | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información. |
+| SI001  | Almacenamiento en Red (SAN)           | Proporciona un entorno de almacenamiento compartido que mejora la eficiencia y velocidad en el acceso a datos, crucial para operaciones que requieren alto rendimiento. |
+
+#### 3.4.7 Ataques de denegación de servicio SYN Flood
+
+Los ataques de denegación de servicio, y en particular el tipo conocido como SYN Flood, representan una seria amenaza para la disponibilidad y estabilidad de los sistemas informáticos. Este tipo de ataque busca abrumar un servidor con un volumen masivo de solicitudes de conexión TCP SYN, agotando los recursos y haciendo que la entidad objetivo sea incapaz de atender las solicitudes legítimas. El SYN Flood puede paralizar servicios críticos, afectar la experiencia del usuario y, en casos extremos, causar interrupciones prolongadas en la operatividad de la red.
+
+| AI.7 Phishing |
+| --- |
+| **Tipos de Activos:** |
+| - [I] Activos Esenciales - Activos críticos para la operación del bufete|
+| - [D] Datos / Información - Casos legales en curso|
+| - [S] Servicios - Servicios de investigación legal|
+| - [SW] Software - Aplicaciones informáticas - Sistema de gestión de casos|
+| - [COM] Redes de comunicaciones - Red interna del bufete|
+| **Dimensiones:** |
+| 1. [C] Confidencialidad|
+
+
+Este riesgo  afecta a los siguientes activos :
+
+| Código | Nombre                                  | Descripción                                            |
+|--------|-----------------------------------------|--------------------------------------------------------|
+| AE001  | Archivo Digital de Casos                | Almacena información crítica de casos, indispensable para la práctica legal diaria. |
+| AE002  | Sistema de Comunicaciones               | Facilita la comunicación interna y externa, siendo vital para la colaboración y la prestación de servicios. |
+| AE003  | Base de datos de clientes               | Almacena información detallada sobre los clientes, incluyendo historial legal, preferencias y contactos. |
+| AE004  | Sistema de gestión financiera           | Herramienta que facilita la gestión financiera del bufete, incluyendo facturación, ingresos y gastos. |
+| AE005  | Plataforma de colaboración interna      | Espacio digital que permite la colaboración eficiente entre los miembros del bufete en documentos y proyectos. |
+| AS001  | Servidores Centrales                   | Componentes esenciales que respaldan la infraestructura informática, garantizando la disponibilidad y el rendimiento. |
+| AS002  | Red de Área Local (LAN)                | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos. |
+| AS003  | Sistema de seguridad de red            | Implementación de firewalls, antivirus y otras medidas para salvaguardar la integridad de la red. |
+| AS004  | Políticas de acceso y control          | Definición de políticas que regulan el acceso a la información y la administración de privilegios. |
+| AS005  | Infraestructura de respaldo            | Sistemas y procedimientos para realizar copias de seguridad periódicas y garantizar la disponibilidad de datos. |
+| D001   | Casos legales en curso                 | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
+| D002   | Contratos y acuerdos                   | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
+| D003   | Información confidencial del cliente   | Datos sensibles de los clientes, como información financiera y personal. |
+| D004   | Precedentes legales                    | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
+| D005   | Servicios Digitales                    | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete (Aquí abarca en tránsito y almacenados). |
+| S001   | Intranet                              | Servicio de red interna para los empleados del bufete. |
+| S002   | Exchange Server                       | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura. |
+| S003   | SFTP                                  | Intercambio seguro de archivos. |
+| S004   | Active Directory (AD)                 | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows. |
+| S005   | Software ARP                          | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios. |
+| S006   | PKI - Infraestructura de clave pública | Gestión segura de certificados y criptografía de clave pública. |
+| SW000  | Debian 12                             | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. |
+| SW001  | Windows 11                            | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. |
+| SW002  | Clio Manage                           | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. |
+| SW003  | Westlaw                               | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. |
+| SW004  | Microsoft Teams                       | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. |
+| SW005  | Clio Billing                          | Software de Facturación Legal. Gestiona la facturación de servicios legales. |
+| SW006  | NetDocuments                          | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. |
+| SW007  | Lex Machina                           | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. |
+| SW008  | LexisNexis                            | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. |
+| SW009  | Ravel Law                             | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. |
+| SW010  | QuickBooks Legal                      | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. |
+| SW011  | Zoom Meetings                         | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. |
+| SW012  | Varonis Data Security Platform        | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. |
+| SW013  | Symantec Encryption                   | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. |
+| COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
+| COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
+| COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
+| COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
+| COM006 | Red de Área Local (LAN)               | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
+| COM007 | Red de Voz sobre IP (VoIP)           | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente. |
+| COM008 | Red Privada Virtual (VPN)             | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información. |
+| SI001  | Almacenamiento en Red (SAN)           | Proporciona un entorno de almacenamiento compartido que mejora la eficiencia y velocidad en el acceso a datos, crucial para operaciones que requieren alto rendimiento. |
+
+
+
+
+#### 3.4.8 Vulnerabilidades de las aplicaciones
+
+Las vulnerabilidades en las aplicaciones representan una puerta de entrada crítica para posibles amenazas cibernéticas, exponiendo sistemas a riesgos significativos de explotación. Estas debilidades pueden manifestarse en diversas formas, como fallos en la gestión de sesiones, validación insuficiente de datos de entrada, o incluso defectos en el diseño arquitectónico. La explotación exitosa de estas vulnerabilidades podría permitir a los atacantes el acceso no autorizado, la manipulación de datos o la interrupción de servicios esenciales.
+
+| AI.7 Vulnerabilidades de las aplicaciones |
+| --- |
+| **Tipos de Activos:** |
+| - [I] Activos Esenciales - Activos críticos para la operación del bufete|
+| - [D] Datos / Información - Casos legales en curso|
+| - [S] Servicios - Servicios de investigación legal|
+| - [SW] Software - Aplicaciones informáticas - Sistema de gestión de casos|
+| - [COM] Redes de comunicaciones - Red interna del bufete|
+| **Dimensiones:** |
+| 1. [D] Disponibilidad|
+| 2. [I] Integridad|
+| 3. [C] Confidencialidad|
+
+
+Este riesgo  afecta a los siguientes activos :
+
+| Código | Nombre                                  | Descripción                                            |
+|--------|-----------------------------------------|--------------------------------------------------------|
+| AE001  | Archivo Digital de Casos                | Almacena información crítica de casos, indispensable para la práctica legal diaria. |
+| AE002  | Sistema de Comunicaciones               | Facilita la comunicación interna y externa, siendo vital para la colaboración y la prestación de servicios. |
+| AE003  | Base de datos de clientes               | Almacena información detallada sobre los clientes, incluyendo historial legal, preferencias y contactos. |
+| AE004  | Sistema de gestión financiera           | Herramienta que facilita la gestión financiera del bufete, incluyendo facturación, ingresos y gastos. |
+| AE005  | Plataforma de colaboración interna      | Espacio digital que permite la colaboración eficiente entre los miembros del bufete en documentos y proyectos. |
+| AS001  | Servidores Centrales                   | Componentes esenciales que respaldan la infraestructura informática, garantizando la disponibilidad y el rendimiento. |
+| AS002  | Red de Área Local (LAN)                | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos. |
+| AS003  | Sistema de seguridad de red            | Implementación de firewalls, antivirus y otras medidas para salvaguardar la integridad de la red. |
+| AS004  | Políticas de acceso y control          | Definición de políticas que regulan el acceso a la información y la administración de privilegios. |
+| AS005  | Infraestructura de respaldo            | Sistemas y procedimientos para realizar copias de seguridad periódicas y garantizar la disponibilidad de datos. |
+| D001   | Casos legales en curso                 | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
+| D002   | Contratos y acuerdos                   | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
+| D003   | Información confidencial del cliente   | Datos sensibles de los clientes, como información financiera y personal. |
+| D004   | Precedentes legales                    | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
+| D005   | Servicios Digitales                    | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete (Aquí abarca en tránsito y almacenados). |
+| S001   | Intranet                              | Servicio de red interna para los empleados del bufete. |
+| S002   | Exchange Server                       | Plataforma de correo electrónico propia que facilita la comunicación electrónica segura. |
+| S003   | SFTP                                  | Intercambio seguro de archivos. |
+| S004   | Active Directory (AD)                 | Servicio centralizado propio para gestionar identidades y accesos en entornos Windows. |
+| S005   | Software ARP                          | Servicio que realiza el descubrimiento y mapeo de dispositivos en la red para gestionar altas, bajas y cambios en usuarios. |
+| S006   | PKI - Infraestructura de clave pública | Gestión segura de certificados y criptografía de clave pública. |
+| SW000  | Debian 12                             | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. |
+| SW001  | Windows 11                            | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. |
+| SW002  | Clio Manage                           | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. |
+| SW003  | Westlaw                               | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. |
+| SW004  | Microsoft Teams                       | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. |
+| SW005  | Clio Billing                          | Software de Facturación Legal. Gestiona la facturación de servicios legales. |
+| SW006  | NetDocuments                          | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. |
+| SW007  | Lex Machina                           | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. |
+| SW008  | LexisNexis                            | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. |
+| SW009  | Ravel Law                             | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. |
+| SW010  | QuickBooks Legal                      | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. |
+| SW011  | Zoom Meetings                         | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. |
+| SW012  | Varonis Data Security Platform        | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. |
+| SW013  | Symantec Encryption                   | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. |
+| COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
+| COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
+| COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
+| COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
+| COM006 | Red de Área Local (LAN)               | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
+| COM007 | Red de Voz sobre IP (VoIP)           | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente. |
+| COM008 | Red Privada Virtual (VPN)             | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información. |
+| SI001  | Almacenamiento en Red (SAN)           | Proporciona un entorno de almacenamiento compartido que mejora la eficiencia y velocidad en el acceso a datos, crucial para operaciones que requieren alto rendimiento. |
+
+#### 3.3.9 Fugas de información en la nube
+Las Fugas de información en la nube de información constituyen la divulgación no autorizada de datos confidenciales o sensibles de una organización. Pueden ocurrir debido a vulnerabilidades en la seguridad, errores humanos, actividades maliciosas o fallas técnicas. Estos escapes representan una amenaza significativa para la privacidad y la integridad de la información.
+
+| AI.9 Escapes de información |
+| --- |
+| **Tipos de Activos:** |
+| - [D] Datos / información|
+| - [SW] Aplicaciones (software)|
+| - [COM] Redes de comunicaciones |
+| **Dimensiones:** |
+| 1. [C] Confidencialidad|
+
+Este riesgo  afecta a los siguientes activos :
+
+
+| Código | Nombre                                  | Descripción                                            |
+|--------|-----------------------------------------|--------------------------------------------------------|
+| D001   | Casos legales en curso                 | Información detallada sobre los casos legales actuales, incluyendo clientes, detalles del caso y estado actual. |
+| D002   | Contratos y acuerdos                   | Documentación de contratos y acuerdos legales firmados con clientes y otras partes involucradas. |
+| D003   | Información confidencial del cliente   | Datos sensibles de los clientes, como información financiera y personal. |
+| D004   | Precedentes legales                    | Base de datos que contiene precedentes legales relevantes para casos en curso y futuros. |
+| D005   | Servicios Digitales                    | Se incluyen servicios tales como correo electrónico, almacenamiento de ficheros, y gestión de identidades. Estos servicios son fundamentales para la comunicación, colaboración y seguridad digital del bufete (Aquí abarca en tránsito y almacenados). |
+| SW000  | Debian 12                             | Sistema operativo confiable y de código abierto. Proporciona una base segura y estable para todas las operaciones. |
+| SW001  | Windows 11                            | Sistema operativo de Microsoft con una interfaz moderna y mejoras en seguridad y rendimiento. |
+| SW002  | Clio Manage                           | Sistema de Gestión de Casos Legales. Facilita el seguimiento y gestión de casos legales. |
+| SW003  | Westlaw                               | Herramientas de Investigación Legal. Proporciona acceso a bases de datos legales y recursos de investigación. |
+| SW004  | Microsoft Teams                       | Plataforma de Colaboración. Mejora la colaboración interna y externa facilitando la comunicación y el intercambio de documentos. |
+| SW005  | Clio Billing                          | Software de Facturación Legal. Gestiona la facturación de servicios legales. |
+| SW006  | NetDocuments                          | Plataforma de Gestión Documental. Organiza y almacena documentos legales de manera segura. |
+| SW007  | Lex Machina                           | Herramientas de Analítica Legal. Ofrece capacidades analíticas para evaluar tendencias legales. |
+| SW008  | LexisNexis                            | Plataforma de Investigación Legal. Facilita la búsqueda y análisis de jurisprudencia y legislación. |
+| SW009  | Ravel Law                             | Herramientas de Analítica Legal. Proporciona capacidades analíticas para evaluar tendencias legales. |
+| SW010  | QuickBooks Legal                      | Software de Administración Financiera. Gestiona aspectos financieros y contabilidad del bufete. |
+| SW011  | Zoom Meetings                         | Herramientas de Videoconferencia. Amplía las capacidades de comunicación remota. |
+| SW012  | Varonis Data Security Platform        | Plataforma de Gestión de Privilegios. Controla y audita los accesos a información confidencial. |
+| SW013  | Symantec Encryption                   | Sistemas de Cifrado de Comunicaciones. Asegura la privacidad de las comunicaciones. |
+| COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
+| COM004 | Red de Alta Seguridad Interna         | Configuración especializada para la transmisión segura de información crítica y confidencial dentro del bufete. |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Proporciona conectividad sin cables con los más altos estándares de seguridad para dispositivos internos. |
+| COM006 | Red de Área Local (LAN)               | Facilita la comunicación interna, conectando equipos y permitiendo el intercambio eficiente de datos dentro del bufete. |
+| COM007 | Red de Voz sobre IP (VoIP)           | Integra servicios de voz en la red, facilitando la comunicación telefónica interna y externa de manera eficiente. |
+| COM008 | Red Privada Virtual (VPN)             | Permite a empleados acceder de manera segura a la red interna desde ubicaciones externas, garantizando la confidencialidad de la información. |
 
 
 
 
 
-
-
-<!-- ----- -->
+<!-- Plantilla -->
+<!-- 
 | AI.3 Phishing |
 | --- |
 | **Tipos de Activos:** |
@@ -1093,6 +1342,7 @@ Este riesgo  afecta a los siguientes activos :
 | HW011  | Sistemas de Control de Acceso         | Dispositivos biométricos y de tarjetas para garantizar la seguridad en el acceso a áreas restringidas. |
 | HW012  | Pizarras Interactivas SMART           | Herramientas colaborativas para presentaciones y discusiones legales interactivas. |
 | HW013  | Switches Cisco Catalyst 2960              | Equipos de red para la gestión eficiente del tráfico y la conectividad en la infraestructura del bufete. |
+| HW014  | iPhone 13 Pro Max                        | Teléfono móvil para la comunicación y acceso a aplicaciones empresariales.                        | 
 | COM001 | Red de Invitados                      | Permite a visitantes acceder a Internet mientras mantiene separada la red interna, evitando riesgos de seguridad. |
 | COM002 | Red 5G para Dispositivos Móviles      | Brinda conectividad ultrarrápida y estable para dispositivos móviles utilizados por empleados y clientes. |
 | COM003 | Fibra Óptica                         | Conexión de banda ancha a Internet mediante la última tecnología de fibra óptica para transmisión de datos a altas velocidades. |
@@ -1116,4 +1366,4 @@ Este riesgo  afecta a los siguientes activos :
 | L001   | Edificio Principal | Moderno edificio de dos plantas ubicado en el corazón de Madrid, alberga las oficinas y salas de reuniones de los abogados, así como los servidores y equipos de TI. |
 | L002   | Departamento Legal | Espacio en la primera planta dedicado a los abogados y profesionales legales, proporcionando un entorno adecuado para la prestación de servicios legales excepcionales. |
 | L003   | Centro Tecnológico | Segunda planta destinada a servidores y al equipo de más de 20 profesionales de TI, garantizando la infraestructura tecnológica necesaria para casos legales digitales.   |
-| L004   | Sala de Servidores | Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.               |
+| L004   | Sala de Servidores | Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.               | -->
