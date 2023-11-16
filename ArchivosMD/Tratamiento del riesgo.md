@@ -1,6 +1,6 @@
 ## 6 Tratamiento del riesgo
 
-El tratamiento del riesgo consiste en aplicar medidas adecuadas para reducir, transferir, evitar o aceptar los riesgos identificados en la evaluación. En el contexto de nuestra firma legal, el tratamiento de riesgos se enfoca en la protección de activos críticos, asegurando la confidencialidad, integridad y disponibilidad de la información. Las siguientes medidas son propuestas específicas para cada activo identificado:
+El tratamiento del riesgo consiste en aplicar medidas adecuadas para reducir, transferir, evitar o aceptar los riesgos identificados en la evaluación. En el contexto de nuestra firma legal, el tratamiento de riesgos se enfoca en la protección de activos críticos, asegurando la confidencialidad, integridad y disponibilidad de la información.
 
 ### 6.1 [D][info] Datos / Información (tratamiento del riesgo)
 
