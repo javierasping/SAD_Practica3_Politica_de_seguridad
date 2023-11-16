@@ -12,10 +12,12 @@
 2. Identificación de amenazas(3)
     - Cruces Doval, Francisco Javier: Redacción del apartado
 3. Valoración de riesgos (4)
-    - Rodríguez García, David: Redacción del apartado 
-4. Estudio de medidas de protección (6)
     - Canalo González, José Antonio : Redacción del apartado
-5. Redacción de una política de seguridad(1)
+
+4. Estudio de medidas de protección (5)
+    - Rodríguez García, David: Redacción del apartado
+
+6. Redacción de una política de seguridad(1,6,7)
     - Responsabilidad grupal: Realización de la última fase
 
 # ÍNDICE
