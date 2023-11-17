@@ -1,5 +1,25 @@
 ## 5 Evaluación de salvaguardas
 
+### [D][info] Datos / Información (salvaguardas)
+
+| Código | Nombre del Activo | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|-------------------|-------------------|------------------------|-------------|
+| D001   | Casos legales en curso | Acceso no autorizado, Fuga de datos | Encriptación de datos, Control de acceso | Alta |
+| D002   | Contratos y acuerdos | Alteración no intencionada, Pérdida de datos | Gestión de versiones, Backups regulares | Alta |
+| D003   | Información confidencial del cliente | Divulgación de información, Phishing | Autenticación multifactor, Políticas de seguridad | Alta |
+| D004   | Precedentes legales | Corrupción de datos, Ataques cibernéticos | Sistemas de detección de intrusos, Actualizaciones de seguridad | Media |
+| D005   | Servicios Digitales | Interrupciones de servicio, Malware | Firewalls avanzados, Sistemas antivirus | Alta |
+
+### [K] Claves criptográficas (salvaguardas)
+
+| Código | Nombre del Activo | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|-------------------|-------------------|------------------------|-------------|
+| KC001  | Claves de acceso a bases de datos | Acceso no autorizado, Fuga de información | Gestión centralizada de claves, Rotación de claves | Alta |
+| KC002  | Claves de correo electrónico | Phishing, Interceptación de datos | Cifrado de correo electrónico, Educación de usuarios | Media |
+| KC003  | Claves de acceso a sistemas internos | Ataques cibernéticos, Suplantación de identidad | Autenticación robusta, Políticas de acceso | Alta |
+| KC004  | Claves de cifrado de documentos | Manipulación no autorizada, Acceso no autorizado | Cifrado de archivos, Control de acceso a documentos | Alta |
+| KC005  | Claves de firma digital | Suplantación de identidad, Ataques de intermediarios | Infraestructura de clave pública (PKI), Sellos de tiempo | Alta |
+
 ### [SW] Software – Aplicaciones informáticas (salvaguardas)
 
 | Código | Nombre del Software | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
