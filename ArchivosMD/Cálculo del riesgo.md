@@ -1,14 +1,48 @@
 1. Activos Esenciales (AE)
 
+| Código | Nombre                            | Tipo de Amenaza          | Dimensiones Afectadas             | Valoración de Impacto                               | Probabilidad  | Nivel de Riesgo |
+|--------|-----------------------------------|--------------------------|----------------------------------|-----------------------------------------------------|---------------|-----------------|
+| AE001  | Archivo Digital de Casos          | Errores de configuración  | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado)      | Media         | Alto            |
+| AE001  | Archivo Digital de Casos          | Errores de usuarios       | Operativa                        | Medio (pérdida de datos)                            | Media         | Medio           |
+| AE001  | Archivo Digital de Casos          | Ataques intencionados     | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado)      | Alta          | Alto            |
+| AE001  | Archivo Digital de Casos          | Ransomware                | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado)      | Alta          | Alto            |
+| AE001  | Archivo Digital de Casos          | Conflicto armado          | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado, conflicto armado) | Alta  | Alto |
+| AE001  | Archivo Digital de Casos          | Compromiso de credenciales| Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado, compromiso de credenciales) | Alta  | Alto |
+| AE001  | Archivo Digital de Casos          | Phishing                  | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado, Phishing) | Alta  | Alto |
+| AE001  | Archivo Digital de Casos          | Vulnerabilidades de las aplicaciones | Operativa, Confidencialidad | Alto (pérdida de datos y acceso no autorizado, Vulnerabilidades de las aplicaciones) | Alta  | Alto |
+| AE002  | Sistema de Comunicaciones         | Errores de configuración  | Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación) | Alta          | Alto            |
+| AE002  | Sistema de Comunicaciones         | Errores de usuarios       | Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación) | Alta          | Alto            |
+| AE002  | Sistema de Comunicaciones         | Ataques intencionados     | Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación) | Alta          | Alto            |
+| AE002  | Sistema de Comunicaciones         | Ransomware                | Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación) | Alta          | Alto            |
+| AE002  | Sistema de Comunicaciones         | Conflicto armado          | Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación, conflicto armado) | Alta  | Alto |
+| AE002  | Sistema de Comunicaciones         | Compromiso de credenciales| Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación, compromiso de credenciales) | Alta  | Alto |
+| AE002  | Sistema de Comunicaciones         | Phishing                  | Operativa, Reputacional          | Alto (interrupción de comunicaciones y pérdida de reputación, Phishing) | Alta  | Alto |
+| AE002  | Sistema de Comunicaciones         | Vulnerabilidades de las aplicaciones | Operativa, Reputacional | Alto (interrupción de comunicaciones y pérdida de reputación, Vulnerabilidades de las aplicaciones) | Alta  | Alto |
+| AE003  | Base de datos de clientes         | Errores de configuración  | Operativa, Confidencialidad      | Alto (pérdida de integridad de datos y acceso no autorizado) | Media         | Alto            |
+| AE003  | Base de datos de clientes         | Errores de usuarios       | Operativa                        | Alto (pérdida de integridad de datos)               | Alta          | Alto            |
+| AE003  | Base de datos de clientes         | Ataques intencionados     | Operativa, Confidencialidad      | Alto (pérdida de integridad de datos y acceso no autorizado) | Alta          | Alto            |
+| AE003  | Base de datos de clientes         | Ransomware                | Operativa, Confidencialidad      | Alto (pérdida de integridad de datos y acceso no autorizado) | Alta          | Alto            |
+| AE003  | Base de datos de clientes         | Conflicto armado          | Operativa, Confidencialidad      | Alto (pérdida de integridad de datos y acceso no autorizado, conflicto armado) | Alta  | Alto |
+| AE003  | Base de datos de clientes         | Compromiso de credenciales| Operativa, Confidencialidad      | Alto (pérdida de integridad de datos y acceso no autorizado, compromiso de credenciales) | Alta  | Alto |
+| AE003  | Base de datos de clientes         | Phishing                  | Operativa, Confidencialidad      | Alto (pérdida de integridad de datos y acceso no autorizado, Phishing) | Alta  | Alto |
+| AE003  | Base de datos de clientes         | Vulnerabilidades de las aplicaciones | Operativa, Confidencialidad | Alto (pérdida de integridad de datos y acceso no autorizado, Vulnerabilidades de las aplicaciones) | Alta  | Alto |
+| AE004  | Sistema de gestión financiera     | Errores de configuración  | Operativa, Financiera            | Alto (errores financieros y pérdida de datos)      | Media         | Alto            |
+| AE004  | Sistema de gestión financiera     | Errores de usuarios       | Operativa, Financiera            | Medio (errores financieros)                        | Media         | Medio           |
+| AE004  | Sistema de gestión financiera     | Ataques intencionados     | Operativa, Financiera            | Alto (errores financieros y pérdida de datos)      | Alta          | Alto            |
+| AE004  | Sistema de gestión financiera     | Ransomware                | Operativa, Financiera            | Alto (errores financieros y pérdida de datos)      | Alta          | Alto            |
+| AE004  | Sistema de gestión financiera     | Conflicto armado          | Operativa, Financiera            | Alto (errores financieros y pérdida de datos, conflicto armado) | Alta  | Alto |
+| AE004  | Sistema de gestión financiera     | Compromiso de credenciales| Operativa, Financiera            | Alto (errores financieros y pérdida de datos, compromiso de credenciales) | Alta  | Alto |
+| AE004  | Sistema de gestión financiera     | Phishing                  | Operativa, Financiera            | Alto (errores financieros y pérdida de datos, Phishing) | Alta  | Alto |
+| AE004  | Sistema de gestión financiera     | Vulnerabilidades de las aplicaciones | Operativa, Financiera | Alto (errores financieros y pérdida de datos, Vulnerabilidades de las aplicaciones) | Alta  | Alto |
+| AE005  | Plataforma de colaboración interna | Errores de configuración  | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado)      | Media         | Alto            |
+| AE005  | Plataforma de colaboración interna | Errores de usuarios       | Operativa                        | Medio (pérdida de datos)                            | Media         | Medio           |
+| AE005  | Plataforma de colaboración interna | Ataques intencionados     | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado)      | Alta          | Alto            |
+| AE005  | Plataforma de colaboración interna | Ransomware                | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado)      | Alta          | Alto            |
+| AE005  | Plataforma de colaboración interna | Conflicto armado          | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado, conflicto armado) | Alta  | Alto |
+| AE005  | Plataforma de colaboración interna | Compromiso de credenciales| Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado, compromiso de credenciales) | Alta  | Alto |
+| AE005  | Plataforma de colaboración interna | Phishing                  | Operativa, Confidencialidad      | Alto (pérdida de datos y acceso no autorizado, Phishing) | Alta  | Alto |
+| AE005  | Plataforma de colaboración interna | Vulnerabilidades de las aplicaciones | Operativa, Confidencialidad | Alto (pérdida de datos y acceso no autorizado, Vulnerabilidades de las aplicaciones) | Alta  | Alto |
 
-
-| Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
-|--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
-| AE001  | Archivo Digital de Casos         |                 |                      |                       |              |                 |
-| AE002  | Sistema de Comunicaciones        |                 |                      |                       |              |                 |
-| AE003  | Base de datos de clientes        |                 |                      |                       |              |                 |
-| AE004  | Sistema de gestión financiera    |                 |                      |                       |              |                 |
-| AE005  | Plataforma de colaboración interna |               |                      |                       |              |                 |
 
 2. Arquitectura del Sistema (AS)
 
@@ -16,7 +50,7 @@
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
-| AS001  | Servidores Centrales             |                 |                      |                       |              |                 |
+|   AS001   Servidores Centrales     Fuego                       Financiera       Medio (pérdida de datos y tiempo de trabajo)         Baja (control de incendios adecuado)          Bajo           |                 |                      |                       |              |                 |
 | AS002  | Red de Área Local (LAN)          |                 |                      |                       |              |                 |
 | AS003  | Sistema de seguridad de red      |                 |                      |                       |              |                 |
 | AS004  | Políticas de acceso y control    |                 |                      |                       |              |                 |
