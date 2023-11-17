@@ -8,7 +8,8 @@ Durante este proceso, tomamos en cuenta tanto elementos externos como internos, 
 
 ### 4.1 [info] Activos esenciales (impacto y riesgo)
 
-Los activos esenciales incluyen todos aquellos recursos críticos para la operación de la firma legal. Desde archivos de casos digitales hasta sistemas de gestión financiera, estos activos son vitales para mantener la continuidad del negocio y su seguridad jurídica. La interrupción o compromiso de estos activos podría tener consecuencias devastadoras tanto para la operatividad de la empresa como para su reputación en el mercado.
+Los recursos fundamentales abarcan todos aquellos elementos cruciales para el funcionamiento del bufete de abogados. Incluyen desde los archivos digitales de los casos hasta los sistemas que manejan las finanzas. Estos recursos son esenciales para asegurar que la empresa siga operando sin problemas y para proteger su integridad legal. Cualquier interrupción o vulneración de estos recursos podría resultar en impactos severos, no solo en el día a día de la empresa, sino también en su imagen y posición en el mercado.
+
 
 | Código | Nombre del Activo | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|-------------------|-----------------|-----------------------|-----------------------|---------------|-----------------|
