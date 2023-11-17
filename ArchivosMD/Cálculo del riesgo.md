@@ -1,6 +1,6 @@
 1. Activos Esenciales (AE)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -12,7 +12,7 @@ markdown
 
 2. Arquitectura del Sistema (AS)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -24,7 +24,7 @@ markdown
 
 3. Datos / Información (D)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -36,7 +36,7 @@ markdown
 
 4. Claves Criptográficas (KC)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -48,7 +48,7 @@ markdown
 
 5. Servicios (S)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -62,7 +62,7 @@ markdown
 
 6. Software / Aplicaciones (SW)
 
-markdown
+
 
 | Código | Nombre del software              | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -75,7 +75,7 @@ markdown
 
 7. Equipamiento Informático (Hardware) (HW)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -88,7 +88,7 @@ markdown
 
 8. Redes de Comunicaciones (COM)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -101,7 +101,7 @@ markdown
 
 9. Soportes de Información (Media) (SI)
 
-markdown
+
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -114,7 +114,6 @@ markdown
 
 10. Equipamiento Auxiliar (AUX)
 
-markdown
 
 | Código | Nombre                           | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
@@ -123,3 +122,15 @@ markdown
 | AUX003 | Equipos de Climatización         |                 |                      |                       |              |                 |
 | AUX004 | Cableado                         |                 |                      |                       |              |                 |
 | AUX005 | Mobiliario: Armarios, etc.       |                 |                      |                       |              |                 |
+
+11. Instalaciones (L)
+
+
+
+| Código | Nombre               | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
+|--------|----------------------|-----------------|----------------------|-----------------------|--------------|-----------------|
+| L001   | Edificio Principal   |                 |                      |                       |              |                 |
+| L002   | Departamento Legal   |                 |                      |                       |              |                 |
+| L003   | Centro Tecnológico   |                 |                      |                       |              |                 |
+| L004   | Sala de Servidores   |                 |                      |                       |              |                 |
+
