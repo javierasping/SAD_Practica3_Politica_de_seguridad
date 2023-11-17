@@ -10,14 +10,26 @@ Durante este proceso, tomamos en cuenta tanto elementos externos como internos, 
 
 Los recursos fundamentales abarcan todos aquellos elementos cruciales para el funcionamiento del bufete de abogados. Incluyen desde los archivos digitales de los casos hasta los sistemas que manejan las finanzas. Estos recursos son esenciales para asegurar que la empresa siga operando sin problemas y para proteger su integridad legal. Cualquier interrupción o vulneración de estos recursos podría resultar en impactos severos, no solo en el día a día de la empresa, sino también en su imagen y posición en el mercado.
 
+| Código | Nombre del Activo                     | Tipo de Amenaza    | Dimensiones Afectadas                      | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
+|--------|--------------------------------------|--------------------|-------------------------------------------|-----------------------|--------------|-----------------|
+| AE001  | Archivo Digital de Casos              | Fuego              | Disponibilidad, Integridad, Confidencialidad | Alta                  | Media        | Alto            |
+| AE001  | Archivo Digital de Casos              | Inundación         | Disponibilidad, Integridad, Confidencialidad | Alta                  | Media        | Alto            |
+| AE002  | Sistema de Comunicaciones             | Fuego              | Disponibilidad                             | Alta                  | Media        | Alto            |
+| AE002  | Sistema de Comunicaciones             | Inundación         | Disponibilidad                             | Alta                  | Media        | Alto            |
+| AE002  | Sistema de Comunicaciones             | Corte eléctrico    | Disponibilidad                             | Alta                  | Media        | Alto            |
+| AE003  | Base de datos de clientes             | Fuego              | Disponibilidad, Integridad, Confidencialidad | Alta                  | Media        | Alto            |
+| AE003  | Base de datos de clientes             | Inundación         | Disponibilidad, Integridad, Confidencialidad | Alta                  | Media        | Alto            |
+| AE003  | Base de datos de clientes             | Errores de Usuario | Disponibilidad, Integridad, Confidencialidad | Alta                  | Media        | Alto            |
+| AE004  | Sistema de gestión financiera         | Fuego              | Disponibilidad, Integridad                 | Alta                  | Baja         | Medio           |
+| AE004  | Sistema de gestión financiera         | Avería lógica      | Disponibilidad, Integridad                 | Alta                  | Baja         | Medio           |
+| AE005  | Plataforma de colaboración interna    | Inundación         | Disponibilidad, Integridad                 | Alta                  | Baja         | Medio           |
+| AE005  | Plataforma de colaboración interna    | Errores de Usuario | Disponibilidad, Integridad                 | Alta                  | Baja         | Medio           |
 
-| Código | Nombre del Activo | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
-|--------|-------------------|-----------------|-----------------------|-----------------------|---------------|-----------------|
-| AE001  | Archivo Digital de Casos | Fuego, Inundación | Disponibilidad, Integridad, Confidencialidad | Alta | Media | Alto |
-| AE002  | Sistema de Comunicaciones | Fuego, Inundación, Corte eléctrico | Disponibilidad | Alta | Media | Alto |
-| AE003  | Base de datos de clientes | Fuego, Inundación, Errores de Usuario | Disponibilidad, Integridad, Confidencialidad | Alta | Media | Alto |
-| AE004  | Sistema de gestión financiera | Fuego, Avería lógica | Disponibilidad, Integridad | Alta | Baja | Medio |
-| AE005  | Plataforma de colaboración interna | Inundación, Errores de Usuario | Disponibilidad, Integridad | Alta | Baja | Medio |
+
+
+
+
+
 
 ### 4.2 [D] Datos / Información (impacto y riesgo)
 
