@@ -1,0 +1,72 @@
+## 5 Evaluación de salvaguardas
+
+### [SW] Software – Aplicaciones informáticas (salvaguardas)
+
+| Código | Nombre del Software | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|---------------------|-------------------|------------------------|-------------|
+| SW000  | Debian 12 | Vulnerabilidades del sistema | Parches de seguridad regulares, Auditorías de seguridad | Alta |
+| SW001  | Windows 11 | Malware, Ataques cibernéticos | Actualizaciones automáticas, Protección antivirus | Alta |
+| SW002  | Clio Manage | Pérdida de datos, Interrupciones de servicio | Backups en la nube, Alta disponibilidad | Media |
+| SW003  | Westlaw | Acceso no autorizado, Fuga de información | Autenticación robusta, Encriptación de datos | Alta |
+| SW004  | Microsoft Teams | Interceptación de datos, Malware | Comunicaciones cifradas, Gestión de identidades y accesos | Alta |
+
+### [HW] Equipamiento informático (hardware) (salvaguardas)
+
+| Código | Nombre del Hardware | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|---------------------|-------------------|------------------------|-------------|
+| HW000  | Servidores Dell PowerEdge | Fallos de hardware, Cortes de energía | Sistemas UPS, Mantenimiento preventivo | Alta |
+| HW001  | Estación de Trabajo HP ZBook | Robo, Daño físico | Seguridad física, Cifrado de disco completo | Media |
+| HW002  | PC de Escritorio Lenovo ThinkCentre | Malware, Ataques cibernéticos | Software de seguridad, Actualizaciones regulares | Alta |
+| HW003  | Dispositivos de Almacenamiento Synology | Fallos de hardware, Pérdida de datos | RAID, Backups regulares | Alta |
+| HW004  | Impresoras HP LaserJet | Acceso no autorizado, Fallos de hardware | Gestión de acceso a la impresora, Mantenimiento regular | Media |
+
+### [COM] Redes de comunicaciones (salvaguardas)
+
+| Código | Nombre de la Red | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|------------------|-------------------|------------------------|-------------|
+| COM001 | Red de Invitados | Acceso no autorizado, Malware | Aislamiento de red, Monitorización de tráfico | Alta |
+| COM002 | Red 5G para Dispositivos Móviles | Interrupciones de servicio, Ataques cibernéticos | Tecnología de seguridad 5G, Gestión de dispositivos móviles | Alta |
+| COM003 | Fibra Óptica | Daño físico, Interrupción de servicio | Protección física, Redundancia de ruta | Media |
+| COM004 | Red de Alta Seguridad Interna | Ataques cibernéticos, Fuga de datos | Firewalls de última generación, Segmentación de red | Alta |
+| COM005 | Red Inalámbrica Segura (WPA3) | Ataques cibernéticos, Intercepción de datos | WPA3, Monitorización y gestión de acceso | Alta |
+
+### [Media] Soportes de información (salvaguardas)
+
+| Código | Nombre del Soporte | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|--------------------|-------------------|------------------------|-------------|
+| SI001  | Almacenamiento en Red (SAN) | Pérdida de datos, Fallos técnicos | Sistemas de redundancia, Protocolos de recuperación | Alta |
+| SI002  | Disco Duro Externo | Pérdida, Daño físico | Cifrado de datos, Carcasas protectoras | Media |
+| SI003  | Tarjeta de Memoria | Pérdida, Daño físico | Cifrado de datos, Uso restringido | Media |
+| SI004  | Almacenamiento en la Nube | Ataques cibernéticos, Interrupciones de servicio | Autenticación multifactor, Acuerdos de nivel de servicio (SLA) | Alta |
+| SI005  | Disco Óptico (DVD) | Degradación, Daño físico | Almacenamiento en condiciones controladas, Digitalización | Baja |
+
+### [AUX] Equipamiento auxiliar (
+
+salvaguardas)
+
+| Código | Nombre del Auxiliar | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|---------------------|-------------------|------------------------|-------------|
+| AUX001 | Fuentes de Alimentación | Cortes de energía, Fallos técnicos | Sistemas UPS, Mantenimiento regular | Alta |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | Cortes de energía, Fallos técnicos | Mantenimiento de baterías, Pruebas regulares | Alta |
+| AUX003 | Equipos de Climatización | Sobrecalentamiento, Fallos técnicos | Mantenimiento preventivo, Monitorización de temperatura | Alta |
+| AUX004 | Cableado Estructurado | Daño físico, Sabotaje | Canalizaciones protegidas, Gestión de cableado | Alta |
+| AUX005 | Generadores Eléctricos | Cortes de energía prolongados, Desastres naturales | Generadores de respaldo, Combustible almacenado | Media |
+
+### [L] Instalaciones (salvaguardas)
+
+| Código | Nombre de la Instalación | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|---------------------------|-------------------|------------------------|-------------|
+| L001   | Edificio Principal | Fuego, Inundación, Terremoto | Sistemas contra incendios, Seguro de propiedad | Alta |
+| L002   | Departamento Legal | Acceso no autorizado, Fuego | Control de acceso, Detectores de humo | Alta |
+| L003   | Centro Tecnológico | Ataques cibernéticos, Fuego | Sala segura, Sistemas de supresión de fuego | Alta |
+| L004   | Sala de Servidores | Sobrecalentamiento, Fallos de hardware | Climatización controlada, Mantenimiento de hardware | Alta |
+
+### [P] Personal (salvaguardas)
+
+| Código | Rol del Personal | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
+|--------|------------------|-------------------|------------------------|-------------|
+| P001   | Abogados | Errores de Usuario, Fraude | Capacitación en seguridad, Políticas de manejo de información | Alta |
+| P002   | Personal de TI | Errores de Usuario, Ataques cibernéticos | Certificaciones profesionales, Protocolos de seguridad | Alta |
+| P003   | Personal Administrativo | Errores de Usuario, Divulgación de información | Controles de acceso a datos, Acuerdos de confidencialidad | Alta |
+| P004   | Personal de Seguridad | Sabotaje, Acceso no autorizado | Verificación de antecedentes, Entrenamiento en seguridad física | Alta |
+| P005   | Personal de Mantenimiento | Errores de Usuario, Daño accidental | Protocolos de trabajo, Seguros de responsabilidad | Media |
