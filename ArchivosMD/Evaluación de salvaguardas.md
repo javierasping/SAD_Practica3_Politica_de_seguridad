@@ -105,9 +105,11 @@ La presente evaluación es el resultado de una colaboración estrecha entre los 
 | P004   | Personal de Seguridad | Sabotaje, Acceso no autorizado | Verificación de antecedentes, Entrenamiento en seguridad física | Alta |
 | P005   | Personal de Mantenimiento | Errores de Usuario, Daño accidental | Protocolos de trabajo, Seguros de responsabilidad | Media |
 
-### Medidas
+## Descripcion de medidas para aplicar.
 
-#### Protección Avanzada de Datos e Información
+--------------------------------------------------------------------------------------------
+### Protección Avanzada de Datos e Información
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - D001, Casos legales en curso
@@ -144,8 +146,10 @@ Responsable de seguridad de la información o CISO (Chief Information Security O
 
 Este proyecto busca no solo cumplir con las normativas de protección de datos más estrictas sino también reforzar la confianza de los clientes en la capacidad del bufete para proteger su información. La finalización exitosa de este proyecto es esencial para la integridad y reputación de la firma.
 
+--------------------------------------------------------------------------------------------
+### Protección Avanzada de Claves Criptográficas
+--------------------------------------------------------------------------------------------
 
-#### Protección Avanzada de Claves Criptográficas
 
 **Activos que se protegen:**
 - KC001, Claves de acceso a bases de datos
@@ -178,8 +182,9 @@ Responsable de seguridad de la información o CISO.
 - Configuración de la rotación automática de claves.
 - Desarrollo de materiales de formación y realización de sesiones de capacitación.
 
-
-#### Fortalecimiento de Software y Aplicaciones
+--------------------------------------------------------------------------------------------
+### Fortalecimiento de Software y Aplicaciones
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - SW000, Debian 12
@@ -212,8 +217,9 @@ Equipo de TI, bajo la supervisión del CISO.
 - Realizar auditorías periódicas de seguridad del sistema.
 - Renovar y actualizar suscripciones de software antivirus y herramientas de seguridad.
 
-
-#### Seguridad de Hardware Informático
+--------------------------------------------------------------------------------------------
+### Seguridad de Hardware Informático
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - HW000, Servidores Dell PowerEdge
@@ -245,8 +251,9 @@ Departamento de Infraestructura TI.
 - Desarrollo de un programa de mantenimiento preventivo.
 - Formación del personal en el manejo y cuidado del hardware.
 
-
-#### Optimización de la Red de Comunicaciones
+--------------------------------------------------------------------------------------------
+### Optimización de la Red de Comunicaciones
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - COM001, Red de Invitados
@@ -277,8 +284,9 @@ Responsable de redes y seguridad.
 - Configuración y puesta en marcha de firewalls avanzados.
 - Monitoreo y ajuste continuo de las políticas de seguridad de la red.
 
-
-#### Protección de Medios de Almacenamiento de Información
+--------------------------------------------------------------------------------------------
+### Protección de Medios de Almacenamiento de Información
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - SI001, Almacenamiento en Red (SAN)
@@ -313,8 +321,9 @@ Equipo de gestión de datos y almacenamiento.
 - Implementación de soluciones de cifrado para discos duros externos y almacenamiento en la nube.
 - Establecimiento de políticas para el manejo seguro de tarjetas de memoria y DVDs.
 
-
-#### Fortificación de Equipamiento Auxiliar
+--------------------------------------------------------------------------------------------
+### Fortificación de Equipamiento Auxiliar
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - AUX001, Fuentes de Alimentación
@@ -349,7 +358,9 @@ Equipo de mantenimiento de instalaciones y operaciones.
 - Pruebas periódicas de los SAI y generadores para asegurar su funcionamiento óptimo.
 - Revisión y mejora del cableado estructurado para prevenir fallos y optimizar el rendimiento.
 
-#### Aseguramiento de las Instalaciones
+--------------------------------------------------------------------------------------------
+### Aseguramiento de las Instalaciones
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - L001, Edificio Principal
@@ -383,7 +394,9 @@ Administrador de las instalaciones y seguridad física.
 - Implementación de controles de acceso biométricos y circuito cerrado de televisión (CCTV).
 - Elaboración de planes de contingencia y realización de simulacros de emergencia.
 
-#### Capacitación y Concienciación del Personal
+--------------------------------------------------------------------------------------------
+### Capacitación y Concienciación del Personal
+--------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - P001, Abogados
