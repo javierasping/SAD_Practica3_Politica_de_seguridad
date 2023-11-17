@@ -26,6 +26,18 @@ Los recursos fundamentales abarcan todos aquellos elementos cruciales para el fu
 | AE005  | Plataforma de colaboración interna    | Errores de Usuario | Disponibilidad, Integridad                 | Alta                  | Baja         | Medio           |
 
 
+Arquitectura del sistema
+
+
+| Código | Nombre                        | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
+|--------|-------------------------------|-----------------|-----------------------|-----------------------|--------------|-----------------|
+| AS001  | Servidores Centrales          |                 |                       |                       |              |                 |
+| AS002  | Red de Área Local (LAN)       |                 |                       |                       |              |                 |
+| AS003  | Sistema de seguridad de red   |                 |                       |                       |              |                 |
+| AS004  | Políticas de acceso y control |                 |                       |                       |              |                 |
+| AS005  | Infraestructura de respaldo   |                 |                       |                       |              |                 |
+
+
 
 
 ### 4.2 [D] Datos / Información (impacto y riesgo)
