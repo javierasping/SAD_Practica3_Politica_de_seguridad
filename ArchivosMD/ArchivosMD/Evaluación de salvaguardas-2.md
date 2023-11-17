@@ -1,5 +1,21 @@
 ## 5 Evaluación de salvaguardas
 
+La evaluación de salvaguardas es un componente crítico en la gestión de la seguridad informática. Se realiza tras un análisis exhaustivo de los riesgos asociados a cada activo dentro de la organización. Esta evaluación toma en cuenta las amenazas potenciales y las contramedidas establecidas para mitigarlas. La metodología aplicada se basa en los principios de MAGERIT (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información), que es un estándar reconocido para la administración de riesgos informáticos.
+
+El proceso comienza con la identificación de activos críticos, seguido de un análisis de las amenazas y vulnerabilidades que los afectan. Posteriormente, se revisan las salvaguardas existentes, que son los controles y medidas de seguridad implementados para proteger estos activos. La efectividad de estas salvaguardas se evalúa en términos de su capacidad para reducir la probabilidad de ocurrencia de una amenaza o minimizar su impacto. Esta evaluación considera varios factores, como la adecuación de la salvaguarda al riesgo específico, la fiabilidad de la implementación y la respuesta ante incidentes previos.
+
+La efectividad de las salvaguardas se clasifica en tres niveles:
+
+- **Alta**: Indica que la salvaguarda reduce significativamente la probabilidad de la amenaza o su impacto potencial, y que hay evidencia sólida de su desempeño efectivo.
+- **Media**: Sugiere que la salvaguarda tiene una capacidad moderada de mitigación y puede requerir ajustes o refuerzos adicionales para ser completamente efectiva.
+- **Baja**: Refleja que la salvaguarda ofrece una protección mínima y es necesaria una revisión urgente para mejorar la seguridad del activo.
+
+La tabla siguiente muestra la evaluación de las salvaguardas para varios activos, resaltando las amenazas potenciales identificadas y la efectividad de las medidas de protección aplicadas. Esta información es vital para la toma de decisiones informadas sobre dónde enfocar los esfuerzos de mejora en la infraestructura de seguridad.
+
+Es importante resaltar que la seguridad es un proceso dinámico. La organización debe revisar continuamente la efectividad de sus salvaguardas frente a un panorama de amenazas en constante evolución y adaptar sus estrategias de protección en consecuencia. Estas tablas se actualizan regularmente para reflejar los cambios en la infraestructura, las prácticas de trabajo y el entorno tecnológico.
+
+La presente evaluación es el resultado de una colaboración estrecha entre los equipos de seguridad, TI y las unidades de negocio, asegurando que la protección de los activos está alineada con las necesidades y los objetivos estratégicos de la organización.
+
 ### [D][info] Datos / Información (salvaguardas)
 
 | Código | Nombre del Activo | Amenaza Potencial | Salvaguardas Aplicadas | Efectividad |
