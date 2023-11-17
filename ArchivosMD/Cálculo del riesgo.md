@@ -46,15 +46,20 @@ Las claves criptográficas protegen la confidencialidad e integridad de la infor
 
 El software y las aplicaciones informáticas son herramientas fundamentales para la prestación de servicios legales y administrativos. Un fallo o vulnerabilidad en estos sistemas puede llevar a una parálisis en las operaciones, así como a posibles brechas de seguridad.
 
-| Código | Nombre del Activo | Tipo de Amenaza | Dimensiones Afectadas | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
-|--------|-------------------|-----------------|-----------------------|-----------------------|---------------|-----------------|
-| SW000  | Debian 12 | Malware, Avería lógica | Disponibilidad, Integridad | Alta | Media | Alto |
-| SW001  | Windows 11 | Malware, Vulnerabilidades | Disponibilidad, Integridad, Confidencialidad | Alta | Alta | Alto |
-| SW002  | Clio Manage | Avería
-
- lógica, Ataque cibernético | Disponibilidad, Integridad | Alta | Media | Alto |
-| SW003  | Westlaw | Fuga de información | Confidencialidad | Alta | Baja | Medio |
-| SW004  | Microsoft Teams | Interrupción de servicio | Disponibilidad | Alta | Media | Alto |
+| Código | Nombre del Activo        | Tipo de Amenaza           | Dimensiones Afectadas              | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
+|--------|--------------------------|---------------------------|------------------------------------|-----------------------|--------------|-----------------|
+| SW000  | Debian 12                | Malware, Avería lógica    | Disponibilidad, Integridad         | Alta                  | Media        | Alto            |
+| SW001  | Windows 11               | Malware, Vulnerabilidades | Disponibilidad, Integridad, Confidencialidad | Alta | Alta | Alto |
+| SW002  | Clio Manage              | Avería lógica, Ataque cibernético | Disponibilidad, Integridad | Alta | Media | Alto |
+| SW003  | Westlaw                  | Fuga de información       | Confidencialidad                    | Alta                  | Baja         | Medio           |
+| SW004  | Microsoft Teams          | Interrupción de servicio  | Disponibilidad                     | Alta                  | Media        | Alto            |
+| SW005  | Software de Gestión de Casos | Ataque cibernético, Errores de Usuario | Disponibilidad, Integridad, Confidencialidad | Alta | Media | Alto |
+| SW006  | Herramientas de Investigación Legal | Pérdida de datos, Acceso no autorizado | Confidencialidad, Integridad | Alta | Baja | Medio |
+| SW007  | Sistema de Facturación Legal | Errores de Usuario, Avería lógica | Disponibilidad, Integridad | Alta | Media | Alto |
+| SW008  | Plataforma de Gestión Documental | Ataque cibernético, Fuga de información | Confidencialidad, Integridad | Alta | Media | Alto |
+| SW009  | Software de Administración Financiera | Fraude, Avería lógica | Disponibilidad, Integridad, Confidencialidad | Alta | Baja | Medio |
+| SW010  | Cliente de correo electrónico | Phishing, Malware | Disponibilidad, Confidencialidad | Alta | Media | Alto |
+| SW011  | Suite Ofimática           | Vulnerabilidades, Malware | Disponibilidad, Integridad | Alta | Media | Alto |
 
 ### 4.5 [HW] Equipamiento informático (hardware) (impacto y riesgo)
 
