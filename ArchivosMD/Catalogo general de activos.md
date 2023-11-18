@@ -33,9 +33,9 @@ La valoración se realiza utilizando una escala, que puede ser numérica (por ej
 
 | Número | Tipo de Activo                            | Descripción                                      |
 |--------|------------------------------------------|--------------------------------------------------|
-| 1      | [I] Activos Esenciales                   | Activos críticos para la operación del bufete    |
+| 1      | [AE] Activos Esenciales                   | Activos críticos para la operación del bufete    |
 | 2      | [D] Datos / Información                   | Casos legales en curso                           |
-| 3      | [K] Claves Criptográficas                 | Claves de acceso a información sensible          |
+| 3      | [KC] Claves Criptográficas                 | Claves de acceso a información sensible          |
 | 4      | [S] Servicios                             | Servicios de investigación legal                 |
 | 5      | [SW] Software - Aplicaciones informáticas | Sistema de gestión de casos                       |
 | 6      | [HW] Equipamiento informático (hardware)  | Computadoras y servidores                        |
@@ -54,7 +54,7 @@ Estas fichas (mas bien herramientas prácticas) ayudan a documentar y organizar 
 
 
 
-### 2.2.1 [I] Activos esenciales
+### 2.2.1 [AE] Activos esenciales
 
 Los activos esenciales forman el núcleo de la infraestructura, comprendiendo elementos vitales para el funcionamiento del bufete. Estos pueden incluir información crítica, servicios fundamentales, y cualquier otro componente que sea indispensable para la operatividad diaria.
 
@@ -71,7 +71,7 @@ Estos activos no solo son esenciales para la operación interna, sino que tambi�
 
 
 
-### 2.2.2 [A] Arquitectura del sistema
+### 2.2.2 [AS] Arquitectura del sistema
 
 La arquitectura del sistema engloba los elementos que sustentan la infraestructura tecnológica del bufete. Estos pueden abarcar desde servidores y redes hasta la disposición física de los equipos.
 

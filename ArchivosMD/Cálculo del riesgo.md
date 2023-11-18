@@ -1,3 +1,5 @@
+#### 4.1 [AE] Activos esenciales
+
 | Código | Nombre                               | Tipo de Amenaza                       | Dimensiones Afectadas              | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|--------------------------------------|--------------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
 | AE001  | Archivo Digital de Casos             | Errores de configuración             | Operaciones, Legal                | Bajo                 | Media        | Bajo            |
@@ -38,8 +40,7 @@
 | AE004  | Sistema de gestión financiera        | Compromiso de credenciales           | Legal, Financiero                 | Alto                 | Media        | Alto            |
 | AE004  | Sistema de gestión financiera        | Phishing                             | Financiero, Confidencialidad      | Moderado             | Alta         | Medio           |
 | AE004  | Sistema de gestión financiera        | Vulnerabilidades de aplicaciones     | Técnico, Financiero               | Moderado             | Media        | Medio           |
-| AE004  | Sistema de gestión financiera        | Acceso no autorizado al CPD          | Financiero, Operaciones           | Alto                 | Baja         | Alto    
-        |
+| AE004  | Sistema de gestión financiera        | Acceso no autorizado al CPD          | Financiero, Operaciones           | Alto                 | Baja         | Alto            |
 | AE004  | Base de datos de clientes            | SYN Flood                            | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
 | AE005  | Plataforma de colaboración interna   | Errores de configuración             | Operaciones, Comunicaciones       | Bajo                 | Media        | Bajo            |
 | AE005  | Plataforma de colaboración interna   | Errores de usuarios                  | Confidencialidad, Comunicaciones  | Bajo                 | Alta         | Medio           |
@@ -55,7 +56,7 @@
 
 
 
-2. Arquitectura del Sistema (AS)
+#### 4.2 [AS] Arquitectura del Sistema 
 
 | Código | Nombre                                 | Tipo de Amenaza                 | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|----------------------------------------|---------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
@@ -92,7 +93,7 @@
 | AS005  | Infraestructura de respaldo            | SYN Flood                       | Operaciones, Técnico              | Bajo                 | Media        | Bajo            |
 | AS005  | Infraestructura de respaldo            | Vulnerabilidad de Aplicaciones  | Financiero, Operaciones           | Moderado             | Media        | Medio           |
 
-3. Datos / Información (D)
+#### 4.3 [D] Datos / Información 
 
 | Código | Nombre                               | Tipo de Amenaza                  | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|--------------------------------------|----------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
@@ -124,8 +125,6 @@
 | D002   | Contratos y acuerdos                 | SYN Flood                        | Técnico, Operaciones              | Bajo                 | Media        | Bajo            |
 | D002   | Contratos y acuerdos                 | Vulnerabilidad de Aplicaciones   | Técnico, Legal                    | Moderado             | Media        | Medio           |
 | D002   | Contratos y acuerdos                 | Escape de Información            | Confidencialidad, Legal           | Alto                 | Media        | Alto            |
-| Código | Nombre                               | Tipo de Amenaza                  | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
-|--------|--------------------------------------|----------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
 | D003   | Información confidencial del cliente | Errores de los Usuarios          | Confidencialidad, Legal           | Bajo                 | Alta         | Medio           |
 | D003   | Información confidencial del cliente | Fuego                            | Confidencialidad, Operaciones     | Moderado             | Baja         | Medio           |
 | D003   | Información confidencial del cliente | Inundaciones                     | Confidencialidad, Legal           | Bajo                 | Baja         | Bajo            |
@@ -140,8 +139,6 @@
 | D003   | Información confidencial del cliente | SYN Flood                        | Técnico, Confidencialidad         | Bajo                 | Media        | Bajo            |
 | D003   | Información confidencial del cliente | Vulnerabilidad de Aplicaciones   | Técnico, Confidencialidad         | Moderado             | Media        | Medio           |
 | D003   | Información confidencial del cliente | Escape de Información            | Confidencialidad, Legal           | Alto                 | Media        | Alto            |
-| Código | Nombre                               | Tipo de Amenaza                  | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
-|--------|--------------------------------------|----------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
 | D004   | Precedentes legales                  | Errores de los Usuarios          | Legal, Operaciones                | Bajo                 | Alta         | Medio           |
 | D004   | Precedentes legales                  | Fuego                            | Legal, Operaciones                | Moderado             | Baja         | Medio           |
 | D004   | Precedentes legales                  | Inundaciones                     | Legal, Operaciones                | Bajo                 | Baja         | Bajo            |
@@ -171,7 +168,7 @@
 | D005   | Servicios Digitales                  | Vulnerabilidad de Aplicaciones   | Técnico, Operaciones              | Moderado             | Media        | Medio           |
 | D005   | Servicios Digitales                  | Escape de Información            | Técnico, Confidencialidad         | Alto                 | Media        | Alto            |
 
-4. Claves Criptográficas
+#### 4.4 [KC] Claves Criptográficas
 
 | Código | Nombre                               | Tipo de Amenaza                  | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|--------------------------------------|----------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
@@ -199,7 +196,7 @@
 
 
 
-5. Servicios
+#### 4.5 [S]Servicios
 
 | Código | Nombre                               | Tipo de Amenaza                  | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|--------------------------------------|----------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
@@ -241,7 +238,7 @@
 | S006   | PKI - Infraestructura de clave pública | Vulnerabilidad de Aplicaciones    | Seguridad, Datos                 | Alto                  | Media        | Alto            |
 
 
- 6. Software / Aplicaciones
+#### 4.6 [SW]Software / Aplicaciones
 
 | ID    | Software / Servicio                   | Amenaza                      | Dimensiones Afectadas   | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |-------|---------------------------------------|------------------------------|-------------------------|-----------------------|--------------|----------------|
@@ -414,7 +411,7 @@
 | SW013 | Symantec Encryption                   | Errores de configuración         | Seguridad, Operaciones    | Medio                 | Media        | Medio          |
 | SW013  | Symantec Encryption                | Conflicto Armado | Confidencialidad, Integridad        | Moderada               | Baja           | Muy Bajo        |
 
-Equipamiento Informático (Hardware)
+#### 4.7 [HW]Equipamiento Informático 
 
 | Código | Nombre                                  | Tipo de Amenaza                     | Dimensiones Afectadas       | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|-----------------------------------------|------------------------------------|-----------------------------|-----------------------|--------------|----------------|
@@ -558,7 +555,7 @@ Equipamiento Informático (Hardware)
 | HW014  | iPhone 13 Pro Max                       | Errores de los Usuarios             | Personal, Seguridad         | Medio                 | Alta         | Medio          |
 
 
-Redes de comunicaciones
+#### 4.8 [COM]Redes de comunicaciones
 
 | Código | Nombre                                  | Tipo de Amenaza                    | Dimensiones Afectadas       | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|-----------------------------------------|------------------------------------|-----------------------------|-----------------------|--------------|----------------|
@@ -640,7 +637,7 @@ Redes de comunicaciones
 | COM008 | Red Privada Virtual (VPN)            | Compromiso de Credenciales | Confidencialidad, Integridad  | Moderada               | Baja           | Moderado         |
 | COM008 | Red Privada Virtual (VPN)            | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 
-Soportes de información
+#### 4.9 [SI]Soportes de información
 
 
 | Código | Nombre                                  | Tipo de Amenaza                    | Dimensiones Afectadas       | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
@@ -691,7 +688,7 @@ Soportes de información
 | SI007  | Tarjeta Inteligente (Smart Card)        | Conflicto Armado                   | Seguridad, Hardware         | Bajo                  | Baja         | Bajo     |
 
 
-Equipamiento auxiliar
+#### 4.10 [AUX]Equipamiento auxiliar
 
 
 | Código | Nombre                                  | Tipo de Amenaza         | Dimensiones Afectadas     | Valoración de Impacto  | Probabilidad  | Nivel de Riesgo  |
@@ -733,7 +730,7 @@ Equipamiento auxiliar
 | AUX005 | Mobiliario: Armarios, etc.             | Conflicto Armado         | Seguridad                 | Alto                  | Baja         | Medio             |
 
 
-Instalaciones
+#### 4.11 [L] Instalaciones
 
 | Código | Nombre                                  | Tipo de Amenaza         | Dimensiones Afectadas         | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|-----------------------------------------|-------------------------|------------------------------|-----------------------|--------------|-----------------|
