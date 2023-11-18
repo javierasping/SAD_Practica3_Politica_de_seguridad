@@ -85,7 +85,14 @@
 | COM008 | Red Privada Virtual (VPN)               | Avería de origen físico o lógico |
 | COM008 | Red Privada Virtual (VPN)               | Contaminación Mecánica          |
 | COM008 | Red Privada Virtual (VPN)               | Inundaciones                     |
-
+COM001 | Red de Invitados                        | Corte de suministro eléctrico |
+| COM002 | Red 5G para Dispositivos Móviles        | Corte de suministro eléctrico |
+| COM003 | Fibra Óptica                           | Corte de suministro eléctrico |
+| COM004 | Red de Alta Seguridad Interna           | Corte de suministro eléctrico |
+| COM005 | Red Inalámbrica Segura (WPA3)          | Corte de suministro eléctrico |
+| COM006 | Red de Área Local (LAN)                 | Corte de suministro eléctrico |
+| COM007 | Red de Voz sobre IP (VoIP)             | Corte de suministro eléctrico |
+| COM008 | Red Privada Virtual (VPN)               | Corte de suministro eléctrico |
 
 
 
@@ -152,7 +159,20 @@
 | HW014  | iPhone 13 Pro Max                      | Contaminación Mecánica          |
 | HW014  | iPhone 13 Pro Max                      | Fuego                            |
 | HW014  | iPhone 13 Pro Max                      | Inundaciones                     |
-
+ HW000  | Servidores Dell PowerEdge               | Corte de suministro eléctrico |
+| HW001  | Estación de Trabajo HP ZBook            | Corte de suministro eléctrico |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | Corte de suministro eléctrico |
+| HW003  | Dispositivos de Almacenamiento Synology | Corte de suministro eléctrico |
+| HW004  | Impresoras HP LaserJet                  | Corte de suministro eléctrico |
+| HW005  | Enrutador Cisco Catalyst                | Corte de suministro eléctrico |
+| HW006  | Sistema de Videovigilancia Axis         | Corte de suministro eléctrico |
+| HW007  | Escáner Epson WorkForce                 | Corte de suministro eléctrico |
+| HW008  | Teléfonos VoIP Grandstream              | Corte de suministro eléctrico |
+| HW009  | UPS APC Smart-UPS                      | Corte de suministro eléctrico |
+| HW010  | Estación Docking para Portátiles        | Corte de suministro eléctrico |
+| HW011  | Sistemas de Control de Acceso           | Corte de suministro eléctrico |
+| HW012  | Pizarras Interactivas SMART             | Corte de suministro eléctrico |
+| HW013  | Switches Cisco Catalyst 2960            | Corte de suministro eléctrico |
 
 
 
@@ -195,7 +215,14 @@
 | SI007  | Tarjeta Inteligente (Smart Card)       | Avería de origen físico o lógico |
 | SI007  | Tarjeta Inteligente (Smart Card)       | Contaminación Mecánica          |
 | SI007  | Tarjeta Inteligente (Smart Card)       | Fuego                            |
-| SI007  | Tarjeta Inteligente (Smart Card)       | Inundaciones                     |
+| SI007  | Tarjeta Inteligente (Smart Card)       | Inundaciones    
+
+      SI001  | Almacenamiento en Red (SAN)             | Corte de suministro eléctrico |
+| SI002  | Disco Duro Externo                     | Corte de suministro eléctrico |
+| SI003  | Tarjeta de Memoria                     | Corte de suministro eléctrico |
+| SI004  | Almacenamiento en la Nube              | Corte de suministro eléctrico |
+| SI005  | Disco Óptico (DVD)                     | Corte de suministro eléctrico |
+| SI006  | Unidad USB                             | Corte de suministro eléctrico |           |
  
 
 
@@ -234,6 +261,11 @@
 | AUX005 | Mobiliario: Armarios, etc.             | Avería de origen físico o lógico |
 
 
+| AUX001 | Fuentes de Alimentación                | Corte de suministro eléctrico |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | Corte de suministro eléctrico |
+| AUX003 | Equipos de Climatización                | Corte de suministro eléctrico |
+| AUX004 | Cableado                               | Corte de suministro eléctrico |
+| AUX005 | Mobiliario: Armarios, etc.             | Corte de suministro eléctrico |
 
 
 
