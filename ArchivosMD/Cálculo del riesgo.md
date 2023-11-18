@@ -1,4 +1,3 @@
-1.  Activos Esenciales (AE)
 | Código | Nombre                               | Tipo de Amenaza                       | Dimensiones Afectadas              | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|--------------------------------------|--------------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
 | AE001  | Archivo Digital de Casos             | Errores de configuración             | Operaciones, Legal                | Bajo                 | Media        | Bajo            |
@@ -10,7 +9,7 @@
 | AE001  | Archivo Digital de Casos             | Phishing                             | Confidencialidad, Financiero      | Moderado             | Alta         | Medio           |
 | AE001  | Archivo Digital de Casos             | Vulnerabilidades de aplicaciones     | Operaciones, Técnico              | Moderado             | Media        | Medio           |
 | AE001  | Archivo Digital de Casos             | Acceso no autorizado al CPD          | Confidencialidad, Operaciones     | Alto                 | Baja         | Alto            |
-| AE001  | Archivo Digital de Casos             | SYN Flood                        | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
+| AE001  | Archivo Digital de Casos             | SYN Flood                            | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
 | AE002  | Sistema de Comunicaciones            | Errores de configuración             | Operaciones, Técnico              | Bajo                 | Media        | Bajo            |
 | AE002  | Sistema de Comunicaciones            | Errores de usuarios                  | Operaciones, Confidencialidad     | Bajo                 | Alta         | Medio           |
 | AE002  | Sistema de Comunicaciones            | Ataques intencionados                | Confidencialidad, Técnico         | Moderado             | Baja         | Medio           |
@@ -20,7 +19,7 @@
 | AE002  | Sistema de Comunicaciones            | Phishing                             | Confidencialidad, Financiero      | Moderado             | Alta         | Medio           |
 | AE002  | Sistema de Comunicaciones            | Vulnerabilidades de aplicaciones     | Operaciones, Técnico              | Bajo                 | Media        | Bajo            |
 | AE002  | Sistema de Comunicaciones            | Acceso no autorizado al CPD          | Confidencialidad, Operaciones     | Moderado             | Baja         | Medio           |
-| AE002  | Sistema de Comunicaciones            | SYN Flood                        | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
+| AE002  | Sistema de Comunicaciones            | SYN Flood                            | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
 | AE003  | Base de datos de clientes            | Errores de configuración             | Legal, Operaciones                | Bajo                 | Media        | Bajo            |
 | AE003  | Base de datos de clientes            | Errores de usuarios                  | Confidencialidad, Legal           | Bajo                 | Alta         | Medio           |
 | AE003  | Base de datos de clientes            | Ataques intencionados                | Confidencialidad, Operaciones     | Alto                 | Baja         | Medio           |
@@ -30,7 +29,7 @@
 | AE003  | Base de datos de clientes            | Phishing                             | Financiero, Confidencialidad      | Moderado             | Alta         | Medio           |
 | AE003  | Base de datos de clientes            | Vulnerabilidades de aplicaciones     | Técnico, Operaciones              | Moderado             | Media        | Medio           |
 | AE003  | Base de datos de clientes            | Acceso no autorizado al CPD          | Operaciones, Confidencialidad     | Alto                 | Baja         | Alto            |
-| AE003  | Base de datos de clientes            | SYN Flood                        | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
+| AE003  | Base de datos de clientes            | SYN Flood                            | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
 | AE004  | Sistema de gestión financiera        | Errores de configuración             | Financiero, Operaciones           | Bajo                 | Media        | Bajo            |
 | AE004  | Sistema de gestión financiera        | Errores de usuarios                  | Confidencialidad, Financiero      | Bajo                 | Alta         | Medio           |
 | AE004  | Sistema de gestión financiera        | Ataques intencionados                | Financiero, Legal                 | Alto                 | Baja         | Medio           |
@@ -41,7 +40,7 @@
 | AE004  | Sistema de gestión financiera        | Vulnerabilidades de aplicaciones     | Técnico, Financiero               | Moderado             | Media        | Medio           |
 | AE004  | Sistema de gestión financiera        | Acceso no autorizado al CPD          | Financiero, Operaciones           | Alto                 | Baja         | Alto    
         |
-| AE004  | Base de datos de clientes            | SYN Flood                        | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
+| AE004  | Base de datos de clientes            | SYN Flood                            | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
 | AE005  | Plataforma de colaboración interna   | Errores de configuración             | Operaciones, Comunicaciones       | Bajo                 | Media        | Bajo            |
 | AE005  | Plataforma de colaboración interna   | Errores de usuarios                  | Confidencialidad, Comunicaciones  | Bajo                 | Alta         | Medio           |
 | AE005  | Plataforma de colaboración interna   | Ataques intencionados                | Legal, Comunicaciones             | Moderado             | Baja         | Medio           |
@@ -51,7 +50,9 @@
 | AE005  | Plataforma de colaboración interna   | Phishing                             | Financiero, Operaciones           | Moderado             | Alta         | Medio           |
 | AE005  | Plataforma de colaboración interna   | Vulnerabilidades de aplicaciones     | Técnico, Operaciones              | Bajo                 | Media        | Bajo            |
 | AE005  | Plataforma de colaboración interna   | Acceso no autorizado al CPD          | Operaciones, Legal                | Moderado             | Baja         | Medio           |
-| AE005  | Plataforma de colaboración interna   | SYN Flood                        | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
+| AE005  | Plataforma de colaboración interna   | SYN Flood                            | Operaciones, Técnico              | Bajo                 | Muy Baja     | Bajo            |
+
+
 
 
 2. Arquitectura del Sistema (AS)
