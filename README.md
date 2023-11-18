@@ -113,7 +113,11 @@
 
 
 - Bibliografía 
-    - [SGCI bufete abogados](https://rua.ua.es/dspace/bitstream/10045/96787/1/Desarrollo_del_Plan_Director_de_Seguridad_para_un_bufete_Peco_Moreno_Agustin.pdf)
+    - [SGCI Apsa](https://rua.ua.es/dspace/bitstream/10045/96745/1/Desarrollo_del_Plan_Director_de_Seguridad_Montero_Valencia_Jessica_Alexandra.pdf)
     - [SGCI pyme](https://rua.ua.es/dspace/bitstream/10045/102087/1/Esquema_Director_de_Seguridad_para_Empresas_pymes_d_Diaz_Perez_Juan_Salvador.pdf)
     - [SGSI comercio electrónico](https://rua.ua.es/dspace/bitstream/10045/135228/1/Diseno_y_desarrollo_del_SGSI_para_una_empresa_de_ecommerce_Amaro_Perez_Paola.pdf)
     - [SGCI Pequeña empresa](https://educacionadistancia.juntadeandalucia.es/centros/sevilla/pluginfile.php/515326/mod_resource/content/1/48ca15671b800.pdf)
+    - [Elaboración de un plan de seguridad de la información](https://openaccess.uoc.edu/bitstream/10609/66065/10/raguilareTFG0617plandirector.pdf)
+    - [ELABORACIÓN DE UN PLAN DIRECTOR DE SEGURIDAD (PDS) PARA LA COMPAÑÍA PRONAVICOLA S.A.](https://repository.unad.edu.co/bitstream/handle/10596/57372/Proyecto_Aplicado_Gerardo_Cabal_94481621_2023.pdf?sequence=1&isAllowed=y) 
+    - [Desarrollo de un Plan Director de Seguridad para la implementación de un SGSI basado en la norma ISO/IEC 27001](https://openaccess.uoc.edu/bitstream/10609/88386/6/bmolinacaTFM1218memoria.pdf)
+    - [ANÁLISIS DE RIESGOS DE SEGURIDAD DE LA INFORMACIÓN](https://oa.upm.es/1646/1/PFC_JUAN_MANUEL_MATALOBOS_VEIGAa.pdf)

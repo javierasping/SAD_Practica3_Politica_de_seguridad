@@ -76,6 +76,8 @@ Este riesgo afecta a los siguientes activos :
 | L004   | Sala de Servidores | Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.               |
 
 #### 3.1.2 Inundaciones
+Las inundaciones representan una seria amenaza para un Centro de Procesamiento de Datos (CPD) debido a la potencial destrucción de equipos críticos. La presencia de agua puede dañar irreversiblemente servidores, sistemas de almacenamiento y otros componentes, causando pérdida de datos y tiempo de inactividad prolongado. Las inundaciones pueden ser resultado de fugas, inundaciones naturales o problemas de las tuberías.
+
 | N.2 Inundaciones |
 | --- |
 | **Tipos de Activos:** |
@@ -87,7 +89,6 @@ Este riesgo afecta a los siguientes activos :
 | **Dimensiones:** |
 | 1. [D] disponibilidad |
 
-Las inundaciones representan una seria amenaza para un Centro de Procesamiento de Datos (CPD) debido a la potencial destrucción de equipos críticos. La presencia de agua puede dañar irreversiblemente servidores, sistemas de almacenamiento y otros componentes, causando pérdida de datos y tiempo de inactividad prolongado. Las inundaciones pueden ser resultado de fugas, inundaciones naturales o problemas de las tuberías.
 
 Este riesgo  afecta a los siguientes activos :
 
@@ -140,6 +141,7 @@ Este riesgo  afecta a los siguientes activos :
 | L004   | Sala de Servidores | Espacio dedicado en la segunda planta para alojar servidores críticos que respaldan la infraestructura informática y la gestión de casos legales digitales.               |
 
 ### 3.2 [OI] De origen industrial
+La contaminación mecánica en equipos informáticos se refiere a la introducción no deseada de partículas, polvo u otros contaminantes físicos en los dispositivos electrónicos y sistemas de cómputo. Este riesgo puede surgir en entornos donde los equipos están expuestos a condiciones ambientales adversas o a prácticas inadecuadas de manipulación y mantenimiento.
 
 #### 3.2.1 Contaminación mecánica 
 | I.1 Contaminación mecánica  |
