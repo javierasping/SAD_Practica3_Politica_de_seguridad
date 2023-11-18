@@ -94,7 +94,14 @@ COM001 | Red de Invitados                        | Corte de suministro eléctric
 | COM007 | Red de Voz sobre IP (VoIP)             | Corte de suministro eléctrico |
 | COM008 | Red Privada Virtual (VPN)               | Corte de suministro eléctrico |
 
-
+COM001 | Red de Invitados                      | Averías en la Electrónica de Red        |
+| COM002 | Red 5G para Dispositivos Móviles      | Averías en la Electrónica de Red        |
+| COM003 | Fibra Óptica                         | Averías en la Electrónica de Red        |
+| COM004 | Red de Alta Seguridad Interna         | Averías en la Electrónica de Red        |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Averías en la Electrónica de Red        |
+| COM006 | Red de Área Local (LAN)               | Averías en la Electrónica de Red        |
+| COM007 | Red de Voz sobre IP (VoIP)           | Averías en la Electrónica de Red        |
+| COM008 | Red Privada Virtual (VPN)             | Averías en la Electrónica de Red   
 
 
 | Código | Nombre                                  | Tipo de Amenaza                  |
@@ -173,6 +180,8 @@ COM001 | Red de Invitados                        | Corte de suministro eléctric
 | HW011  | Sistemas de Control de Acceso           | Corte de suministro eléctrico |
 | HW012  | Pizarras Interactivas SMART             | Corte de suministro eléctrico |
 | HW013  | Switches Cisco Catalyst 2960            | Corte de suministro eléctrico |
+ HW005  | Enrutador Cisco Catalyst              | Averías en la Electrónica de Red (Switches y Routers) |
+| HW013  | Switches Cisco Catalyst 2960          | Averías en la Electrónica de Red (Switches y Routers) |
 
 
 
@@ -222,7 +231,18 @@ COM001 | Red de Invitados                        | Corte de suministro eléctric
 | SI003  | Tarjeta de Memoria                     | Corte de suministro eléctrico |
 | SI004  | Almacenamiento en la Nube              | Corte de suministro eléctrico |
 | SI005  | Disco Óptico (DVD)                     | Corte de suministro eléctrico |
-| SI006  | Unidad USB                             | Corte de suministro eléctrico |           |
+| SI006  | Unidad USB                             | Corte de suministro eléctrico |      
+
+
+     || Código | Nombre                              | Tipo de Amenaza                |
+|--------|-------------------------------------|--------------------------------|
+| SI001  | Almacenamiento en Red (SAN)         | Corte de suministro eléctrico |
+| SI002  | Disco Duro Externo                 | Corte de suministro eléctrico |
+| SI003  | Tarjeta de Memoria                 | Corte de suministro eléctrico |
+| SI005  | Disco Óptico (DVD)                 | Corte de suministro eléctrico |
+| SI006  | Unidad USB                         | Corte de suministro eléctrico |
+| SI007  | Tarjeta Inteligente (Smart Card)   | Corte de suministro eléctrico |
+
  
 
 
