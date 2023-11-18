@@ -1,3 +1,39 @@
+[N.1] Fuego					--> Obligatoria
+[N.2] Daños por agua		--> Obligatoria			
+
+[I.1] Contaminación mecánica
+[I.2] Avería de origen físico o lógico
+[I.3] Corte del suministro eléctrico        --> Obligatoria
+[I.4]  Averías en la Electrónica de Red (Switches y Routers)    --> Obligatoria
+
+[NI.1]  Errores de los usuarios 
+[NI.2]  Errores de los usuarios
+[NI.3]  Errores de configuración
+[NI.4]  Difusión de software dañino
+[NI.5] Escapes de información   --> Obligatoria
+[NI.6] Alteración de la información
+[NI.7] Destrucción de la información
+
+[AI.1] Acceso no autorizados al CPD --> Obligatoria
+[AI.2] Ransomware --> Obligatoria
+[AI.3] Conflicto Armado --> Obligatoria
+[AI.4] Phishing --> Obligatoria
+[AI.5] Robo --> Obligatoria
+[AI.6] Compromiso de credenciales --> Obligatoria
+[AI.7] Ataques de denegación de servicio SYN Flood --> Obligatoria
+
+[AI.8] Vulnerabilidades de las aplicaciones
+[AI.9] Fugas de información en la nube
+
+Hay que desarrollar 1 apartado para cada amenaza indicando que hay que hacer cuando el riego se materialize y quien tiene que hacerlo .
+
+
+Lo que hay aqui abajo no cumple eso ..... 
+
+
+Nota Javi .
+
+
 ## 6 Tratamiento del riesgo
 
 El tratamiento del riesgo consiste en aplicar medidas adecuadas para reducir, transferir, evitar o aceptar los riesgos identificados en la evaluación. En el contexto de nuestra firma legal, el tratamiento de riesgos se enfoca en la protección de activos críticos, asegurando la confidencialidad, integridad y disponibilidad de la información.

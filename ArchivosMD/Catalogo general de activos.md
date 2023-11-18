@@ -16,7 +16,7 @@ Este proceso de catalogar activos y asignarles valor no solo establece una base 
 
 Los puntos de la siguiente tabla, organizan los activos en una jerarquía, asignándoles un código que muestra su posición en la jerarquía, un nombre y una breve descripción de lo que representa cada tipo de activo. Los activos No tienen que ser estrictamente como tal, y perfectamente pueden pertenecer a diferentes categorias.
 
-## Valoración de Activos
+### 2.1 Valoración de Activos
 
 La valoración es una forma de asignar un puntaje o evaluación a cada activo en diferentes dimensiones de seguridad. Generalmente se utiliza para indicar cuánto valor tiene cada activo para la organización en términos de:
 
@@ -29,7 +29,10 @@ La valoración es una forma de asignar un puntaje o evaluación a cada activo en
 
 La valoración se realiza utilizando una escala, que puede ser numérica (por ejemplo, del 1 al 10) o cualitativa (baja, media, alta). En los siguientes activos, utilizaré una escala cualitativa para representar la valoración en cada activo. Lo idóneo y perfecto es poner todos los valores como "Alta" para tener un entorno laboral definitivo en término de seguridad, pero para hacerlo más real, le he dado menos valor como "Media" a algunos activos que podrían llevar Alta perfectamente, y lo mismo para Baja, porque si no como he dicho seria practicamente todo en Alta.
 
-## 2.1 Inventario de activos (sin terminar)
+## 2.2 Inventario de activos
+Las fichas son documentos o formularios que contienen información detallada sobre un elemento específico. En la metodología MAGERIT para la gestión de riesgos en sistemas de información, las fichas de detalle de activos son registros detallados para cada tipo de activo identificado en el catálogo. Cada ficha proporciona información específica sobre el activo, como su código de identificación, nombre, descripción, y cualquier otra información relevante que facilite su gestión y evaluación de riesgos.
+
+Estas fichas (mas bien herramientas prácticas) ayudan a documentar y organizar la información sobre los activos del bufete en este caso. Además, son fundamentales para llevar a cabo evaluaciones de riesgos, ya que proporcionan datos detallados de cada activo, así como sus posibles amenazas y las salvaguardas aplicadas.
 
 | Número | Tipo de Activo                            | Descripción                                      |
 |--------|------------------------------------------|--------------------------------------------------|
@@ -44,13 +47,6 @@ La valoración se realiza utilizando una escala, que puede ser numérica (por ej
 | 9      | [AUX] Equipamiento auxiliar               | Sistemas de seguridad física                     |
 | 10     | [L] Instalaciones                         | Oficinas y salas de reuniones                    |
 | 11     | [P] Personal                              | Abogados y personal legal                        |
-
-
-### 2.2 Fichas detalle archivo
-
-Las fichas son documentos o formularios que contienen información detallada sobre un elemento específico. En la metodología MAGERIT para la gestión de riesgos en sistemas de información, las fichas de detalle de activos son registros detallados para cada tipo de activo identificado en el catálogo. Cada ficha proporciona información específica sobre el activo, como su código de identificación, nombre, descripción, y cualquier otra información relevante que facilite su gestión y evaluación de riesgos.
-
-Estas fichas (mas bien herramientas prácticas) ayudan a documentar y organizar la información sobre los activos del bufete en este caso. Además, son fundamentales para llevar a cabo evaluaciones de riesgos, ya que proporcionan datos detallados de cada activo, así como sus posibles amenazas y las salvaguardas aplicadas.
 
 
 

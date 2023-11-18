@@ -14,12 +14,13 @@
 
 
 
--- Deberías de hacer por cada RIESGO una tabla , te voy a dejar la tabla completa sin rellenar y vas copiando y pegando los activos que necesites y ty los valoras :) .  Si usas el VisualStudio puedes ver el resultado de la pagina usando CTRL + SHIFT + V si en la pagina de vista previa haces doble click en algún punto o texto te abre el archivo en ese punto exacto por si te das cuenta de algún error . 
+ Deberías de hacer por cada RIESGO una tabla , te voy a dejar la tabla completa sin rellenar y vas copiando y pegando los activos que necesites y ty los valoras :) .  Si usas el VisualStudio puedes ver el resultado de la pagina usando CTRL + SHIFT + V si en la pagina de vista previa haces doble click en algún punto o texto te abre el archivo en ese punto exacto por si te das cuenta de algún error . 
 
 Añade si quieres también al principio del apartado un poco explicando las tablas , en resumen las 3 columnas son el calculo del riesgo en concreto para cada activo  , mientas que la ultima Es el impacto que tendría a la empresa 
 
 Creo que te va a resultar mas rápido y Comodo Ver en la tabla de identificación de amenazas a que "apartado" le afectan y copiarlos de esta tabla para crear una nueva , me refiero al tipo de activos de las tablas de mi apartado  :
 
+PD , he actualizado el indice de los apartados , si necesitas algo pregúntame :) ANIMOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 | N.1 Fuego |
 | --- |

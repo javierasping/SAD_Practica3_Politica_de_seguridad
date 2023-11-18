@@ -13,11 +13,11 @@
     - Cruces Doval, Francisco Javier: Redacción del apartado
 3. Valoración de riesgos (4)
     - Canalo González, José Antonio : Redacción del apartado
-
 4. Estudio de medidas de protección (5)
     - Rodríguez García, David: Redacción del apartado
 
-6. Redacción de una política de seguridad(1,6,7)
+
+5. Redacción de una política de seguridad(1,6,7)
     - Responsabilidad grupal: Realización de la última fase
 
 # ÍNDICE
@@ -54,21 +54,14 @@
     - 3.2 [OI] De origen industrial
     - 3.3 [NI] Errores y fallos no intencionados
     - 3.4 [AI] Ataques intencionados
-    - 3.5 [AE] Amenazas del Entorno
 
 - [4 Cálculo del riesgo](ArchivosMD/Cálculo%20del%20riesgo.md)
-    - 4.1 [info] Activos esenciales (impacto y riesgo)
-    - 4.2 [D] Datos / Información (impacto y riesgo)
-    - 4.3 [K] Claves criptográficas (impacto y riesgo)
-    - 4.4 [SW] Software - Aplicaciones informáticas (impacto y riesgo)
-    - 4.5 [HW] Equipamiento informático (hardware) (impacto y riesgo)
-    - 4.6 [COM] Redes de comunicaciones (impacto y riesgo)
-    - 4.7 [Media] Soportes de información (impacto y riesgo)
-    - 4.8 [AUX] Equipamiento auxiliar (impacto y riesgo)
-    - 4.9 [L] Instalaciones (impacto y riesgo)
-    - 4.10 [P] Personal (impacto y riesgo)
+    - 4.1 [DN] Desastres naturales
+    - 4.2 [OI] De origen industrial
+    - 4.3 [NI] Errores y fallos no intencionados
+    - 4.4 [AI] Ataques intencionados
 
-- [5 Evaluación de salvaguardas](ArchivosMD/Evaluación%20de%20salvaguardas.md)
+- [5 Evaluación de salvaguardas](ArchivosMD/Evaluación%20de%20salvaguardas.md) 
     - 5.1 [D][info] Datos / Información (salvaguardas)
     - 5.2 [K] Claves criptográficas (salvaguardas)
     - 5.3 [SW] Software – Aplicaciones informáticas (salvaguardas)
