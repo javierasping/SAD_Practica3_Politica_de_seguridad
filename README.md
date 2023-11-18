@@ -61,63 +61,33 @@
     - 4.3 [NI] Errores y fallos no intencionados
     - 4.4 [AI] Ataques intencionados
 
-- [5 Evaluación de salvaguardas](ArchivosMD/Evaluación%20de%20salvaguardas.md) 
-    - 5.1 [D][info] Datos / Información (salvaguardas)
-    - 5.2 [K] Claves criptográficas (salvaguardas)
-    - 5.3 [SW] Software – Aplicaciones informáticas (salvaguardas)
-    - 5.4 [HW] Equipamiento informático (hardware) (salvaguardas)
-    - 5.5 [COM] Redes de comunicaciones (salvaguardas)
-    - 5.6 [Media] Soportes de información (salvaguardas)
-    - 5.7 [AUX] Equipamiento auxiliar (salvaguardas)
-    - 5.8 [L] Instalaciones (salvaguardas)
-    - 5.9 [P] Personal (salvaguardas)
+- [5 Estudio de medidas de protección](ArchivosMD/Evaluación%20de%20salvaguardas.md) 
+    - 5.1.1 Medidas Preventivas [N.1] Fuego
+    - 5.1.2 Medidas Preventivas [N.2] Daños por Agua
+    - 5.1.3 Medidas Preventivas [I.1] Contaminación Mecánica
+    - 5.1.4 Medidas Preventivas [I.2] Avería de Origen Físico o Lógico
+    - 5.1.5 Medidas Preventivas [I.3] Corte del Suministro Eléctrico
+    - 5.1.6 Medidas Preventivas [I.4] Averías en la Electrónica de Red (Switches y Routers)
+    - 5.1.7 Medidas Preventivas [NI.1] Errores de los Usuarios
+    - 5.1.8 Medidas Preventivas [NI.2] Errores de los Usuarios
+    - 5.1.9 Medidas Preventivas [NI.3] Errores de Configuración
+    - 5.1.10 Medidas Preventivas [NI.4] Difusión de Software Dañino
+    - 5.1.11 Medidas Preventivas [NI.5] Escapes de Información
+    - 5.1.12 Medidas Preventivas [NI.6] Alteración de la Información
+    - 5.1.13 Medidas Preventivas [NI.7] Destrucción de la Información
+    - 5.1.14 Medidas Preventivas [AI.1] Acceso no Autorizado al CPD
+    - 5.1.15 Medidas Preventivas [AI.2] Ransomware
+    - 5.1.16 Medidas Preventivas [AI.3] Conflicto Armado
+    - 5.1.17 Medidas Preventivas [AI.4] Phishing
+    - 5.1.18 Medidas Preventivas [AI.5] Robo
+    - 5.1.19 Medidas Preventivas [AI.6] Compromiso de Credenciales
+    - 5.1.20 Medidas Preventivas [AI.7] Ataques de Denegación de Servicio SYN Flood
+    - 5.1.21 Medidas Preventivas [AI.8] Vulnerabilidades de las Aplicaciones
+    - 5.1.22 Medidas Preventivas [AI.9] Fugas de Información en la Nube
 
 - [6 Tratamiento del riesgo](ArchivosMD/Tratamiento%20del%20riesgo.md)
-    - 6.1 [D][info] Datos / Información (tratamiento del riesgo)
-    - 6.1.1 Activos I001-Fichero Clientes, D001-Expediente Cliente
-    - 6.1.2 Activos D002-Datos acceso Servidor, D003-Datos acceso Usuarios
-    - 6.1.3 Activo D004-Backup Servidor
-    - 6.1.4 Activos D005-Logs, D006-Ficheros configuraciones
-    - 6.2 [K] Claves criptográficas (tratamiento del riesgo)
-    - 6.2.1 Activo K001-Certificados FMNT
-    - 6.3 [SW] Software – Aplicaciones informáticas (tratamiento del riesgo)
-    - 6.3.1 Activo SW001-ERP
-    - 6.3.2 Activos SW002-Paquete ofimático, SW003-Cliente de correo, SW006- Navegador web
-    - 6.3.3 Activo SW004-Antivirus
-    - 6.3.4 Activo SW005-Sistema de backup
-    - 6.3.5 Activo SW007-Portal Web
-    - 6.3.6 Activo SW008-Sistema operativo Servidor
-    - 6.3.7 Activo SW009-Sistema operativo Cliente
-    - 6.4 [HW] Equipamiento informático (hardware) (tratamiento del riesgo)
-    - 6.4.1 Activo HW001-Servidor
-    - 6.4.2 Activos HW002-Desktop, HW003-Workstation, HW004-Laptop
-    - 6.4.3 Activo HW005-Unidad de Backup
-    - 6.4.4 Activos HW006-Impresora, HW007-Plotter
-    - 6.4.5 Activos HW008-Router, HW009-Switch
-    - 6.5 [COM] Redes de comunicaciones (tratamiento del riesgo)
-    - 6.5.1 Activos COM002-Red local y COM004-Red Wifi
-    - 6.5.2 Activos COM001-Servicio de Telefonía y COM003-ADSL
-    - 6.6 [Media] Soportes de información (tratamiento del riesgo)
-    - 6.6.1 Activos [MEDIA001]-Memorias USB y [MEDIA002]-Discos USB
-    - 6.7 [AUX] Equipamiento auxiliar (tratamiento del riesgo)
-    - 6.7.1 Activo AUX001-SAI
-    - 6.8 [L] Instalaciones (tratamiento del riesgo)
-    - 6.8.1 Activo L001-Edificio empresa
-    - 6.8.2 Activo L002-Cuarto de comunicaciones
-    - 6.9 [P] Personal (tratamiento del riesgo)
 
-- [7 Planes de seguridad](ArchivosMD/Planes%20de%20seguridad.md)
-    - 7.1 Protección de cifrado
-    - 7.2 Política de Seguridad Corporativa
-    - 7.3 Formación y concienciación
-    - 7.4 Copias de Seguridad
-    - 7.5 Zona CPD
-    - 7.6 Fortalecimiento Red
-    - 7.7 Gestión de la Información
-    - 7.8 ERP on Cloud
-    - 7.9 Alta disponibilidad del Servidor
-    - 7.10 Prevención-Control Seguridad(SIEM/IDS)
-    - 7.11 Planificación Plan Director de Seguridad
+
 
 
 
