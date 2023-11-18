@@ -171,8 +171,8 @@
 | D005   | Servicios Digitales                  | Vulnerabilidad de Aplicaciones   | Técnico, Operaciones              | Moderado             | Media        | Medio           |
 | D005   | Servicios Digitales                  | Escape de Información            | Técnico, Confidencialidad         | Alto                 | Media        | Alto            |
 
+4. Claves Criptográficas
 
-4. Claves Criptográficas 
 | Código | Nombre                               | Tipo de Amenaza                  | Dimensiones Afectadas             | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
 |--------|--------------------------------------|----------------------------------|-----------------------------------|-----------------------|--------------|-----------------|
 | KC001  | Claves de acceso a bases de datos    | Compromiso de Credenciales       | Técnico, Confidencialidad         | Alto                 | Media        | Alto            |
