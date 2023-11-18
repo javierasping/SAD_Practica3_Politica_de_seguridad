@@ -573,6 +573,7 @@ Redes de comunicaciones
 | COM001 | Red de Invitados                        | SYN Flood                          | Disponibilidad, Red         | Medio                 | Media        | Medio          |
 | COM001 | Red de Invitados                        | Compromiso de Credenciales         | Seguridad, Datos            | Alto                  | Media        | Alto           |
 | COM001 | Red de Invitados                  | Conflicto Armado | Confidencialidad, Disponibilidad    | Moderada                | Baja           | Muy Bajo        |
+| COM001 | Red de Invitados                     | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM002 | Red 5G para Dispositivos Móviles        | Avería de origen físico o lógico    | Operaciones, Comunicaciones | Medio                 | Media        | Medio          |
 | COM002 | Red 5G para Dispositivos Móviles        | Contaminación Mecánica             | Operaciones, Comunicaciones | Bajo                  | Baja         | Bajo           |
 | COM002 | Red 5G para Dispositivos Móviles        | Inundaciones                       | Operaciones, Comunicaciones | Medio                 | Baja         | Medio          |
@@ -581,6 +582,7 @@ Redes de comunicaciones
 | COM002 | Red 5G para Dispositivos Móviles        | Errores de los Usuarios            | Operaciones, Comunicaciones | Medio                 | Alta         | Medio          |
 | COM002 | Red 5G para Dispositivos Móviles        | SYN Flood                          | Disponibilidad, Red         | Medio                 | Media        | Medio          |
 | COM002 | Red 5G para Dispositivos Móviles  | Conflicto Armado | Confidencialidad, Disponibilidad    | Moderada                | Baja           | Muy Bajo        |
+| COM002 | Red 5G para Dispositivos Móviles     | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM003 | Fibra Óptica                           | Avería de origen físico o lógico    | Operaciones, Comunicaciones | Medio                 | Media        | Medio          |
 | COM003 | Fibra Óptica                           | Contaminación Mecánica             | Operaciones, Comunicaciones | Bajo                  | Baja         | Bajo           |
 | COM003 | Fibra Óptica                           | Inundaciones                       | Operaciones, Comunicaciones | Medio                 | Baja         | Medio          |
@@ -589,6 +591,7 @@ Redes de comunicaciones
 | COM003 | Fibra Óptica                           | Errores de los Usuarios            | Operaciones, Comunicaciones | Medio                 | Alta         | Medio          |
 | COM003 | Fibra Óptica                           | SYN Flood                          | Disponibilidad, Red         | Medio                 | Media        | Medio          |
 | COM003 | Fibra Óptica                      | Conflicto Armado | Confidencialidad, Disponibilidad    | Alta                    | Baja           | Muy Bajo        |
+| COM003 | Fibra Óptica                         | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM004 | Red de Alta Seguridad Interna           | Avería de origen físico o lógico    | Seguridad, Comunicaciones   | Alto                  | Media        | Alto           |
 | COM004 | Red de Alta Seguridad Interna           | Contaminación Mecánica             | Seguridad, Comunicaciones   | Medio                 | Baja         | Medio          |
 | COM004 | Red de Alta Seguridad Interna           | Inundaciones                       | Seguridad, Comunicaciones   | Medio                 | Baja         | Medio          |
@@ -601,31 +604,40 @@ Redes de comunicaciones
 | COM004 | Red de Alta Seguridad Interna           | SYN Flood                          | Disponibilidad, Red         | Medio                 | Media        | Medio          |
 | COM004 | Red de Alta Seguridad Interna           | Compromiso de Credenciales         | Seguridad, Datos            | Alto                  | Media        | Alto           |
 | COM004 | Red de Alta Seguridad Interna     | Conflicto Armado | Confidencialidad, Disponibilidad    | Muy Alta                | Baja           | Muy Bajo        |
+| COM004 | Red de Alta Seguridad Interna        | Compromiso de Credenciales | Confidencialidad, Integridad  | Moderada               | Baja           | Moderado         |
+| COM004 | Red de Alta Seguridad Interna        | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM005 | Red Inalámbrica Segura (WPA3)           | Errores de configuración          | Seguridad, Comunicaciones   | Medio                 | Alta         | Medio          |
 | COM005 | Red Inalámbrica Segura (WPA3)           | Fugas de Información              | Datos, Comunicaciones       | Alto                  | Media        | Alto           |
 | COM005 | Red Inalámbrica Segura (WPA3)           | Escape de Información             | Datos, Comunicaciones       | Alto                  | Media        | Alto           |
 | COM005 | Red Inalámbrica Segura (WPA3)           | SYN Flood                         | Disponibilidad, Comunicaciones | Medio             | Media        | Medio          |
 | COM005 | Red Inalámbrica Segura (WPA3)           | Compromiso de Credenciales        | Seguridad, Datos            | Alto                  | Media        | Alto           |
 | COM005 | Red Inalámbrica Segura (WPA3)     | Conflicto Armado | Confidencialidad, Disponibilidad    | Moderada                | Baja           | Muy Bajo        |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Compromiso de Credenciales | Confidencialidad, Integridad  | Moderada               | Baja           | Moderado         |
+| COM005 | Red Inalámbrica Segura (WPA3)        | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM006 | Red de Área Local (LAN)                 | Errores de configuración          | Operaciones, Comunicaciones | Medio                 | Alta         | Medio          |
 | COM006 | Red de Área Local (LAN)                 | Fugas de Información              | Datos, Comunicaciones       | Alto                  | Media        | Alto           |
 | COM006 | Red de Área Local (LAN)                 | Escape de Información             | Datos, Comunicaciones       | Alto                  | Media        | Alto           |
 | COM006 | Red de Área Local (LAN)                 | SYN Flood                         | Disponibilidad, Comunicaciones | Medio             | Media        | Medio          |
 | COM006 | Red de Área Local (LAN)                 | Compromiso de Credenciales        | Seguridad, Datos            | Alto                  | Media        | Alto    
 | COM006 | Red de Área Local (LAN)           | Conflicto Armado | Confidencialidad, Disponibilidad    | Alta                    | Baja           | Muy Bajo        |
+| COM006 | Red de Área Local (LAN)              | Compromiso de Credenciales | Confidencialidad, Integridad  | Moderada               | Baja           | Moderado         |
+| COM006 | Red de Área Local (LAN)              | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM007 | Red de Voz sobre IP (VoIP)              | Errores de configuración          | Comunicaciones, Operaciones | Medio                 | Alta         | Medio          |
 | COM007 | Red de Voz sobre IP (VoIP)              | Fugas de Información              | Datos, Comunicaciones       | Alto                  | Media        | Alto           |
 | COM007 | Red de Voz sobre IP (VoIP)              | Escape de Información             | Datos, Comunicaciones       | Alto                  | Media        | Alto           |
 | COM007 | Red de Voz sobre IP (VoIP)              | SYN Flood                         | Disponibilidad, Comunicaciones | Medio             | Media        | Medio          |
 | COM007 | Red de Voz sobre IP (VoIP)              | Compromiso de Credenciales        | Seguridad, Datos            | Alto                  | Media        | Alto           |
 | COM007 | Red de Voz sobre IP (VoIP)        | Conflicto Armado | Confidencialidad, Disponibilidad    | Alta                    | Baja           | Muy Bajo        |
+| COM007 | Red de Voz sobre IP (VoIP)           | Compromiso de Credenciales | Confidencialidad, Integridad  | Moderada               | Baja           | Moderado         |
+| COM007 | Red de Voz sobre IP (VoIP)           | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 | COM008 | Red Privada Virtual (VPN)               | Errores de configuración          | Comunicaciones, Seguridad   | Alto                  | Alta         | Alto           |
 | COM008 | Red Privada Virtual (VPN)               | Fugas de Información              | Datos, Seguridad            | Alto                  | Media        | Alto           |
 | COM008 | Red Privada Virtual (VPN)               | Escape de Información             | Datos, Seguridad            | Alto                  | Media        | Alto           |
 | COM008 | Red Privada Virtual (VPN)               | SYN Flood                         | Disponibilidad, Seguridad   | Medio                 | Media        | Medio          |
 | COM008 | Red Privada Virtual (VPN)               | Compromiso de Credenciales        | Seguridad, Datos            | Alto                  | Media        | Alto           |
 | COM008 | Red Privada Virtual (VPN)         | Conflicto Armado | Confidencialidad, Disponibilidad    | Muy Alta                | Baja           | Muy Bajo        |
-
+| COM008 | Red Privada Virtual (VPN)            | Compromiso de Credenciales | Confidencialidad, Integridad  | Moderada               | Baja           | Moderado         |
+| COM008 | Red Privada Virtual (VPN)            | Vulnerabilidad de Aplicaciones | Confidencialidad, Integridad | Moderada               | Baja           | Moderado         |
 
 Soportes de información
 
