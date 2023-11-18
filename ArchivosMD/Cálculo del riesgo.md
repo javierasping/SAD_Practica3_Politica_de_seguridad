@@ -185,3 +185,199 @@
 | KC005  | Claves de firma digital               | Compromiso de Credenciales       | Técnico, Confidencialidad         | Alto                 | Media        | Alto            |
 | KC005  | Claves de firma digital               | Conflicto Armado                 | Técnico, Reputación               | Muy Bajo             | Muy Baja     | Muy Bajo        |
 | KC005  | Claves de firma digital               | Errores de configuración         | Técnico, Legal                    | Bajo                 | Media        | Bajo            |
+
+
+5. Servicios
+
+| ID   | Servicio / Elemento                    | Amenaza                             | Dimensiones Afectadas      | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
+|------|----------------------------------------|-------------------------------------|----------------------------|-----------------------|--------------|----------------|
+| S001 | Intranet                               | Errores de configuración            | Operaciones, Datos         | Medio                  | Baja         | Medio          |
+| S001 | Intranet                               | Acceso no autorizado al CPD         | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S001 | Intranet                               | Compromiso de Credenciales          | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S001 | Intranet                               | Conflicto Armado                    | Operaciones                | Bajo                   | Muy Baja     | Bajo           |
+| S001 | Intranet                               | Vulnerabilidad de Aplicaciones      | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S002 | Exchange Server                        | Errores de configuración            | Comunicaciones, Datos      | Medio                  | Baja         | Medio          |
+| S002 | Exchange Server                        | Acceso no autorizado al CPD         | Seguridad, Comunicaciones  | Alto                   | Media        | Alto           |
+| S002 | Exchange Server                        | Compromiso de Credenciales          | Seguridad, Comunicaciones  | Alto                   | Media        | Alto           |
+| S002 | Exchange Server                        | Conflicto Armado                    | Operaciones                | Bajo                   | Muy Baja     | Bajo           |
+| S002 | Exchange Server                        | Vulnerabilidad de Aplicaciones      | Seguridad, Comunicaciones  | Alto                   | Media        | Alto           |
+| S003 | SFTP                                   | Errores de configuración            | Operaciones, Datos         | Medio                  | Baja         | Medio          |
+| S003 | SFTP                                   | Acceso no autorizado al CPD         | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S003 | SFTP                                   | Compromiso de Credenciales          | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S003 | SFTP                                   | Conflicto Armado                    | Operaciones                | Bajo                   | Muy Baja     | Bajo           |
+| S003 | SFTP                                   | Vulnerabilidad de Aplicaciones      | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S004 | Active Directory (AD)                  | Errores de configuración            | Operaciones, Seguridad     | Medio                  | Baja         | Medio          |
+| S004 | Active Directory (AD)                  | Acceso no autorizado al CPD         | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S004 | Active Directory (AD)                  | Compromiso de Credenciales          | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S004 | Active Directory (AD)                  | Conflicto Armado                    | Operaciones                | Bajo                   | Muy Baja     | Bajo           |
+| S004 | Active Directory (AD)                  | Vulnerabilidad de Aplicaciones      | Seguridad, Operaciones     | Alto                   | Media        | Alto           |
+| S005 | Software ARP                           | Errores de configuración            | Operaciones, Datos         | Medio                  | Baja         | Medio          |
+| S005 | Software ARP                           | Acceso no autorizado al CPD         | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S005 | Software ARP                           | Compromiso de Credenciales          | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S005 | Software ARP                           | Conflicto Armado                    | Operaciones                | Bajo                   | Muy Baja     | Bajo           |
+| S005 | Software ARP                           | Vulnerabilidad de Aplicaciones      | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S006 | PKI - Infraestructura de clave pública | Errores de configuración            | Seguridad, Datos           | Medio                  | Baja         | Medio          |
+| S006 | PKI - Infraestructura de clave pública | Acceso no autorizado al CPD         | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S006 | PKI - Infraestructura de clave pública | Compromiso de Credenciales          | Seguridad, Datos           | Alto                   | Media        | Alto           |
+| S006 | PKI - Infraestructura de clave pública | Conflicto Armado                    | Operaciones                | Bajo                   | Muy Baja     | Bajo           |
+| S006 | PKI - Infraestructura de clave pública | Vulnerabilidad de Aplicaciones      | Seguridad, Datos           | Alto                   | Media        | Alto           |
+
+
+ 6. Software / Aplicaciones
+
+| ID    | Software / Servicio                   | Amenaza                      | Dimensiones Afectadas   | Valoración de Impacto | Probabilidad | Nivel de Riesgo |
+|-------|---------------------------------------|------------------------------|-------------------------|-----------------------|--------------|----------------|
+| SW000 | Debian 12                             | Escape de Información        | Datos, Seguridad        | Alto                  | Media        | Alto           |
+| SW000 | Debian 12                             | Vulnerabilidad de Aplicaciones| Datos, Seguridad       | Alto                  | Media        | Alto           |
+| SW000 | Debian 12                             | SYN Flood                    | Disponibilidad          | Medio                 | Baja         | Medio          |
+| SW000 | Debian 12                             | Compromiso de Credenciales   | Datos, Seguridad        | Alto                  | Media        | Alto           |
+| SW000 | Debian 12                             | Phishing                     | Datos, Seguridad        | Medio                 | Media        | Medio          |
+| SW000 | Debian 12                             | Fugas de Información         | Datos, Seguridad        | Alto                  | Media        | Alto           |
+| SW000 | Debian 12                             | Acceso no autorizado al CPD  | Datos, Seguridad        | Alto                  | Media        | Alto           |
+| SW000 | Debian 12                             | Difusión de Software Dañino  | Datos, Operaciones      | Alto                  | Media        | Alto           |
+| SW000 | Debian 12                             | Avería de origen físico o lógico| Operaciones, Datos   | Medio                 | Baja         | Medio          |
+| SW000 | Debian 12                             | Errores de los Usuarios      | Operaciones, Datos      | Medio                 | Media        | Medio          |
+| SW000 | Debian 12                             | Errores de configuración     | Datos, Seguridad        | Medio                 | Media        | Medio          |
+| SW001 | Windows 11                            | Escape de Información            | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW001 | Windows 11                            | Vulnerabilidad de Aplicaciones   | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW001 | Windows 11                            | SYN Flood                        | Disponibilidad            | Medio                 | Baja         | Medio          |
+| SW001 | Windows 11                            | Compromiso de Credenciales       | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW001 | Windows 11                            | Phishing                         | Datos, Seguridad          | Medio                 | Media        | Medio          |
+| SW001 | Windows 11                            | Fugas de Información             | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW001 | Windows 11                            | Acceso no autorizado al CPD      | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW001 | Windows 11                            | Difusión de Software Dañino      | Operaciones, Datos        | Alto                  | Media        | Alto           |
+| SW001 | Windows 11                            | Avería de origen físico o lógico | Operaciones, Datos        | Medio                 | Baja         | Medio          |
+| SW001 | Windows 11                            | Errores de los Usuarios          | Operaciones, Datos        | Medio                 | Media        | Medio          |
+| SW001 | Windows 11                            | Errores de configuración         | Seguridad, Datos          | Medio                 | Media        | Medio          |
+| SW002 | Clio Manage                           | Escape de Información            | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW002 | Clio Manage                           | Vulnerabilidad de Aplicaciones   | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW002 | Clio Manage                           | SYN Flood                        | Disponibilidad            | Medio                 | Baja         | Medio          |
+| SW002 | Clio Manage                           | Compromiso de Credenciales       | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW002 | Clio Manage                           | Phishing                         | Datos, Seguridad          | Medio                 | Media        | Medio          |
+| SW002 | Clio Manage                           | Fugas de Información             | Datos, Seguridad          | Alto                  | Media        | Alto           |
+| SW002 | Clio Manage                           | Acceso no autorizado al CPD      | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW002 | Clio Manage                           | Difusión de Software Dañino      | Operaciones, Datos        | Alto                  | Media        | Alto           |
+| SW002 | Clio Manage                           | Avería de origen físico o lógico | Operaciones, Datos        | Medio                 | Baja         | Medio          |
+| SW002 | Clio Manage                           | Errores de los Usuarios          | Operaciones, Datos        | Medio                 | Media        | Medio          |
+| SW002 | Clio Manage                           | Errores de configuración         | Seguridad, Datos          | Medio                 | Media        | Medio   
+| SW003 | Westlaw                               | Escape de Información            | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW003 | Westlaw                               | Vulnerabilidad de Aplicaciones   | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW003 | Westlaw                               | SYN Flood                        | Disponibilidad, Legal    | Medio                 | Baja         | Medio          |
+| SW003 | Westlaw                               | Compromiso de Credenciales       | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW003 | Westlaw                               | Phishing                         | Datos, Legal             | Medio                 | Media        | Medio          |
+| SW003 | Westlaw                               | Fugas de Información             | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW003 | Westlaw                               | Acceso no autorizado al CPD      | Seguridad, Datos         | Alto                  | Media        | Alto           |
+| SW003 | Westlaw                               | Difusión de Software Dañino      | Operaciones, Legal       | Alto                  | Media        | Alto           |
+| SW003 | Westlaw                               | Avería de origen físico o lógico | Operaciones, Legal       | Medio                 | Baja         | Medio          |
+| SW003 | Westlaw                               | Errores de los Usuarios          | Operaciones, Legal       | Medio                 | Media        | Medio          |
+| SW003 | Westlaw                               | Errores de configuración         | Seguridad, Legal         | Medio                 | Media        | Medio          |
+| SW004 | Microsoft Teams                       | Escape de Información            | Comunicaciones, Datos    | Alto                  | Media        | Alto           |
+| SW004 | Microsoft Teams                       | Vulnerabilidad de Aplicaciones   | Comunicaciones, Seguridad| Alto                  | Media        | Alto           |
+| SW004 | Microsoft Teams                       | SYN Flood                        | Disponibilidad           | Medio                 | Baja         | Medio          |
+| SW004 | Microsoft Teams                       | Compromiso de Credenciales       | Comunicaciones, Datos    | Alto                  | Media        | Alto           |
+| SW004 | Microsoft Teams                       | Phishing                         | Comunicaciones, Datos    | Medio                 | Media        | Medio          |
+| SW004 | Microsoft Teams                       | Fugas de Información             | Comunicaciones, Datos    | Alto                  | Media        | Alto           |
+| SW004 | Microsoft Teams                       | Acceso no autorizado al CPD      | Seguridad, Datos         | Alto                  | Media        | Alto           |
+| SW004 | Microsoft Teams                       | Difusión de Software Dañino      | Comunicaciones, Datos    | Alto                  | Media        | Alto           |
+| SW004 | Microsoft Teams                       | Avería de origen físico o lógico | Operaciones, Datos       | Medio                 | Baja         | Medio          |
+| SW004 | Microsoft Teams                       | Errores de los Usuarios          | Operaciones, Comunicaciones | Medio              | Media        | Medio          |
+| SW004 | Microsoft Teams                       | Errores de configuración         | Seguridad, Comunicaciones | Medio                | Media        | Medio          |
+| SW005 | Clio Billing                          | Escape de Información            | Finanzas, Datos           | Alto                  | Media        | Alto           |
+| SW005 | Clio Billing                          | Vulnerabilidad de Aplicaciones   | Finanzas, Seguridad       | Alto                  | Media        | Alto           |
+| SW005 | Clio Billing                          | SYN Flood                        | Disponibilidad, Finanzas  | Medio                 | Baja         | Medio          |
+| SW005 | Clio Billing                          | Compromiso de Credenciales       | Finanzas, Datos           | Alto                  | Media        | Alto           |
+| SW005 | Clio Billing                          | Phishing                         | Finanzas, Datos           | Medio                 | Media        | Medio          |
+| SW005 | Clio Billing                          | Fugas de Información             | Finanzas, Datos           | Alto                  | Media        | Alto           |
+| SW005 | Clio Billing                          | Acceso no autorizado al CPD      | Seguridad, Finanzas       | Alto                  | Media        | Alto           |
+| SW005 | Clio Billing                          | Difusión de Software Dañino      | Operaciones, Finanzas     | Alto                  | Media        | Alto           |
+| SW005 | Clio Billing                          | Avería de origen físico o lógico | Operaciones, Finanzas     | Medio                 | Baja         | Medio          |
+| SW005 | Clio Billing                          | Errores de los Usuarios          | Operaciones, Finanzas     | Medio                 | Media        | Medio          |
+| SW005 | Clio Billing                          | Errores de configuración         | Seguridad, Finanzas       | Medio                 | Media        | Medio          |
+| SW006 | NetDocuments                          | Escape de Información            | Documentación, Datos      | Alto                  | Media        | Alto           |
+| SW006 | NetDocuments                          | Vulnerabilidad de Aplicaciones   | Documentación, Seguridad  | Alto                  | Media        | Alto           |
+| SW006 | NetDocuments                          | SYN Flood                        | Disponibilidad, Documentación | Medio            | Baja         | Medio          |
+| SW006 | NetDocuments                          | Compromiso de Credenciales       | Documentación, Datos      | Alto                  | Media        | Alto           |
+| SW006 | NetDocuments                          | Phishing                         | Documentación, Datos      | Medio                 | Media        | Medio          |
+| SW006 | NetDocuments                          | Fugas de Información             | Documentación, Datos      | Alto                  | Media        | Alto           |
+| SW006 | NetDocuments                          | Acceso no autorizado al CPD      | Seguridad, Documentación  | Alto                  | Media        | Alto           |
+| SW006 | NetDocuments                          | Difusión de Software Dañino      | Operaciones, Documentación| Alto                  | Media        | Alto           |
+| SW006 | NetDocuments                          | Avería de origen físico o lógico | Operaciones, Documentación| Medio                 | Baja         | Medio          |
+| SW006 | NetDocuments                          | Errores de los Usuarios          | Operaciones, Documentación| Medio                 | Media        | Medio          |
+| SW006 | NetDocuments                          | Errores de configuración         | Seguridad, Documentación  | Medio                 | Media        | Medio          |
+| SW007 | Lex Machina                           | Escape de Información            | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW007 | Lex Machina                           | Vulnerabilidad de Aplicaciones   | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW007 | Lex Machina                           | SYN Flood                        | Disponibilidad, Legal    | Medio                 | Baja         | Medio          |
+| SW007 | Lex Machina                           | Compromiso de Credenciales       | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW007 | Lex Machina                           | Phishing                         | Datos, Legal             | Medio                 | Media        | Medio          |
+| SW007 | Lex Machina                           | Fugas de Información             | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW007 | Lex Machina                           | Acceso no autorizado al CPD      | Seguridad, Datos         | Alto                  | Media        | Alto           |
+| SW007 | Lex Machina                           | Difusión de Software Dañino      | Operaciones, Legal       | Alto                  | Media        | Alto           |
+| SW007 | Lex Machina                           | Avería de origen físico o lógico | Operaciones, Legal       | Medio                 | Baja         | Medio          |
+| SW007 | Lex Machina                           | Errores de los Usuarios          | Operaciones, Legal       | Medio                 | Media        | Medio          |
+| SW007 | Lex Machina                           | Errores de configuración         | Seguridad, Legal         | Medio                 | Media        | Medio          |
+| SW008 | LexisNexis                            | Escape de Información            | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW008 | LexisNexis                            | Vulnerabilidad de Aplicaciones   | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW008 | LexisNexis                            | SYN Flood                        | Disponibilidad, Legal    | Medio                 | Baja         | Medio          |
+| SW008 | LexisNexis                            | Compromiso de Credenciales       | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW008 | LexisNexis                            | Phishing                         | Datos, Legal             | Medio                 | Media        | Medio          |
+| SW008 | LexisNexis                            | Fugas de Información             | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW008 | LexisNexis                            | Acceso no autorizado al CPD      | Seguridad, Datos         | Alto                  | Media        | Alto           |
+| SW008 | LexisNexis                            | Difusión de Software Dañino      | Operaciones, Legal       | Alto                  | Media        | Alto           |
+| SW008 | LexisNexis                            | Avería de origen físico o lógico | Operaciones, Legal       | Medio                 | Baja         | Medio          |
+| SW008 | LexisNexis                            | Errores de los Usuarios          | Operaciones, Legal       | Medio                 | Media        | Medio          |
+| SW008 | LexisNexis                            | Errores de configuración         | Seguridad, Legal         | Medio                 | Media        | Medio          |
+| SW009 | Ravel Law                             | Escape de Información            | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW009 | Ravel Law                             | Vulnerabilidad de Aplicaciones   | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW009 | Ravel Law                             | SYN Flood                        | Disponibilidad, Legal    | Medio                 | Baja         | Medio          |
+| SW009 | Ravel Law                             | Compromiso de Credenciales       | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW009 | Ravel Law                             | Phishing                         | Datos, Legal             | Medio                 | Media        | Medio          |
+| SW009 | Ravel Law                             | Fugas de Información             | Datos, Legal             | Alto                  | Media        | Alto           |
+| SW009 | Ravel Law                             | Acceso no autorizado al CPD      | Seguridad, Datos         | Alto                  | Media        | Alto           |
+| SW009 | Ravel Law                             | Difusión de Software Dañino      | Operaciones, Legal       | Alto                  | Media        | Alto           |
+| SW009 | Ravel Law                             | Avería de origen físico o lógico | Operaciones, Legal       | Medio                 | Baja         | Medio          |
+| SW009 | Ravel Law                             | Errores de los Usuarios          | Operaciones, Legal       | Medio                 | Media        | Medio          |
+| SW009 | Ravel Law                             | Errores de configuración         | Seguridad, Legal         | Medio                 | Media        | Medio          |
+| SW010 | QuickBooks Legal                      | Escape de Información            | Finanzas, Datos          | Alto                  | Media        | Alto           |
+| SW010 | QuickBooks Legal                      | Vulnerabilidad de Aplicaciones   | Finanzas, Seguridad      | Alto                  | Media        | Alto           |
+| SW010 | QuickBooks Legal                      | SYN Flood                        | Disponibilidad, Finanzas | Medio                 | Baja         | Medio          |
+| SW010 | QuickBooks Legal                      | Compromiso de Credenciales       | Finanzas, Datos          | Alto                  | Media        | Alto           |
+| SW010 | QuickBooks Legal                      | Phishing                         | Finanzas, Datos          | Medio                 | Media        | Medio          |
+| SW010 | QuickBooks Legal                      | Fugas de Información             | Finanzas, Datos          | Alto                  | Media        | Alto           |
+| SW010 | QuickBooks Legal                      | Acceso no autorizado al CPD      | Seguridad, Finanzas      | Alto                  | Media        | Alto           |
+| SW010 | QuickBooks Legal                      | Difusión de Software Dañino      | Operaciones, Finanzas    | Alto                  | Media        | Alto           |
+| SW010 | QuickBooks Legal                      | Avería de origen físico o lógico | Operaciones, Finanzas    | Medio                 | Baja         | Medio          |
+| SW010 | QuickBooks Legal                      | Errores de los Usuarios          | Operaciones, Finanzas    | Medio                 | Media        | Medio          |
+| SW010 | QuickBooks Legal                      | Errores de configuración         | Seguridad, Finanzas      | Medio                 | Media        | Medio          |
+| SW011 | Zoom Meetings                         | Escape de Información            | Comunicaciones, Datos     | Alto                  | Media        | Alto           |
+| SW011 | Zoom Meetings                         | Vulnerabilidad de Aplicaciones   | Comunicaciones, Seguridad | Alto                  | Media        | Alto           |
+| SW011 | Zoom Meetings                         | SYN Flood                        | Disponibilidad            | Medio                 | Baja         | Medio          |
+| SW011 | Zoom Meetings                         | Compromiso de Credenciales       | Comunicaciones, Datos     | Alto                  | Media        | Alto           |
+| SW011 | Zoom Meetings                         | Phishing                         | Comunicaciones, Datos     | Medio                 | Media        | Medio          |
+| SW011 | Zoom Meetings                         | Fugas de Información             | Comunicaciones, Datos     | Alto                  | Media        | Alto           |
+| SW011 | Zoom Meetings                         | Acceso no autorizado al CPD      | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW011 | Zoom Meetings                         | Difusión de Software Dañino      | Comunicaciones, Operaciones | Alto                | Media        | Alto           |
+| SW011 | Zoom Meetings                         | Avería de origen físico o lógico | Operaciones, Comunicaciones | Medio               | Baja         | Medio          |
+| SW011 | Zoom Meetings                         | Errores de los Usuarios          | Operaciones, Comunicaciones | Medio               | Media        | Medio          |
+| SW011 | Zoom Meetings                         | Errores de configuración         | Seguridad, Comunicaciones  | Medio                | Media        | Medio          |
+| SW012 | Varonis Data Security Platform        | Escape de Información            | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW012 | Varonis Data Security Platform        | Vulnerabilidad de Aplicaciones   | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW012 | Varonis Data Security Platform        | SYN Flood                        | Disponibilidad, Seguridad | Medio                 | Baja         | Medio          |
+| SW012 | Varonis Data Security Platform        | Compromiso de Credenciales       | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW012 | Varonis Data Security Platform        | Phishing                         | Seguridad, Datos          | Medio                 | Media        | Medio          |
+| SW012 | Varonis Data Security Platform        | Fugas de Información             | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW012 | Varonis Data Security Platform        | Acceso no autorizado al CPD      | Seguridad, Operaciones    | Alto                  | Media        | Alto           |
+| SW012 | Varonis Data Security Platform        | Difusión de Software Dañino      | Seguridad, Operaciones    | Alto                  | Media        | Alto           |
+| SW012 | Varonis Data Security Platform        | Avería de origen físico o lógico | Seguridad, Operaciones    | Medio                 | Baja         | Medio          |
+| SW012 | Varonis Data Security Platform        | Errores de los Usuarios          | Seguridad, Operaciones    | Medio                 | Media        | Medio          |
+| SW012 | Varonis Data Security Platform        | Errores de configuración         | Seguridad, Operaciones    | Medio                 | Media        | Medio          |
+| SW013 | Symantec Encryption                   | Escape de Información            | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW013 | Symantec Encryption                   | Vulnerabilidad de Aplicaciones   | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW013 | Symantec Encryption                   | SYN Flood                        | Disponibilidad, Seguridad | Medio                 | Baja         | Medio          |
+| SW013 | Symantec Encryption                   | Compromiso de Credenciales       | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW013 | Symantec Encryption                   | Phishing                         | Seguridad, Datos          | Medio                 | Media        | Medio          |
+| SW013 | Symantec Encryption                   | Fugas de Información             | Seguridad, Datos          | Alto                  | Media        | Alto           |
+| SW013 | Symantec Encryption                   | Acceso no autorizado al CPD      | Seguridad, Operaciones    | Alto                  | Media        | Alto           |
+| SW013 | Symantec Encryption                   | Difusión de Software Dañino      | Seguridad, Operaciones    | Alto                  | Media        | Alto           |
+| SW013 | Symantec Encryption                   | Avería de origen físico o lógico | Seguridad, Operaciones    | Medio                 | Baja         | Medio          |
+| SW013 | Symantec Encryption                   | Errores de los Usuarios          | Seguridad, Operaciones    | Medio                 | Media        | Medio          |
+| SW013 | Symantec Encryption                   | Errores de configuración         | Seguridad, Operaciones    | Medio                 | Media        | Medio          |
