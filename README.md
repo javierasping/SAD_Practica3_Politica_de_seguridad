@@ -86,7 +86,28 @@
     - 5.1.22 Medidas Preventivas [AI.9] Fugas de Información en la Nube
 
 - [6 Tratamiento del riesgo](ArchivosMD/Tratamiento%20del%20riesgo.md)
-
+    - 6.1.1 Medidas  reactivas  [N.1] Fuego
+    - 6.1.2 Medidas  reactivas  [N.2] Daños por Agua
+    - 6.1.3 Medidas  reactivas  [I.1] Contaminación Mecánica
+    - 6.1.4 Medidas  reactivas  [I.2] Avería de Origen Físico o Lógico
+    - 6.1.5 Medidas  reactivas  [I.3] Corte del Suministro Eléctrico
+    - 6.1.6 Medidas  reactivas  [I.4] Averías en la Electrónica de Red (Switches y Routers)
+    - 6.1.7 Medidas  reactivas  [NI.1] Errores de los Usuarios
+    - 6.1.8 Medidas  reactivas  [NI.2] Errores de los Usuarios
+    - 6.1.9 Medidas  reactivas  [NI.3] Errores de Configuración
+    - 6.1.10 Medidas reactivas  [NI.4] Difusión de Software Dañino
+    - 6.1.11 Medidas reactivas  [NI.5] Escapes de Información
+    - 6.1.12 Medidas reactivas  [NI.6] Alteración de la Información
+    - 6.1.13 Medidas reactivas  [NI.7] Destrucción de la Información
+    - 6.1.14 Medidas reactivas  [AI.1] Acceso no Autorizado al CPD
+    - 6.1.15 Medidas reactivas  [AI.2] Ransomware
+    - 6.1.16 Medidas reactivas  [AI.3] Conflicto Armado
+    - 6.1.17 Medidas reactivas  [AI.4] Phishing
+    - 6.1.18 Medidas reactivas  [AI.5] Robo
+    - 6.1.19 Medidas reactivas  [AI.6] Compromiso de Credenciales
+    - 6.1.20 Medidas reactivas  [AI.7] Ataques de Denegación de Servicio SYN Flood
+    - 6.1.21 Medidas reactivas  [AI.8] Vulnerabilidades de las Aplicaciones
+    - 6.1.22 Medidas reactivas  [AI.9] Fugas de Información en la Nube
 
 
 
