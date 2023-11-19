@@ -269,6 +269,44 @@ Se generará un informe que incluya estadísticas sobre la frecuencia y tipos de
 #### 6.1.16 Medidas reactivas  [AI.3] Conflicto Armado
 #### 6.1.17 Medidas reactivas  [AI.4] Phishing
 #### 6.1.18 Medidas reactivas  [AI.5] Robo
+### Objetivo
+Responder eficazmente ante incidentes de robo, protegiendo los activos de la empresa y minimizando el impacto operativo y financiero.
+
+### Responsables
+- **Jefe de Seguridad**: Liderazgo en la gestión de la respuesta ante robos.
+- **Equipo de Administración y Finanzas**: Evaluación de pérdidas y gestión de seguros.
+- **Recursos Humanos y Comunicaciones**: Comunicación interna y apoyo al personal afectado.
+
+### Procedimiento a Seguir
+
+#### Detección y Notificación
+- **Confirmación del Robo**: Verificar e identificar qué ha sido robado.
+- **Notificación Inmediata**: Informar a las autoridades locales y a la dirección de la empresa sin demora.
+
+#### Evaluación Inicial
+- **Inventario de Pérdidas**: Realizar un inventario detallado de los elementos robados.
+- **Revisión de la Seguridad**: Evaluar cómo se produjo el robo y si hay vulnerabilidades en las medidas de seguridad.
+
+#### Acciones de Contención
+- **Seguridad Física**: Reforzar la seguridad física en áreas afectadas y puntos de acceso.
+- **Protección de Datos**: En caso de robo de dispositivos con información sensible, iniciar protocolos para proteger los datos (por ejemplo, cambio de contraseñas, bloqueo remoto).
+
+#### Recuperación y Restauración
+- **Recuperación de Activos**: Coordinar con las autoridades para la recuperación de los bienes robados.
+- **Plan de Continuidad**: Implementar medidas para continuar las operaciones con el menor impacto posible.
+
+#### Comunicación
+- **Informar a Empleados y Clientes**: Comunicar de forma transparente sobre el incidente y las medidas tomadas.
+- **Gestión de Seguros**: Contactar a la aseguradora para gestionar las reclamaciones correspondientes.
+
+#### Análisis Post-Incidente
+- **Evaluación de la Respuesta**: Analizar cómo se manejó el incidente y qué se puede mejorar.
+- **Actualización de Medidas de Seguridad**: Revisar y fortalecer las políticas y sistemas de seguridad para prevenir futuros incidentes.
+
+### Capacitación y Prevención
+- **Formación en Seguridad Física y Vigilancia**: Capacitar al personal sobre la importancia de la seguridad y cómo actuar en situaciones similares.
+- **Simulacros de Robo**: Realizar ejercicios prácticos para mejorar la preparación ante futuros robos.
+
 #### 6.1.19 Medidas reactivas  [AI.6] Compromiso de Credenciales
 ### Objetivo
 Responder de manera rápida y eficiente ante el compromiso de credenciales, protegiendo la integridad de los sistemas y datos, y minimizando el impacto en las operaciones de la empresa.
