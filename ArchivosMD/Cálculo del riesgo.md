@@ -1,98 +1,86 @@
 
- N.1 Fuego |
-| --- |
-| **Tipos de Activos:** |
-| - [HW]: Equipos informáticos (hardware) |
-| - [COM] Redes de comunicaciones |
-| - [Media]: Soportes de información |
-| - [Aux]: Equipamiento auxiliar |
-| - [L]: Instalaciones |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
-
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| AE001  | Archivo Digital de Casos                |   |   |   |         |
-| AE002  | Sistema de Comunicaciones               |   | X | X | Medio   |
+| AE001  | Archivo Digital de Casos                | X |   |   | Alto    |
+| AE002  | Sistema de Comunicaciones               | X |   |   | Alto    |
 | AE003  | Base de datos de clientes               | X | X | X | Muy Alto|
-| AE004  | Sistema de gestión financiera           | X | X | X | Alto    |
-| AE005  | Plataforma de colaboración interna      | X | X | X | Alto    |
-| AS001  | Servidores Centrales                   |   |   |   |         |
-| AS002  | Red de Área Local (LAN)                |   | X | X | Medio   |
-| AS003  | Sistema de seguridad de red            | X | X | X | Muy Alto|
-| AS004  | Políticas de acceso y control          | X | X | X | Alto    |
-| AS005  | Infraestructura de respaldo            | X | X | X | Muy Alto|
-| D001   | Casos legales en curso                 | X | X | X | Muy Alto|
-| D002   | Contratos y acuerdos                   | X | X | X | Alto    |
-| D003   | Información confidencial del cliente   | X | X | X | Muy Alto|
-| D004   | Precedentes legales                    | X | X | X | Alto    |
-| D005   | Servicios Digitales                    | X | X | X | Muy Alto|
-| KC001  | Claves de acceso a bases de datos      | X | X | X | Muy Alto|
-| KC002  | Claves de correo electrónico           | X | X | X | Alto    |
-| KC003  | Claves de acceso a sistemas internos   | X | X | X | Muy Alto|
-| KC004  | Claves de cifrado de documentos        | X | X | X | Alto    |
-| KC005  | Claves de firma digital                | X | X | X | Muy Alto|
-| S001   | Intranet                              |   | X | X | Medio   |
-| S002   | Exchange Server                       | X | X | X | Alto    |
-| S003   | SFTP                                  | X | X | X | Muy Alto|
-| S004   | Active Directory (AD)                 | X | X | X | Alto    |
-| S005   | Software ARP                          | X | X | X | Medio   |
-| S006   | PKI - Infraestructura de clave pública | X | X | X | Muy Alto|
-| SW000  | Debian 12                             |   |   |   |         |
-| SW001  | Windows 11                            | X | X | X | Alto    |
-| SW002  | Clio Manage                           | X | X | X | Alto    |
-| SW003  | Westlaw                               | X | X | X | Muy Alto|
-| SW004  | Microsoft Teams                       | X | X | X | Alto    |
-| SW005  | Clio Billing                          | X | X | X | Medio   |
-| SW006  | NetDocuments                          | X | X | X | Muy Alto|
-| SW007  | Lex Machina                           | X | X | X | Alto    |
-| SW008  | LexisNexis                            | X | X | X | Muy Alto|
-| SW009  | Ravel Law                             | X | X | X | Alto    |
-| SW010  | QuickBooks Legal                      | X | X | X | Muy Alto|
-| SW011  | Zoom Meetings                         | X | X | X | Medio   |
-| SW012  | Varonis Data Security Platform        | X | X | X | Alto    |
-| SW013  | Symantec Encryption                   | X | X | X | Muy Alto|
-| HW000  | Servidores Dell PowerEdge             | X | X | X | Muy Alto|
-| HW001  | Estación de Trabajo HP ZBook          | X | X | X | Alto    |
-| HW002  | PC de Escritorio Lenovo ThinkCentre   | X | X | X | Medio   |
+| AE004  | Sistema de gestión financiera           | X |   |   | Alto    |
+| AE005  | Plataforma de colaboración interna      | X |   |   | Alto    |
+| AS001  | Servidores Centrales                    | X | X |   | Muy Alto|
+| AS002  | Red de Área Local (LAN)                 | X |   |   | Medio   |
+| AS003  | Sistema de seguridad de red             | X | X | X | Muy Alto|
+| AS004  | Políticas de acceso y control           | X | X | X | Alto    |
+| AS005  | Infraestructura de respaldo             | X | X | X | Muy Alto|
+| D001   | Casos legales en curso                  | X | X | X | Muy Alto|
+| D002   | Contratos y acuerdos                    | X | X | X | Alto    |
+| D003   | Información confidencial del cliente    | X | X | X | Muy Alto|
+| D004   | Precedentes legales                     | X | X | X | Alto    |
+| D005   | Servicios Digitales                     | X | X | X | Muy Alto|
+| KC001  | Claves de acceso a bases de datos       | X | X | X | Muy Alto|
+| KC002  | Claves de correo electrónico            | X | X | X | Alto    |
+| KC003  | Claves de acceso a sistemas internos    | X | X | X | Muy Alto|
+| KC004  | Claves de cifrado de documentos         | X | X | X | Alto    |
+| KC005  | Claves de firma digital                 | X | X | X | Muy Alto|
+| S001   | Intranet                                | X |   |   | Medio   |
+| S002   | Exchange Server                         | X | X | X | Alto    |
+| S003   | SFTP                                    | X | X | X | Muy Alto|
+| S004   | Active Directory (AD)                   | X | X | X | Alto    |
+| S005   | Software ARP                            | X | X | X | Medio   |
+| S006   | PKI - Infraestructura de clave pública  | X | X | X | Muy Alto|
+| SW000  | Debian 12                               |   |   |   |         |
+| SW001  | Windows 11                              | X | X | X | Alto    |
+| SW002  | Clio Manage                             | X | X | X | Alto    |
+| SW003  | Westlaw                                 | X | X | X | Muy Alto|
+| SW004  | Microsoft Teams                         | X | X | X | Alto    |
+| SW005  | Clio Billing                            | X | X | X | Medio   |
+| SW006  | NetDocuments                            | X | X | X | Muy Alto|
+| SW007  | Lex Machina                             | X | X | X | Alto    |
+| SW008  | LexisNexis                              | X | X | X | Muy Alto|
+| SW009  | Ravel Law                               | X | X | X | Alto    |
+| SW010  | QuickBooks Legal                        | X | X | X | Muy Alto|
+| SW011  | Zoom Meetings                           | X | X | X | Medio   |
+| SW012  | Varonis Data Security Platform          | X | X | X | Alto    |
+| SW013  | Symantec Encryption                     | X | X | X | Muy Alto|
+| HW000  | Servidores Dell PowerEdge               | X | X | X | Muy Alto|
+| HW001  | Estación de Trabajo HP ZBook            | X | X | X | Alto    |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X | X | X | Medio   |
 | HW003  | Dispositivos de Almacenamiento Synology | X | X | X | Alto    |
-| HW004  | Impresoras HP LaserJet                | X | X | X | Medio   |
-| HW005  | Enrutador Cisco Catalyst              | X | X | X | Alto    |
-| HW006  | Sistema de Videovigilancia Axis       | X | X | X | Muy Alto|
-| HW007  | Escáner Epson WorkForce               | X | X | X | Medio   |
-| HW008  | Teléfonos VoIP Grandstream            | X | X | X | Alto    |
-| HW009  | UPS APC Smart-UPS                    | X | X | X | Muy Alto|
-| HW010  | Estación Docking para Portátiles      |   |   |   |         |
-| HW011  | Sistemas de Control de Acceso         |   |   |   |         |
-| HW012  | Pizarras Interactivas SMART           |   |   |   |         |
-| HW013  | Switches Cisco Catalyst 2960              |   |   |   |         |
-| HW014  | iPhone 13 Pro Max                        |   |   |   |         |
-| COM001 | Red de Invitados                      | X |   | X | Alto    |
-| COM002 | Red 5G para Dispositivos Móviles      |   |   | X | Medio   |
-| COM003 | Fibra Óptica                         | X | X | X | Muy Alto|
-| COM004 | Red de Alta Seguridad Interna         | X |   | X | Alto    |
-| COM005 | Red Inalámbrica Segura (WPA3)        |   | X | X | Alto    |
-| COM006 | Red de Área Local (LAN)               |   | X | X | Medio   |
-| COM007 | Red de Voz sobre IP (VoIP)           |   | X | X | Alto    |
-| COM008 | Red Privada Virtual (VPN)             | X | X | X | Muy Alto|
-| SI001  | Almacenamiento en Red (SAN)           | X |   | X | Alto    |
-| SI002  | Disco Duro Externo                   | X |   | X | Medio   |
-| SI003  | Tarjeta de Memoria                   | X |   | X | Bajo    |
-| SI004  | Almacenamiento en la Nube            | X | X | X | Muy Alto|
-| SI005  | Disco Óptico (DVD)                   | X |   | X | Bajo    |
-| SI006  | Unidad USB                           | X |   | X | Medio   |
-| SI007  | Tarjeta Inteligente (Smart Card)     | X | X | X | Alto    |
-| AUX001 | Fuentes de Alimentación              |   |   |   |         |
+| HW004  | Impresoras HP LaserJet                  | X | X | X | Medio   |
+| HW005  | Enrutador Cisco Catalyst                | X | X | X | Alto    |
+| HW006  | Sistema de Videovigilancia Axis         | X | X | X | Muy Alto|
+| HW007  | Escáner Epson WorkForce                 | X | X | X | Medio   |
+| HW008  | Teléfonos VoIP Grandstream              | X | X | X | Alto    |
+| HW009  | UPS APC Smart-UPS                       | X | X | X | Muy Alto|
+| HW010  | Estación Docking para Portátiles        |   |   |   |         |
+| HW011  | Sistemas de Control de Acceso           |   |   |   |         |
+| HW012  | Pizarras Interactivas SMART             |   |   |   |         |
+| HW013  | Switches Cisco Catalyst 2960            |   |   |   |         |
+| HW014  | iPhone 13 Pro Max                       |   |   |   |         |
+| COM001 | Red de Invitados                        | X |   | X | Alto    |
+| COM002 | Red 5G para Dispositivos Móviles        |   |   | X | Medio   |
+| COM003 | Fibra Óptica                           | X | X | X | Muy Alto|
+| COM004 | Red de Alta Seguridad Interna           | X |   | X | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)          |   | X | X | Alto    |
+| COM006 | Red de Área Local (LAN)                 |   | X | X | Medio   |
+| COM007 | Red de Voz sobre IP (VoIP)             |   | X | X | Alto    |
+| COM008 | Red Privada Virtual (VPN)               | X | X | X | Muy Alto|
+| SI001  | Almacenamiento en Red (SAN)             | X |   | X | Alto    |
+| SI002  | Disco Duro Externo                      | X |   | X | Medio   |
+| SI003  | Tarjeta de Memoria                      | X |   | X | Bajo    |
+| SI004  | Almacenamiento en la Nube               | X | X | X | Muy Alto|
+| SI005  | Disco Óptico (DVD)                      | X |   | X | Bajo    |
+| SI006  | Unidad USB                              | X |   | X | Medio   |
+| SI007  | Tarjeta Inteligente (Smart Card)        | X | X | X | Alto    |
+| AUX001 | Fuentes de Alimentación                 |   |   |   |         |
 | AUX002 | Sistemas de Alimentación Ininterrumpida |   |   |   |         |
-| AUX003 | Equipos de Climatización              |   |   |   |         |
-| AUX004 | Cableado                 |   |   |   |         |
-| AUX005 | Mobiliario: Armarios, etc.|   |   |   |         |
-| L001   | Edificio Principal |   |   |   |         |
-| L002   | Departamento Legal |   |   |   |         |
-| L003   | Centro Tecnológico |   |   |   |         |
-| L004   | Sala de Servidores |   |   |   |         |
-
+| AUX003 | Equipos de Climatización                |   |   |   |         |
+| AUX004 | Cableado                                |   |   |   |         |
+| AUX005 | Mobiliario: Armarios, etc.              |   |   |   |         |
+| L001   | Edificio Principal                      |   |   |   |         |
+| L002   | Departamento Legal                      |   |   |   |         |
+| L003   | Centro Tecnológico                      |   |   |   |         |
+| L004   | Sala de Servidores                      |   |   |   |         |
 
 
 
@@ -109,57 +97,54 @@
 | **Dimensiones:** |
 | 1. [D] disponibilidad |
 
-
-
-
-
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| AS001  | Servidores Centrales                    |   |   |   |         |
-| D001   | Casos legales en curso                  |   |   |   |         |
-| D002   | Contratos y acuerdos                    |   |   |   |         |
-| D003   | Información confidencial del cliente    |   |   |   |         |
-| D004   | Precedentes legales                     |   |   |   |         |
-| D005   | Servicios Digitales                     |   |   |   |         |
-| HW000  | Servidores Dell PowerEdge               |   |   |   |         |
-| HW001  | Estación de Trabajo HP ZBook            |   |   |   |         |
-| HW002  | PC de Escritorio Lenovo ThinkCentre     |   |   |   |         |
-| HW003  | Dispositivos de Almacenamiento Synology |   |   |   |         |
-| HW004  | Impresoras HP LaserJet                  |   |   |   |         |
-| HW005  | Enrutador Cisco Catalyst                |   |   |   |         |
-| HW006  | Sistema de Videovigilancia Axis         |   |   |   |         |
-| HW007  | Escáner Epson WorkForce                 |   |   |   |         |
-| HW008  | Teléfonos VoIP Grandstream              |   |   |   |         |
-| HW009  | UPS APC Smart-UPS                       |   |   |   |         |
-| HW010  | Estación Docking para Portátiles        |   |   |   |         |
-| HW011  | Sistemas de Control de Acceso           |   |   |   |         |
-| HW012  | Pizarras Interactivas SMART             |   |   |   |         |
-| HW013  | Switches Cisco Catalyst 2960            |   |   |   |         |
-| HW014  | iPhone 13 Pro Max                       |   |   |   |         |
-| COM001 | Red de Invitados                        |   |   |   |         |
-| COM002 | Red 5G para Dispositivos Móviles        |   |   |   |         |
-| COM003 | Fibra Óptica                            |   |   |   |         |
-| COM004 | Red de Alta Seguridad Interna           |   |   |   |         |
-| COM005 | Red Inalámbrica Segura (WPA3)           |   |   |   |         |
-| COM006 | Red de Área Local (LAN)                 |   |   |   |         |
-| COM007 | Red de Voz sobre IP (VoIP)              |   |   |   |         |
-| COM008 | Red Privada Virtual (VPN)               |   |   |   |         |
-| SI001  | Almacenamiento en Red (SAN)             |   |   |   |         |
-| SI002  | Disco Duro Externo                      |   |   |   |         |
-| SI003  | Tarjeta de Memoria                      |   |   |   |         |
-| SI004  | Almacenamiento en la Nube               |   |   |   |         |
-| SI005  | Disco Óptico (DVD)                      |   |   |   |         |
-| SI006  | Unidad USB                              |   |   |   |         |
-| SI007  | Tarjeta Inteligente (Smart Card)        |   |   |   |         |
-| AUX001 | Fuentes de Alimentación                 |   |   |   |         |
-| AUX002 | Sistemas de Alimentación Ininterrumpida |   |   |   |         |
-| AUX003 | Equipos de Climatización                |   |   |   |         |
-| AUX004 | Cableado                                |   |   |   |         |
-| AUX005 | Mobiliario: Armarios, etc.              |   |   |   |         |
-| L001   | Edificio Principal                      |   |   |   |         |
-| L002   | Departamento Legal                      |   |   |   |         |
-| L003   | Centro Tecnológico                      |   |   |   |         |
-| L004   | Sala de Servidores                      |   |   |   |         |
+| AS001  | Servidores Centrales                    | X | X |   | Muy Alto|
+| D001   | Casos legales en curso                  | X | X |   | Alto    |
+| D002   | Contratos y acuerdos                    | X | X |   | Alto    |
+| D003   | Información confidencial del cliente    | X | X | X | Muy Alto|
+| D004   | Precedentes legales                     | X | X |   | Medio   |
+| D005   | Servicios Digitales                     | X |   |   | Alto    |
+| HW000  | Servidores Dell PowerEdge               | X | X |   | Muy Alto|
+| HW001  | Estación de Trabajo HP ZBook            | X |   |   | Alto    |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X |   |   | Medio   |
+| HW003  | Dispositivos de Almacenamiento Synology | X | X |   | Alto    |
+| HW004  | Impresoras HP LaserJet                  | X |   |   | Medio   |
+| HW005  | Enrutador Cisco Catalyst                | X |   |   | Alto    |
+| HW006  | Sistema de Videovigilancia Axis         | X |   |   | Medio   |
+| HW007  | Escáner Epson WorkForce                 | X |   |   | Medio   |
+| HW008  | Teléfonos VoIP Grandstream              | X |   |   | Medio   |
+| HW009  | UPS APC Smart-UPS                       | X |   |   | Alto    |
+| HW010  | Estación Docking para Portátiles        | X |   |   | Bajo    |
+| HW011  | Sistemas de Control de Acceso           | X |   |   | Medio   |
+| HW012  | Pizarras Interactivas SMART             | X |   |   | Bajo    |
+| HW013  | Switches Cisco Catalyst 2960            | X |   |   | Medio   |
+| HW014  | iPhone 13 Pro Max                       | X |   |   | Bajo    |
+| COM001 | Red de Invitados                        | X |   |   | Alto    |
+| COM002 | Red 5G para Dispositivos Móviles        | X |   |   | Medio   |
+| COM003 | Fibra Óptica                            | X |   |   | Alto    |
+| COM004 | Red de Alta Seguridad Interna           | X |   |   | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)           | X |   |   | Medio   |
+| COM006 | Red de Área Local (LAN)                 | X |   |   | Medio   |
+| COM007 | Red de Voz sobre IP (VoIP)              | X |   |   | Medio   |
+| COM008 | Red Privada Virtual (VPN)               | X |   |   | Alto    |
+| SI001  | Almacenamiento en Red (SAN)             | X | X |   | Alto    |
+| SI002  | Disco Duro Externo                      | X |   |   | Medio   |
+| SI003  | Tarjeta de Memoria                      | X |   |   | Bajo    |
+| SI004  | Almacenamiento en la Nube               |   |   |   | Bajo    |
+| SI005  | Disco Óptico (DVD)                      | X |   |   | Bajo    |
+| SI006  | Unidad USB                              | X |   |   | Medio   |
+| SI007  | Tarjeta Inteligente (Smart Card)        | X | X |   | Medio   |
+| AUX001 | Fuentes de Alimentación                 | X |   |   | Medio   |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | X |   |   | Alto    |
+| AUX003 | Equipos de Climatización                | X |   |   | Medio   |
+| AUX004 | Cableado                                | X |   |   | Medio   |
+| AUX005 | Mobiliario: Armarios, etc.              | X |   |   | Bajo    |
+| L001   | Edificio Principal                      | X |   |   | Muy Alto|
+| L002   | Departamento Legal                      | X |   |   | Alto    |
+| L003   | Centro Tecnológico                      | X |   |   | Alto    |
+| L004   | Sala de Servidores                      | X | X |   | Muy Alto|
+
 
 
 #### 3.2.1 Contaminación mecánica 
