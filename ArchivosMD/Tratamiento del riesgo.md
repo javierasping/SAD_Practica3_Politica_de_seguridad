@@ -270,6 +270,40 @@ Se generará un informe que incluya estadísticas sobre la frecuencia y tipos de
 #### 6.1.17 Medidas reactivas  [AI.4] Phishing
 #### 6.1.18 Medidas reactivas  [AI.5] Robo
 #### 6.1.19 Medidas reactivas  [AI.6] Compromiso de Credenciales
+### Objetivo
+Responder de manera rápida y eficiente ante el compromiso de credenciales, protegiendo la integridad de los sistemas y datos, y minimizando el impacto en las operaciones de la empresa.
+
+### Responsables
+- **Jefe de Seguridad de la Información**: Liderazgo y coordinación de la respuesta.
+- **Equipo de TI y Ciberseguridad**: Implementación de medidas técnicas y operativas.
+- **Departamento de Recursos Humanos**: Gestión de comunicaciones y políticas internas.
+
+### Procedimiento a Seguir
+
+#### Detección y Análisis
+- **Monitoreo de Accesos**: Utilizar herramientas de monitoreo para detectar accesos anómalos o uso inusual de credenciales.
+- **Investigación Inicial**: Determinar qué cuentas han sido comprometidas y la naturaleza del acceso no autorizado.
+
+#### Contención Inmediata
+- **Revocación de Credenciales Afectadas**: Cambiar contraseñas y revocar accesos de las cuentas comprometidas.
+- **Aislamiento de Sistemas Afectados**: Si es necesario, aislar sistemas o segmentos de red para prevenir una mayor exposición.
+
+#### Comunicación y Notificación
+- **Notificar al Personal Afectado**: Informar a los usuarios cuyas credenciales han sido comprometidas sobre los pasos a seguir.
+- **Comunicación Interna**: Alertar al personal sobre posibles riesgos y medidas de precaución.
+
+#### Recuperación y Restauración
+- **Restablecimiento de Cuentas**: Establecer nuevas credenciales seguras para las cuentas afectadas.
+- **Revisión de Accesos y Permisos**: Asegurar que los permisos de cuentas restablecidas sean correctos y seguros.
+
+#### Análisis Post-Incidente
+- **Auditoría y Revisión de Seguridad**: Realizar un análisis detallado para identificar cómo se comprometieron las credenciales.
+- **Mejoras en Políticas de Seguridad**: Actualizar y reforzar las políticas de gestión de credenciales y acceso basándose en el incidente.
+
+### Capacitación y Concienciación
+- **Formación en Seguridad de Credenciales**: Capacitar al personal en buenas prácticas de gestión de contraseñas y seguridad de acceso.
+- **Simulacros y Pruebas**: Realizar ejercicios prácticos para mejorar la preparación ante futuros incidentes.
+
 #### 6.1.20 Medidas reactivas  [AI.7] Ataques de Denegación de Servicio SYN Flood
 
 ### Objetivo
