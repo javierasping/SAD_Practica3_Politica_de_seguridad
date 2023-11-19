@@ -271,5 +271,81 @@ Se generará un informe que incluya estadísticas sobre la frecuencia y tipos de
 #### 6.1.18 Medidas reactivas  [AI.5] Robo
 #### 6.1.19 Medidas reactivas  [AI.6] Compromiso de Credenciales
 #### 6.1.20 Medidas reactivas  [AI.7] Ataques de Denegación de Servicio SYN Flood
+
+### Objetivo
+Garantizar una gestión eficiente y rápida de un ataque SYN Flood, protegiendo la infraestructura crítica de TI, asegurando la continuidad del negocio y minimizando el impacto en las operaciones y servicios.
+
+### Responsables
+- **Jefe de Departamento de TI**: Líder de emergencias y coordinador principal.
+- **Equipo de Seguridad de la Información**: Apoyo técnico y operativo.
+- **Equipo de Comunicaciones**: Gestión de comunicaciones internas y externas.
+
+### Procedimiento a Seguir
+
+#### Detección y Alerta Temprana
+- **Monitoreo Continuo**: Utilizar herramientas de monitoreo de red para detectar aumentos sospechosos en las solicitudes SYN.
+- **Alertas Automatizadas**: Configurar sistemas de detección de intrusos para generar alertas inmediatas en caso de patrones de tráfico anómalos.
+
+#### Evaluación y Análisis
+- **Determinar Escala y Severidad**: Analizar la magnitud del ataque y su impacto potencial en los servicios críticos.
+- **Identificación de Origen**: Intentar rastrear la fuente del ataque utilizando herramientas de análisis de tráfico.
+
+#### Contención y Mitigación
+- **Filtros de Tráfico y Rate Limiting**: Implementar reglas de filtrado avanzado y limitación de tasa de conexiones en firewalls y routers.
+- **Aislamiento de Segmentos de Red**: Separar áreas críticas de la red para protegerlas del tráfico malicioso.
+
+#### Coordinación con Terceros
+- **ISP y Autoridades**: Comunicarse con proveedores de servicios de internet y autoridades pertinentes para solicitar asistencia y reportar el incidente.
+
+#### Recuperación y Restauración
+- **Evaluación de Daños**: Revisar logs y monitores para determinar el impacto en los sistemas y datos.
+- **Restauración de Servicios**: Priorizar la restauración de servicios críticos y aplicar medidas de contingencia para mantener la operatividad.
+
+#### Revisión y Aprendizaje Post-Incidente
+- **Análisis Detallado del Ataque**: Estudiar cómo y por qué ocurrió el ataque para identificar vulnerabilidades.
+- **Actualización de Políticas de Seguridad**: Revisar y mejorar las políticas y configuraciones de seguridad basadas en las lecciones aprendidas.
+- **Simulacros y Capacitación**: Realizar ejercicios de simulación de ataques y capacitar al personal en prácticas de seguridad mejoradas.
+
+### Documentación y Reporte
+- **Informes de Incidentes**: Elaborar un informe detallado del incidente, incluyendo las acciones tomadas y las lecciones aprendidas.
+- **Comunicación con Stakeholders**: Informar a los stakeholders relevantes sobre el incidente y las medidas tomadas para prevenir futuros ataques.
+
 #### 6.1.21 Medidas reactivas  [AI.8] Vulnerabilidades de las Aplicaciones
 #### 6.1.22 Medidas reactivas  [AI.9] Fugas de Información en la Nube
+### Objetivo
+Responder de manera eficaz y rápida a las fugas de información en la nube, protegiendo los datos sensibles, minimizando el impacto en la confidencialidad y la integridad de la información, y asegurando la continuidad del negocio.
+
+### Responsables
+- **Jefe de Departamento de TI y Seguridad de la Información**: Liderazgo y coordinación de la respuesta.
+- **Equipo de Gestión de la Nube**: Especialistas en infraestructura y servicios de nube.
+- **Equipo Legal y de Cumplimiento**: Gestión de aspectos legales y de cumplimiento.
+
+### Procedimiento a Seguir
+
+#### Detección y Alerta
+- **Monitoreo de Servicios en la Nube**: Utilizar herramientas de monitoreo para detectar accesos no autorizados o actividades sospechosas.
+- **Alertas Automatizadas**: Configurar alertas para notificar anomalías en el manejo de datos en la nube.
+
+#### Evaluación Inicial
+- **Determinar la Magnitud de la Fuga**: Evaluar el alcance y el tipo de datos comprometidos.
+- **Análisis de Impacto**: Identificar los servicios, usuarios y clientes afectados.
+
+#### Contención y Mitigación
+- **Restricción de Accesos**: Modificar permisos y credenciales para prevenir mayor exposición.
+- **Aislamiento de Datos Afectados**: Segregar los datos comprometidos para limitar el daño.
+
+#### Notificación y Comunicación
+- **Informar a las Autoridades**: Notificar a las autoridades regulatorias conforme a las leyes de protección de datos.
+- **Comunicación Transparente**: Informar a los usuarios y clientes afectados de manera clara y responsable.
+
+#### Recuperación y Restauración
+- **Restauración de Datos**: Utilizar copias de seguridad para restaurar los datos afectados.
+- **Revisión de Políticas de Seguridad en la Nube**: Fortalecer las políticas y prácticas de seguridad para prevenir incidentes futuros.
+
+#### Análisis Post-Incidente
+- **Investigación Forense**: Realizar un análisis detallado para determinar la causa y aprender de la fuga.
+- **Revisión de Procedimientos y Políticas**: Actualizar los protocolos de seguridad y gestión de datos basados en los hallazgos.
+
+### Capacitación y Concienciación
+- **Formación en Seguridad de la Información**: Capacitar al personal en prácticas de seguridad de datos en la nube.
+- **Simulacros de Fuga de Datos**: Realizar ejercicios prácticos para mejorar la preparación y respuesta.
