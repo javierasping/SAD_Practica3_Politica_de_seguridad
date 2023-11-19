@@ -258,17 +258,165 @@ En caso de errores recurrentes relacionados con acciones de usuarios, se brindar
 Se generará un informe que incluya estadísticas sobre la frecuencia y tipos de errores de usuarios, proporcionando información valiosa para futuras acciones preventivas.
 
 
-#### 6.1.8 Medidas  reactivas  [NI.2] Errores de los Usuarios
-#### 6.1.9 Medidas  reactivas  [NI.3] Errores de Configuración
-#### 6.1.10 Medidas reactivas  [NI.4] Difusión de Software Dañino
-#### 6.1.11 Medidas reactivas  [NI.5] Escapes de Información
-#### 6.1.12 Medidas reactivas  [NI.6] Alteración de la Información
-#### 6.1.13 Medidas reactivas  [NI.7] Destrucción de la Información
-#### 6.1.14 Medidas reactivas  [AI.1] Acceso no Autorizado al CPD
-#### 6.1.15 Medidas reactivas  [AI.2] Ransomware
-#### 6.1.16 Medidas reactivas  [AI.3] Conflicto Armado
-#### 6.1.17 Medidas reactivas  [AI.4] Phishing
-#### 6.1.18 Medidas reactivas  [AI.5] Robo
+#### 6.1.8 Medidas  reactivas  [NI.3] Errores de Configuración
+
+**Objetivo:**
+Abordar errores de configuración para garantizar el funcionamiento óptimo de los sistemas y prevenir posibles vulnerabilidades.
+
+**Responsables:**
+Los responsables de implementar estas medidas son los miembros del equipo de TI, con el jefe del departamento TI liderando las acciones.
+
+**Procedimiento a seguir:**
+
+1. Detección del Error de Configuración:
+La identificación se realiza mediante auditorías regulares o alertas generadas por sistemas de monitorización que indican discrepancias en las configuraciones.
+
+2. Registro y Documentación:
+Cada error de configuración se registra detalladamente, incluyendo una descripción exhaustiva y especificando los sistemas afectados.
+
+3. Análisis del Error de Configuración:
+Se lleva a cabo un análisis para determinar la causa raíz del error de configuración y evaluar la mejor manera de corregir la configuración.
+
+4. Corrección del Error de Configuración:
+Se implementan acciones correctivas, como ajustes en las configuraciones o reinstalación de software, para corregir el error y fortalecer la seguridad del sistema.
+
+6. Seguimiento y Verificación:
+Se realiza un seguimiento para verificar la corrección del error de configuración y prevenir futuras vulnerabilidades mediante mejoras en los procesos.
+
+7. Informe y Mejoras:
+Se genera un informe detallado que documenta el error de configuración, las acciones tomadas y propone mejoras en los procesos de configuración para evitar errores similares en el futuro.
+
+
+#### 6.1.9 Medidas reactivas  [NI.4] Difusión de Software Dañino
+
+**Objetivo:**
+Abordar eficazmente los errores de configuración para prevenir posibles vulnerabilidades en los sistemas y garantizar un entorno de TI seguro.
+
+**Responsables:**
+Los responsables de implementar estas medidas son los miembros del equipo de TI, con el jefe del departamento TI liderando las acciones.
+
+**Procedimiento a seguir:**
+
+1. Detección de Errores de Configuración:
+Se utiliza un sistema de monitoreo continuo y auditorías periódicas para detectar posibles errores de configuración en sistemas y aplicaciones.
+
+2. Análisis de Impacto:
+Se realiza un análisis detallado para evaluar el impacto potencial de los errores de configuración en la seguridad y funcionamiento de los sistemas.
+
+3. Corrección Inmediata:
+Los errores de configuración detectados se corrigen de inmediato, priorizando aquellos que representan un riesgo de seguridad.
+
+4. Validación de Configuraciones:
+Se implementa un proceso de validación para garantizar que las configuraciones corregidas sean correctas y no introduzcan nuevas vulnerabilidades.
+
+5. Implementación de Políticas de Configuración:
+Se establecen y refuerzan políticas de configuración estándar para prevenir errores comunes y garantizar la coherencia en la infraestructura de TI.
+
+6. Capacitación y Concientización:
+Se proporciona capacitación continua al personal de TI y a los usuarios finales sobre las mejores prácticas de configuración para reducir la probabilidad de errores.
+
+7. Revisiones Periódicas:
+Se establecen revisiones periódicas de configuración para garantizar que las políticas se mantengan actualizadas y sean efectivas contra nuevas amenazas.
+
+8. Informe Detallado y Mejoras Continuas:
+Se genera un informe detallado después de cada corrección, destacando las lecciones aprendidas y proponiendo mejoras continuas en los procesos de configuración.
+
+
+#### 6.1.10 Medidas reactivas  [NI.5] Escapes de Información
+
+**Objetivo:**
+Abordar eficazmente los escapes de información para prevenir la pérdida no autorizada de datos confidenciales y garantizar la integridad de la información.
+
+**Responsables:**
+Los responsables de implementar estas medidas son los miembros con el jefe del departamento de Tecnologías de la Información (TI) liderando las acciones.
+
+**Procedimiento a seguir:**
+
+1. Detección de Escapes de Información:
+Se implementan sistemas de monitoreo de seguridad y análisis de registros para detectar posibles escapes de información.
+
+2. Clasificación de Datos:
+Todos los datos se clasifican según su nivel de confidencialidad, permitiendo una respuesta proporcional a la gravedad del escape.
+
+3. Notificación Inmediata:
+En caso de detectar un escape de información, se notifica de inmediato a los responsables de seguridad y se inicia una evaluación del incidente.
+
+4. Aislamiento de la Fuente:
+Se identifica y aísla la fuente del escape para evitar una mayor divulgación de información sensible.
+
+5. Recuperación de Datos:
+Se implementan medidas para recuperar los datos comprometidos, asegurando su integridad y disponibilidad.
+
+6. Análisis de Causas Raíz:
+Se realiza un análisis detallado para determinar las causas raíz del escape de información y prevenir incidentes similares en el futuro.
+
+7. Informe a las Autoridades Competentes:
+Si es necesario, se informa a las autoridades competentes sobre el escape de información, cumpliendo con las regulaciones y normativas aplicables.
+
+8. Comunicación a los Afectados:
+Se comunica de manera transparente a los individuos afectados por el escape, proporcionando información clara sobre las medidas tomadas y los pasos a seguir.
+
+9. Revisión de Políticas de Seguridad:
+Se revisan y actualizan las políticas de seguridad de la información para fortalecer la protección contra escapes futuros.
+
+10. Capacitación Continua:
+Se brinda capacitación continua al personal para aumentar la conciencia sobre la importancia de la seguridad de la información y la prevención de escapes.
+
+11. Informe Detallado y Lecciones Aprendidas:
+Se genera un informe detallado después de cada incidente de escape, resaltando las lecciones aprendidas y proponiendo mejoras continuas en la seguridad de la información.
+
+
+#### 6.1.11 Medidas reactivas  [NI.6] Alteración de la Información
+
+**Objetivo:**
+Abordar de manera efectiva la alteración de la información con el fin de prevenir cambios no autorizados en los datos y garantizar la integridad de la información almacenada.
+
+**Responsables:**
+Los responsables de implementar estas medidas son los miembros con el jefe del departamento de Tecnologías de la Información (TI) liderando las acciones.
+
+**Procedimiento a seguir:**
+
+1. Detección de Alteraciones de la Información:
+Implementación de sistemas de monitoreo continuo para detectar cualquier alteración en los datos almacenados.
+
+2. Verificación de la Integridad:
+Se establecen procesos regulares de verificación de la integridad de la información para identificar cualquier discrepancia.
+
+3. Notificación Inmediata:
+En caso de detectar una alteración de la información, se notifica de inmediato a los responsables de seguridad y se inicia una evaluación del incidente.
+
+4. Aislamiento y Restauración:
+Se aísla la información afectada y se procede a su restauración utilizando copias de seguridad verificadas y sin alteraciones.
+
+5. Análisis de Causas Raíz:
+Se realiza un análisis detallado para determinar las causas raíz de la alteración de la información y prevenir incidentes similares en el futuro.
+
+6. Revisión de Controles de Acceso:
+Se revisan y refuerzan los controles de acceso a los sistemas de almacenamiento de datos para prevenir accesos no autorizados.
+
+7. Informe a las Autoridades Competentes:
+Si es necesario, se informa a las autoridades competentes sobre la alteración de la información, cumpliendo con las regulaciones y normativas aplicables.
+
+8. Comunicación Interna:
+Se comunica internamente a los equipos relevantes sobre la alteración de la información, proporcionando detalles sobre las medidas tomadas y las precauciones adicionales.
+
+9. Actualización de Políticas de Seguridad:
+Se actualizan las políticas de seguridad de la información para incorporar medidas adicionales que fortalezcan la protección contra alteraciones.
+
+10. Capacitación Continua:
+Se brinda capacitación continua al personal sobre la importancia de la integridad de la información y las mejores prácticas para su preservación.
+
+11. Informe Detallado y Lecciones Aprendidas:
+Se genera un informe detallado después de cada incidente de alteración de la información, resaltando las lecciones aprendidas y proponiendo mejoras continuas en la seguridad de la información.
+
+
+
+#### 6.1.12 Medidas reactivas  [NI.7] Destrucción de la Información
+#### 6.1.13 Medidas reactivas  [AI.1] Acceso no Autorizado al CPD
+#### 6.1.14 Medidas reactivas  [AI.2] Ransomware
+#### 6.1.15 Medidas reactivas  [AI.3] Conflicto Armado
+#### 6.1.16 Medidas reactivas  [AI.4] Phishing
+#### 6.1.17 Medidas reactivas  [AI.5] Robo
 ### Objetivo
 Responder eficazmente ante incidentes de robo, protegiendo los activos de la empresa y minimizando el impacto operativo y financiero.
 
