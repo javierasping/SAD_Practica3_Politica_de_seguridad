@@ -18,35 +18,35 @@ La presente evaluación es el resultado de una colaboración estrecha entre los 
 
 Aquí tienes las tablas corregidas para que se visualicen correctamente:
 
-### [D][info] Datos / Información (medidas de prevención)
+### [D][info] Datos / Información (medidas preventivas)
 
-| Código | Nombre del Activo             | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| D001   | Casos legales en curso        | Acceso no autorizado, Fuga de datos   | Encriptación de datos, Control de acceso | Alta       |
-| D002   | Contratos y acuerdos          | Alteración no intencionada, Pérdida de datos | Gestión de versiones, Backups regulares | Alta       |
-| D003   | Información confidencial del cliente | Divulgación de información, Phishing | Autenticación multifactor, Políticas de seguridad | Alta       |
-| D004   | Precedentes legales           | Corrupción de datos, Ataques cibernéticos | Sistemas de detección de intrusos, Actualizaciones de seguridad | Media       |
-| D005   | Servicios Digitales           | Interrupciones de servicio, Malware   | Firewalls avanzados, Sistemas antivirus | Alta       |
+| Código | Nombre del Activo                        | Amenaza Potencial                              | Medidas Preventivas Aplicadas                   | Efectividad |
+|--------|------------------------------------------|------------------------------------------------|------------------------------------------------|-------------|
+| D001   | Casos legales en curso                   | Acceso no autorizado, Fuga de datos            | Encriptación de datos, Control de acceso        | Alta        |
+| D002   | Contratos y acuerdos                     | Alteración no intencionada, Pérdida de datos   | Gestión de versiones, Backups regulares        | Alta        |
+| D003   | Información confidencial del cliente     | Divulgación de información, Phishing           | Autenticación multifactor, Políticas de seguridad | Alta        |
+| D004   | Precedentes legales                      | Corrupción de datos, Ataques cibernéticos      | Sistemas de detección de intrusos, Actualizaciones de seguridad | Media        |
+| D005   | Servicios Digitales                      | Interrupciones de servicio, Malware            | Firewalls avanzados, Sistemas antivirus        | Alta        |
 
-### [K] Claves criptográficas (medidas de prevención)
+### [K] Claves criptográficas (medidas preventivas)
 
-| Código | Nombre del Activo             | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| KC001  | Claves de acceso a bases de datos | Acceso no autorizado, Fuga de información | Gestión centralizada de claves, Rotación de claves | Alta       |
-| KC002  | Claves de correo electrónico   | Phishing, Interceptación de datos     | Cifrado de correo electrónico, Educación de usuarios | Media       |
-| KC003  | Claves de acceso a sistemas internos | Ataques cibernéticos, Suplantación de identidad | Autenticación robusta, Políticas de acceso | Alta       |
-| KC004  | Claves de cifrado de documentos | Manipulación no autorizada, Acceso no autorizado | Cifrado de archivos, Control de acceso a documentos | Alta       |
-| KC005  | Claves de firma digital        | Suplantación de identidad, Ataques de intermediarios | Infraestructura de clave pública (PKI), Sellos de tiempo | Alta       |
+| Código | Nombre del Activo                        | Amenaza Potencial                              | Medidas Preventivas Aplicadas                   | Efectividad |
+|--------|------------------------------------------|------------------------------------------------|------------------------------------------------|-------------|
+| KC001  | Claves de acceso a bases de datos        | Acceso no autorizado, Fuga de información      | Gestión centralizada de claves, Rotación de claves | Alta        |
+| KC002  | Claves de correo electrónico             | Phishing, Interceptación de datos              | Cifrado de correo electrónico, Educación de usuarios | Media        |
+| KC003  | Claves de acceso a sistemas internos     | Ataques cibernéticos, Suplantación de identidad | Autenticación robusta, Políticas de acceso     | Alta        |
+| KC004  | Claves de cifrado de documentos          | Manipulación no autorizada, Acceso no autorizado | Cifrado de archivos, Control de acceso a documentos | Alta        |
+| KC005  | Claves de firma digital                  | Suplantación de identidad, Ataques de intermediarios | Infraestructura de clave pública (PKI), Sellos de tiempo | Alta        |
 
-### [SW] Software – Aplicaciones informáticas (medidas de prevención)
+### [SW] Software – Aplicaciones informáticas (medidas preventivas)
 
-| Código | Nombre del Software           | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| SW000  | Debian 12                     | Vulnerabilidades del sistema          | Parches de seguridad regulares, Auditorías de seguridad | Alta       |
-| SW001  | Windows 11                    | Malware, Ataques cibernéticos         | Actualizaciones automáticas, Protección antivirus | Alta       |
-| SW002  | Clio Manage                   | Pérdida de datos, Interrupciones de servicio | Backups en la nube, Alta disponibilidad | Media       |
-| SW003  | Westlaw                       | Acceso no autorizado, Fuga de información | Autenticación robusta, Encriptación de datos | Alta       |
-| SW004  | Microsoft Teams               | Interceptación de datos, Malware      | Comunicaciones cifradas, Gestión de identidades y accesos | Alta       |
+| Código | Nombre del Software                     | Amenaza Potencial                              | Medidas Preventivas Aplicadas                   | Efectividad |
+|--------|------------------------------------------|------------------------------------------------|------------------------------------------------|-------------|
+| SW000  | Debian 12                               | Vulnerabilidades del sistema                   | Parches de seguridad regulares, Auditorías de seguridad | Alta        |
+| SW001  | Windows 11                              | Malware, Ataques cibernéticos                 | Actualizaciones automáticas, Protección antivirus | Alta        |
+| SW002  | Clio Manage                             | Pérdida de datos, Interrupciones de servicio  | Backups en la nube, Alta disponibilidad        | Media        |
+| SW003  | Westlaw                                 | Acceso no autorizado, Fuga de información      | Autenticación robusta, Encriptación de datos   | Alta        |
+| SW004  | Microsoft Teams                         | Interceptación de datos, Malware              | Comunicaciones cifradas, Gestión de identidades y accesos | Alta        |
 
 ### [HW] Equipamiento informático (hardware) (medidas de prevención)
 
