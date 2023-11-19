@@ -1058,5 +1058,42 @@ Este riesgo  afecta a los siguientes activos :
 | COM008 | Red Privada Virtual (VPN)             |   |   |   |         |
 
 
+Las fugas de información en la nube representan un riesgo serio para la confidencialidad de los datos y la información almacenados o procesados en la nube. Este riesgo puede afectar tanto a los datos almacenados como a las aplicaciones que gestionan o transmiten estos datos, así como a las redes a través de las cuales se accede a ellos.
+
+Aquí te muestro cómo se podría rellenar la tabla considerando el impacto en la Confidencialidad (C) de estos activos:
+
+
+| Código | Nombre                                  | D | I | C | Impacto |
+|--------|-----------------------------------------|---|---|---|---------|
+| D001   | Casos legales en curso                  |   |   | X | Muy Alto|
+| D002   | Contratos y acuerdos                    |   |   | X | Muy Alto|
+| D003   | Información confidencial del cliente    |   |   | X | Muy Alto|
+| D004   | Precedentes legales                     |   |   | X | Alto    |
+| D005   | Servicios Digitales                     |   |   | X | Alto    |
+| SW000  | Debian 12                               |   |   | X | Medio   |
+| SW001  | Windows 11                              |   |   | X | Medio   |
+| SW002  | Clio Manage                             |   |   | X | Alto    |
+| SW003  | Westlaw                                 |   |   | X | Alto    |
+| SW004  | Microsoft Teams                         |   |   | X | Alto    |
+| SW005  | Clio Billing                            |   |   | X | Medio   |
+| SW006  | NetDocuments                            |   |   | X | Alto    |
+| SW007  | Lex Machina                             |   |   | X | Medio   |
+| SW008  | LexisNexis                              |   |   | X | Alto    |
+| SW009  | Ravel Law                               |   |   | X | Medio   |
+| SW010  | QuickBooks Legal                        |   |   | X | Alto    |
+| SW011  | Zoom Meetings                           |   |   | X | Medio   |
+| SW012  | Varonis Data Security Platform          |   |   | X | Alto    |
+| SW013  | Symantec Encryption                     |   |   | X | Alto    |
+| COM001 | Red de Invitados                        |   |   | X | Medio   |
+| COM004 | Red de Alta Seguridad Interna           |   |   | X | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)           |   |   | X | Alto    |
+| COM006 | Red de Área Local (LAN)                 |   |   | X | Alto    |
+| COM007 | Red de Voz sobre IP (VoIP)              |   |   | X | Medio   |
+| COM008 | Red Privada Virtual (VPN)               |   |   | X | Alto    |
+
+En esta tabla, la marca "X" en la columna de Confidencialidad (C) indica que estos activos son susceptibles a riesgos de fuga de información. El impacto varía según la criticidad del activo y el nivel de sensibilidad de la información que manejan. Los activos que contienen o gestionan información altamente confidencial, como datos de clientes y casos legales, tienen un impacto clasificado como "Muy Alto".
+
+
+
 
 
