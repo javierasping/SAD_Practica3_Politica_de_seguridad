@@ -437,36 +437,30 @@ Los errores del administrador, aunque menos comunes, pueden ser devastadores par
 La difusión de software dañino se refiere a la propagación intencionada o accidental de programas malignos, como virus, gusanos o troyanos. Estos programas son diseñados para infiltrarse en sistemas, comprometer datos o interrumpir operaciones normales. La difusión de este tipo de software puede ocurrir a través de correos electrónicos, descargas no autorizadas, sitios web comprometidos o dispositivos de almacenamiento infectados.
 
 | NI.4  Difusión de software dañino |
-| --- |
-| **Tipos de Activos:** |
-| - [SW] Aplicaciones (software)|
+La difusión de software dañino, como virus, malware y ransomware, puede tener un impacto severo en las aplicaciones de software. Afecta la Disponibilidad (D) al interrumpir el funcionamiento normal del software, la Integridad (I) al alterar o dañar los datos, y la Confidencialidad (C) al permitir el acceso no autorizado a información sensible.
 
-| **Dimensiones:** |
-| 1. [D] Disponibilidad |
-| 2. [I] Integridad|
-| 3. [C] Confidencialidad|
+A continuación, se muestra cómo se podría rellenar la tabla considerando estos impactos:
 
-Este riesgo  afecta a los siguientes activos :
 
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| SW000  | Debian 12                             |   |   |   |         |
-| SW001  | Windows 11                            |   |   |   |         |
-| SW002  | Clio Manage                           |   |   |   |         |
-| SW003  | Westlaw                               |   |   |   |         |
-| SW004  | Microsoft Teams                       |   |   |   |         |
-| SW005  | Clio Billing                          |   |   |   |         |
-| SW006  | NetDocuments                          |   |   |   |         |
-| SW007  | Lex Machina                           |   |   |   |         |
-| SW008  | LexisNexis                            |   |   |   |         |
-| SW009  | Ravel Law                             |   |   |   |         |
-| SW010  | QuickBooks Legal                      |   |   |   |         |
-| SW011  | Zoom Meetings                         |   |   |   |         |
-| SW012  | Varonis Data Security Platform        |   |   |   |         |
-| SW013  | Symantec Encryption                   |   |   |   |         |
+| SW000  | Debian 12                               | X | X | X | Muy Alto|
+| SW001  | Windows 11                              | X | X | X | Muy Alto|
+| SW002  | Clio Manage                             | X | X | X | Alto    |
+| SW003  | Westlaw                                 | X | X | X | Alto    |
+| SW004  | Microsoft Teams                         | X | X | X | Alto    |
+| SW005  | Clio Billing                            | X | X | X | Medio   |
+| SW006  | NetDocuments                            | X | X | X | Alto    |
+| SW007  | Lex Machina                             | X | X | X | Medio   |
+| SW008  | LexisNexis                              | X | X | X | Alto    |
+| SW009  | Ravel Law                               | X | X | X | Medio   |
+| SW010  | QuickBooks Legal                        | X | X | X | Alto    |
+| SW011  | Zoom Meetings                           | X | X | X | Medio   |
+| SW012  | Varonis Data Security Platform          | X | X | X | Alto    |
+| SW013  | Symantec Encryption                     | X | X | X | Alto    |
 
-
+Esta tabla refleja cómo la difusión de software dañino puede comprometer todos los aspectos de la seguridad de las aplicaciones de software. El impacto se clasifica como "Alto" o "Muy Alto" para la mayoría de los softwares, dada la naturaleza crítica de estos activos y los posibles daños que el software dañino puede causar.
 
 
 #### 3.3.5 Fugas de información
