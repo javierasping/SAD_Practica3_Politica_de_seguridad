@@ -1,4 +1,22 @@
 
+ Cada columna representa un aspecto importante en la evaluación de riesgos:
+
+    Código: Es un identificador único para cada riesgo. Sirve para referenciar y rastrear el riesgo fácilmente en la documentación y discusiones.
+
+    Nombre: Describe el riesgo de forma breve pero clara. Por ejemplo, "Ataque de phishing a empleados" o "Fallo de software en el servidor principal".
+
+    D (Disponibilidad): Evalúa cómo el riesgo afecta la disponibilidad de los sistemas o servicios. Un valor alto indica que el riesgo puede causar una interrupción significativa.
+
+    I (Integridad): Mide el potencial del riesgo para comprometer la integridad de los datos o sistemas, es decir, la posibilidad de que la información sea alterada o dañada.
+
+    C (Confidencialidad): Considera cómo el riesgo podría afectar la confidencialidad de la información, es decir, si podría exponer datos sensibles a personas no autorizadas.
+
+    Impacto: Es una evaluación general del daño potencial que el riesgo podría causar, teniendo en cuenta los factores de Disponibilidad, Integridad y Confidencialidad.
+
+Esta tabla ayuda a tener una visión clara y estructurada de los diferentes riesgos en un plan de ciberseguridad, facilitando su análisis y la toma de decisiones sobre cómo manejarlos.
+
+ considerando el impacto de un incendio (fuego) en los diferentes activos de un bufete de abogados, centrado principalmente en la Disponibilidad (D), ya que es la dimensión que más afecta el fuego. La Integridad (I) y la Confidencialidad (C) se verán afectadas en menor medida en la mayoría de los casos, a excepción de aquellos activos donde la destrucción física conlleve a la pérdida de información crítica.
+
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
@@ -87,15 +105,9 @@
 
 
 | N.2 Inundaciones |
-| --- |
-| **Tipos de Activos:** |
-| - [HW]: Equipos informáticos (hardware) |
-| - [COM] Redes de comunicaciones |
-| - [Media]: Soportes de información |
-| - [Aux]: Equipamiento auxiliar |
-| - [L]: Instalaciones |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
+
+esta tabla considerando el impacto de las inundaciones en los distintos activos de un bufete de abogados, nos centraremos principalmente en la Disponibilidad (D), ya que las inundaciones pueden hacer que los equipos y las instalaciones no estén operativos. La Integridad (I) y la Confidencialidad (C) se verán afectadas en algunos casos donde la destrucción física o el daño conlleven a la pérdida o exposición de información sensible.
+
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
@@ -149,193 +161,152 @@
 
 #### 3.2.1 Contaminación mecánica 
 | I.1 Contaminación mecánica  |
-| --- |
-| **Tipos de Activos:** |
-| - [HW]: Equipos informáticos (hardware) |
-| - [COM] Redes de comunicaciones |
-| - [Media]: Soportes de información |
-| - [Aux]: Equipamiento auxiliar |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
+a contaminación mecánica puede afectar a los activos de un bufete de abogados principalmente en términos de Disponibilidad (D), ya que este tipo de contaminación podría dañar físicamente los equipos o impedir su funcionamiento normal. En esta situación, la Integridad (I) y la Confidencialidad (C) generalmente no se ven afectadas a menos que el daño físico conduzca a la pérdida de datos.
 
-Este riesgo  afecta a los siguientes activos :
+
+
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| HW000  | Servidores Dell PowerEdge               |   |   |   |         |
-| HW001  | Estación de Trabajo HP ZBook            |   |   |   |         |
-| HW002  | PC de Escritorio Lenovo ThinkCentre     |   |   |   |         |
-| HW003  | Dispositivos de Almacenamiento Synology |   |   |   |         |
-| HW004  | Impresoras HP LaserJet                  |   |   |   |         |
-| HW005  | Enrutador Cisco Catalyst                |   |   |   |         |
-| HW006  | Sistema de Videovigilancia Axis         |   |   |   |         |
-| HW007  | Escáner Epson WorkForce                 |   |   |   |         |
-| HW008  | Teléfonos VoIP Grandstream              |   |   |   |         |
-| HW009  | UPS APC Smart-UPS                       |   |   |   |         |
-| HW010  | Estación Docking para Portátiles        |   |   |   |         |
-| HW011  | Sistemas de Control de Acceso           |   |   |   |         |
-| HW012  | Pizarras Interactivas SMART             |   |   |   |         |
-| HW013  | Switches Cisco Catalyst 2960            |   |   |   |         |
-| HW014  | iPhone 13 Pro Max                       |   |   |   |         |
-| COM001 | Red de Invitados                        |   |   |   |         |
-| COM002 | Red 5G para Dispositivos Móviles        |   |   |   |         |
-| COM003 | Fibra Óptica                            |   |   |   |         |
-| COM004 | Red de Alta Seguridad Interna           |   |   |   |         |
-| COM005 | Red Inalámbrica Segura (WPA3)           |   |   |   |         |
-| COM006 | Red de Área Local (LAN)                 |   |   |   |         |
-| COM007 | Red de Voz sobre IP (VoIP)              |   |   |   |         |
-| COM008 | Red Privada Virtual (VPN)               |   |   |   |         |
-| SI001  | Almacenamiento en Red (SAN)             |   |   |   |         |
-| SI002  | Disco Duro Externo                      |   |   |   |         |
-| SI003  | Tarjeta de Memoria                      |   |   |   |         |
-| SI004  | Almacenamiento en la Nube               |   |   |   |         |
-| SI005  | Disco Óptico (DVD)                      |   |   |   |         |
-| SI006  | Unidad USB                              |   |   |   |         |
-| AUX001 | Fuentes de Alimentación                 |   |   |   |         |
-| AUX002 | Sistemas de Alimentación Ininterrumpida |   |   |   |         |
-| AUX003 | Equipos de Climatización                |   |   |   |         |
-| AUX004 | Cableado                                |   |   |   |         |
-| AUX005 | Mobiliario: Armarios, etc.              |   |   |   |         |
+| HW000  | Servidores Dell PowerEdge               | X |   |   | Alto    |
+| HW001  | Estación de Trabajo HP ZBook            | X |   |   | Medio   |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X |   |   | Medio   |
+| HW003  | Dispositivos de Almacenamiento Synology | X |   |   | Alto    |
+| HW004  | Impresoras HP LaserJet                  | X |   |   | Bajo    |
+| HW005  | Enrutador Cisco Catalyst                | X |   |   | Medio   |
+| HW006  | Sistema de Videovigilancia Axis         | X |   |   | Medio   |
+| HW007  | Escáner Epson WorkForce                 | X |   |   | Bajo    |
+| HW008  | Teléfonos VoIP Grandstream              | X |   |   | Bajo    |
+| HW009  | UPS APC Smart-UPS                       | X |   |   | Medio   |
+| HW010  | Estación Docking para Portátiles        | X |   |   | Bajo    |
+| HW011  | Sistemas de Control de Acceso           | X |   |   | Medio   |
+| HW012  | Pizarras Interactivas SMART             | X |   |   | Bajo    |
+| HW013  | Switches Cisco Catalyst 2960            | X |   |   | Medio   |
+| HW014  | iPhone 13 Pro Max                       | X |   |   | Bajo    |
+| COM001 | Red de Invitados                        | X |   |   | Medio   |
+| COM002 | Red 5G para Dispositivos Móviles        | X |   |   | Bajo    |
+| COM003 | Fibra Óptica                            | X |   |   | Alto    |
+| COM004 | Red de Alta Seguridad Interna           | X |   |   | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)           | X |   |   | Medio   |
+| COM006 | Red de Área Local (LAN)                 | X |   |   | Medio   |
+| COM007 | Red de Voz sobre IP (VoIP)              | X |   |   | Bajo    |
+| COM008 | Red Privada Virtual (VPN)               | X |   |   | Medio   |
+| SI001  | Almacenamiento en Red (SAN)             | X |   |   | Alto    |
+| SI002  | Disco Duro Externo                      | X |   |   | Bajo    |
+| SI003  | Tarjeta de Memoria                      | X |   |   | Bajo    |
+| SI004  | Almacenamiento en la Nube               |   |   |   | Bajo    |
+| SI005  | Disco Óptico (DVD)                      | X |   |   | Bajo    |
+| SI006  | Unidad USB                              | X |   |   | Bajo    |
+| AUX001 | Fuentes de Alimentación                 | X |   |   | Medio   |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | X |   |   | Medio   |
+| AUX003 | Equipos de Climatización                | X |   |   | Medio   |
+| AUX004 | Cableado                                | X |   |   | Medio   |
+| AUX005 | Mobiliario: Armarios, etc.              | X |   |   | Bajo    |
+
 
 
 #### 3.2.2 Avería de origen físico o lógico
-Los fallos en los equipos o programas pueden tener su origen en defectos intrínsecos o surgir durante la operación del sistema. En entornos con sistemas especializados, la distinción entre fallos físicos o lógicos a menudo se torna borrosa, dificultando la identificación del origen del fallo. Sin embargo, en términos de las consecuencias resultantes, esta distinción suele carecer de relevancia práctica. Estos fallos representan una amenaza a la integridad y la continuidad de las operaciones.
 
-| I.2 Avería de origen físico o lógico  |
-| --- |
-| **Tipos de Activos:** |
-| - [HW]: Equipos informáticos (hardware) |
-| - [SW] aplicaciones (software) |
-| - [COM] Redes de comunicaciones |
-| - [Media]: Soportes de información |
-| - [Aux]: Equipamiento auxiliar |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
-
-Este riesgo  afecta a los siguientes activos :
-
+a avería de origen físico o lógico puede impactar significativamente la Disponibilidad (D) de los activos tecnológicos de un bufete de abogados. En este contexto, la Integridad (I) y la Confidencialidad (C) pueden verse comprometidas si la avería afecta la seguridad o la integridad de los datos. 
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| SW000  | Debian 12                               |   |   |   |         |
-| SW001  | Windows 11                              |   |   |   |         |
-| SW002  | Clio Manage                             |   |   |   |         |
-| SW003  | Westlaw                                 |   |   |   |         |
-| SW004  | Microsoft Teams                         |   |   |   |         |
-| SW005  | Clio Billing                            |   |   |   |         |
-| SW006  | NetDocuments                            |   |   |   |         |
-| SW007  | Lex Machina                             |   |   |   |         |
-| SW008  | LexisNexis                              |   |   |   |         |
-| SW009  | Ravel Law                               |   |   |   |         |
-| SW010  | QuickBooks Legal                        |   |   |   |         |
-| SW011  | Zoom Meetings                           |   |   |   |         |
-| SW012  | Varonis Data Security Platform          |   |   |   |         |
-| SW013  | Symantec Encryption                     |   |   |   |         |
-| HW000  | Servidores Dell PowerEdge               |   |   |   |         |
-| HW001  | Estación de Trabajo HP ZBook            |   |   |   |         |
-| HW002  | PC de Escritorio Lenovo ThinkCentre     |   |   |   |         |
-| HW003  | Dispositivos de Almacenamiento Synology |   |   |   |         |
-| HW004  | Impresoras HP LaserJet                  |   |   |   |         |
-| HW005  | Enrutador Cisco Catalyst                |   |   |   |         |
-| HW006  | Sistema de Videovigilancia Axis         |   |   |   |         |
-| HW007  | Escáner Epson WorkForce                 |   |   |   |         |
-| HW008  | Teléfonos VoIP Grandstream              |   |   |   |         |
-| HW009  | UPS APC Smart-UPS                       |   |   |   |         |
-| HW010  | Estación Docking para Portátiles        |   |   |   |         |
-| HW011  | Sistemas de Control de Acceso           |   |   |   |         |
-| HW012  | Pizarras Interactivas SMART             |   |   |   |         |
-| HW013  | Switches Cisco Catalyst 2960            |   |   |   |         |
-| HW014  | iPhone 13 Pro Max                       |   |   |   |         |
-| COM001 | Red de Invitados                        |   |   |   |         |
-| COM002 | Red 5G para Dispositivos Móviles        |   |   |   |         |
-| COM003 | Fibra Óptica                            |   |   |   |         |
-| COM004 | Red de Alta Seguridad Interna           |   |   |   |         |
-| COM005 | Red Inalámbrica Segura (WPA3)           |   |   |   |         |
-| COM006 | Red de Área Local (LAN)                 |   |   |   |         |
-| COM007 | Red de Voz sobre IP (VoIP)              |   |   |   |         |
-| COM008 | Red Privada Virtual (VPN)               |   |   |   |         |
-| SI001  | Almacenamiento en Red (SAN)             |   |   |   |         |
-| SI002  | Disco Duro Externo                      |   |   |   |         |
-| SI003  | Tarjeta de Memoria                      |   |   |   |         |
-| SI004  | Almacenamiento en la Nube               |   |   |   |         |
-| SI005  | Disco Óptico (DVD)                      |   |   |   |         |
-| SI006  | Unidad USB                              |   |   |   |         |
-| AUX001 | Fuentes de Alimentación                 |   |   |   |         |
-| AUX002 | Sistemas de Alimentación Ininterrumpida |   |   |   |         |
-| AUX003 | Equipos de Climatización                |   |   |   |         |
-| AUX004 | Cableado                                |   |   |   |         |
-| AUX005 | Mobiliario: Armarios, etc.              |   |   |   |         |
+| SW000  | Debian 12                               | X | X | X | Alto    |
+| SW001  | Windows 11                              | X | X | X | Alto    |
+| SW002  | Clio Manage                             | X | X | X | Alto    |
+| SW003  | Westlaw                                 | X | X | X | Alto    |
+| SW004  | Microsoft Teams                         | X | X |   | Medio   |
+| SW005  | Clio Billing                            | X | X | X | Medio   |
+| SW006  | NetDocuments                            | X | X | X | Alto    |
+| SW007  | Lex Machina                             | X | X | X | Medio   |
+| SW008  | LexisNexis                              | X | X | X | Alto    |
+| SW009  | Ravel Law                               | X | X | X | Medio   |
+| SW010  | QuickBooks Legal                        | X | X | X | Alto    |
+| SW011  | Zoom Meetings                           | X |   |   | Bajo    |
+| SW012  | Varonis Data Security Platform          | X | X | X | Alto    |
+| SW013  | Symantec Encryption                     | X | X | X | Alto    |
+| HW000  | Servidores Dell PowerEdge               | X | X |   | Muy Alto|
+| HW001  | Estación de Trabajo HP ZBook            | X |   |   | Alto    |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X |   |   | Medio   |
+| HW003  | Dispositivos de Almacenamiento Synology | X | X |   | Alto    |
+| HW004  | Impresoras HP LaserJet                  | X |   |   | Bajo    |
+| HW005  | Enrutador Cisco Catalyst                | X |   |   | Medio   |
+| HW006  | Sistema de Videovigilancia Axis         | X |   |   | Medio   |
+| HW007  | Escáner Epson WorkForce                 | X |   |   | Bajo    |
+| HW008  | Teléfonos VoIP Grandstream              | X |   |   | Bajo    |
+| HW009  | UPS APC Smart-UPS                       | X |   |   | Medio   |
+| HW010  | Estación Docking para Portátiles        | X |   |   | Bajo    |
+| HW011  | Sistemas de Control de Acceso           | X |   |   | Medio   |
+| HW012  | Pizarras Interactivas SMART             | X |   |   | Bajo    |
+| HW013  | Switches Cisco Catalyst 2960            | X |   |   | Medio   |
+| HW014  | iPhone 13 Pro Max                       | X |   |   | Bajo    |
+| COM001 | Red de Invitados                        | X |   |   | Medio   |
+| COM002 | Red 5G para Dispositivos Móviles        | X |   |   | Bajo    |
+| COM003 | Fibra Óptica                            | X | X |   | Alto    |
+| COM004 | Red de Alta Seguridad Interna           | X | X |   | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)           | X |   |   | Medio   |
+| COM006 | Red de Área Local (LAN)                 | X |   |   | Medio   |
+| COM007 | Red de Voz sobre IP (VoIP)              | X |   |   | Bajo    |
+| COM008 | Red Privada Virtual (VPN)               | X | X | X | Alto    |
+| SI001  | Almacenamiento en Red (SAN)             | X | X |   | Alto    |
+| SI002  | Disco Duro Externo                      | X |   |   | Medio   |
+| SI003  | Tarjeta de Memoria                      | X |   |   | Bajo    |
+| SI004  | Almacenamiento en la Nube               | X | X | X | Alto    |
+| SI005  | Disco Óptico (DVD)                      | X |   |   | Bajo    |
+| SI006  | Unidad USB                              | X |   |   | Bajo    |
+| AUX001 | Fuentes de Alimentación                 | X |   |   | Medio   |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | X |   |   | Medio   |
+| AUX003 | Equipos de Climatización                | X |   |   | Medio   |
+| AUX004 | Cableado                                | X |   |   | Medio   |
+| AUX005 | Mobiliario: Armarios, etc.              | X |   |   | Bajo    |
+
+
+
 
 
 #### 3.2.4 Degradación de los soportes de almacenamiento de la información
-El corte del suministro eléctrico representa una interrupción en la alimentación energética necesaria para el funcionamiento de los sistemas informáticos. Esta situación puede originarse por diversas razones, desde problemas en la red eléctrica hasta fallos internos en las instalaciones. Los cortes de energía plantean un riesgo crítico, ya que pueden provocar la pérdida de datos, interrumpir operaciones en curso y, en situaciones extremas, dañar el hardware o software sensible al apagarse repentinamente. 
 
-| I.3 Degradación de los soportes de almacenamiento de la información  |
-| --- |
-| **Tipos de Activos:** |
-| - [Media]: Soportes de información |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
-
-Este riesgo  afecta a los siguientes activos :
-
+La degradación de los soportes de almacenamiento de la información puede afectar principalmente la Disponibilidad (D) de estos activos. Además, en algunos casos, la Integridad (I) de los datos también podría verse comprometida. La Confidencialidad (C), en cambio, generalmente no se ve afectada directamente por la degradación física, a menos que el deterioro de los medios facilite la exposición de datos confidenciales.
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| SI001  | Almacenamiento en Red (SAN)             |   |   |   |         |
-| SI002  | Disco Duro Externo                       |   |   |   |         |
-| SI003  | Tarjeta de Memoria                       |   |   |   |         |
-| SI005  | Disco Óptico (DVD)                       |   |   |   |         |
-| SI006  | Unidad USB                               |   |   |   |         |
-| SI007  | Tarjeta Inteligente (Smart Card)         |   |   |   |         |
+| SI001  | Almacenamiento en Red (SAN)             | X | X |   | Alto    |
+| SI002  | Disco Duro Externo                       | X | X |   | Medio   |
+| SI003  | Tarjeta de Memoria                       | X | X |   | Bajo    |
+| SI005  | Disco Óptico (DVD)                       | X | X |   | Medio   |
+| SI006  | Unidad USB                               | X | X |   | Bajo    |
+| SI007  | Tarjeta Inteligente (Smart Card)         | X |   |   | Bajo    |
+
+
 
 
 #### 3.2.4  Averías en la Electrónica de Red (Switches y Routers)
-La amenaza de fallo en los servicios de comunicación representa un riesgo significativo en entornos tecnológicos, poniendo en peligro la conectividad, colaboración y flujo de información crítica. Estos fallos pueden surgir por diversos motivos, desde interrupciones en la red hasta problemas en los servidores, generando la pérdida momentánea o prolongada de la capacidad de comunicarse y compartir datos.
 
-| I.4  Averías en la Electrónica de Red (Switches y Routers)  |
-| --- |
-| **Tipos de Activos:** |
-| - [COM] Redes de comunicaciones |
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
-
-Este riesgo  afecta a los siguientes activos :
-
+las averías en la electrónica de red, como en switches y routers, afectan principalmente la Disponibilidad (D) de los servicios de red. Estos dispositivos son cruciales para mantener la conectividad y el flujo de información. La Integridad (I) y la Confidencialidad (C) podrían no verse afectadas directamente por la avería de estos dispositivos, a menos que el fallo conlleve a la exposición o alteración de datos.
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
-| COM001 | Red de Invitados                        |   |   |   |         |
-| COM002 | Red 5G para Dispositivos Móviles        |   |   |   |         |
-| COM003 | Fibra Óptica                           |   |   |   |         |
-| COM004 | Red de Alta Seguridad Interna           |   |   |   |         |
-| COM005 | Red Inalámbrica Segura (WPA3)          |   |   |   |         |
-| COM006 | Red de Área Local (LAN)                |   |   |   |         |
-| COM007 | Red de Voz sobre IP (VoIP)             |   |   |   |         |
-| COM008 | Red Privada Virtual (VPN)              |   |   |   |         |
-| HW005  | Enrutador Cisco Catalyst               |   |   |   |         |
-| HW013  | Switches Cisco Catalyst 2960           |   |   |   |         |
+| COM001 | Red de Invitados                        | X |   |   | Medio   |
+| COM002 | Red 5G para Dispositivos Móviles        | X |   |   | Medio   |
+| COM003 | Fibra Óptica                            | X |   |   | Alto    |
+| COM004 | Red de Alta Seguridad Interna           | X |   |   | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)           | X |   |   | Alto    |
+| COM006 | Red de Área Local (LAN)                 | X |   |   | Muy Alto|
+| COM007 | Red de Voz sobre IP (VoIP)              | X |   |   | Alto    |
+| COM008 | Red Privada Virtual (VPN)               | X |   |   | Alto    |
+| HW005  | Enrutador Cisco Catalyst                | X |   |   | Muy Alto|
+| HW013  | Switches Cisco Catalyst 2960            | X |   |   | Muy Alto|
 
 
 ### 3.3 [NI] Errores y fallos no intencionados
 
-Los errores y fallos no intencionados representan una categoría de riesgos inherentes en entornos tecnológicos. Estos pueden manifestarse como fallas inesperadas en hardware, software o en el personal, resultando en problemas que pueden afectar la integridad, disponibilidad o confidencialidad de la información. Estos incidentes, a menudo involuntarios, pueden surgir por múltiples causas, desde simples equivocaciones humanas hasta defectos en el diseño o implementación de sistemas.
+
 
 #### 3.3.1 Errores de los usuarios 
 
 Los errores de los usuarios, comunes en entornos tecnológicos, representan un riesgo sustancial en la seguridad y eficiencia de las operaciones. Estos errores pueden variar desde acciones no intencionadas hasta malas prácticas al utilizar sistemas, programas o servicios, pudiendo desencadenar brechas de seguridad, pérdida de datos y fallas en el funcionamiento general de los sistemas.
 
-| NI.1  Errores de los usuarios   |
-| --- |
-| **Tipos de Activos:** |
-| - [COM] Redes de comunicaciones |
-| - [SW] aplicaciones (software) |
-| - [D] Datos|
-| **Dimensiones:** |
-| 1. [D] disponibilidad |
-| 2. [I] integridad|
 
-Este riesgo  afecta a los siguientes activos :
 
 
 
