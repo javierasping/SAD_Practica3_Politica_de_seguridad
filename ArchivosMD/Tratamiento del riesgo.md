@@ -345,6 +345,39 @@ Garantizar una gestión eficiente y rápida de un ataque SYN Flood, protegiendo 
 - **Comunicación con Stakeholders**: Informar a los stakeholders relevantes sobre el incidente y las medidas tomadas para prevenir futuros ataques.
 
 #### 6.1.21 Medidas reactivas  [AI.8] Vulnerabilidades de las Aplicaciones
+### Objetivo
+Gestionar de manera eficaz las vulnerabilidades detectadas en las aplicaciones, mitigando los riesgos asociados y evitando compromisos de seguridad.
+
+### Responsables
+- **Jefe de Desarrollo de Software**: Liderazgo en la gestión de vulnerabilidades de las aplicaciones.
+- **Equipo de TI y Ciberseguridad**: Apoyo técnico en la identificación y corrección de vulnerabilidades.
+- **Equipo de Aseguramiento de la Calidad (QA)**: Pruebas y validación de las soluciones implementadas.
+
+### Procedimiento a Seguir
+
+#### Detección y Evaluación
+- **Monitoreo Continuo**: Utilizar herramientas de análisis de código y escaneo de vulnerabilidades para identificar problemas de seguridad en las aplicaciones.
+- **Evaluación del Impacto**: Determinar la gravedad y el potencial impacto de las vulnerabilidades detectadas.
+
+#### Contención y Mitigación
+- **Parches Temporales**: Aplicar soluciones rápidas para mitigar el riesgo mientras se desarrolla una solución permanente.
+- **Comunicación con Desarrolladores y Proveedores**: Trabajar con desarrolladores internos o externos para abordar las vulnerabilidades.
+
+#### Corrección y Validación
+- **Desarrollo de Parches y Actualizaciones**: Crear y probar soluciones permanentes para las vulnerabilidades identificadas.
+- **Implementación Segura**: Desplegar parches y actualizaciones en un entorno controlado para evitar interrupciones en los servicios.
+
+#### Comunicación y Notificación
+- **Informar a Usuarios y Clientes**: Comunicar de manera transparente sobre las vulnerabilidades y las medidas tomadas.
+- **Reporte de Vulnerabilidades**: Documentar y reportar las vulnerabilidades a las entidades pertinentes si es necesario.
+
+#### Análisis Post-Incidente
+- **Revisión de Procesos de Desarrollo**: Evaluar y mejorar los procesos de desarrollo y pruebas para prevenir futuras vulnerabilidades.
+- **Auditorías y Evaluaciones Periódicas**: Realizar revisiones de seguridad regulares para identificar y abordar proactivamente las vulnerabilidades.
+
+### Capacitación y Concienciación
+- **Formación en Desarrollo Seguro**: Capacitar a los desarrolladores en prácticas de codificación segura y concienciación sobre seguridad.
+- **Ejercicios y Simulacros**: Realizar pruebas periódicas y ejercicios de respuesta a incidentes para mejorar la preparación del equipo.
 #### 6.1.22 Medidas reactivas  [AI.9] Fugas de Información en la Nube
 ### Objetivo
 Responder de manera eficaz y rápida a las fugas de información en la nube, protegiendo los datos sensibles, minimizando el impacto en la confidencialidad y la integridad de la información, y asegurando la continuidad del negocio.
