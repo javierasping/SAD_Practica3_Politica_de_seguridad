@@ -56,10 +56,28 @@
     - 3.4 [AI] Ataques intencionados
 
 - [4 Cálculo del riesgo](ArchivosMD/Cálculo%20del%20riesgo.md)
-    - 4.1 [DN] Desastres naturales
-    - 4.2 [OI] De origen industrial
-    - 4.3 [NI] Errores y fallos no intencionados
-    - 4.4 [AI] Ataques intencionados
+    - 4.1.1   [N.1] Fuego
+    - 4.1.2   [N.2] Daños por Agua
+    - 4.1.3   [I.1] Contaminación Mecánica
+    - 4.1.4   [I.2] Avería de Origen Físico o Lógico
+    - 4.1.5   [I.3] Corte del Suministro Eléctrico
+    - 4.1.6   [I.4] Averías en la Electrónica de Red (Switches y Routers)
+    - 4.1.7   [NI.1] Errores de los Usuarios
+    - 4.1.8   [NI.2] Errores de los Usuarios
+    - 4.1.9   [NI.3] Errores de Configuración
+    - 4.1.10  [NI.4] Difusión de Software Dañino
+    - 4.1.11  [NI.5] Escapes de Información
+    - 4.1.12  [NI.6] Alteración de la Información
+    - 4.1.13  [NI.7] Destrucción de la Información
+    - 4.1.14  [AI.1] Acceso no Autorizado al CPD
+    - 4.1.15  [AI.2] Ransomware
+    - 4.1.16  [AI.3] Conflicto Armado
+    - 4.1.17  [AI.4] Phishing
+    - 4.1.18  [AI.5] Robo
+    - 4.1.19  [AI.6] Compromiso de Credenciales
+    - 4.1.20  [AI.7] Ataques de Denegación de Servicio SYN Flood
+    - 4.1.21  [AI.8] Vulnerabilidades de las Aplicaciones
+    - 4.1.22  [AI.9] Fugas de Información en la Nube
 
 - [5 Estudio de medidas de protección](ArchivosMD/Evaluación%20de%20salvaguardas.md) 
     - 5.1.1 Medidas Preventivas [N.1] Fuego
