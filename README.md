@@ -87,7 +87,7 @@
     - 5.1.5 Medidas Preventivas [I.3] Corte del Suministro Eléctrico
     - 5.1.6 Medidas Preventivas [I.4] Averías en la Electrónica de Red (Switches y Routers)
     - 5.1.7 Medidas Preventivas [NI.1] Errores de los Usuarios
-    - 5.1.8 Medidas Preventivas [NI.2] Errores de los Usuarios
+    - 5.1.8 Medidas Preventivas [NI.2] Errores de los Administradores
     - 5.1.9 Medidas Preventivas [NI.3] Errores de Configuración
     - 5.1.10 Medidas Preventivas [NI.4] Difusión de Software Dañino
     - 5.1.11 Medidas Preventivas [NI.5] Escapes de Información
