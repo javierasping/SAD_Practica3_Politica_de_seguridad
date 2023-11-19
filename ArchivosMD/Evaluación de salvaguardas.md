@@ -109,7 +109,6 @@ La presente evaluación es el resultado de una colaboración estrecha entre los 
 | P004   | Personal de Seguridad | Sabotaje, Acceso no autorizado | Verificación de antecedentes, Entrenamiento en seguridad física | Alta |
 | P005   | Personal de Mantenimiento | Errores de Usuario, Daño accidental | Protocolos de trabajo, Seguros de responsabilidad | Media |
 
-
 ## Descripcion de medidas para aplicar.
 
 --------------------------------------------------------------------------------------------
