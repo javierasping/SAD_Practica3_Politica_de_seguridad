@@ -14,6 +14,35 @@ Es importante resaltar que la seguridad es un proceso dinámico. La organizació
 
 La presente evaluación es el resultado de una colaboración estrecha entre los equipos de seguridad, TI y las unidades de negocio, asegurando que la protección de los activos está alineada con las necesidades y los objetivos estratégicos de la organización.
 
+### Impacto de EDR y XDR en la Empresa
+--------------------------------------------------------------------------------------------
+
+**Conceptos:**
+- **EDR (Endpoint Detection and Response)** es una solución de seguridad diseñada para identificar, investigar y responder a amenazas cibernéticas en los endpoints, como estaciones de trabajo, servidores y dispositivos móviles. EDR recopila y analiza datos de endpoints para detectar actividades sospechosas, proporciona herramientas para investigar incidentes y ofrece capacidades para contener y remediar amenazas.
+  
+- **XDR (Extended Detection and Response)** extiende las capacidades de EDR al integrar más fuentes de datos y proporcionar visibilidad y análisis en toda la infraestructura de seguridad de una empresa. XDR consolida y correlaciona datos de múltiples capas de seguridad, como email, redes, servidores, aplicaciones en la nube y endpoints, para detectar amenazas más sofisticadas y responder a ellas de manera más efectiva.
+
+**Impacto en la Empresa:**
+
+**Mejora de la Detección y Respuesta:**
+EDR y XDR pueden mejorar significativamente la capacidad de la empresa para detectar y responder a amenazas cibernéticas avanzadas. Al proporcionar una visión más amplia y profunda de la actividad en toda la infraestructura de TI, estas soluciones pueden detectar ataques que de otro modo pasarían desapercibidos.
+
+**Reducción del Tiempo de Resolución:**
+La automatización y la integración de datos en plataformas XDR pueden reducir el tiempo necesario para identificar y contener un incidente de seguridad, lo que disminuye el impacto de un ataque en las operaciones del bufete.
+
+**Cumplimiento y Regulaciones:**
+Las soluciones EDR y XDR pueden ayudar al bufete a cumplir con regulaciones de protección de datos y privacidad, ya que ofrecen capacidades avanzadas de monitoreo, detección de anomalías y reportes detallados de incidentes.
+
+**Costes y Recursos:**
+La implementación de EDR y XDR requiere inversión tanto en las soluciones como en la formación del personal. Sin embargo, el costo puede verse compensado por la reducción de riesgos y la mejora en la eficiencia de la gestión de incidentes.
+
+**Consideraciones Estratégicas:**
+Al elegir e implementar EDR y XDR, el bufete debe considerar factores como la integración con sistemas existentes, la escalabilidad de la solución y la capacidad del personal para gestionar y responder a las alertas generadas por estas plataformas.
+
+**Descripción de tareas:**
+- Evaluación de requisitos y selección de soluciones EDR y XDR que se ajusten a la infraestructura de TI del bufete y a sus necesidades específicas de seguridad.
+- Formación continua para los equipos de TI y seguridad para asegurar que pueden utilizar eficazmente las capacidades de las plataformas EDR y XDR.
+
 ### 5.1.1 Medidas Preventivas para Riesgo de Fuego
 --------------------------------------------------------------------------------------------
 
