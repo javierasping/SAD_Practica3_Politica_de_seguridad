@@ -12,6 +12,9 @@ La **evaluación de riesgos** es un proceso clave en la gestión de la cibersegu
 
 Esta metodología ayuda a los administradores de sistemas y profesionales de seguridad informática a tomar decisiones informadas sobre cómo manejar y mitigar los riesgos identificados.
 
+##Desastres naturales
+
+### 3.1.1 Fuego
 
  considerando el impacto de un incendio (fuego) en los diferentes activos de un bufete de abogados, centrado principalmente en la Disponibilidad (D), ya que es la dimensión que más afecta el fuego. La Integridad (I) y la Confidencialidad (C) se verán afectadas en menor medida en la mayoría de los casos, a excepción de aquellos activos donde la destrucción física conlleve a la pérdida de información crítica.
 
@@ -101,7 +104,7 @@ Esta metodología ayuda a los administradores de sistemas y profesionales de seg
 
 
 
-
+### 3.1.2 Inundaciones 
 
 
 esta tabla considerando el impacto de las inundaciones en los distintos activos de un bufete de abogados, nos centraremos principalmente en la Disponibilidad (D), ya que las inundaciones pueden hacer que los equipos y las instalaciones no estén operativos. La Integridad (I) y la Confidencialidad (C) se verán afectadas en algunos casos donde la destrucción física o el daño conlleven a la pérdida o exposición de información sensible.
@@ -157,9 +160,11 @@ esta tabla considerando el impacto de las inundaciones en los distintos activos 
 
 
 
+### Averias de origen físico o lógico 
+
 #### 3.2.1 Contaminación mecánica 
-| I.1 Contaminación mecánica  |
-a contaminación mecánica puede afectar a los activos de un bufete de abogados principalmente en términos de Disponibilidad (D), ya que este tipo de contaminación podría dañar físicamente los equipos o impedir su funcionamiento normal. En esta situación, la Integridad (I) y la Confidencialidad (C) generalmente no se ven afectadas a menos que el daño físico conduzca a la pérdida de datos.
+
+la contaminación mecánica puede afectar a los activos de un bufete de abogados principalmente en términos de Disponibilidad (D), ya que este tipo de contaminación podría dañar físicamente los equipos o impedir su funcionamiento normal. En esta situación, la Integridad (I) y la Confidencialidad (C) generalmente no se ven afectadas a menos que el daño físico conduzca a la pérdida de datos.
 
 
 
@@ -338,7 +343,7 @@ las averías en la electrónica de red, como en switches y routers, afectan prin
 
 
 
-
+## Errores y fallos no intencionados 
 
 #### 3.3.1 Errores de los usuarios 
 
@@ -562,7 +567,6 @@ A continuación, se muestra cómo se podría rellenar la tabla considerando esto
 as fugas de información en la nube representan un riesgo serio para la confidencialidad de los datos y la información almacenados o procesados en la nube. Este riesgo puede afectar tanto a los datos almacenados como a las aplicaciones que gestionan o transmiten estos datos, así como a las redes a través de las cuales se accede a ellos.
 
 
-markdown
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
@@ -592,7 +596,7 @@ markdown
 | COM007 | Red de Voz sobre IP (VoIP)              |   |   | X | Medio   |
 | COM008 | Red Privada Virtual (VPN)               |   |   | X | Alto    |
 
-.3.6 Alteración de la información
+###  Alteración de la información
 
 La alteración de la información, que compromete la integridad (I) de los datos, es un riesgo grave en cualquier organización, especialmente en un bufete de abogados donde la precisión de la información es crítica. A continuación se muestra cómo se podría rellenar la tabla considerando este riesgo:
 
@@ -609,7 +613,7 @@ La alteración de la información, que compromete la integridad (I) de los datos
 
 
 
-3.3.7 Destrucción de la información
+### 3.3.7 Destrucción de la información
 
 La alteración de la información se refiere a la modificación indebida o no autorizada de datos, lo que compromete la integridad de la información. Este riesgo es particularmente relevante para los datos y la información que son críticos para las operaciones de una organización, como un bufete de abogados. En este caso, la Integridad (I) es la dimensión principal afectada.
 
@@ -783,7 +787,7 @@ El ransomware es una seria amenaza que puede afectar no solo la Disponibilidad (
 | L003   | Centro Tecnológico                      | X | X | X | Alto    |
 | L004   | Sala de Servidores                      | X | X | X | Muy Alto|
 
-###3.4.3 Conflicto Armado
+### 3.4.3 Conflicto Armado
 
 
 El riesgo de un conflicto armado impacta significativamente en varios activos de un bufete de abogados, afectando la disponibilidad (D), la confidencialidad (C) y, en ciertos casos, la integridad (I) de los datos e infraestructura. Aquí se muestra cómo se podría rellenar la tabla considerando este riesgo:
