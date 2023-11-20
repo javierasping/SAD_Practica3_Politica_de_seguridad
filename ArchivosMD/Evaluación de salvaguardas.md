@@ -10,360 +10,523 @@ La efectividad de las medidas de prevención se clasifica en tres niveles:
 - **Media**: Sugiere que la medida de prevención tiene una capacidad moderada de mitigación y puede requerir ajustes o refuerzos adicionales para ser completamente efectiva.
 - **Baja**: Refleja que la medida de prevención ofrece una protección mínima y es necesaria una revisión urgente para mejorar la seguridad del activo.
 
-La tabla siguiente muestra la evaluación de las medidas de prevención para varios activos, resaltando las amenazas potenciales identificadas y la efectividad de las medidas de protección aplicadas. Esta información es vital para la toma de decisiones informadas sobre dónde enfocar los esfuerzos de mejora en la infraestructura de seguridad.
-
 Es importante resaltar que la seguridad es un proceso dinámico. La organización debe revisar continuamente la efectividad de sus medidas de prevención frente a un panorama de amenazas en constante evolución y adaptar sus estrategias de protección en consecuencia. Estas tablas se actualizan regularmente para reflejar los cambios en la infraestructura, las prácticas de trabajo y el entorno tecnológico.
 
 La presente evaluación es el resultado de una colaboración estrecha entre los equipos de seguridad, TI y las unidades de negocio, asegurando que la protección de los activos está alineada con las necesidades y los objetivos estratégicos de la organización.
 
-Aquí tienes las tablas corregidas para que se visualicen correctamente:
-
-### [D][info] Datos / Información (medidas preventivas)
-
-| Código | Nombre del Activo                        | Amenaza Potencial                              | Medidas Preventivas Aplicadas                   | Efectividad |
-|--------|------------------------------------------|------------------------------------------------|------------------------------------------------|-------------|
-| D001   | Casos legales en curso                   | Acceso no autorizado, Fuga de datos            | Encriptación de datos, Control de acceso        | Alta        |
-| D002   | Contratos y acuerdos                     | Alteración no intencionada, Pérdida de datos   | Gestión de versiones, Backups regulares        | Alta        |
-| D003   | Información confidencial del cliente     | Divulgación de información, Phishing           | Autenticación multifactor, Políticas de seguridad | Alta        |
-| D004   | Precedentes legales                      | Corrupción de datos, Ataques cibernéticos      | Sistemas de detección de intrusos, Actualizaciones de seguridad | Media        |
-| D005   | Servicios Digitales                      | Interrupciones de servicio, Malware            | Firewalls avanzados, Sistemas antivirus        | Alta        |
-
-### [K] Claves criptográficas (medidas preventivas)
-
-| Código | Nombre del Activo                        | Amenaza Potencial                              | Medidas Preventivas Aplicadas                   | Efectividad |
-|--------|------------------------------------------|------------------------------------------------|------------------------------------------------|-------------|
-| KC001  | Claves de acceso a bases de datos        | Acceso no autorizado, Fuga de información      | Gestión centralizada de claves, Rotación de claves | Alta        |
-| KC002  | Claves de correo electrónico             | Phishing, Interceptación de datos              | Cifrado de correo electrónico, Educación de usuarios | Media        |
-| KC003  | Claves de acceso a sistemas internos     | Ataques cibernéticos, Suplantación de identidad | Autenticación robusta, Políticas de acceso     | Alta        |
-| KC004  | Claves de cifrado de documentos          | Manipulación no autorizada, Acceso no autorizado | Cifrado de archivos, Control de acceso a documentos | Alta        |
-| KC005  | Claves de firma digital                  | Suplantación de identidad, Ataques de intermediarios | Infraestructura de clave pública (PKI), Sellos de tiempo | Alta        |
-
-### [SW] Software – Aplicaciones informáticas (medidas preventivas)
-
-| Código | Nombre del Software                     | Amenaza Potencial                              | Medidas Preventivas Aplicadas                   | Efectividad |
-|--------|------------------------------------------|------------------------------------------------|------------------------------------------------|-------------|
-| SW000  | Debian 12                               | Vulnerabilidades del sistema                   | Parches de seguridad regulares, Auditorías de seguridad | Alta        |
-| SW001  | Windows 11                              | Malware, Ataques cibernéticos                 | Actualizaciones automáticas, Protección antivirus | Alta        |
-| SW002  | Clio Manage                             | Pérdida de datos, Interrupciones de servicio  | Backups en la nube, Alta disponibilidad        | Media        |
-| SW003  | Westlaw                                 | Acceso no autorizado, Fuga de información      | Autenticación robusta, Encriptación de datos   | Alta        |
-| SW004  | Microsoft Teams                         | Interceptación de datos, Malware              | Comunicaciones cifradas, Gestión de identidades y accesos | Alta        |
-
-### [HW] Equipamiento informático (hardware) (medidas de prevención)
-
-| Código | Nombre del Hardware           | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| HW000  | Servidores Dell PowerEdge     | Fallos de hardware, Cortes de energía | Sistemas UPS, Mantenimiento preventivo | Alta       |
-| HW001  | Estación de Trabajo HP ZBook  | Robo, Daño físico                     | Seguridad física, Cifrado de disco completo | Media       |
-| HW002  | PC de Escritorio Lenovo ThinkCentre | Malware, Ataques cibernéticos         | Software de seguridad, Actualizaciones regulares | Alta       |
-| HW003  | Dispositivos de Almacenamiento Synology | Fallos de hardware, Pérdida de datos | RAID, Backups regulares | Alta       |
-| HW004  | Impresoras HP LaserJet        | Acceso no autorizado, Fallos de hardware | Gestión de acceso a la impresora, Mantenimiento regular | Media       |
-
-### [COM] Redes de comunicaciones (medidas de prevención)
-
-| Código | Nombre de la Red              | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| COM001 | Red de Invitados              | Acceso no autorizado, Malware         | Aislamiento de red, Monitorización de tráfico | Alta       |
-| COM002 | Red 5G para Dispositivos Móviles | Interrupciones de servicio, Ataques cibernéticos | Tecnología de seguridad 5G, Gestión de dispositivos móviles | Alta       |
-| COM003 | Fibra Óptica                  | Daño físico, Interrupción de servicio | Protección física, Redundancia de ruta | Media       |
-| COM004 | Red de Alta Seguridad Interna | Ataques cibernéticos, Fuga de datos   | Firewalls de última generación, Segmentación de red | Alta       |
-| COM005 | Red Inalámbrica Segura (WPA3) | Ataques cibernéticos, Intercepción de datos | WPA3, Monitorización y gestión de acceso | Alta       |
-
-### [Media] Soportes de información (medidas de prevención)
-
-| Código | Nombre del Soporte            | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| SI001  | Almacenamiento en Red (SAN)   | Pérdida de datos, Fallos técnicos     | Sistemas de redundancia, Protocolos de recuperación | Alta       |
-| SI002  | Disco Duro Externo            | Pérdida, Daño físico                  | Cifrado de datos, Carcasas protectoras | Media       |
-| SI003  | Tarjeta de Memoria            | Pérdida, Daño físico                  | Cifrado de datos, Uso restringido     | Media       |
-| SI004  | Almacenamiento en la Nube     | Ataques cibernéticos, Interrupciones de servicio | Autenticación multifactor, Acuerdos de nivel de servicio (SLA) | Alta       |
-| SI005  | Disco Óptico (DVD)            | Degradación, Daño físico              | Almacenamiento en condiciones controladas, Digitalización | Baja       |
-
-### [AUX] Equipamiento auxiliar (medidas de prevención)
-
-| Código | Nombre del Auxiliar           | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| AUX001 | Fuentes de Alimentación       | Cortes de energía, Fallos técnicos    | Sistemas UPS, Mantenimiento regular   | Alta       |
-| AUX002 | Sistemas de Alimentación Ininterrumpida | Cortes de energía, Fallos técnicos    | Mantenimiento de baterías, Pruebas regulares | Alta       |
-| AUX003 | Equipos de Climatización      | Sobrecalentamiento, Fallos técnicos   | Mantenimiento preventivo, Monitorización de temperatura | Alta       |
-| AUX004 | Cableado Estructurado         | Daño físico, Sabotaje                 | Canalizaciones protegidas, Gestión de cableado | Alta       |
-| AUX005 | Generadores Eléctricos        | Cortes de energía prolongados, Desastres naturales | Generadores de respaldo, Combustible almacenado | Media       |
-
-### [L] Instalaciones (medidas de prevención)
-
-| Código | Nombre de la Instalación      | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| L001   | Edificio Principal            | Fuego, Inundación, Terremoto          | Sistemas contra incendios, Seguro de propiedad | Alta       |
-| L002   | Departamento Legal            | Acceso no autorizado, Fuego           | Control de acceso, Detectores de humo | Alta       |
-| L003   | Centro Tecnológico            | Ataques cibernéticos, Fuego           | Sala segura, Sistemas de supresión de fuego | Alta       |
-| L004   | Sala de Servidores            | Sobrecalentamiento, Fallos de hardware | Climatización controlada, Mantenimiento de hardware | Alta       |
-
-
-
-### [P] Personal (medidas de prevención)
-
-| Código | Rol del Personal              | Amenaza Potencial                     | Medidas de Prevención Aplicadas       | Efectividad |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|-------------|
-| P001   | Abogados                      | Errores de Usuario, Fraude            | Capacitación en seguridad, Políticas de manejo de información | Alta       |
-| P002   | Personal de TI                | Errores de Usuario, Ataques cibernéticos | Certificaciones profesionales, Protocolos de seguridad | Alta       |
-| P003   | Personal Administrativo       | Errores de Usuario, Divulgación de información | Controles de acceso a datos, Acuerdos de confidencialidad | Alta       |
-| P004   | Personal de Seguridad         | Sabotaje, Acceso no autorizado        | Verificación de antecedentes, Entrenamiento en seguridad física | Alta       |
-| P005   | Personal de Mantenimiento     | Errores de Usuario, Daño accidental   | Protocolos de trabajo, Seguros de responsabilidad | Media       |
-
-Estas tablas han sido corregidas para visualizarse correctamente como tablas en Markdown.
-
---------------------------------------------------------------------------------------------
-### Protección Avanzada de Datos e Información
+### 5.1.1 Medidas Preventivas para Riesgo de Fuego
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
+- HW000, Servidores Dell PowerEdge
 - D001, Casos legales en curso
-- D002, Contratos y acuerdos
-- D003, Información confidencial del cliente
+- HW003, Dispositivos de Almacenamiento Synology
+- HW009, UPS APC Smart-UPS
+- L004, Sala de Servidores
 
 **Objetivo:**
-El principal objetivo de este proyecto es fortalecer la protección de los datos críticos del bufete, incluyendo los casos legales en curso, los contratos y la información confidencial de los clientes. Se implementarán medidas avanzadas de cifrado y controles de acceso para mitigar riesgos como el acceso no autorizado y la fuga de datos.
+Implementar sistemas de prevención y respuesta rápida ante incendios para proteger la infraestructura crítica y los datos sensibles del bufete.
 
 **Prioridad:**
-Alta. Este proyecto es crítico y debe iniciarse a la mayor brevedad posible, dada su importancia para la seguridad de la información del bufete.
+Alta, debido a la alta concentración de equipos electrónicos y la importancia crítica de la disponibilidad de datos.
 
 **Ubicación temporal:**
-Se estima que el proyecto requerirá una dedicación de 3 horas diarias durante un periodo de 4 semanas.
+Instalación y capacitación a completar en 6 meses con revisiones y simulacros semestrales.
 
-**Salvaguardas:**
-- Encriptación de datos: Se aplicará cifrado de extremo a extremo para los datos en tránsito y en reposo.
-- Control de acceso: Se reforzarán las políticas de autenticación y autorización, incluyendo el uso de autenticación multifactor.
-- Backups regulares: Se establecerá un calendario de copias de seguridad periódicas y automáticas.
-
-**Unidad responsable de ejecución:**
-Responsable de seguridad de la información o CISO (Chief Information Security Officer).
-
-**Costes:**
-- Recursos humanos: 60 horas del CISO.
-- Inversiones en software de cifrado y sistemas de backup, estimado en 10.000€.
-
-**Descripción de tareas:**
-- Evaluación de las soluciones de cifrado actuales y selección de nuevas tecnologías si es necesario.
-- Implementación de controles de acceso basados en roles para datos sensibles.
-- Configuración y automatización de backups regulares.
-- Desarrollo y documentación de políticas y procedimientos de seguridad actualizados.
-- Formación y concienciación para el personal sobre las nuevas políticas y procedimientos de seguridad.
-
-Este proyecto busca no solo cumplir con las normativas de protección de datos más estrictas sino también reforzar la confianza de los clientes en la capacidad del bufete para proteger su información. La finalización exitosa de este proyecto es esencial para la integridad y reputación de la firma.
-
---------------------------------------------------------------------------------------------
-### Protección Avanzada de Claves Criptográficas
---------------------------------------------------------------------------------------------
-
-
-**Activos que se protegen:**
-- KC001, Claves de acceso a bases de datos
-- KC002, Claves de correo electrónico
-- KC003, Claves de acceso a sistemas internos
-
-**Objetivo:**
-Refinar la gestión de claves criptográficas para asegurar la confidencialidad e integridad de la información del bufete. Se fortalecerán las políticas de control y rotación de claves para contrarrestar amenazas como el acceso no autorizado y la suplantación de identidad.
-
-**Prioridad:**
-Alta. La seguridad de las claves criptográficas es fundamental para mantener la protección de datos y la infraestructura TI.
-
-**Ubicación temporal:**
-Con una dedicación estimada de 2 horas al día, se espera completar el proyecto en 3 semanas.
-
-**Salvaguardas:**
-- Gestión centralizada de claves: Implementar un sistema de gestión de claves centralizado para monitorear y controlar la distribución de claves.
-- Rotación de claves: Establecer un proceso automático para la rotación periódica de claves.
-- Educación de usuarios: Capacitar a los empleados en prácticas de seguridad para el manejo de claves criptográficas.
+**Medida preventiva:**
+1. Instalación de un sistema de detección de incendios y supresión con agentes limpios que no dañen los equipos electrónicos.
+2. Desarrollo y ejecución de un programa de capacitación en prevención de incendios y evacuación para todo el personal.
 
 **Unidad responsable de ejecución:**
-Responsable de seguridad de la información o CISO.
+Departamento de Seguridad en colaboración con el Departamento de TI.
 
 **Costes:**
-- Recursos humanos: 42 horas del CISO y equipo de TI.
-- Software de gestión de claves criptográficas, estimado en 7.000€.
+- Instalación de sistemas: 20.000€.
+- Capacitación y simulacros: 5.000€ anuales.
 
 **Descripción de tareas:**
-- Selección e implementación de una solución de gestión de claves centralizada.
-- Configuración de la rotación automática de claves.
-- Desarrollo de materiales de formación y realización de sesiones de capacitación.
+- Selección e instalación de detectores de humo y sistemas de supresión en áreas clave.
+- Diseño e implementación de un plan integral de respuesta ante incendios.
+- Organización de talleres de capacitación y simulacros de evacuación para todo el personal.
 
---------------------------------------------------------------------------------------------
-### Fortalecimiento de Software y Aplicaciones
+### 5.1.2 Medidas Preventivas para Riesgo de Daños por Agua
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
-- SW000, Debian 12
-- SW001, Windows 11
-- SW002, Clio Manage
+- HW000, Servidores Dell PowerEdge
+- D001, Casos legales en curso
+- HW003, Dispositivos de Almacenamiento Synology
+- HW009, UPS APC Smart-UPS
+- L004, Sala de Servidores
 
 **Objetivo:**
-Actualizar y reforzar el software y aplicaciones informáticas para proteger contra vulnerabilidades y ataques cibernéticos. Las salvaguardas se centrarán en mantener los sistemas operativos y las aplicaciones críticas seguras y funcionales.
+Establecer barreras de protección y sistemas de detección para prevenir daños a la infraestructura y pérdida de datos por inundaciones o fugas.
 
 **Prioridad:**
-Alta. La seguridad del software es crucial para la operatividad y protección contra amenazas informáticas.
+Alta, considerando el potencial de destrucción de equipos críticos y la pérdida de datos operativos y sensibles.
 
 **Ubicación temporal:**
-Se anticipa que el proyecto requiera 3 horas diarias por parte del equipo de TI, con una duración estimada de 1 mes.
+Implementación inmediata de medidas preventivas y sistemas de alerta temprana, con mantenimiento y pruebas anuales.
 
-**Salvaguardas:**
-- Parches de seguridad regulares: Programar actualizaciones automáticas y revisión de parches.
-- Auditorías de seguridad: Realizar auditorías regulares para detectar y remediar vulnerabilidades.
-- Protección antivirus: Asegurar que todas las estaciones de trabajo y servidores tengan protección antivirus actualizada.
+**Medida preventiva:**
+1. Instalación de barreras físicas anti-inundación y mejoras en el sistema de drenaje.
+2. Implementación de sistemas de detección de fugas y humedad en zonas críticas.
 
 **Unidad responsable de ejecución:**
-Equipo de TI, bajo la supervisión del CISO.
+Departamento de Mantenimiento en colaboración con el Departamento de TI.
 
 **Costes:**
-- Recursos humanos: 60 horas del equipo de TI.
-- Herramientas de seguridad y licencias de software, estimado en 15.000€.
+- Barreras y mejoras de drenaje: 15.000€.
+- Sistemas de detección y alarmas: 10.000€.
 
 **Descripción de tareas:**
-- Programar y verificar la implementación de actualizaciones de seguridad.
-- Realizar auditorías periódicas de seguridad del sistema.
-- Renovar y actualizar suscripciones de software antivirus y herramientas de seguridad.
+- Evaluación de riesgos de inundación y selección de barreras adecuadas para el perímetro del CPD.
+- Instalación y prueba de sistemas de detección de fugas en puntos estratégicos.
+- Entrenamiento del personal en protocolos de respuesta rápida ante detección de humedad.
 
---------------------------------------------------------------------------------------------
-### Seguridad de Hardware Informático
+### 5.1.3 Medidas Preventivas para Riesgo de Contaminación Mecánica
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - HW000, Servidores Dell PowerEdge
 - HW001, Estación de Trabajo HP ZBook
 - HW002, PC de Escritorio Lenovo ThinkCentre
-
-**Objetivo:**
-Incrementar la resiliencia y seguridad del hardware informático frente a fallos físicos y ataques externos, asegurando la continuidad de las operaciones del bufete.
-
-**Prioridad:**
-Alta. El correcto funcionamiento del hardware es vital para el negocio.
-
-**Ubicación temporal:**
-Se estima una duración de 4 semanas con una dedicación de 2 horas diarias.
-
-**Salvaguardas:**
-- Sistemas UPS: Proteger contra cortes de energía y fluctuaciones.
-- Mantenimiento preventivo: Realizar revisiones periódicas para anticipar y prevenir fallos.
-
-**Unidad responsable de ejecución:**
-Departamento de Infraestructura TI.
-
-**Costes:**
-- Recursos humanos: 40 horas del personal técnico.
-- Inversión en UPS y componentes de repuesto, estimado en 8.000€.
-
-**Descripción de tareas:**
-- Instalación y configuración de UPS para servidores y estaciones de trabajo.
-- Desarrollo de un programa de mantenimiento preventivo.
-- Formación del personal en el manejo y cuidado del hardware.
-
---------------------------------------------------------------------------------------------
-### Optimización de la Red de Comunicaciones
---------------------------------------------------------------------------------------------
-
-**Activos que se protegen:**
-- COM001, Red de Invitados
+- HW003, Dispositivos de Almacenamiento Synology
 - COM004, Red de Alta Seguridad Interna
 
 **Objetivo:**
-Fortalecer la infraestructura de la red para prevenir accesos no autorizados y asegurar la integridad de las comunicaciones del bufete.
+Prevenir la introducción de partículas y contaminantes en equipos electrónicos para garantizar la integridad operativa del CPD.
 
 **Prioridad:**
-Alta. La protección de la red es crucial para mantener la confidencialidad y disponibilidad de los servicios del bufete.
+Media-Alta, debido a los efectos potenciales en la funcionalidad de los equipos y en la calidad del servicio.
 
 **Ubicación temporal:**
-Este proyecto tendrá una duración estimada de 3 semanas con una dedicación diaria de 2 horas.
+Ejecución inmediata con mantenimiento y evaluación continua cada 6 meses.
 
-**Salvaguardas:**
-- Aislamiento de red: Crear VLANs para aislar la red de invitados.
-- Firewalls de última generación: Implementar firewalls avanzados para proteger la red interna.
+**Medida preventiva:**
+1. Implementación de filtros HEPA en sistemas de climatización y salas de servidores.
+2. Establecimiento de un protocolo de limpieza regular para eliminar el polvo y los residuos de los equipos.
 
 **Unidad responsable de ejecución:**
-Responsable de redes y seguridad.
+Departamento de TI y Facilidades.
 
 **Costes:**
-- Recursos humanos: 30 horas del especialista en redes.
-- Hardware y software para seguridad de red, estimado en 12.000€.
+- Instalación de filtros HEPA: 3.000€.
+- Mantenimiento y limpieza regular: 2.000€ anuales.
 
 **Descripción de tareas:**
-- Diseño e implementación de la arquitectura de red segregada.
-- Configuración y puesta en marcha de firewalls avanzados.
-- Monitoreo y ajuste continuo de las políticas de seguridad de la red.
+- Instalación de filtros HEPA en puntos de entrada de aire y en sistemas de climatización.
+- Programación de limpiezas periódicas para prevenir la acumulación de polvo y partículas.
 
---------------------------------------------------------------------------------------------
-### Protección de Medios de Almacenamiento de Información
+### 5.1.4 Medidas Preventivas para Riesgo de Avería de Origen Físico o Lógico
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
 - SI001, Almacenamiento en Red (SAN)
 - SI002, Disco Duro Externo
-- SI003, Tarjeta de Memoria
 - SI004, Almacenamiento en la Nube
-- SI005, Disco Óptico (DVD)
+- HW009, UPS APC Smart-UPS
+- HW003, Dispositivos de Almacenamiento Synology
 
 **Objetivo:**
-Asegurar la integridad y disponibilidad de la información almacenada en diferentes medios, implementando soluciones de cifrado y redundancia.
+Minimizar el riesgo de interrupciones y pérdida de datos debido a fallas físicas o lógicas en los sistemas de almacenamiento.
 
 **Prioridad:**
-Alta, dada la necesidad crítica de proteger la información almacenada de pérdidas y accesos no autorizados.
+Alta, considerando la importancia crítica de la continuidad de los servicios legales y la integridad de los datos.
 
 **Ubicación temporal:**
-Se espera completar en 4 semanas con un compromiso de 2 horas diarias de trabajo.
+Implementación de soluciones dentro de los próximos 3 meses y revisiones semestrales.
 
-**Salvaguardas:**
-- Sistemas de redundancia para SAN y dispositivos de almacenamiento.
-- Cifrado de datos para dispositivos externos y almacenamiento en la nube.
-- Políticas de acceso y uso restringido para medios físicos.
+**Medida preventiva:**
+1. Establecimiento de un plan de redundancia de datos y sistemas de respaldo.
+2. Implementación de monitoreo proactivo de la salud del hardware y software.
 
 **Unidad responsable de ejecución:**
-Equipo de gestión de datos y almacenamiento.
+Departamento de TI.
 
 **Costes:**
-- Mano de obra: Aproximadamente 48 horas de trabajo del equipo técnico.
-- Inversión en software/hardware de cifrado y sistemas de redundancia, estimado en 10.000€.
+- Plan de redundancia y respaldo: 10.000€.
+- Software y herramientas de monitoreo: 5.000€ anuales.
 
 **Descripción de tareas:**
-- Instalación y configuración de sistemas RAID para SAN.
-- Implementación de soluciones de cifrado para discos duros externos y almacenamiento en la nube.
-- Establecimiento de políticas para el manejo seguro de tarjetas de memoria y DVDs.
+- Diseño e implementación de un sistema de almacenamiento redundante y procedimientos de respaldo periódicos.
+- Configuración de herramientas de monitoreo para alertar sobre cualquier indicio de fallo físico o lógico.
 
---------------------------------------------------------------------------------------------
-### Fortificación de Equipamiento Auxiliar
+### 5.1.5 Medidas Preventivas para Riesgo de Corte del Suministro Eléctrico
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
+- HW000, Servidores Dell PowerEdge
+- HW009, UPS APC Smart-UPS
 - AUX001, Fuentes de Alimentación
-- AUX002, Sistemas de Alimentación Ininterrumpida (SAI)
-- AUX003, Equipos de Climatización
-- AUX004, Cableado Estructurado
-- AUX005, Generadores Eléctricos
+- AUX002, Sistemas de Alimentación Ininterrumpida
+- L004, Sala de Servidores
 
 **Objetivo:**
-Mejorar la resiliencia de los sistemas de soporte críticos para garantizar la operatividad continua del bufete.
+Asegurar la continuidad operativa y la protección de datos ante cortes imprevistos de energía eléctrica.
 
 **Prioridad:**
-Media. Si bien no están directamente implicados en las operaciones diarias, su fallo puede tener consecuencias graves.
+Alta, dada la dependencia crítica de los sistemas de energía para la operatividad del CPD.
 
 **Ubicación temporal:**
-Con un compromiso de 1 hora diaria, el proyecto tendrá una duración estimada de 6 semanas.
+Implementación inmediata y pruebas de funcionamiento cada 3 meses.
 
-**Salvaguardas:**
-- Mantenimiento preventivo para todos los equipos auxiliares.
-- Pruebas de carga y funcionamiento para los SAI y generadores eléctricos.
-- Inspecciones y actualizaciones del cableado estructurado.
+**Medida preventiva:**
+1. Instalación de sistemas de alimentación ininterrumpida (UPS) de alta capacidad.
+2. Establecimiento de un contrato con proveedores de generadores eléctricos de emergencia.
 
 **Unidad responsable de ejecución:**
-Equipo de mantenimiento de instalaciones y operaciones.
+Departamento de Mantenimiento y TI.
 
 **Costes:**
-- Mano de obra: 30 horas del personal de mantenimiento.
-- Inversión en equipos de mantenimiento y piezas de repuesto, estimado en 5.000€.
+- Sistemas UPS y mantenimiento: 25.000€.
+- Contrato de servicio de generadores: 10.000€ anuales.
 
 **Descripción de tareas:**
-- Programación y realización de mantenimiento preventivo para todos los equipos auxiliares.
-- Pruebas periódicas de los SAI y generadores para asegurar su funcionamiento óptimo.
-- Revisión y mejora del cableado estructurado para prevenir fallos y optimizar el rendimiento.
+- Selección e instalación de UPS con capacidad suficiente para mantener la operatividad durante cortes eléctricos.
+- Negociación y establecimiento de contrato de servicio para el suministro de generadores eléctricos de emergencia con respuesta rápida.
 
+### 5.1.6 Medidas Preventivas para Riesgo de Averías en la Electrónica de Red
 --------------------------------------------------------------------------------------------
-### Aseguramiento de las Instalaciones
+
+**Activos que se protegen:**
+- HW005, Enrutador Cisco Catalyst
+- HW013, Switches Cisco Catalyst 2960
+- COM004, Red de Alta Seguridad Interna
+- COM007, Red de Voz sobre IP (VoIP)
+- COM008, Red Privada Virtual (VPN)
+
+**Objetivo:**
+Minimizar el tiempo de inactividad y asegurar la robustez de la red ante posibles averías en la electrónica de red.
+
+**Prioridad:**
+Media-Alta, considerando la importancia de mantener una conectividad constante para la operación del bufete.
+
+**Ubicación temporal:**
+Evaluación inmediata de la infraestructura actual y actualización/respaldo a realizar en los próximos 6 meses.
+
+**Medida preventiva:**
+1. Implementación de una topología de red redundante.
+2. Realización de mantenimiento preventivo y actualizaciones regulares del firmware y hardware de red.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Seguridad Informática.
+
+**Costes:**
+- Redundancia de red y equipo adicional: 20.000€.
+- Mantenimiento y actualizaciones: 5.000€ anuales.
+
+**Descripción de tareas:**
+- Diseño de una topología de red con redundancia para evitar puntos únicos de fallo.
+- Programación de mantenimiento preventivo y actualización del firmware para todos los dispositivos de red críticos.
+
+### 5.1.7 Medidas Preventivas para Riesgo de Errores de los Usuarios
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D001, Casos legales en curso
+- D003, Información confidencial del cliente
+- HW001, Estación de Trabajo HP ZBook
+- HW002, PC de Escritorio Lenovo ThinkCentre
+- SI004, Almacenamiento en la Nube
+
+**Objetivo:**
+Reducir la incidencia de errores humanos que puedan comprometer la seguridad de la información y la operatividad de los sistemas.
+
+**Prioridad:**
+Alta, debido al impacto significativo que los errores de los usuarios pueden tener en la seguridad de la información.
+
+**Ubicación temporal:**
+Capacitación inicial en el primer trimestre y actualizaciones de entrenamiento anuales.
+
+**Medida preventiva:**
+1. Desarrollo de un programa de capacitación y concienciación en seguridad de la información.
+2. Implementación de políticas de control de acceso y gestión de privilegios.
+
+**Unidad responsable de ejecución:**
+Departamento de Recursos Humanos y Departamento de TI.
+
+**Costes:**
+- Programa de capacitación: 4.000€.
+- Sistemas de control de acceso y software de gestión: 6.000€.
+
+**Descripción de tareas:**
+- Creación e implementación de un plan de capacitación que incluya seguridad de la información y buenas prácticas.
+- Configuración de controles de acceso basados en roles y políticas de seguridad estrictas para la gestión de usuarios y privilegios.
+
+### 5.1.8 Medidas Preventivas para Riesgo de Errores de los Administradores
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- AE001, Archivo Digital de Casos
+- AE002, Sistema de Comunicaciones
+- AE003, Base de datos de clientes
+- AE004, Sistema de gestión financiera
+- AE005, Plataforma de colaboración interna
+
+**Objetivo:**
+Mitigar el impacto de los errores de administración en la configuración, actualización o mantenimiento de sistemas y redes, protegiendo la disponibilidad, integridad y confidencialidad de la información.
+
+**Prioridad:**
+Alta, dada la criticidad de los sistemas afectados y la información manejada por los administradores.
+
+**Ubicación temporal:**
+Ejecución de revisiones de procedimientos y formación de administradores en los próximos 2 meses con seguimiento continuo.
+
+**Medida preventiva:**
+1. Implementación de un proceso de revisión de cambios y actualizaciones antes de su despliegue en el entorno de producción.
+2. Desarrollo de un programa de capacitación continua para los administradores, enfocándose en las mejores prácticas de gestión y seguridad de sistemas.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Seguridad de la Información.
+
+**Costes:**
+- Procesos de revisión y herramientas de gestión de cambios: 5.000€.
+- Capacitación y desarrollo profesional de los administradores: 7.000€.
+
+**Descripción de tareas:**
+- Establecimiento de un comité de revisión de cambios para validar todas las nuevas configuraciones, actualizaciones y mantenimiento propuesto por los administradores.
+- Diseño de un plan de formación y actualización de conocimientos para administradores, incluyendo certificaciones y talleres sobre las últimas tecnologías y amenazas de seguridad.
+
+### 5.1.9 Medidas Preventivas para Riesgo de Errores de Configuración
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- COM004, Red de Alta Seguridad Interna
+- COM007, Red de Voz sobre IP (VoIP)
+- COM008, Red Privada Virtual (VPN)
+- HW013, Switches Cisco Catalyst 2960
+- SI001, Almacenamiento en Red (SAN)
+
+**Objetivo:**
+Prevenir errores de configuración que puedan causar vulnerabilidades de seguridad o inactividad del sistema.
+
+**Prioridad:**
+Media, ya que una configuración incorrecta puede llevar a brechas de seguridad y fallas en el servicio.
+
+**Ubicación temporal:**
+Implementación de prácticas de gestión de cambios en el primer semestre con revisiones continuas.
+
+**Medida preventiva:**
+1. Adopción de herramientas automatizadas para la gestión de configuraciones.
+2. Establecimiento de un proceso de revisión de pares para cambios críticos en la configuración del sistema.
+
+**Unidad responsable de ejecución:**
+Departamento de TI.
+
+**Costes:**
+- Herramientas de automatización y gestión: 5.000€.
+- Capacitación y desarrollo de procesos: 3.000€.
+
+**Descripción de tareas:**
+- Implementación de sistemas automatizados para la gestión y documentación de la configuración de red y sistemas.
+- Creación de un protocolo de revisión de pares donde cada cambio significativo es revisado por otro miembro calificado del equipo antes de la implementación.
+
+### 5.1.10 Medidas Preventivas para Riesgo de Difusión de Software Dañino
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D005, Servicios Digitales
+- HW005, Enrutador Cisco Catalyst
+- HW008, Teléfonos VoIP Grandstream
+- SI004, Almacenamiento en la Nube
+- COM005, Red Inalámbrica Segura (WPA3)
+
+**Objetivo:**
+Prevenir la introducción y propagación de software dañino dentro de la infraestructura tecnológica del bufete.
+
+**Prioridad:**
+Alta, debido a las consecuencias potencialmente devastadoras de los ataques de malware en la operatividad y la reputación del bufete.
+
+**Ubicación temporal:**
+Despliegue de medidas de seguridad en el primer semestre y evaluaciones de seguridad trimestrales.
+
+**Medida preventiva:**
+1. Instalación de soluciones de seguridad de endpoints avanzadas en todos los dispositivos.
+2. Realización de auditorías de seguridad regulares y pruebas de penetración para identificar y remediar vulnerabilidades.
+
+**Unidad responsable de ejecución:**
+Departamento de Seguridad Informática.
+
+**Costes:**
+- Software de seguridad de endpoints y servicios de auditoría: 15.000€.
+- Pruebas de penetración y evaluaciones de seguridad: 10.000€ anuales.
+
+**Descripción de tareas:**
+- Selección e implementación de software antivirus y antimalware líder en la industria para todos los endpoints.
+- Contratación de servicios de seguridad para realizar auditorías y pruebas de penetración de forma periódica.
+
+### 5.1.11 Medidas Preventivas para Riesgo de Escapes de Información
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D001, Casos legales en curso
+- D003, Información confidencial del cliente
+- D004, Precedentes legales
+- SI002, Disco Duro Externo
+- SI007, Tarjeta Inteligente (Smart Card)
+
+**Objetivo:**
+Fortalecer las medidas de seguridad para prevenir fugas no autorizadas de información sensible y confidencial.
+
+**Prioridad:**
+Alta, considerando la sensibilidad de la información manejada por el bufete y las obligaciones legales de confidencialidad.
+
+**Ubicación temporal:**
+Implementación de protocolos mejorados en los próximos 4 meses y revisiones de seguridad semestrales.
+
+**Medida preventiva:**
+1. Desarrollo e implementación de políticas de clasificación y manejo de datos.
+2. Refuerzo de la seguridad perimetral y el cifrado de datos en tránsito y en reposo.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Departamento Legal.
+
+**Costes:**
+- Desarrollo de políticas y sistemas de cifrado: 12.000€.
+- Implementación de seguridad perimetral y herramientas de prevención de fugas de datos: 8.000€.
+
+**Descripción de tareas:**
+- Creación de políticas de clasificación de datos que definen los niveles de acceso y manejo según la sensibilidad de la información.
+- Instalación y configuración de firewalls avanzados, sistemas de detección de intrusiones y soluciones de cifrado para proteger la información en todos los estados.
+
+### 5.1.12 Medidas Preventivas para Riesgo de Alteración de la Información
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D002, Contratos y acuerdos
+- D004, Precedentes legales
+- SI003, Tarjeta de Memoria
+- SI006, Unidad USB
+- COM004, Red de Alta Seguridad Interna
+
+**Objetivo:**
+Salvaguardar la integridad de la información legal y contractual crítica, evitando alteraciones no autorizadas o accidentales.
+
+**Prioridad:**
+Alta, debido al potencial impacto negativo en la confianza del cliente y la validez legal de los documentos.
+
+**Ubicación temporal:**
+Implementación de controles de integridad dentro de los primeros 2 meses y revisiones de integridad mensuales.
+
+**Medida preventiva:**
+1. Aplicación de firmas digitales y sellos de tiempo en documentos críticos.
+2. Instalación de sistemas de gestión de versiones para documentos y datos importantes.
+
+**Unidad responsable de ejecución:**
+Departamento Legal y Departamento de TI.
+
+**Costes:**
+- Implementación de firmas digitales y sistemas de gestión de versiones: 8.000€.
+- Mantenimiento y actualización de sistemas: 4.000€ anuales.
+
+**Descripción de tareas:**
+- Configuración de infraestructura de clave pública (PKI) para el uso de firmas digitales y sellos de tiempo.
+- Implementación de soluciones de gestión de versiones para rastrear y auditar cambios en documentos críticos.
+
+### 5.1.13 Medidas Preventivas para Riesgo de Destrucción de la Información
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D001, Casos legales en curso
+- D002, Contratos y acuerdos
+- D003, Información confidencial del cliente
+- SI002, Disco Duro Externo
+- SI005, Disco Óptico (DVD)
+
+**Objetivo:**
+Proteger contra la destrucción accidental o maliciosa de la información esencial para las operaciones del bufete.
+
+**Prioridad:**
+Alta, considerando las severas consecuencias de la pérdida de registros legales y datos de clientes.
+
+**Ubicación temporal:**
+Implementación inmediata de soluciones de respaldo y estrategias de recuperación ante desastres con pruebas trimestrales.
+
+**Medida preventiva:**
+1. Creación de protocolos de respaldo de datos robustos y regularmente programados.
+2. Desarrollo de un plan de recuperación ante desastres integral y específico para datos críticos.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Departamento de Gestión de Riesgos.
+
+**Costes:**
+- Sistemas de respaldo y almacenamiento seguro: 20.000€.
+- Planificación y ejecución de recuperación ante desastres: 10.000€ anuales.
+
+**Descripción de tareas:**
+- Establecimiento de rutinas de respaldo diarias, semanales y mensuales en múltiples ubicaciones y medios.
+- Diseño y prueba de un plan de recuperación ante desastres que incluya escenarios de pérdida total de datos y recuperación rápida.
+
+### 5.1.14 Medidas Preventivas para Riesgo de Acceso no Autorizado al CPD
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- HW009, UPS APC Smart-UPS
+- HW011, Sistemas de Control de Acceso
+- L003, Centro Tecnológico
+- L004, Sala de Servidores
+- AUX003, Equipos de Climatización
+
+**Objetivo:**
+Prevenir el acceso físico no autorizado a las instalaciones críticas del Centro de Procesamiento de Datos para garantizar la seguridad de los activos tecnológicos.
+
+**Prioridad:**
+Muy alta, debido a la necesidad de proteger la infraestructura física que soporta todas las operaciones críticas del bufete.
+
+**Ubicación temporal:**
+Revisión de seguridad y mejoras inmediatas a realizar en los primeros 3 meses y auditorías de seguridad semestrales.
+
+**Medida preventiva:**
+1. Reforzamiento de las medidas de seguridad física, incluyendo cerraduras biométricas y sistemas de alarma.
+2. Implementación de un protocolo de acompañamiento para todos los visitantes dentro de las áreas críticas.
+
+**Unidad responsable de ejecución:**
+Departamento de Seguridad Física y Departamento de TI.
+
+**Costes:**
+- Mejora de la seguridad física y sistemas de alarma: 15.000€.
+- Implementación de protocolos de seguridad y formación de personal: 3.000€.
+
+**Descripción de tareas:**
+- Instalación de cerraduras biométricas y sistemas de alarma conectados a una central de monitoreo de seguridad.
+- Desarrollo y aplicación de políticas de acceso que requieran acompañamiento y registro de todos los visitantes en áreas críticas.
+
+### 5.1.15 Medidas Preventivas para Riesgo de Ransomware
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D005, Servicios Digitales
+- SI001, Almacenamiento en Red (SAN)
+- HW002, PC de Escritorio Lenovo ThinkCentre
+- HW003, Dispositivos de Almacenamiento Synology
+- SI004, Almacenamiento en la Nube
+
+**Objetivo:**
+Minimizar el riesgo de ataques de ransomware y garantizar la capacidad de recuperación rápida en caso de infección.
+
+**Prioridad:**
+Muy alta, dada la creciente prevalencia de ransomware y su capacidad para paralizar las operaciones del bufete.
+
+**Ubicación temporal:**
+Ejecución de medidas preventivas y formación de personal en los primeros 2 meses con actualizaciones de seguridad continuas.
+
+**Medida preventiva:**
+1. Implementación de soluciones avanzadas de filtrado de correo electrónico y navegación web para prevenir la entrega de ransomware.
+2. Realización de copias de seguridad frecuentes y segmentadas para permitir la restauración rápida de datos en caso de ataque.
+
+**Unidad responsable de ejecución:**
+Departamento de Seguridad Informática y Departamento de TI.
+
+**Costes:**
+- Soluciones de filtrado y software de seguridad: 12.000€.
+- Infraestructura y servicios de respaldo: 8.000€ anuales.
+
+**Descripción de tareas:**
+- Configuración y mantenimiento de soluciones de seguridad para filtrar amenazas de correo electrónico y web.
+- Establecimiento de una rutina de copias de seguridad y pruebas de restauración para garantizar la disponibilidad de datos actualizados y seguros.
+
+### 5.1.16 Medidas Preventivas para Riesgo de Conflicto Armado
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
@@ -371,66 +534,232 @@ Equipo de mantenimiento de instalaciones y operaciones.
 - L002, Departamento Legal
 - L003, Centro Tecnológico
 - L004, Sala de Servidores
+- AUX001, Fuentes de Alimentación
 
 **Objetivo:**
-Garantizar la seguridad física y la integridad de las instalaciones clave del bufete.
+Proteger la infraestructura física y los recursos críticos del bufete ante posibles daños derivados de conflictos armados o disturbios civiles.
 
 **Prioridad:**
-Alta, debido a la importancia de proteger las áreas donde se maneja información sensible y se alojan recursos críticos.
+Moderada a baja, sujeta a la evaluación de la situación política y social en la región.
 
 **Ubicación temporal:**
-Este proyecto se llevará a cabo durante 8 semanas con una asignación de 2 horas diarias.
+Desarrollo de un plan de contingencia y respuesta en un plazo de 6 meses con revisiones anuales.
 
-**Salvaguardas:**
-- Sistemas contra incendios y medidas de prevención de desastres.
-- Control de acceso y sistemas de vigilancia mejorados.
-- Protocolos de emergencia y planes de contingencia actualizados.
+**Medida preventiva:**
+1. Creación de un plan de contingencia y evacuación en caso de emergencias civiles o militares.
+2. Fortalecimiento de la infraestructura física para resistir posibles daños asociados a conflictos.
 
 **Unidad responsable de ejecución:**
-Administrador de las instalaciones y seguridad física.
+Departamento de Seguridad Física en colaboración con la Dirección de Gestión de Riesgos.
 
 **Costes:**
-- Mano de obra: 64 horas de trabajo del personal de seguridad y mantenimiento.
-- Inversión en sistemas de seguridad física y medidas de prevención, estimado en 20.000€.
+- Planificación y desarrollo de contingencias: 5.000€.
+- Reforzamiento de infraestructura: Dependiendo de la evaluación de riesgos, los costes pueden variar.
 
 **Descripción de tareas:**
-- Instalación y actualización de sistemas contra incendios y de seguridad.
-- Implementación de controles de acceso biométricos y circuito cerrado de televisión (CCTV).
-- Elaboración de planes de contingencia y realización de simulacros de emergencia.
+- Diseño e implementación de un plan de evacuación y contingencia para todos los empleados.
+- Evaluación de la necesidad de mejoras en la infraestructura física y realización de las modificaciones necesarias para una mayor resistencia.
 
---------------------------------------------------------------------------------------------
-### Capacitación y Concienciación del Personal
+### 5.1.17 Medidas Preventivas para Riesgo de Phishing
 --------------------------------------------------------------------------------------------
 
 **Activos que se protegen:**
-- P001, Abogados
-- P002, Personal de TI
-- P003, Personal Administrativo
-- P004, Personal de Seguridad
-- P005, Personal de Mantenimiento
+- D003, Información confidencial del cliente
+- D004, Precedentes legales
+- HW014, iPhone 13 Pro Max
+- COM001, Red de Invitados
+- SI007, Tarjeta Inteligente (Smart Card)
 
 **Objetivo:**
-Desarrollar un programa integral de capacitación en seguridad de la información para todo el personal, reduciendo el riesgo de errores humanos y aumentando la respuesta a incidentes.
+Reducir la susceptibilidad del personal y los sistemas del bufete a ataques de phishing y otras formas de ingeniería social.
 
 **Prioridad:**
-Alta, considerando que el factor humano es crítico en la gestión de la seguridad de la información.
+Alta, debido al uso frecuente de métodos de phishing para obtener acceso no autorizado a sistemas y datos sensibles.
 
 **Ubicación temporal:**
-Se desarrollará a lo largo de 3 meses con sesiones semanales de capacitación.
+Capacitación y despliegue de herramientas de seguridad en los primeros 3 meses con actualizaciones y formación continua.
 
-**Salvaguardas:**
-- Programas de capacitación en seguridad informática y buenas prácticas.
-- Políticas de manejo de información y protocolos de respuesta ante incidentes.
-- Simulacros de phishing y otros ejercicios prácticos.
+**Medida preventiva:**
+1. Realización de sesiones de concienciación sobre seguridad y simulacros de phishing para el personal.
+2. Implementación de soluciones de filtrado de correo electrónico y autenticación de dos factores para todas las cuentas críticas.
 
 **Unidad responsable de ejecución:**
-Departamento de Recursos Humanos en colaboración con el CISO.
+Departamento de Recursos Humanos y Departamento de TI.
 
 **Costes:**
-- Mano de obra: 120 horas de los departamentos de RH y TI.
-- Materiales y servicios de capacitación, estimado en 3.000€.
+- Programas de concienciación y herramientas de filtrado: 7.000€.
+- Implementación de autenticación de dos factores: 3.000€.
 
 **Descripción de tareas:**
-- Diseño e implementación de un programa de capacitación y concienciación.
-- Coordinación de sesiones de capacitación y talleres prácticos.
-- Evaluación del impacto de la capacitación y ajustes del programa según sea necesario.
+- Desarrollo y ejecución de un programa de capacitación centrado en la identificación y manejo de intentos de phishing.
+- Configuración de filtros de correo electrónico avanzados y sistemas de autenticación robustos para proteger contra accesos no autorizados.
+
+### 5.1.18 Medidas Preventivas para Riesgo de Robo
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- HW006, Sistema de Videovigilancia Axis
+- HW007, Escáner Epson WorkForce
+- SI002, Disco Duro Externo
+- AUX005, Mobiliario: Armarios, etc.
+- L001, Edificio Principal
+
+**Objetivo:**
+Prevenir la sustracción no autorizada de equipos, dispositivos o información valiosa del bufete.
+
+**Prioridad:**
+Alta, considerando el impacto potencial en la seguridad de la información y en la propiedad física.
+
+**Ubicación temporal:**
+Refuerzo de medidas de seguridad a implementar en el primer trimestre y revisiones de seguridad mensuales.
+
+**Medida preventiva:**
+1. Mejora de los sistemas de vigilancia y seguridad física, incluidos cerramientos y cerraduras de seguridad.
+2. Implementación de un sistema de control de inventario para el seguimiento de activos valiosos.
+
+**Unidad responsable de ejecución:**
+Departamento de Seguridad Física.
+
+**Costes:**
+- Sistemas de seguridad y vigilancia: 10.000€.
+- Sistema de control de inventario y formación del personal: 3.000€.
+
+**Descripción de tareas:**
+- Instalación y mantenimiento de cámaras de seguridad adicionales y actualización de cerraduras de seguridad en puntos de acceso críticos.
+- Desarrollo de un sistema de seguimiento de activos para monitorizar la ubicación y el movimiento de equipos y dispositivos importantes.
+
+### 5.1.19 Medidas Preventivas para Riesgo de Compromiso de Credenciales
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D005, Servicios Digitales
+- HW008, Teléfonos VoIP Grandstream
+- SI004, Almacenamiento en la Nube
+- COM008, Red Privada Virtual (VPN)
+- SI007, Tarjeta Inteligente (Smart Card)
+
+**Objetivo:**
+Asegurar las credenciales de acceso de los usuarios para evitar el uso indebido y el acceso no autorizado a los sistemas del bufete.
+
+**Prioridad:**
+Alta, debido a la importancia de mantener la confidencialidad y la integridad de los accesos a sistemas críticos.
+
+**Ubicación temporal:**
+Implementación de medidas de fortalecimiento de credenciales y capacitación del personal en el primer semestre y evaluaciones periódicas.
+
+**Medida preventiva:**
+1. Imposición de políticas de contraseñas fuertes y cambios periódicos obligatorios.
+2. Instalación de sistemas de gestión de identidades y acceso con autenticación multifactor.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Seguridad Informática.
+
+**Costes:**
+- Herramientas de gestión de identidades y autenticación: 12.000€.
+- Programas de capacitación y concienciación: 5.000€.
+
+**Descripción de tareas:**
+- Configuración de políticas de seguridad para la creación y renovación regular de contraseñas complejas.
+- Implementación y mantenimiento de sistemas de autenticación multifactor para una capa adicional de seguridad en el acceso a los sistemas.
+
+### 5.1.20 Medidas Preventivas para Riesgo de Ataques de Denegación de Servicio SYN Flood
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- COM005, Red Inalámbrica Segura (WPA3)
+- COM006, Red de Área Local (LAN)
+- COM008, Red Privada Virtual (VPN)
+- SI004, Almacenamiento en la Nube
+- HW005, Enrutador Cisco Catalyst
+
+**Objetivo:**
+Fortalecer las defensas contra los ataques de denegación de servicio, especialmente los ataques SYN Flood, para mantener la disponibilidad y la operatividad de los servicios de red.
+
+**Prioridad:**
+Alta, debido a la necesidad de asegurar la disponibilidad continua de la infraestructura de red crítica para las operaciones del bufete.
+
+**Ubicación temporal:**
+Implementación de soluciones de mitigación de DDoS y configuraciones de red en los próximos 2 meses con monitoreo continuo.
+
+**Medida preventiva:**
+1. Despliegue de soluciones de mitigación de DDoS que incluyan la capacidad de absorber y neutralizar ataques SYN Flood.
+2. Configuración de cortafuegos y enrutadores para rechazar paquetes malformados y limitar las tasas de conexión.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Seguridad de Redes.
+
+**Costes:**
+- Soluciones de mitigación de DDoS y hardware de red: 20.000€.
+- Monitoreo y actualizaciones de seguridad: 5.000€ anuales.
+
+**Descripción de tareas:**
+- Selección e implementación de servicios especializados en mitigación de DDoS con capacidades probadas contra ataques SYN Flood.
+- Ajuste de la configuración de seguridad de red para identificar y prevenir patrones de tráfico anómalos asociados con ataques de denegación de servicio.
+
+### 5.1.21 Medidas Preventivas para Riesgo de Vulnerabilidades de las Aplicaciones
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- D005, Servicios Digitales
+- SI004, Almacenamiento en la Nube
+- COM007, Red de Voz sobre IP (VoIP)
+- HW010, Estación Docking para Portátiles
+- HW013, Switches Cisco Catalyst 2960
+
+**Objetivo:**
+Identificar y corregir vulnerabilidades en las aplicaciones de software utilizadas en el bufete para evitar explotaciones que puedan comprometer la seguridad de los sistemas.
+
+**Prioridad:**
+Alta, debido a la relevancia de las aplicaciones en la prestación de servicios legales y la gestión de datos.
+
+**Ubicación temporal:**
+Revisión y corrección de vulnerabilidades de las aplicaciones a realizar en el primer trimestre y auditorías de seguridad periódicas.
+
+**Medida preventiva:**
+1. Realización de pruebas de seguridad de aplicaciones y actualizaciones regulares del software.
+2. Adopción de un enfoque de seguridad de aplicaciones desde el diseño (Security by Design).
+
+**Unidad responsable de ejecución:**
+Departamento de Desarrollo de Software y Departamento de TI.
+
+**Costes:**
+- Herramientas de prueba de seguridad de aplicaciones y formación: 10.000€.
+- Implementación de prácticas de desarrollo seguro y auditorías: 8.000€ anuales.
+
+**Descripción de tareas:**
+- Implementación de un ciclo de vida de desarrollo de software que incluya pruebas de seguridad regulares y actualizaciones de aplicaciones.
+- Integración de prácticas de seguridad en las etapas tempranas de desarrollo de software y durante las actualizaciones de sistemas existentes.
+
+### 5.1.22 Medidas Preventivas para Riesgo de Fugas de Información en la Nube
+--------------------------------------------------------------------------------------------
+
+**Activos que se protegen:**
+- SI004, Almacenamiento en la Nube
+- COM008, Red Privada Virtual (VPN)
+- HW008, Teléfonos VoIP Grandstream
+- HW014, iPhone 13 Pro Max
+- D003, Información confidencial del cliente
+
+**Objetivo:**
+Proteger los datos almacenados y procesados en entornos de nube contra exposiciones no autorizadas o accesos indebidos.
+
+**Prioridad:**
+Alta, dada la creciente dependencia del bufete en soluciones de nube para almacenamiento y colaboración.
+
+**Ubicación temporal:**
+Evaluación de la seguridad de la nube y mejora de controles en los próximos 2 meses con revisiones de seguridad semestrales.
+
+**Medida preventiva:**
+1. Implementación de políticas de seguridad y cifrado en la nube para proteger datos sensibles.
+2. Realización de evaluaciones de seguridad de proveedores de nube y monitoreo continuo de la configuración de seguridad.
+
+**Unidad responsable de ejecución:**
+Departamento de TI y Departamento de Seguridad Informática.
+
+**Costes:**
+- Herramientas y servicios de cifrado en la nube: 7.000€.
+- Auditorías de seguridad y monitoreo de configuraciones: 6.000€ anuales.
+
+**Descripción de tareas:**
+- Configuración de políticas de cifrado de datos en la nube para asegurar la confidencialidad e integridad de la información.
+- Evaluación rigurosa de las prácticas de seguridad de los proveedores de nube y ajustes continuos a la configuración de seguridad para alinear con las mejores prácticas.
