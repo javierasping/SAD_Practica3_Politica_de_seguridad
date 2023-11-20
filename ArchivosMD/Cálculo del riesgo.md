@@ -1,19 +1,17 @@
 
- Cada columna representa un aspecto importante en la evaluación de riesgos:
+ # Evaluación de Riesgos en Ciberseguridad
 
-    Código: Es un identificador único para cada riesgo. Sirve para referenciar y rastrear el riesgo fácilmente en la documentación y discusiones.
+La **evaluación de riesgos** es un proceso clave en la gestión de la ciberseguridad. Permite identificar, clasificar y priorizar los riesgos potenciales a los que se enfrenta una organización en relación a sus sistemas y datos informáticos. Una herramienta fundamental en este proceso es el uso de tablas de evaluación de riesgos, que facilitan la visualización y el análisis estructurado de cada riesgo. A continuación, se detallan los componentes principales de una tabla típica de evaluación de riesgos:
 
-    Nombre: Describe el riesgo de forma breve pero clara. Por ejemplo, "Ataque de phishing a empleados" o "Fallo de software en el servidor principal".
+- **Código**: Identificador único para cada riesgo, facilitando su rastreo y referencia.
+- **Nombre**: Descripción breve y clara del riesgo.
+- **D (Disponibilidad)**: Evalúa el impacto del riesgo en la disponibilidad de los sistemas o servicios.
+- **I (Integridad)**: Mide cómo el riesgo podría comprometer la integridad de los datos o sistemas.
+- **C (Confidencialidad)**: Considera el efecto del riesgo en la confidencialidad de la información.
+- **Impacto**: Evaluación general del daño potencial, considerando Disponibilidad, Integridad y Confidencialidad.
 
-    D (Disponibilidad): Evalúa cómo el riesgo afecta la disponibilidad de los sistemas o servicios. Un valor alto indica que el riesgo puede causar una interrupción significativa.
+Esta metodología ayuda a los administradores de sistemas y profesionales de seguridad informática a tomar decisiones informadas sobre cómo manejar y mitigar los riesgos identificados.
 
-    I (Integridad): Mide el potencial del riesgo para comprometer la integridad de los datos o sistemas, es decir, la posibilidad de que la información sea alterada o dañada.
-
-    C (Confidencialidad): Considera cómo el riesgo podría afectar la confidencialidad de la información, es decir, si podría exponer datos sensibles a personas no autorizadas.
-
-    Impacto: Es una evaluación general del daño potencial que el riesgo podría causar, teniendo en cuenta los factores de Disponibilidad, Integridad y Confidencialidad.
-
-Esta tabla ayuda a tener una visión clara y estructurada de los diferentes riesgos en un plan de ciberseguridad, facilitando su análisis y la toma de decisiones sobre cómo manejarlos.
 
  considerando el impacto de un incendio (fuego) en los diferentes activos de un bufete de abogados, centrado principalmente en la Disponibilidad (D), ya que es la dimensión que más afecta el fuego. La Integridad (I) y la Confidencialidad (C) se verán afectadas en menor medida en la mayoría de los casos, a excepción de aquellos activos donde la destrucción física conlleve a la pérdida de información crítica.
 
@@ -104,7 +102,7 @@ Esta tabla ayuda a tener una visión clara y estructurada de los diferentes ries
 
 
 
-| N.2 Inundaciones |
+
 
 esta tabla considerando el impacto de las inundaciones en los distintos activos de un bufete de abogados, nos centraremos principalmente en la Disponibilidad (D), ya que las inundaciones pueden hacer que los equipos y las instalaciones no estén operativos. La Integridad (I) y la Confidencialidad (C) se verán afectadas en algunos casos donde la destrucción física o el daño conlleven a la pérdida o exposición de información sensible.
 
@@ -261,9 +259,11 @@ a avería de origen físico o lógico puede impactar significativamente la Dispo
 | AUX005 | Mobiliario: Armarios, etc.              | X |   |   | Bajo    |
 
 
+#### 3.2.3 corte del suministro eléctrico
+
+
 El corte del suministro eléctrico afecta principalmente la Disponibilidad (D) de varios activos críticos en una organización, especialmente aquellos que dependen directamente de la energía eléctrica para su funcionamiento. A continuación, se muestra cómo se podría rellenar la tabla considerando el impacto en la Disponibilidad de los activos mencionados:
 
-markdown
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
@@ -319,7 +319,7 @@ La degradación de los soportes de almacenamiento de la información puede afect
 
 
 
-#### 3.2.4  Averías en la Electrónica de Red (Switches y Routers)
+#### 3.2.5  Averías en la Electrónica de Red (Switches y Routers)
 
 las averías en la electrónica de red, como en switches y routers, afectan principalmente la Disponibilidad (D) de los servicios de red. Estos dispositivos son cruciales para mantener la conectividad y el flujo de información. La Integridad (I) y la Confidencialidad (C) podrían no verse afectadas directamente por la avería de estos dispositivos, a menos que el fallo conlleve a la exposición o alteración de datos.
 
@@ -337,7 +337,6 @@ las averías en la electrónica de red, como en switches y routers, afectan prin
 | HW013  | Switches Cisco Catalyst 2960            | X |   |   | Muy Alto|
 
 
-### 3.3 [NI] Errores y fallos no intencionados
 
 
 
@@ -382,15 +381,10 @@ markdown
 | SW012  | Varonis Data Security Platform         | X | X | X | Alto    |
 | SW013  | Symantec Encryption                    | X | X | X | Alto    |
 
-En esta tabla, la mayoría de los activos se marcan con una "X" en todas las dimensiones debido a la amplia gama de errores que los usuarios pueden cometer, y que podrían afectar la disponibilidad, integridad y confidencialidad de estos activos. Los impactos se clasifican como "Alto", "Medio" o "Bajo" según la criticidad del activo y la probabilidad de que los errores de los usuarios afecten dicho activo.
-
-
 
 
 #### 3.3.2 Errores del administrador
-Los errores del administrador, aunque menos comunes, pueden ser devastadores para la estabilidad y seguridad de un sistema. Incluyen acciones inadecuadas en la configuración, actualización o mantenimiento de sistemas, redes o bases de datos. Desde omisiones hasta configuraciones erróneas, estos errores pueden resultar en interrupciones de servicio, exposición de datos confidenciales o incluso la inutilización de sistemas críticos. 
 
-| NI.2  Errores de los usuarios   |
 
 Los errores de los usuarios pueden impactar significativamente en todas las dimensiones de la seguridad de los activos tecnológicos: Disponibilidad (D), Integridad (I) y Confidencialidad (C). Estos errores pueden variar desde acciones no intencionadas hasta malas prácticas, afectando desde la operatividad de los sistemas hasta la seguridad de los datos.
 
@@ -462,14 +456,11 @@ Los errores de los usuarios pueden impactar significativamente en todas las dime
 | COM007 | Red de Voz sobre IP (VoIP)             | X | X | X | Medio   |
 | COM008 | Red Privada Virtual (VPN)               | X | X | X | Alto    |
 
-Esta tabla refleja cómo los errores de los usuarios pueden impactar todos los aspectos de la seguridad de los activos, incluyendo la disponibilidad, integridad y confidencialidad. El grado de impacto varía según la criticidad del activo y la naturaleza del error que pueda ocurrir.
+
 
 
 
 #### 3.3.3 Errores de configuración 
-Los errores del administrador, aunque menos comunes, pueden ser devastadores para la estabilidad y seguridad de un sistema. Incluyen acciones inadecuadas en la configuración, actualización o mantenimiento de sistemas, redes o bases de datos. Desde omisiones hasta configuraciones erróneas, estos errores pueden resultar en interrupciones de servicio, exposición de datos confidenciales o incluso la inutilización de sistemas críticos. 
-
-| NI.3  Errores de configuración    |
 
 Los errores de configuración pueden afectar la Disponibilidad (D), Integridad (I) y Confidencialidad (C) de varios activos en una organización. A continuación, se muestra cómo se podría rellenar la tabla considerando el impacto de estos errores en los activos mencionados:
 
@@ -541,9 +532,6 @@ Los errores de configuración pueden afectar la Disponibilidad (D), Integridad (
 
 
 #### 3.3.4 Difusión de software dañino
-La difusión de software dañino se refiere a la propagación intencionada o accidental de programas malignos, como virus, gusanos o troyanos. Estos programas son diseñados para infiltrarse en sistemas, comprometer datos o interrumpir operaciones normales. La difusión de este tipo de software puede ocurrir a través de correos electrónicos, descargas no autorizadas, sitios web comprometidos o dispositivos de almacenamiento infectados.
-
-| NI.4  Difusión de software dañino |
 La difusión de software dañino, como virus, malware y ransomware, puede tener un impacto severo en las aplicaciones de software. Afecta la Disponibilidad (D) al interrumpir el funcionamiento normal del software, la Integridad (I) al alterar o dañar los datos, y la Confidencialidad (C) al permitir el acceso no autorizado a información sensible.
 
 A continuación, se muestra cómo se podría rellenar la tabla considerando estos impactos:
@@ -567,13 +555,12 @@ A continuación, se muestra cómo se podría rellenar la tabla considerando esto
 | SW012  | Varonis Data Security Platform          | X | X | X | Alto    |
 | SW013  | Symantec Encryption                     | X | X | X | Alto    |
 
-Esta tabla refleja cómo la difusión de software dañino puede comprometer todos los aspectos de la seguridad de las aplicaciones de software. El impacto se clasifica como "Alto" o "Muy Alto" para la mayoría de los softwares, dada la naturaleza crítica de estos activos y los posibles daños que el software dañino puede causar.
+
 
 
 #### 3.3.5 Fugas de información
 as fugas de información en la nube representan un riesgo serio para la confidencialidad de los datos y la información almacenados o procesados en la nube. Este riesgo puede afectar tanto a los datos almacenados como a las aplicaciones que gestionan o transmiten estos datos, así como a las redes a través de las cuales se accede a ellos.
 
-Aquí te muestro cómo se podría rellenar la tabla considerando el impacto en la Confidencialidad (C) de estos activos:
 
 markdown
 
@@ -626,9 +613,7 @@ La alteración de la información, que compromete la integridad (I) de los datos
 
 La alteración de la información se refiere a la modificación indebida o no autorizada de datos, lo que compromete la integridad de la información. Este riesgo es particularmente relevante para los datos y la información que son críticos para las operaciones de una organización, como un bufete de abogados. En este caso, la Integridad (I) es la dimensión principal afectada.
 
-Aquí te muestro cómo se podría rellenar la tabla considerando el impacto en la Integridad (I) de estos activos:
 
-markdown
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
@@ -638,10 +623,9 @@ markdown
 | D004   | Precedentes legales                     |   | X |   | Alto    |
 | D005   | Servicios Digitales                     |   | X |   | Alto    |
 
-En esta tabla, la marca "X" en la columna de Integridad (I) indica que estos activos son susceptibles a riesgos de alteración de la información. El impacto se clasifica como "Alto" o "Muy Alto" dependiendo de la criticidad del activo y la importancia de la integridad de los datos para las operaciones y la toma de decisiones del bufete. Los activos que contienen información altamente sensible y crítica, como los casos legales en curso y los contratos, tienen un impacto clasificado como "Muy Alto".
 
-### 3.4 [AI] Ataques intencionados
-Estos ataques, perpetrados de forma deliberada por individuos o grupos, buscan vulnerar la integridad, confidencialidad o disponibilidad de los activos de un CPD. Pueden provenir de fuentes externas o internas, involucrando la manipulación, destrucción o robo de información, así como la interrupción de los servicios esenciales.
+
+
 
 #### 3.4.1 Acceso no autorizados al CPD
 
@@ -799,7 +783,7 @@ El ransomware es una seria amenaza que puede afectar no solo la Disponibilidad (
 | L003   | Centro Tecnológico                      | X | X | X | Alto    |
 | L004   | Sala de Servidores                      | X | X | X | Muy Alto|
 
-3.4.3 Conflicto Armado
+###3.4.3 Conflicto Armado
 
 
 El riesgo de un conflicto armado impacta significativamente en varios activos de un bufete de abogados, afectando la disponibilidad (D), la confidencialidad (C) y, en ciertos casos, la integridad (I) de los datos e infraestructura. Aquí se muestra cómo se podría rellenar la tabla considerando este riesgo:
