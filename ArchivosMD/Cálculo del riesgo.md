@@ -261,6 +261,45 @@ a avería de origen físico o lógico puede impactar significativamente la Dispo
 | AUX005 | Mobiliario: Armarios, etc.              | X |   |   | Bajo    |
 
 
+El corte del suministro eléctrico afecta principalmente la Disponibilidad (D) de varios activos críticos en una organización, especialmente aquellos que dependen directamente de la energía eléctrica para su funcionamiento. A continuación, se muestra cómo se podría rellenar la tabla considerando el impacto en la Disponibilidad de los activos mencionados:
+
+markdown
+
+| Código | Nombre                                  | D | I | C | Impacto |
+|--------|-----------------------------------------|---|---|---|---------|
+| HW000  | Servidores Dell PowerEdge               | X |   |   | Muy Alto|
+| HW001  | Estación de Trabajo HP ZBook            | X |   |   | Alto    |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X |   |   | Alto    |
+| HW003  | Dispositivos de Almacenamiento Synology | X |   |   | Alto    |
+| HW004  | Impresoras HP LaserJet                  | X |   |   | Medio   |
+| HW005  | Enrutador Cisco Catalyst                | X |   |   | Alto    |
+| HW006  | Sistema de Videovigilancia Axis         | X |   |   | Medio   |
+| HW007  | Escáner Epson WorkForce                 | X |   |   | Medio   |
+| HW008  | Teléfonos VoIP Grandstream              | X |   |   | Medio   |
+| HW009  | UPS APC Smart-UPS                       | X |   |   | Alto    |
+| HW010  | Estación Docking para Portátiles        | X |   |   | Medio   |
+| HW011  | Sistemas de Control de Acceso           | X |   |   | Medio   |
+| HW012  | Pizarras Interactivas SMART             | X |   |   | Medio   |
+| HW013  | Switches Cisco Catalyst 2960            | X |   |   | Alto    |
+| COM001 | Red de Invitados                        | X |   |   | Medio   |
+| COM002 | Red 5G para Dispositivos Móviles        | X |   |   | Medio   |
+| COM003 | Fibra Óptica                            | X |   |   | Alto    |
+| COM004 | Red de Alta Seguridad Interna           | X |   |   | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)          | X |   |   | Alto    |
+| COM006 | Red de Área Local (LAN)                 | X |   |   | Alto    |
+| COM007 | Red de Voz sobre IP (VoIP)             | X |   |   | Medio   |
+| COM008 | Red Privada Virtual (VPN)               | X |   |   | Alto    |
+| SI001  | Almacenamiento en Red (SAN)             | X |   |   | Alto    |
+| SI002  | Disco Duro Externo                      | X |   |   | Medio   |
+| SI003  | Tarjeta de Memoria                      | X |   |   | Bajo    |
+| SI004  | Almacenamiento en la Nube               | X |   |   | Alto    |
+| SI005  | Disco Óptico (DVD)                      | X |   |   | Bajo    |
+| SI006  | Unidad USB                              | X |   |   | Medio   |
+| AUX001 | Fuentes de Alimentación                 | X |   |   | Alto    |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | X |   |   | Muy Alto|
+| AUX003 | Equipos de Climatización                | X |   |   | Alto    |
+| AUX004 | Cableado                                | X |   |   | Medio   |
+| AUX005 | Mobiliario: Armarios, etc.              |   |   |   | Bajo    |
 
 
 
