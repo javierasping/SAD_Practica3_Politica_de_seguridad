@@ -471,6 +471,74 @@ Los errores del administrador, aunque menos comunes, pueden ser devastadores par
 
 | NI.3  Errores de configuración    |
 
+Los errores de configuración pueden afectar la Disponibilidad (D), Integridad (I) y Confidencialidad (C) de varios activos en una organización. A continuación, se muestra cómo se podría rellenar la tabla considerando el impacto de estos errores en los activos mencionados:
+
+
+
+| Código | Nombre                                  | D | I | C | Impacto |
+|--------|-----------------------------------------|---|---|---|---------|
+| AE001  | Archivo Digital de Casos                | X | X | X | Alto    |
+| AE002  | Sistema de Comunicaciones               | X | X | X | Alto    |
+| AE003  | Base de datos de clientes               | X | X | X | Muy Alto|
+| AE004  | Sistema de gestión financiera           | X | X | X | Alto    |
+| AE005  | Plataforma de colaboración interna      | X | X | X | Alto    |
+| AS001  | Servidores Centrales                    | X | X | X | Muy Alto|
+| AS002  | Red de Área Local (LAN)                 | X | X | X | Alto    |
+| AS003  | Sistema de seguridad de red             | X | X | X | Muy Alto|
+| AS004  | Políticas de acceso y control           | X | X | X | Alto    |
+| AS005  | Infraestructura de respaldo             | X | X | X | Muy Alto|
+| D001   | Casos legales en curso                  | X | X | X | Muy Alto|
+| D002   | Contratos y acuerdos                    | X | X | X | Alto    |
+| D003   | Información confidencial del cliente    | X | X | X | Muy Alto|
+| D004   | Precedentes legales                     | X | X | X | Alto    |
+| D005   | Servicios Digitales                     | X | X | X | Alto    |
+| KC001  | Claves de acceso a bases de datos       | X | X | X | Muy Alto|
+| KC002  | Claves de correo electrónico            | X | X | X | Alto    |
+| KC003  | Claves de acceso a sistemas internos    | X | X | X | Muy Alto|
+| KC004  | Claves de cifrado de documentos         | X | X | X | Alto    |
+| KC005  | Claves de firma digital                 | X | X | X | Muy Alto|
+| S001   | Intranet                                | X | X | X | Medio   |
+| S002   | Exchange Server                         | X | X | X | Alto    |
+| S003   | SFTP                                    | X | X | X | Alto    |
+| S004   | Active Directory (AD)                   | X | X | X | Alto    |
+| S005   | Software ARP                            | X | X | X | Medio   |
+| S006   | PKI - Infraestructura de clave pública  | X | X | X | Alto    |
+| SW000  | Debian 12                               | X | X | X | Medio   |
+| SW001  | Windows 11                              | X | X | X | Alto    |
+| SW002  | Clio Manage                             | X | X | X | Alto    |
+| SW003  | Westlaw                                 | X | X | X | Alto    |
+| SW004  | Microsoft Teams                         | X | X | X | Alto    |
+| SW005  | Clio Billing                            | X | X | X | Medio   |
+| SW006  | NetDocuments                            | X | X | X | Alto    |
+| SW007  | Lex Machina                             | X | X | X | Medio   |
+| SW008  | LexisNexis                              | X | X | X | Alto    |
+| SW009  | Ravel Law                               | X | X | X | Medio   |
+| SW010  | QuickBooks Legal                        | X | X | X | Alto    |
+| SW011  | Zoom Meetings                           | X | X | X | Medio   |
+| SW012  | Varonis Data Security Platform          | X | X | X | Alto    |
+| SW013  | Symantec Encryption                     | X | X | X | Alto    |
+| HW000  | Servidores Dell PowerEdge               | X | X | X | Muy Alto|
+| HW001  | Estación de Trabajo HP ZBook            | X | X | X | Alto    |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X | X | X | Alto    |
+| HW003  | Dispositivos de Almacenamiento Synology | X | X | X | Alto    |
+| HW004  | Impresoras HP LaserJet                  | X | X | X | Medio   |
+| HW005  | Enrutador Cisco Catalyst                | X | X | X | Alto    |
+| HW006  | Sistema de Videovigilancia Axis         | X | X | X | Alto    |
+| HW007  | Escáner Epson WorkForce                 | X | X | X | Medio   |
+| HW008  | Teléfonos VoIP Grandstream              | X | X | X | Medio   |
+| HW009  | UPS APC Smart-UPS                       | X | X | X | Alto    |
+| HW010  | Estación Docking para Portátiles        | X | X | X | Medio   |
+| HW011  | Sistemas de Control de Acceso           | X | X | X | Alto    |
+| HW012  | Pizarras Interactivas SMART             | X | X | X | Medio   |
+| HW013  | Switches Cisco Catalyst 2960            | X | X | X | Alto    |
+| HW014  | iPhone 13 Pro Max                       | X | X | X | Medio   |
+| COM001 | Red de Invitados                        | X | X | X | Medio   |
+| COM004 | Red de Alta Seguridad Interna           | X | X | X | Alto    |
+| COM005 | Red Inalámbrica Segura (WPA3)          | X | X | X | Alto    |
+| COM006 | Red de Área Local (LAN)                | X | X | X | Alto    |
+| COM007 | Red de Voz sobre IP (VoIP)             | X | X | X | Alto    |
+| COM008 | Red Privada Virtual (VPN)              | X | X | X | Alto    |
+
 
 #### 3.3.4 Difusión de software dañino
 La difusión de software dañino se refiere a la propagación intencionada o accidental de programas malignos, como virus, gusanos o troyanos. Estos programas son diseñados para infiltrarse en sistemas, comprometer datos o interrumpir operaciones normales. La difusión de este tipo de software puede ocurrir a través de correos electrónicos, descargas no autorizadas, sitios web comprometidos o dispositivos de almacenamiento infectados.
