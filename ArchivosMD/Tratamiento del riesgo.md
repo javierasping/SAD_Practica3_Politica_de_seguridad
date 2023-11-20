@@ -73,7 +73,15 @@ Una vez extinguido el incendio, el jefe de cada departamento evaluará los daño
 6. Acciones a tomar para recuperar el estado inicial
 Una vez recibido los informes la directiva tomara las medidas oportunas para devolver a la parte afectada de la empresa a su funcionamiento ordinario en el menor tiempo posible . 
 
-7. Estudio del incendio 
+7. La directiva sera la encargada de licitar lo antes posible los materiales afectados solicitados por el jefe de cada departamento .
+
+8. Una vez se haya repuesto el equipo informático, será responsabilidad del Departamento de Tecnologías de la Información y Comunicación (TIC) restablecer su funcionamiento con las configuraciones necesarias.
+
+- 8.1 Restauración de Activos Clientes: Si el activo afectado es utilizado como cliente, como un ordenador de sobremesa o portátil, se instalará el sistema operativo correspondiente en el nuevo equipo, junto con todas las aplicaciones necesarias, para que el usuario pueda retomar sus actividades lo más pronto posible.
+
+- 8.2 Restauración de Activos Servidores: En el caso de activos de tipo "servidor", como servidores o hardware de red, el Departamento TIC se encargará de recuperar las copias de seguridad en los nuevos equipos para restaurar los servicios de manera eficiente y rápida.
+
+9. Estudio del incendio 
 Una vez la empresa vuelva a funcionar se hará un estudio para evitar que se produzca un incendio por el mismo motivo y ademas se evaluara las medidas tomadas para mejorarlas en una futura reaparición de la amenaza .
 
 
@@ -96,15 +104,22 @@ Evaluar la magnitud de la inundación y determinar la necesidad de evacuación i
 Tomar medidas para contener y drenar el agua en casos de inundaciones leves, priorizando la seguridad del personal.
 
 4. Acción en Inundaciones Graves:
-En casos de inundaciones graves, activar la alarma de emergencia, alertar a los servicios de rescate y proceder a la evacuación de la zona afectada. Los equipos de emergencia se encargarán de implementar medidas para controlar y reducir los efectos de la inundación.
+En casos de inundaciones graves, activar la alarma de emergencia, alertar a los servicios de rescate y proceder a la evacuación de la zona afectada. Los equipos de emergencia se encargarán de implementar medidas para controlar y reducir los efectos de la inundación. Además, se realizará el drenaje del agua de manera eficiente para mitigar los daños y facilitar la recuperación de la zona tras el incidente.
 
 5. Evaluación de Daños:
-Tras mitigar la inundación, el líder de cada departamento evaluará los daños en sus áreas y proporcionará un informe detallado a la dirección de la empresa.
+Tras mitigar la inundación, el líder de cada departamento evaluará los daños en sus áreas y proporcionará un informe detallado a la dirección de la empresa. Asi como los diferentes activos necesarios para recuperar la normalidad en el mismo .
 
 6. Acciones para la Recuperación:
-La dirección tomará medidas para restaurar la operatividad normal en la parte afectada de la empresa lo más rápido posible, basándose en los informes proporcionados.
+La dirección tomará medidas para restaurar la operatividad normal en la parte afectada de la empresa lo más rápido posible, basándose en los informes proporcionados. Ademas con la información proporcionada por cada departamento licitara la compra de los equipos necesarios afectados por el agua .
 
-7. Análisis de la Inundación:
+7. Una vez se haya repuesto el equipo informático, será responsabilidad del Departamento de Tecnologías de la Información y Comunicación (TIC) restablecer su funcionamiento con las configuraciones necesarias.
+
+- 7.1 Restauración de Activos Clientes: Si el activo afectado es utilizado como cliente, como un ordenador de sobremesa o portátil, se instalará el sistema operativo correspondiente en el nuevo equipo, junto con todas las aplicaciones necesarias, para que el usuario pueda retomar sus actividades lo más pronto posible.
+
+- 7.2 Restauración de Activos Servidores: En el caso de activos de tipo "servidor", como servidores o hardware de red, el Departamento TIC se encargará de recuperar las copias de seguridad en los nuevos equipos para restaurar los servicios de manera eficiente y rápida.
+
+
+8. Análisis de la Inundación:
 Posterior al restablecimiento, se llevará a cabo un análisis para identificar las causas de la inundación y se implementarán medidas preventivas. Además, se evaluarán las acciones tomadas durante la emergencia para mejorarlas en futuras situaciones similares.
 
 #### 6.1.3 Medidas  reactivas  [I.1] Contaminación Mecánica
@@ -123,15 +138,15 @@ En el caso de que un empleado avise de un mal funcionamiento del equipo o el dep
 Una vez el empleado determine con un chequeo de los componentes si hay daños mecánicos este en función del coste de la reparación y la antigüedad del equipo deberá de trasladarle su decision e informe sobre el mismo al jefe del departamento .
 
 3. Proporcionar un equipo similar al empleado:
-En el caso de que el equipo afectado sea de un empleado se le debe de dar uno similar mientras dura la reparación para que el empleado pueda continuar con sus funciones en la empresa .
+En el caso de que el equipo afectado sea de un empleado se le debe de dar uno similar mientras dura la reparación si se espera que sea de un tiempo superior a 1h para que el empleado pueda continuar con sus funciones en la empresa .
 
 4. Chequeo reparación o sustitución:
 
-Una vez arreglado la avería o limpiado el equipo afectado, o en un caso mas grave por la sustitución por un equipo nuevo , es el empleado encargado de la incidencia asegurarse de que el equipo se entrega en condiciones optimas para que el empleado pueda continuar con sus labores , es decir el equipo vendrá configurado con todas las herramientas necesarias para que el mismo no tenga ningún problema .
+Una vez que se ha solucionado la avería o se ha limpiado y, en casos más graves, reemplazado por un equipo nuevo, corresponde al empleado encargado de la incidencia asegurarse de que el equipo se entregue en condiciones óptimas. Esto implica que el equipo estará debidamente configurado, con todas las herramientas necesarias para garantizar que el usuario pueda retomar sus labores sin enfrentar inconvenientes.
 
 5. Eliminación de componentes u equipos dañado
 
-Una vez sustituido el equipo , se procederá a la eliminación segura de la información del disco prensando el mismo para asegurarnos de que la información del mismo es irrecuperable .
+Después de haber reemplazado el equipo, se llevará a cabo la eliminación segura de la información del disco mediante un proceso de prensado, asegurándonos de que los datos sean inaccesibles.
 
 
 #### 6.1.4 Medidas  reactivas  [I.2] Avería de Origen Físico o Lógico
@@ -151,13 +166,15 @@ El empleado de TI realizará un análisis del equipo para identificar el origen 
 
 3. Procedimiento de la Reparación
 Si se estima que el tiempo de reparación es superior a una hora y la avería afecta al equipo de un empleado, se proporcionará un equipo temporal para que pueda continuar con sus labores en la empresa.
+- 3.1 Si la avería se identifica como de origen lógico, se llevarán a cabo procedimientos especializados para solucionar problemas relacionados con el software, configuraciones, o cualquier otro aspecto no físico que pueda estar afectando el rendimiento del equipo.
+- 3.2 En el caso de una avería de origen físico, se realizarán evaluaciones detalladas de los componentes hardware afectados. Si la reparación es viable, se procederá a realizar las correcciones necesarias. En situaciones en las que la reparación no sea práctica, se considerará la sustitución del componente o equipo dañado.
 
 4. Chequeo de Reparación o Sustitución
 Después de solucionar la avería, el empleado de TI se asegurará de que el equipo esté en óptimas condiciones antes de ponerlo nuevamente en producción.
 En caso de una sustitución de disco o cambio de equipo, el empleado de TI será responsable de acondicionar el equipo conforme al anterior, instalando y configurando todo lo necesario para que el empleado pueda continuar con sus labores.
 
 5. Eliminación de Componentes o Equipos Dañados
-En el caso de una sustitución de disco o cambio de equipo, se procederá a la eliminación segura de la información del disco, garantizando que la información sea irrecuperable a traves del mismo.
+Después de haber reemplazado el equipo, se llevará a cabo la eliminación segura de la información del disco mediante un proceso de prensado, asegurándonos de que los datos sean inaccesibles.
 
 #### 6.1.5 Medidas  reactivas  [I.3] Corte del Suministro Eléctrico
 
@@ -167,21 +184,20 @@ El objetivo principal de estas medidas es asegurar una respuesta efectiva y mini
 Los responsables de implementar estas medidas son los miembros del equipo directivo y jefe del departamento TI . Además, el personal de Tecnologías de la Información (TI) colaborará estrechamente para garantizar la integridad de los sistemas informáticos.
 **Procedimiento a seguir**
 
-
 1. Detección del Corte Eléctrico
-La detección del corte eléctrico puede ser automática a través de sistemas de monitorización de los sais , ademas en la oficina se notara de inmediato asi que sera notificada por personal en el lugar.
+La detección del corte eléctrico puede ser automática mediante sistemas de monitorización de los Sistemas de Alimentación Ininterrumpida (SAIs). Además, el personal en la oficina notará de inmediato la situación, siendo notificado por personal en el lugar.
 
 2. Activación de SAI para Servidores
 En caso de corte eléctrico, los Servidores contarán con la energía de Sistemas de Alimentación Ininterrumpida (SAIs) con una autonomía de 10 minutos para permitir un cierre ordenado de sistemas no esenciales.
 
 3. Activación del Generador Diesel
-Ante cortes prolongados, se activará el generador diesel ubicado en el edificio para garantizar el suministro eléctrico continuo para todas las áreas críticas y sistemas esenciales.
+Ante cortes prolongados, se activará el generador diesel en el edificio para garantizar un suministro eléctrico continuo en áreas críticas y sistemas esenciales.
 
 4. Priorización de Cargas
-Se establecerá una priorización de cargas eléctricas para garantizar que los recursos críticos, como servidores y equipos esenciales, estén operativos durante el tiempo necesario.
+Se establecerá una priorización de cargas eléctricas para garantizar la operatividad continua de recursos críticos, como servidores y equipos esenciales, durante la interrupción.
 
 5. Comunicación Interna
-A traves de los medios habituales de comunicación en la empresa se  informara a los empleados sobre la situación, las medidas tomadas, y las expectativas durante el corte eléctrico.
+A través de los medios habituales de comunicación en la empresa, se informará a los empleados sobre la situación, las medidas tomadas y las expectativas durante el corte eléctrico.
 
 6. Restablecimiento del Suministro Eléctrico
 Una vez se resuelva la interrupción en el suministro eléctrico principal, se procederá a la transición de vuelta a la fuente de energía normal, desactivando progresivamente el generador diesel del edificio .
