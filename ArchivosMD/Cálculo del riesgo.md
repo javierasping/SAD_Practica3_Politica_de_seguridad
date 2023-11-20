@@ -14,7 +14,7 @@ Esta metodología ayuda a los administradores de sistemas y profesionales de seg
 
 ##Desastres naturales
 
-### 3.1.1 Fuego
+### 4.1.1 Fuego
 
  considerando el impacto de un incendio (fuego) en los diferentes activos de un bufete de abogados, centrado principalmente en la Disponibilidad (D), ya que es la dimensión que más afecta el fuego. La Integridad (I) y la Confidencialidad (C) se verán afectadas en menor medida en la mayoría de los casos, a excepción de aquellos activos donde la destrucción física conlleve a la pérdida de información crítica.
 
@@ -104,7 +104,7 @@ Esta metodología ayuda a los administradores de sistemas y profesionales de seg
 
 
 
-### 3.1.2 Inundaciones 
+### 4.1.2 Inundaciones 
 
 
 esta tabla considerando el impacto de las inundaciones en los distintos activos de un bufete de abogados, nos centraremos principalmente en la Disponibilidad (D), ya que las inundaciones pueden hacer que los equipos y las instalaciones no estén operativos. La Integridad (I) y la Confidencialidad (C) se verán afectadas en algunos casos donde la destrucción física o el daño conlleven a la pérdida o exposición de información sensible.
@@ -162,7 +162,7 @@ esta tabla considerando el impacto de las inundaciones en los distintos activos 
 
 ### Averias de origen físico o lógico 
 
-#### 3.2.1 Contaminación mecánica 
+#### 4.1.3 Contaminación mecánica 
 
 la contaminación mecánica puede afectar a los activos de un bufete de abogados principalmente en términos de Disponibilidad (D), ya que este tipo de contaminación podría dañar físicamente los equipos o impedir su funcionamiento normal. En esta situación, la Integridad (I) y la Confidencialidad (C) generalmente no se ven afectadas a menos que el daño físico conduzca a la pérdida de datos.
 
@@ -208,7 +208,7 @@ la contaminación mecánica puede afectar a los activos de un bufete de abogados
 
 
 
-#### 3.2.2 Avería de origen físico o lógico
+#### 4.1.4 Avería de origen físico o lógico
 
 a avería de origen físico o lógico puede impactar significativamente la Disponibilidad (D) de los activos tecnológicos de un bufete de abogados. En este contexto, la Integridad (I) y la Confidencialidad (C) pueden verse comprometidas si la avería afecta la seguridad o la integridad de los datos. 
 
@@ -264,7 +264,7 @@ a avería de origen físico o lógico puede impactar significativamente la Dispo
 | AUX005 | Mobiliario: Armarios, etc.              | X |   |   | Bajo    |
 
 
-#### 3.2.3 corte del suministro eléctrico
+#### 4.1.5 corte del suministro eléctrico
 
 
 El corte del suministro eléctrico afecta principalmente la Disponibilidad (D) de varios activos críticos en una organización, especialmente aquellos que dependen directamente de la energía eléctrica para su funcionamiento. A continuación, se muestra cómo se podría rellenar la tabla considerando el impacto en la Disponibilidad de los activos mencionados:
@@ -308,7 +308,7 @@ El corte del suministro eléctrico afecta principalmente la Disponibilidad (D) d
 
 
 
-#### 3.2.4 Degradación de los soportes de almacenamiento de la información
+#### 4.1.6 Degradación de los soportes de almacenamiento de la información
 
 La degradación de los soportes de almacenamiento de la información puede afectar principalmente la Disponibilidad (D) de estos activos. Además, en algunos casos, la Integridad (I) de los datos también podría verse comprometida. La Confidencialidad (C), en cambio, generalmente no se ve afectada directamente por la degradación física, a menos que el deterioro de los medios facilite la exposición de datos confidenciales.
 
@@ -324,7 +324,7 @@ La degradación de los soportes de almacenamiento de la información puede afect
 
 
 
-#### 3.2.5  Averías en la Electrónica de Red (Switches y Routers)
+#### 4.1.7  Averías en la Electrónica de Red (Switches y Routers)
 
 las averías en la electrónica de red, como en switches y routers, afectan principalmente la Disponibilidad (D) de los servicios de red. Estos dispositivos son cruciales para mantener la conectividad y el flujo de información. La Integridad (I) y la Confidencialidad (C) podrían no verse afectadas directamente por la avería de estos dispositivos, a menos que el fallo conlleve a la exposición o alteración de datos.
 
@@ -345,13 +345,13 @@ las averías en la electrónica de red, como en switches y routers, afectan prin
 
 ## Errores y fallos no intencionados 
 
-#### 3.3.1 Errores de los usuarios 
+#### 4.1.8 Errores de los usuarios 
 
 Los errores de los usuarios pueden afectar todas las dimensiones de la seguridad: Disponibilidad (D), Integridad (I) y Confidencialidad (C), dependiendo de la naturaleza del error. Estos errores pueden causar desde interrupciones en el servicio hasta brechas de seguridad y pérdida de datos. El impacto también varía según el tipo de activo y la importancia de este para las operaciones del bufete.
 
 Aquí está cómo se podría rellenar la tabla:
 
-markdown
+
 
 | Código | Nombre                                  | D | I | C | Impacto |
 |--------|-----------------------------------------|---|---|---|---------|
@@ -388,7 +388,7 @@ markdown
 
 
 
-#### 3.3.2 Errores del administrador
+#### 4.1.9 Errores del administrador
 
 
 Los errores de los usuarios pueden impactar significativamente en todas las dimensiones de la seguridad de los activos tecnológicos: Disponibilidad (D), Integridad (I) y Confidencialidad (C). Estos errores pueden variar desde acciones no intencionadas hasta malas prácticas, afectando desde la operatividad de los sistemas hasta la seguridad de los datos.
@@ -465,7 +465,7 @@ Los errores de los usuarios pueden impactar significativamente en todas las dime
 
 
 
-#### 3.3.3 Errores de configuración 
+#### 4.1.10 Errores de configuración 
 
 Los errores de configuración pueden afectar la Disponibilidad (D), Integridad (I) y Confidencialidad (C) de varios activos en una organización. A continuación, se muestra cómo se podría rellenar la tabla considerando el impacto de estos errores en los activos mencionados:
 
@@ -536,7 +536,7 @@ Los errores de configuración pueden afectar la Disponibilidad (D), Integridad (
 | COM008 | Red Privada Virtual (VPN)              | X | X | X | Alto    |
 
 
-#### 3.3.4 Difusión de software dañino
+#### 4.1.11 Difusión de software dañino
 La difusión de software dañino, como virus, malware y ransomware, puede tener un impacto severo en las aplicaciones de software. Afecta la Disponibilidad (D) al interrumpir el funcionamiento normal del software, la Integridad (I) al alterar o dañar los datos, y la Confidencialidad (C) al permitir el acceso no autorizado a información sensible.
 
 A continuación, se muestra cómo se podría rellenar la tabla considerando estos impactos:
@@ -563,7 +563,7 @@ A continuación, se muestra cómo se podría rellenar la tabla considerando esto
 
 
 
-#### 3.3.5 Fugas de información
+#### 4.1.12 Fugas de información
 as fugas de información en la nube representan un riesgo serio para la confidencialidad de los datos y la información almacenados o procesados en la nube. Este riesgo puede afectar tanto a los datos almacenados como a las aplicaciones que gestionan o transmiten estos datos, así como a las redes a través de las cuales se accede a ellos.
 
 
@@ -596,7 +596,7 @@ as fugas de información en la nube representan un riesgo serio para la confiden
 | COM007 | Red de Voz sobre IP (VoIP)              |   |   | X | Medio   |
 | COM008 | Red Privada Virtual (VPN)               |   |   | X | Alto    |
 
-###  Alteración de la información
+### 4.1.13  Alteración de la información
 
 La alteración de la información, que compromete la integridad (I) de los datos, es un riesgo grave en cualquier organización, especialmente en un bufete de abogados donde la precisión de la información es crítica. A continuación se muestra cómo se podría rellenar la tabla considerando este riesgo:
 
@@ -613,7 +613,7 @@ La alteración de la información, que compromete la integridad (I) de los datos
 
 
 
-### 3.3.7 Destrucción de la información
+### 4.1.14 Destrucción de la información
 
 La alteración de la información se refiere a la modificación indebida o no autorizada de datos, lo que compromete la integridad de la información. Este riesgo es particularmente relevante para los datos y la información que son críticos para las operaciones de una organización, como un bufete de abogados. En este caso, la Integridad (I) es la dimensión principal afectada.
 
@@ -631,7 +631,7 @@ La alteración de la información se refiere a la modificación indebida o no au
 
 
 
-#### 3.4.1 Acceso no autorizados al CPD
+#### 4.1.15 Acceso no autorizados al CPD
 
 El acceso no autorizado a un Centro de Procesamiento de Datos (CPD) es una grave amenaza que puede afectar la Disponibilidad (D), Integridad (I) y Confidencialidad (C) de los activos críticos de una organización. Dado que este tipo de incidente puede resultar en la manipulación, robo o alteración de datos, así como en la interrupción de los servicios clave, es importante evaluar su impacto en una variedad de activos.
 
@@ -700,7 +700,7 @@ El acceso no autorizado a un Centro de Procesamiento de Datos (CPD) es una grave
 | COM008 | Red Privada Virtual (VPN)               | X | X | X | Alto    |
 
 
-#### 3.4.2 Ransomware
+#### 4.1.16 Ransomware
 
 El ransomware es una seria amenaza que puede afectar no solo la Disponibilidad (D) de los datos y sistemas, sino también su Integridad (I) y en algunos casos la Confidencialidad (C). Al cifrar archivos y restringir el acceso a los datos, el ransomware puede paralizar sistemas completos y exponer a la organización a riesgos de seguridad de la información.
 
@@ -787,7 +787,7 @@ El ransomware es una seria amenaza que puede afectar no solo la Disponibilidad (
 | L003   | Centro Tecnológico                      | X | X | X | Alto    |
 | L004   | Sala de Servidores                      | X | X | X | Muy Alto|
 
-### 3.4.3 Conflicto Armado
+### 4.1.17 Conflicto Armado
 
 
 El riesgo de un conflicto armado impacta significativamente en varios activos de un bufete de abogados, afectando la disponibilidad (D), la confidencialidad (C) y, en ciertos casos, la integridad (I) de los datos e infraestructura. Aquí se muestra cómo se podría rellenar la tabla considerando este riesgo:
@@ -876,7 +876,7 @@ El riesgo de un conflicto armado impacta significativamente en varios activos de
 
 
 
-#### 3.4.4 Phishing
+#### 4.1.18 Phishing
 El phishing es una técnica de engaño que busca obtener acceso no autorizado a información confidencial, afectando principalmente la Confidencialidad (C) de los datos e información. Los ataques de phishing pueden dirigirse a empleados u otras personas dentro de una organización para acceder a datos sensibles, contraseñas, y más.
 
 | Código | Nombre                                  | D | I | C | Impacto |
@@ -903,7 +903,7 @@ El phishing es una técnica de engaño que busca obtener acceso no autorizado a 
 
 
 
-#### 3.4.5 Robo de dispositivos móviles 
+#### 4.1.19 Robo de dispositivos móviles 
 
 El robo de dispositivos móviles y de hardware puede provocar la pérdida de información confidencial y afectar la disponibilidad de los datos y sistemas. Este riesgo es particularmente significativo para dispositivos que contienen o tienen acceso a información sensible de la empresa.
 
@@ -926,7 +926,7 @@ El robo de dispositivos móviles y de hardware puede provocar la pérdida de inf
 | HW014  | iPhone 13 Pro Max                       | X |   | X | Alto    |
 
 
-#### 3.4.6 Compromiso de credenciales
+#### 4.1.20 Compromiso de credenciales
 
 El compromiso de credenciales representa un riesgo grave, especialmente en lo que respecta a la Confidencialidad (C) de los activos de una organización. Este riesgo puede dar lugar a accesos no autorizados, exponiendo información confidencial y comprometiendo la integridad de los sistemas. La pérdida de credenciales puede afectar a una amplia gama de activos, desde datos e información hasta redes de comunicaciones y software.
 
@@ -985,7 +985,7 @@ El riesgo de compromiso de credenciales afecta a numerosos activos en un bufete 
 
 
 
-#### 3.4.7 Ataques de denegación de servicio SYN Flood
+#### 4.1.21 Ataques de denegación de servicio SYN Flood
 
 
 
@@ -1043,7 +1043,7 @@ El compromiso de credenciales representa un riesgo grave, especialmente en lo qu
 | COM008 | Red Privada Virtual (VPN)               |   |   | X | Alto    |
 | SI001  | Almacenamiento en Red (SAN)             |   |   | X | Alto    |
 
-#### 3.4.8 Vulnerabilidades de las aplicaciones
+#### 4.1.22 Vulnerabilidades de las aplicaciones
 
 
 
@@ -1099,7 +1099,7 @@ Las vulnerabilidades en las aplicaciones pueden comprometer la Disponibilidad (D
 | SI001  | Almacenamiento en Red (SAN)             | X | X | X | Alto   
 
 
-### 3.3.9 Fugas de información en la nube
+### 4.1.23Fugas de información en la nube
 
 Los escapes de información representan un riesgo significativo para la Confidencialidad (C) de los datos, las aplicaciones de software y las redes de comunicaciones. Este riesgo se asocia con la exposición no intencionada de información confidencial debido a brechas de seguridad, errores humanos o fallos técnicos.
 
