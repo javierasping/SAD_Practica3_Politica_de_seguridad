@@ -607,7 +607,17 @@ markdown
 
 .3.6 Alteración de la información
 
-La alteración de la información implica la modificación indebida o no autorizada de los datos, lo que puede comprometer la integridad y veracidad de la información.
+La alteración de la información, que compromete la integridad (I) de los datos, es un riesgo grave en cualquier organización, especialmente en un bufete de abogados donde la precisión de la información es crítica. A continuación se muestra cómo se podría rellenar la tabla considerando este riesgo:
+
+
+
+| Código | Nombre                                  | D | I | C | Impacto |
+|--------|-----------------------------------------|---|---|---|---------|
+| D001   | Casos legales en curso                  |   | X |   | Muy Alto|
+| D002   | Contratos y acuerdos                    |   | X |   | Muy Alto|
+| D003   | Información confidencial del cliente    |   | X |   | Muy Alto|
+| D004   | Precedentes legales                     |   | X |   | Alto    |
+| D005   | Servicios Digitales                     |   | X |   | Alto    |
 
 
 
@@ -629,6 +639,7 @@ markdown
 | D005   | Servicios Digitales                     |   | X |   | Alto    |
 
 En esta tabla, la marca "X" en la columna de Integridad (I) indica que estos activos son susceptibles a riesgos de alteración de la información. El impacto se clasifica como "Alto" o "Muy Alto" dependiendo de la criticidad del activo y la importancia de la integridad de los datos para las operaciones y la toma de decisiones del bufete. Los activos que contienen información altamente sensible y crítica, como los casos legales en curso y los contratos, tienen un impacto clasificado como "Muy Alto".
+
 ### 3.4 [AI] Ataques intencionados
 Estos ataques, perpetrados de forma deliberada por individuos o grupos, buscan vulnerar la integridad, confidencialidad o disponibilidad de los activos de un CPD. Pueden provenir de fuentes externas o internas, involucrando la manipulación, destrucción o robo de información, así como la interrupción de los servicios esenciales.
 
@@ -788,6 +799,93 @@ El ransomware es una seria amenaza que puede afectar no solo la Disponibilidad (
 | L003   | Centro Tecnológico                      | X | X | X | Alto    |
 | L004   | Sala de Servidores                      | X | X | X | Muy Alto|
 
+3.4.3 Conflicto Armado
+
+
+El riesgo de un conflicto armado impacta significativamente en varios activos de un bufete de abogados, afectando la disponibilidad (D), la confidencialidad (C) y, en ciertos casos, la integridad (I) de los datos e infraestructura. Aquí se muestra cómo se podría rellenar la tabla considerando este riesgo:
+
+| Código | Nombre                                  | D | I | C | Impacto |
+|--------|-----------------------------------------|---|---|---|---------|
+| AE001  | Archivo Digital de Casos                | X |   | X | Muy Alto|
+| AE002  | Sistema de Comunicaciones               | X |   | X | Muy Alto|
+| AE003  | Base de datos de clientes               | X |   | X | Muy Alto|
+| AE004  | Sistema de gestión financiera           | X |   | X | Alto    |
+| AE005  | Plataforma de colaboración interna      | X |   | X | Alto    |
+| AS001  | Servidores Centrales                    | X | X | X | Muy Alto|
+| AS002  | Red de Área Local (LAN)                 | X |   | X | Alto    |
+| AS003  | Sistema de seguridad de red             | X |   | X | Muy Alto|
+| AS004  | Políticas de acceso y control           | X |   | X | Alto    |
+| AS005  | Infraestructura de respaldo             | X |   | X | Muy Alto|
+| D001   | Casos legales en curso                  | X | X | X | Muy Alto|
+| D002   | Contratos y acuerdos                    | X | X | X | Muy Alto|
+| D003   | Información confidencial del cliente    | X | X | X | Muy Alto|
+| D004   | Precedentes legales                     | X | X | X | Alto    |
+| D005   | Servicios Digitales                     | X |   | X | Alto    |
+| KC001  | Claves de acceso a bases de datos       | X |   | X | Alto    |
+| KC002  | Claves de correo electrónico            | X |   | X | Alto    |
+| KC003  | Claves de acceso a sistemas internos    | X |   | X | Alto    |
+| KC004  | Claves de cifrado de documentos         | X |   | X | Alto    |
+| KC005  | Claves de firma digital                 | X |   | X | Alto    |
+| S001   | Intranet                                | X |   | X | Medio   |
+| S002   | Exchange Server                         | X |   | X | Alto    |
+| S003   | SFTP                                    | X |   | X | Alto    |
+| S004   | Active Directory (AD)                   | X |   | X | Alto    |
+| S005   | Software ARP                            | X |   | X | Medio   |
+| S006   | PKI - Infraestructura de clave pública  | X |   | X | Alto    |
+| SW000  | Debian 12                               | X |   | X | Alto    |
+| SW001  | Windows 11                              | X |   | X | Alto    |
+| SW002  | Clio Manage                             | X |   | X | Alto    |
+| SW003  | Westlaw                                 | X |   | X | Alto    |
+| SW004  | Microsoft Teams                         | X |   | X | Alto    |
+| SW005  | Clio Billing                            | X |   | X | Medio   |
+| SW006  | NetDocuments                            | X |   | X | Alto    |
+| SW007  | Lex Machina                             | X |   | X | Alto    |
+| SW008  | LexisNexis                              | X |   | X | Alto    |
+| SW009  | Ravel Law                               | X |   | X | Alto    |
+| SW010  | QuickBooks Legal                        | X |   | X | Alto    |
+| SW011  | Zoom Meetings                           | X |   | X | Medio   |
+| SW012  | Varonis Data Security Platform          | X |   | X | Alto    |
+| SW013  | Symantec Encryption                     | X |   | X | Alto    |
+| HW000  | Servidores Dell PowerEdge               | X | X | X | Muy Alto|
+| HW001  | Estación de Trabajo HP ZBook            | X |   | X | Alto    |
+| HW002  | PC de Escritorio Lenovo ThinkCentre     | X |   | X | Medio   |
+| HW003  | Dispositivos de Almacenamiento Synology | X |   | X | Alto    |
+| HW004  | Impresoras HP LaserJet                  | X |   | X | Medio   |
+| HW005  | Enrutador Cisco Catalyst                | X |   | X | Alto    |
+| HW006  | Sistema de Videovigilancia Axis         | X |   | X | Alto    |
+| HW007  | Escáner Epson WorkForce                 | X |   | X | Medio   |
+| HW008  | Teléfonos VoIP Grandstream              | X |   | X | Medio   |
+| HW009  | UPS APC Smart-UPS                       | X |   | X | Alto    |
+| HW010  | Estación Docking para Portátiles        | X |   | X | Medio   |
+| HW011  | Sistemas de Control de Acceso           | X |   | X | Alto    |
+| HW012  | Pizarras Interactivas SMART             | X |   | X | Medio   |
+| HW013  | Switches Cisco Catalyst 2960            | X |   | X | Medio   |
+| HW014  | iPhone 13 Pro Max                       | X |   | X | Medio   |
+| COM001 | Red de Invitados                        | X |   | X | Alto    |
+| COM002 | Red 5G para Dispositivos Móviles        | X |   | X | Medio   |
+| COM003 | Fibra Óptica                            | X |   | X | Alto    |
+| COM004 | Red de Alta Seguridad Interna           | X |   | X | Muy Alto|
+| COM005 | Red Inalámbrica Segura (WPA3)          | X |   | X | Alto    |
+| COM006 | Red de Área Local (LAN)                 | X |   | X | Alto    |
+| COM007 | Red de Voz sobre IP (VoIP)              | X |   | X | Alto    |
+| COM008 | Red Privada Virtual (VPN)               | X |   | X | Muy Alto|
+| SI001  | Almacenamiento en Red (SAN)             | X |   | X | Alto    |
+| SI002  | Disco Duro Externo                      | X |   | X | Medio   |
+| SI003  | Tarjeta de Memoria                      | X |   | X | Bajo    |
+| SI004  | Almacenamiento en la Nube               | X |   | X | Muy Alto|
+| SI005  | Disco Óptico (DVD)                      | X |   | X | Bajo    |
+| SI006  | Unidad USB                              | X |   | X | Medio   |
+| SI007  | Tarjeta Inteligente (Smart Card)        | X |   | X | Alto    |
+| AUX001 | Fuentes de Alimentación                 | X |   | X | Medio   |
+| AUX002 | Sistemas de Alimentación Ininterrumpida | X |   | X | Alto    |
+| AUX003 | Equipos de Climatización                | X |   | X | Medio   |
+| AUX004 | Cableado                                | X |   | X | Medio   |
+| AUX005 | Mobiliario: Armarios, etc.              | X |   | X | Bajo    |
+| L001   | Edificio Principal                      | X | X | X | Muy Alto|
+| L002   | Departamento Legal                      | X | X | X | Muy Alto|
+| L003   | Centro Tecnológico                      | X | X | X | Muy Alto|
+| L004   | Sala de Servidores                      | X | X | X | Muy Alto|
+
 
 
 #### 3.4.4 Phishing
@@ -844,6 +942,57 @@ El robo de dispositivos móviles y de hardware puede provocar la pérdida de inf
 
 El compromiso de credenciales representa un riesgo grave, especialmente en lo que respecta a la Confidencialidad (C) de los activos de una organización. Este riesgo puede dar lugar a accesos no autorizados, exponiendo información confidencial y comprometiendo la integridad de los sistemas. La pérdida de credenciales puede afectar a una amplia gama de activos, desde datos e información hasta redes de comunicaciones y software.
 
+El riesgo de compromiso de credenciales afecta a numerosos activos en un bufete de abogados, principalmente en la dimensión de la confidencialidad (C). Este riesgo puede tener un impacto significativo en la seguridad y la operatividad del bufete. A continuación, se muestra cómo se podría rellenar la tabla para reflejar este riesgo:
+
+
+| Código | Nombre                                  | D | I | C | Impacto |
+|--------|-----------------------------------------|---|---|---|---------|
+| AE001  | Archivo Digital de Casos                |   |   | X | Muy Alto|
+| AE002  | Sistema de Comunicaciones               |   |   | X | Muy Alto|
+| AE003  | Base de datos de clientes               |   |   | X | Muy Alto|
+| AE004  | Sistema de gestión financiera           |   |   | X | Alto    |
+| AE005  | Plataforma de colaboración interna      |   |   | X | Alto    |
+| AS001  | Servidores Centrales                    |   |   | X | Muy Alto|
+| AS002  | Red de Área Local (LAN)                 |   |   | X | Alto    |
+| AS003  | Sistema de seguridad de red             |   |   | X | Muy Alto|
+| AS004  | Políticas de acceso y control           |   |   | X | Muy Alto|
+| AS005  | Infraestructura de respaldo             |   |   | X | Alto    |
+| D001   | Casos legales en curso                  |   |   | X | Muy Alto|
+| D002   | Contratos y acuerdos                    |   |   | X | Muy Alto|
+| D003   | Información confidencial del cliente    |   |   | X | Muy Alto|
+| D004   | Precedentes legales                     |   |   | X | Alto    |
+| D005   | Servicios Digitales                     |   |   | X | Alto    |
+| KC001  | Claves de acceso a bases de datos       |   |   | X | Muy Alto|
+| KC002  | Claves de correo electrónico            |   |   | X | Alto    |
+| KC003  | Claves de acceso a sistemas internos    |   |   | X | Muy Alto|
+| KC004  | Claves de cifrado de documentos         |   |   | X | Alto    |
+| KC005  | Claves de firma digital                 |   |   | X | Muy Alto|
+| S001   | Intranet                                |   |   | X | Medio   |
+| S002   | Exchange Server                         |   |   | X | Alto    |
+| S003   | SFTP                                    |   |   | X | Alto    |
+| S004   | Active Directory (AD)                   |   |   | X | Alto    |
+| S005   | Software ARP                            |   |   | X | Medio   |
+| S006   | PKI - Infraestructura de clave pública  |   |   | X | Alto    |
+| SW000  | Debian 12                               |   |   | X | Alto    |
+| SW001  | Windows 11                              |   |   | X | Alto    |
+| SW002  | Clio Manage                             |   |   | X | Alto    |
+| SW003  | Westlaw                                 |   |   | X | Alto    |
+| SW004  | Microsoft Teams                         |   |   | X | Alto    |
+| SW005  | Clio Billing                            |   |   | X | Medio   |
+| SW006  | NetDocuments                            |   |   | X | Alto    |
+| SW007  | Lex Machina                             |   |   | X | Alto    |
+| SW008  | LexisNexis                              |   |   | X | Alto    |
+| SW009  | Ravel Law                               |   |   | X | Alto    |
+| SW010  | QuickBooks Legal                        |   |   | X | Alto    |
+| SW011  | Zoom Meetings                           |   |   | X | Medio   |
+| SW012  | Varonis Data Security Platform          |   |   | X | Alto    |
+| SW013  | Symantec Encryption                     |   |   | X | Alto    |
+| COM004 | Red de Alta Seguridad Interna           |   |   | X | Muy Alto|
+| COM005 | Red Inalámbrica Segura (WPA3)          |   |   | X | Alto    |
+| COM006 | Red de Área Local (LAN)                 |   |   | X | Alto    |
+| COM007 | Red de Voz sobre IP (VoIP)              |   |   | X | Alto    |
+| COM008 | Red Privada Virtual (VPN)               |   |   | X | Muy Alto|
+| SI001  | Almacenamiento en Red (SAN)             |   |   | X | Alto    |
 
 
 
