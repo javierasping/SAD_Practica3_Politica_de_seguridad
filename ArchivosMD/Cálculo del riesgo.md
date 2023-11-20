@@ -999,9 +999,6 @@ El riesgo de compromiso de credenciales afecta a numerosos activos en un bufete 
 
 #### 3.4.7 Ataques de denegación de servicio SYN Flood
 
-Los ataques de denegación de servicio, y en particular el tipo conocido como SYN Flood, representan una seria amenaza para la disponibilidad y estabilidad de los sistemas informáticos. Este tipo de ataque busca abrumar un servidor con un volumen masivo de solicitudes de conexión TCP SYN, agotando los recursos y haciendo que la entidad objetivo sea incapaz de atender las solicitudes legítimas. El SYN Flood puede paralizar servicios críticos, afectar la experiencia del usuario y, en casos extremos, causar interrupciones prolongadas en la operatividad de la red.
-
-| AI.7 Phishing |
 
 
 El compromiso de credenciales representa un riesgo grave, especialmente en lo que respecta a la Confidencialidad (C) de los activos de una organización. Este riesgo puede dar lugar a accesos no autorizados, exponiendo información confidencial y comprometiendo la integridad de los sistemas. La pérdida de credenciales puede afectar a una amplia gama de activos, desde datos e información hasta redes de comunicaciones y software.
@@ -1060,9 +1057,8 @@ El compromiso de credenciales representa un riesgo grave, especialmente en lo qu
 
 #### 3.4.8 Vulnerabilidades de las aplicaciones
 
-Las vulnerabilidades en las aplicaciones representan una puerta de entrada crítica para posibles amenazas cibernéticas, exponiendo sistemas a riesgos significativos de explotación. Estas debilidades pueden manifestarse en diversas formas, como fallos en la gestión de sesiones, validación insuficiente de datos de entrada, o incluso defectos en el diseño arquitectónico. La explotación exitosa de estas vulnerabilidades podría permitir a los atacantes el acceso no autorizado, la manipulación de datos o la interrupción de servicios esenciales.
 
-| AI.7 Vulnerabilidades de las aplicaciones |
+
 
 Las vulnerabilidades en las aplicaciones pueden comprometer la Disponibilidad (D), la Integridad (I) y la Confidencialidad (C) de diversos activos dentro de una organización. Estas vulnerabilidades pueden ser explotadas para acceder, modificar o interrumpir datos y servicios críticos. Es importante evaluar el impacto potencial de estas vulnerabilidades en cada activo.
 
@@ -1121,9 +1117,7 @@ Los escapes de información representan un riesgo significativo para la Confiden
 
 
 
-Las fugas de información en la nube representan un riesgo serio para la confidencialidad de los datos y la información almacenados o procesados en la nube. Este riesgo puede afectar tanto a los datos almacenados como a las aplicaciones que gestionan o transmiten estos datos, así como a las redes a través de las cuales se accede a ellos.
 
-Aquí te muestro cómo se podría rellenar la tabla considerando el impacto en la Confidencialidad (C) de estos activos:
 
 
 | Código | Nombre                                  | D | I | C | Impacto |
@@ -1154,7 +1148,6 @@ Aquí te muestro cómo se podría rellenar la tabla considerando el impacto en l
 | COM007 | Red de Voz sobre IP (VoIP)              |   |   | X | Medio   |
 | COM008 | Red Privada Virtual (VPN)               |   |   | X | Alto    |
 
-En esta tabla, la marca "X" en la columna de Confidencialidad (C) indica que estos activos son susceptibles a riesgos de fuga de información. El impacto varía según la criticidad del activo y el nivel de sensibilidad de la información que manejan. Los activos que contienen o gestionan información altamente confidencial, como datos de clientes y casos legales, tienen un impacto clasificado como "Muy Alto".
 
 
 
