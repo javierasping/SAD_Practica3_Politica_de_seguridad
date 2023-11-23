@@ -425,13 +425,48 @@ Se brinda capacitación continua al personal sobre la importancia de la integrid
 11. Informe Detallado y Lecciones Aprendidas:
 Se genera un informe detallado después de cada incidente de alteración de la información, resaltando las lecciones aprendidas y proponiendo mejoras continuas en la seguridad de la información.
 
+## 6.1.12 Medidas Reactivas [NI.7] Destrucción de la Información
+
+- **Definición:** Medidas a tomar cuando la información ha sido o corre el riesgo de ser destruida.
+- **Estrategias:**
+  - **Backups regulares:** Asegurar copias de seguridad periódicas y en distintas ubicaciones.
+  - **Recuperación de desastres:** Tener un plan de recuperación para restaurar la información perdida.
+  - **Auditorías frecuentes:** Realizar auditorías para identificar y prevenir riesgos de destrucción.
+
+## 6.1.13 Medidas Reactivas [AI.1] Acceso no Autorizado al CPD
+
+- **Definición:** Acciones a seguir cuando se detecta un acceso no autorizado al Centro de Procesamiento de Datos (CPD).
+- **Estrategias:**
+  - **Alertas de seguridad:** Implementar sistemas de alerta temprana ante accesos no autorizados.
+  - **Revisión de permisos:** Revisar y restringir permisos de acceso a datos críticos.
+  - **Capacitación de empleados:** Formar a los empleados en seguridad informática y protocolos de acceso.
+
+## 6.1.14 Medidas Reactivas [AI.2] Ransomware
+
+- **Definición:** Respuestas ante un ataque de ransomware.
+- **Estrategias:**
+  - **No pagar el rescate:** Evitar incentivar a los atacantes.
+  - **Restauración de datos:** Usar copias de seguridad para restaurar la información afectada.
+  - **Reporte a autoridades:** Notificar a las autoridades competentes para investigar y actuar.
+
+## 6.1.15 Medidas Reactivas [AI.3] Conflicto Armado
+
+- **Definición:** Preparativos y respuestas ante un conflicto armado que pueda afectar la infraestructura TI.
+- **Estrategias:**
+  - **Planes de contingencia:** Desarrollar planes de emergencia para proteger los activos de información.
+  - **Protección física:** Reforzar la seguridad física de las instalaciones críticas.
+  - **Comunicaciones seguras:** Mantener líneas de comunicación seguras y redundantes.
+
+## 6.1.16 Medidas Reactivas [AI.4] Phishing
+
+- **Definición:** Estrategias para responder a intentos de phishing.
+- **Estrategias:**
+  - **Concienciación del usuario:** Entrenar a los usuarios para reconocer y reportar intentos de phishing.
+  - **Filtros de correo electrónico:** Utilizar filtros avanzados para detectar correos de phishing.
+  - **Procedimientos de verificación:** Establecer procesos de verificación de identidad para prevenir engaños.
 
 
-#### 6.1.12 Medidas reactivas  [NI.7] Destrucción de la Información
-#### 6.1.13 Medidas reactivas  [AI.1] Acceso no Autorizado al CPD
-#### 6.1.14 Medidas reactivas  [AI.2] Ransomware
-#### 6.1.15 Medidas reactivas  [AI.3] Conflicto Armado
-#### 6.1.16 Medidas reactivas  [AI.4] Phishing
+
 #### 6.1.17 Medidas reactivas  [AI.5] Robo
 ### Objetivo
 Responder eficazmente ante incidentes de robo, protegiendo los activos de la empresa y minimizando el impacto operativo y financiero.
