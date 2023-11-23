@@ -425,7 +425,7 @@ Se brinda capacitación continua al personal sobre la importancia de la integrid
 11. Informe Detallado y Lecciones Aprendidas:
 Se genera un informe detallado después de cada incidente de alteración de la información, resaltando las lecciones aprendidas y proponiendo mejoras continuas en la seguridad de la información.
 
-## 6.1.12 Medidas Reactivas [NI.7] Destrucción de la Información
+### 6.1.12 Medidas Reactivas [NI.7] Destrucción de la Información
 
 - **Definición:** Medidas a tomar cuando la información ha sido o corre el riesgo de ser destruida.
 - **Estrategias:**
@@ -433,7 +433,7 @@ Se genera un informe detallado después de cada incidente de alteración de la i
   - **Recuperación de desastres:** Tener un plan de recuperación para restaurar la información perdida.
   - **Auditorías frecuentes:** Realizar auditorías para identificar y prevenir riesgos de destrucción.
 
-## 6.1.13 Medidas Reactivas [AI.1] Acceso no Autorizado al CPD
+### 6.1.13 Medidas Reactivas [AI.1] Acceso no Autorizado al CPD
 
 - **Definición:** Acciones a seguir cuando se detecta un acceso no autorizado al Centro de Procesamiento de Datos (CPD).
 - **Estrategias:**
@@ -441,7 +441,7 @@ Se genera un informe detallado después de cada incidente de alteración de la i
   - **Revisión de permisos:** Revisar y restringir permisos de acceso a datos críticos.
   - **Capacitación de empleados:** Formar a los empleados en seguridad informática y protocolos de acceso.
 
-## 6.1.14 Medidas Reactivas [AI.2] Ransomware
+### 6.1.14 Medidas Reactivas [AI.2] Ransomware
 
 - **Definición:** Respuestas ante un ataque de ransomware.
 - **Estrategias:**
@@ -449,7 +449,7 @@ Se genera un informe detallado después de cada incidente de alteración de la i
   - **Restauración de datos:** Usar copias de seguridad para restaurar la información afectada.
   - **Reporte a autoridades:** Notificar a las autoridades competentes para investigar y actuar.
 
-## 6.1.15 Medidas Reactivas [AI.3] Conflicto Armado
+### 6.1.15 Medidas Reactivas [AI.3] Conflicto Armado
 
 - **Definición:** Preparativos y respuestas ante un conflicto armado que pueda afectar la infraestructura TI.
 - **Estrategias:**
@@ -457,7 +457,7 @@ Se genera un informe detallado después de cada incidente de alteración de la i
   - **Protección física:** Reforzar la seguridad física de las instalaciones críticas.
   - **Comunicaciones seguras:** Mantener líneas de comunicación seguras y redundantes.
 
-## 6.1.16 Medidas Reactivas [AI.4] Phishing
+### 6.1.16 Medidas Reactivas [AI.4] Phishing
 
 - **Definición:** Estrategias para responder a intentos de phishing.
 - **Estrategias:**
