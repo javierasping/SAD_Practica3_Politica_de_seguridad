@@ -12,7 +12,7 @@ La **evaluación de riesgos** es un proceso clave en la gestión de la cibersegu
 
 Esta metodología ayuda a los administradores de sistemas y profesionales de seguridad informática a tomar decisiones informadas sobre cómo manejar y mitigar los riesgos identificados.
 
-##Desastres naturales
+## Desastres naturales
 
 ### 4.1.1 Fuego
 
